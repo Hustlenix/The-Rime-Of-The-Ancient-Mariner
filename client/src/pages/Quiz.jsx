@@ -1,12 +1,16 @@
 import { useCallback, useEffect, useState } from 'react';
+import { useParams, Link } from 'react-router-dom';
 import { api } from '../api';
 import { useAuth } from '../authContext';
 import QuizRunner from '../components/QuizRunner';
 import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
+import UnitSwitcher from '../components/UnitSwitcher';
 import { img } from '../asset';
 
 export default function Quiz() {
+  const { unitId } = useParams();
+  const meta = api.getUnitMeta(unitId);
   const { user } = useAuth();
   const [attempts, setAttempts] = useState(null);
 
@@ -36,14 +40,27 @@ export default function Quiz() {
     ? Math.max(...attempts.map((a) => (a.total > 0 ? a.score / a.total : 0)))
     : null;
 
+  if (!meta) {
+    return (
+      <div className="page">
+        <h1 className="page-title">Unit not found</h1>
+        <p className="page-intro">We could not find “{unitId}” on the shelf.</p>
+        <Link className="btn btn-primary" to="/">
+          Back to Home
+        </Link>
+      </div>
+    );
+  }
+
   return (
     <div>
       <PageBanner
         kicker="Trial by water"
-        title="Quiz Practice Mode"
+        title={`${meta.title} — Quiz Practice`}
         sub="Ten random multiple-choice questions, one at a time — with instant feedback and an explanation after every answer."
         image={img('lonely.jpg')}
       />
+      <UnitSwitcher currentId={meta.id} page="quiz" />
       <MotivationBar />
 
       {user && attempts && (
@@ -63,7 +80,7 @@ export default function Quiz() {
         </p>
       )}
 
-      <QuizRunner onFinish={handleFinish} />
+      <QuizRunner unitId={meta.id} onFinish={handleFinish} />
     </div>
   );
 }

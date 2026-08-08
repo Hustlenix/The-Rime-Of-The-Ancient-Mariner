@@ -1548,3 +1548,161 @@ textarea:focus {
     padding: 1.5rem;
   }
 }
+
+/* ============================================================
+   Multi-unit portal (Class X English Literature)
+   ============================================================ */
+
+.hero-books {
+  background:
+    radial-gradient(900px 420px at 80% -10%, rgba(217, 179, 108, 0.16), transparent 60%),
+    radial-gradient(700px 380px at 10% 20%, rgba(26, 98, 133, 0.5), transparent 60%),
+    linear-gradient(180deg, var(--abyss) 0%, var(--deep-sea) 55%, #0e3a58 100%);
+}
+
+.book-shelf {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 1rem;
+}
+
+.book-section {
+  margin-bottom: 2.5rem;
+}
+
+.book-section-head {
+  border-left: 4px solid var(--parchment);
+  padding-left: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.book-section-head h2 {
+  margin: 0;
+  font-size: 1.6rem;
+}
+
+.book-section-head p {
+  margin: 0.2rem 0 0;
+  color: var(--storm-light);
+  font-size: 0.95rem;
+}
+
+.unit-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.unit-card {
+  display: flex;
+  flex-direction: column;
+  padding: 1.1rem 1.15rem;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.unit-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow);
+}
+
+.unit-card-top {
+  display: flex;
+  gap: 0.45rem;
+  flex-wrap: wrap;
+  margin-bottom: 0.6rem;
+}
+
+.type-badge {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(26, 98, 133, 0.35);
+  color: var(--ice-dim);
+  border: 1px solid rgba(139, 161, 177, 0.35);
+}
+
+.type-poem {
+  background: rgba(217, 179, 108, 0.16);
+  color: var(--parchment-light);
+  border-color: rgba(217, 179, 108, 0.4);
+}
+
+.type-play {
+  background: rgba(61, 156, 116, 0.16);
+  color: #9fd8bd;
+  border-color: rgba(61, 156, 116, 0.4);
+}
+
+.type-legacy {
+  background: rgba(176, 80, 67, 0.18);
+  color: #e6a99f;
+  border-color: rgba(176, 80, 67, 0.45);
+}
+
+.unit-card-title {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.3;
+}
+
+.unit-card-author {
+  margin: 0.25rem 0 0.6rem;
+  color: var(--storm-light);
+  font-size: 0.92rem;
+  font-style: italic;
+}
+
+.unit-card-stats {
+  margin: auto 0 0.5rem;
+  color: var(--ice-dim);
+  font-size: 0.82rem;
+}
+
+.unit-card-go {
+  color: var(--parchment);
+  font-size: 0.88rem;
+  font-weight: 600;
+}
+
+.unit-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.9rem auto 0;
+  max-width: 1080px;
+  padding: 0 1rem;
+}
+
+.unit-switcher-label {
+  font-size: 0.9rem;
+  color: var(--storm-light);
+  white-space: nowrap;
+}
+
+.unit-switcher-select {
+  background: rgba(13, 27, 38, 0.85);
+  color: var(--ice);
+  border: 1px solid rgba(139, 161, 177, 0.4);
+  border-radius: 8px;
+  padding: 0.4rem 0.6rem;
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  max-width: min(420px, 100%);
+}
+
+.unit-switcher-select option,
+.unit-switcher-select optgroup {
+  background: var(--deep-sea);
+  color: var(--ice);
+}
+
+.search-count {
+  margin-left: 0.5rem;
+  color: var(--storm-light);
+  font-size: 0.85rem;
+  font-weight: 400;
+}

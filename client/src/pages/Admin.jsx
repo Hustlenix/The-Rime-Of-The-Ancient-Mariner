@@ -1,12 +1,38 @@
 import { useEffect, useState } from 'react';
-import { api } from '../api';
+import { api, getUnitCatalog } from '../api';
 
-const CATEGORIES = ['summary', 'theme', 'device', 'short', 'long'];
+const CATEGORIES = ['summary', 'theme', 'device', 'character', 'value', 'analysis', 'short', 'long'];
 
-const EMPTY_QUESTION = { category: 'short', prompt: '', answer: '', notes: '', sort_order: 0 };
-const EMPTY_QUIZ = { question: '', options: ['', '', '', ''], correct_index: 0, explanation: '', topic: '' };
+const EMPTY_QUESTION = { unit_id: '', category: 'short', prompt: '', answer: '', notes: '', sort_order: 0 };
+const EMPTY_QUIZ = { unit_id: '', question: '', options: ['', '', '', ''], correct_index: 0, explanation: '', topic: '' };
 
-function AdminQuestions() {
+function UnitSelect({ value, onChange, label = 'Unit' }) {
+  const catalog = getUnitCatalog();
+  return (
+    <div className="form-field">
+      <label htmlFor="unit-select">{label}</label>
+      <select id="unit-select" value={value} onChange={(e) => onChange(e.target.value)} required>
+        <option value="" disabled>
+          Select a unit…
+        </option>
+        {catalog.books.map((b) => (
+          <optgroup key={b.id} label={b.name}>
+            {b.unitIds.map((id) => {
+              const u = catalog.units.find((x) => x.id === id);
+              return u ? (
+                <option key={id} value={id}>
+                  {u.title}
+                </option>
+              ) : null;
+            })}
+          </optgroup>
+        ))}
+      </select>
+    </div>
+  );
+}
+
+function AdminQuestions({ unitId }) {
   const [list, setList] = useState(null);
   const [form, setForm] = useState(EMPTY_QUESTION);
   const [editingId, setEditingId] = useState(null);
@@ -15,17 +41,21 @@ function AdminQuestions() {
 
   const load = () => {
     api
-      .getQuestions()
+      .getQuestionsAdmin(unitId)
       .then((data) => setList(data.questions))
       .catch((e) => setError(e.message));
   };
 
-  useEffect(load, []);
+  useEffect(load, [unitId]);
 
   const save = async (e) => {
     e.preventDefault();
     setError(null);
     setMessage(null);
+    if (!form.unit_id) {
+      setError('Choose a unit first.');
+      return;
+    }
     const payload = { ...form, sort_order: Number(form.sort_order) || 0, notes: form.notes };
     try {
       if (editingId) {
@@ -35,7 +65,7 @@ function AdminQuestions() {
         await api.createQuestion(payload);
         setMessage('Question created.');
       }
-      setForm(EMPTY_QUESTION);
+      setForm({ ...EMPTY_QUESTION, unit_id: payload.unit_id });
       setEditingId(null);
       load();
     } catch (err) {
@@ -46,6 +76,7 @@ function AdminQuestions() {
   const edit = (q) => {
     setEditingId(q.id);
     setForm({
+      unit_id: q.unit_id,
       category: q.category,
       prompt: q.prompt,
       answer: q.answer,
@@ -72,6 +103,7 @@ function AdminQuestions() {
       {message && <p className="success-text">{message}</p>}
       {error && <p className="error-text">{error}</p>}
       <form className="admin-form" onSubmit={save}>
+        <UnitSelect value={form.unit_id} onChange={(v) => setForm({ ...form, unit_id: v })} />
         <div className="form-row">
           <div className="form-field">
             <label htmlFor="q-category">Category</label>
@@ -135,7 +167,7 @@ function AdminQuestions() {
               className="btn btn-ghost"
               onClick={() => {
                 setEditingId(null);
-                setForm(EMPTY_QUESTION);
+                setForm({ ...EMPTY_QUESTION, unit_id: form.unit_id });
               }}
             >
               Cancel
@@ -152,6 +184,7 @@ function AdminQuestions() {
           <thead>
             <tr>
               <th>ID</th>
+              <th>Unit</th>
               <th>Category</th>
               <th>Prompt</th>
               <th>Actions</th>
@@ -161,6 +194,7 @@ function AdminQuestions() {
             {list.map((q) => (
               <tr key={q.id}>
                 <td>{q.id}</td>
+                <td className="cell-truncate">{q.unit_id}</td>
                 <td>{q.category}</td>
                 <td className="cell-truncate">{q.prompt}</td>
                 <td className="cell-actions">
@@ -180,7 +214,7 @@ function AdminQuestions() {
   );
 }
 
-function AdminQuizQuestions() {
+function AdminQuizQuestions({ unitId }) {
   const [list, setList] = useState(null);
   const [form, setForm] = useState(EMPTY_QUIZ);
   const [editingId, setEditingId] = useState(null);
@@ -189,12 +223,12 @@ function AdminQuizQuestions() {
 
   const load = () => {
     api
-      .getQuizQuestionsAdmin()
+      .getQuizQuestionsAdmin(unitId)
       .then((data) => setList(data.questions))
       .catch((e) => setError(e.message));
   };
 
-  useEffect(load, []);
+  useEffect(load, [unitId]);
 
   const setOption = (i, value) => {
     const options = [...form.options];
@@ -206,6 +240,10 @@ function AdminQuizQuestions() {
     e.preventDefault();
     setError(null);
     setMessage(null);
+    if (!form.unit_id) {
+      setError('Choose a unit first.');
+      return;
+    }
     const payload = { ...form, correct_index: Number(form.correct_index) };
     try {
       if (editingId) {
@@ -215,7 +253,7 @@ function AdminQuizQuestions() {
         await api.createQuizQuestion(payload);
         setMessage('Quiz question created.');
       }
-      setForm(EMPTY_QUIZ);
+      setForm({ ...EMPTY_QUIZ, unit_id: payload.unit_id });
       setEditingId(null);
       load();
     } catch (err) {
@@ -226,6 +264,7 @@ function AdminQuizQuestions() {
   const edit = (q) => {
     setEditingId(q.id);
     setForm({
+      unit_id: q.unit_id,
       question: q.question,
       options: [...q.options],
       correct_index: q.correct_index,
@@ -252,6 +291,7 @@ function AdminQuizQuestions() {
       {message && <p className="success-text">{message}</p>}
       {error && <p className="error-text">{error}</p>}
       <form className="admin-form" onSubmit={save}>
+        <UnitSelect value={form.unit_id} onChange={(v) => setForm({ ...form, unit_id: v })} />
         <div className="form-field">
           <label htmlFor="zq-question">Question</label>
           <input
@@ -314,7 +354,7 @@ function AdminQuizQuestions() {
               className="btn btn-ghost"
               onClick={() => {
                 setEditingId(null);
-                setForm(EMPTY_QUIZ);
+                setForm({ ...EMPTY_QUIZ, unit_id: form.unit_id });
               }}
             >
               Cancel
@@ -331,6 +371,7 @@ function AdminQuizQuestions() {
           <thead>
             <tr>
               <th>ID</th>
+              <th>Unit</th>
               <th>Topic</th>
               <th>Question</th>
               <th>Answer</th>
@@ -341,6 +382,7 @@ function AdminQuizQuestions() {
             {list.map((q) => (
               <tr key={q.id}>
                 <td>{q.id}</td>
+                <td className="cell-truncate">{q.unit_id}</td>
                 <td>{q.topic}</td>
                 <td className="cell-truncate">{q.question}</td>
                 <td>{String.fromCharCode(65 + q.correct_index)}</td>
@@ -362,12 +404,34 @@ function AdminQuizQuestions() {
 }
 
 export default function Admin() {
+  const catalog = getUnitCatalog();
   const [tab, setTab] = useState('questions');
+  const [unitId, setUnitId] = useState('all');
 
   return (
     <div>
       <h1 className="page-title">Admin — Question Bank</h1>
       <p className="page-intro">Teacher-only area. Add, edit and delete content for the portal.</p>
+
+      <div className="filter-row">
+        <label htmlFor="admin-unit">Unit:</label>
+        <select id="admin-unit" value={unitId} onChange={(e) => setUnitId(e.target.value)}>
+          <option value="all">All units</option>
+          {catalog.books.map((b) => (
+            <optgroup key={b.id} label={b.name}>
+              {b.unitIds.map((id) => {
+                const u = catalog.units.find((x) => x.id === id);
+                return u ? (
+                  <option key={id} value={id}>
+                    {u.title}
+                  </option>
+                ) : null;
+              })}
+            </optgroup>
+          ))}
+        </select>
+      </div>
+
       <div className="tabs">
         <button className={`tab ${tab === 'questions' ? 'active' : ''}`} onClick={() => setTab('questions')}>
           Questions
@@ -376,7 +440,11 @@ export default function Admin() {
           Quiz Questions
         </button>
       </div>
-      {tab === 'questions' ? <AdminQuestions /> : <AdminQuizQuestions />}
+      {tab === 'questions' ? (
+        <AdminQuestions unitId={unitId === 'all' ? null : unitId} />
+      ) : (
+        <AdminQuizQuestions unitId={unitId === 'all' ? null : unitId} />
+      )}
     </div>
   );
 }

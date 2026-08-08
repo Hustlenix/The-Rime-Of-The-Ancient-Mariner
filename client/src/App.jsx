@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate, Link } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ProtectedRoute from './components/ProtectedRoute';
 import { isStatic } from './api';
@@ -14,6 +14,8 @@ import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Admin from './pages/Admin';
 
+const LEGACY_UNIT = 'rime-of-the-ancient-mariner';
+
 function StaticModeNote() {
   const [staticMode, setStaticMode] = useState(isStatic());
 
@@ -26,9 +28,23 @@ function StaticModeNote() {
   if (!staticMode) return null;
   return (
     <p className="guest-note" role="status">
-      Preview mode — the study content is built into this page. Sign-in, saved scores and flashcard
+      Preview mode — all study content is built into this page. Sign-in, saved scores and flashcard
       progress need the school server, which this hosted copy does not run.
     </p>
+  );
+}
+
+function NotFound() {
+  return (
+    <div className="page">
+      <h1 className="page-title">Page not found</h1>
+      <p className="page-intro">
+        That page does not exist. Head back to the book shelf and pick a unit.
+      </p>
+      <Link className="btn btn-primary" to="/">
+        Back to Home
+      </Link>
+    </div>
   );
 }
 
@@ -40,10 +56,14 @@ export default function App() {
       <main className="page">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/study" element={<Study />} />
-          <Route path="/questions" element={<Questions />} />
-          <Route path="/quiz" element={<Quiz />} />
-          <Route path="/flashcards" element={<Flashcards />} />
+          <Route path="/unit/:unitId/study" element={<Study />} />
+          <Route path="/unit/:unitId/questions" element={<Questions />} />
+          <Route path="/unit/:unitId/quiz" element={<Quiz />} />
+          <Route path="/unit/:unitId/flashcards" element={<Flashcards />} />
+          <Route path="/study" element={<Navigate to={`/unit/${LEGACY_UNIT}/study`} replace />} />
+          <Route path="/questions" element={<Navigate to={`/unit/${LEGACY_UNIT}/questions`} replace />} />
+          <Route path="/quiz" element={<Navigate to={`/unit/${LEGACY_UNIT}/quiz`} replace />} />
+          <Route path="/flashcards" element={<Navigate to={`/unit/${LEGACY_UNIT}/flashcards`} replace />} />
           <Route path="/search" element={<Search />} />
           <Route path="/login" element={<Login />} />
           <Route path="/register" element={<Register />} />
@@ -63,6 +83,7 @@ export default function App() {
               </ProtectedRoute>
             }
           />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <footer className="site-footer">
@@ -72,12 +93,11 @@ export default function App() {
             <path d="M12 3v6M12 15v6M3 12h6M15 12h6" />
           </svg>
         </div>
+        <p>Class X English Study Portal — The Ashok Leyland School</p>
         <p>
-          &ldquo;A sadder and a wiser man, he rose the morrow morn.&rdquo;
-        </p>
-        <p>
-          The Rime of the Ancient Mariner — Study Portal · The Ashok Leyland School · Coleridge&rsquo;s
-          lines quoted from the public-domain text; illustrations by Gustave Doré (1863).
+          Covers the full CBSE Class X English Literature Reader: First Flight (prose &amp; poems,
+          including the school&rsquo;s legacy unit The Rime of the Ancient Mariner) and Footprints
+          Without Feet.
         </p>
       </footer>
     </>

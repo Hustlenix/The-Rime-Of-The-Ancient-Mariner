@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "gen-fallback": "node scripts/generate-fallback.cjs"
+    "gen-fallback": "node scripts/generate-fallback.cjs",
+    "check-fallback": "node scripts/generate-fallback.cjs --check"
   },
   "dependencies": {
     "react": "^18.3.1",

@@ -1,14 +1,23 @@
 const express = require('express');
 const db = require('../db');
+const { DEFAULT_UNIT_ID, resolveUnitFilter } = require('./helpers');
 const { requireAuth } = require('./auth');
 
 const router = express.Router();
 
 router.get('/questions', (req, res) => {
   const limit = Math.min(parseInt(req.query.limit, 10) || 10, 50);
-  const rows = db
-    .prepare('SELECT id, question, options, correct_index, explanation, topic FROM quiz_questions ORDER BY RANDOM() LIMIT ?')
-    .all(limit);
+  const raw = req.query.unit_id || req.query.unit || null;
+  const unitId = raw == null ? DEFAULT_UNIT_ID : resolveUnitFilter(req, res);
+  if (unitId === undefined) return; // resolveUnitFilter already responded
+
+  const rows = unitId
+    ? db
+        .prepare('SELECT id, question, options, correct_index, explanation, topic FROM quiz_questions WHERE unit_id = ? ORDER BY RANDOM() LIMIT ?')
+        .all(unitId, limit)
+    : db
+        .prepare('SELECT id, question, options, correct_index, explanation, topic FROM quiz_questions ORDER BY RANDOM() LIMIT ?')
+        .all(limit);
   res.json({ questions: rows.map((r) => ({ ...r, options: JSON.parse(r.options) })) });
 });
 

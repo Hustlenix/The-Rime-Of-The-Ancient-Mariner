@@ -1,12 +1,16 @@
 import { useCallback, useEffect, useState } from 'react';
+import { useParams, Link } from 'react-router-dom';
 import { api } from '../api';
 import { useAuth } from '../authContext';
 import FlashcardDeck from '../components/FlashcardDeck';
 import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
+import UnitSwitcher from '../components/UnitSwitcher';
 import { img } from '../asset';
 
 export default function Flashcards() {
+  const { unitId } = useParams();
+  const meta = api.getUnitMeta(unitId);
   const { user } = useAuth();
   const [cards, setCards] = useState(null);
   const [progress, setProgress] = useState({});
@@ -21,10 +25,12 @@ export default function Flashcards() {
   }, [user]);
 
   useEffect(() => {
-    Promise.all([api.getQuestions('short'), api.getQuestions('long')])
+    setCards(null);
+    setError(null);
+    Promise.all([api.getQuestions(unitId, 'short'), api.getQuestions(unitId, 'long')])
       .then(([short, long]) => setCards([...short.questions, ...long.questions]))
       .catch((e) => setError(e.message));
-  }, []);
+  }, [unitId]);
 
   useEffect(() => {
     loadProgress();
@@ -40,6 +46,18 @@ export default function Flashcards() {
     }
   };
 
+  if (!meta) {
+    return (
+      <div className="page">
+        <h1 className="page-title">Unit not found</h1>
+        <p className="page-intro">We could not find “{unitId}” on the shelf.</p>
+        <Link className="btn btn-primary" to="/">
+          Back to Home
+        </Link>
+      </div>
+    );
+  }
+
   if (error) return <p className="error-text">Failed to load flashcards: {error}</p>;
   if (!cards) return <p className="page-loader">Loading flashcards…</p>;
 
@@ -52,10 +70,11 @@ export default function Flashcards() {
     <div>
       <PageBanner
         kicker="Learn by heart"
-        title="Flashcards"
-        sub="Built from the short and long answer questions. Click a card to flip it, then mark it Known or Still learning."
+        title={`${meta.title} — Flashcards`}
+        sub="Built from the unit's short and long answer questions. Click a card to flip it, then mark it Known or Still learning."
         image={img('snakes.jpg')}
       />
+      <UnitSwitcher currentId={meta.id} page="flashcards" />
       <MotivationBar />
 
       <div className="flash-header">

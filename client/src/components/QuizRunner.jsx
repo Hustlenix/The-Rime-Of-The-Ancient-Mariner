@@ -29,7 +29,7 @@ const VERDICTS = [
   }
 ];
 
-export default function QuizRunner({ onFinish }) {
+export default function QuizRunner({ unitId, onFinish }) {
   const [questions, setQuestions] = useState(null);
   const [error, setError] = useState(null);
   const [index, setIndex] = useState(0);
@@ -37,12 +37,16 @@ export default function QuizRunner({ onFinish }) {
   const [score, setScore] = useState(0);
   const [done, setDone] = useState(false);
 
-  useEffect(() => {
+  const load = () => {
+    setQuestions(null);
+    setError(null);
     api
-      .getQuizQuestions(10)
+      .getQuizQuestions(unitId, 10)
       .then((data) => setQuestions(data.questions))
       .catch((e) => setError(e.message));
-  }, []);
+  };
+
+  useEffect(load, [unitId]);
 
   if (error) return <p className="error-text">Failed to load quiz: {error}</p>;
   if (!questions) return <p className="page-loader">Loading quiz questions…</p>;
@@ -69,16 +73,11 @@ export default function QuizRunner({ onFinish }) {
   };
 
   const restart = () => {
-    setQuestions(null);
     setIndex(0);
     setPicked(null);
     setScore(0);
     setDone(false);
-    setError(null);
-    api
-      .getQuizQuestions(10)
-      .then((data) => setQuestions(data.questions))
-      .catch((e) => setError(e.message));
+    load();
   };
 
   if (done) {

@@ -1,19 +1,22 @@
 const express = require('express');
 const db = require('../db');
 const { requireTeacher } = require('./auth');
+const { unitExists } = require('./helpers');
 
 const router = express.Router();
 router.use(requireTeacher);
 
-const VALID_CATEGORIES = ['summary', 'theme', 'device', 'short', 'long'];
+const VALID_CATEGORIES = ['summary', 'theme', 'device', 'character', 'value', 'analysis', 'short', 'long'];
 
 function parseQuestionBody(body) {
-  const { category, prompt, answer, notes, sort_order } = body || {};
+  const { unit_id, category, prompt, answer, notes, sort_order } = body || {};
+  if (!unit_id || !unitExists(unit_id)) return { error: 'unit_id is required and must match an existing unit' };
   if (!VALID_CATEGORIES.includes(category)) return { error: 'Invalid category' };
   if (!prompt || !String(prompt).trim()) return { error: 'prompt is required' };
   if (!answer || !String(answer).trim()) return { error: 'answer is required' };
   return {
     value: {
+      unit_id,
       category,
       prompt: String(prompt).trim(),
       answer: String(answer).trim(),
@@ -24,7 +27,8 @@ function parseQuestionBody(body) {
 }
 
 function parseQuizQuestionBody(body) {
-  const { question, options, correct_index, explanation, topic } = body || {};
+  const { unit_id, question, options, correct_index, explanation, topic } = body || {};
+  if (!unit_id || !unitExists(unit_id)) return { error: 'unit_id is required and must match an existing unit' };
   if (!question || !String(question).trim()) return { error: 'question is required' };
   if (!Array.isArray(options) || options.length < 2 || options.some((o) => !String(o).trim())) {
     return { error: 'options must be an array of non-empty strings' };
@@ -35,6 +39,7 @@ function parseQuizQuestionBody(body) {
   if (!explanation || !String(explanation).trim()) return { error: 'explanation is required' };
   return {
     value: {
+      unit_id,
       question: String(question).trim(),
       options: options.map((o) => String(o).trim()),
       correct_index,
@@ -47,9 +52,14 @@ function parseQuizQuestionBody(body) {
 // ---- Questions CRUD ----
 
 router.get('/questions', (req, res) => {
-  const rows = db
-    .prepare('SELECT id, category, prompt, answer, notes, sort_order FROM questions ORDER BY category, sort_order, id')
-    .all();
+  const unitId = req.query.unit_id || req.query.unit || null;
+  const rows = unitId
+    ? db
+        .prepare('SELECT id, unit_id, category, prompt, answer, notes, sort_order FROM questions WHERE unit_id = ? ORDER BY category, sort_order, id')
+        .all(unitId)
+    : db
+        .prepare('SELECT id, unit_id, category, prompt, answer, notes, sort_order FROM questions ORDER BY category, sort_order, id')
+        .all();
   res.json({ questions: rows });
 });
 
@@ -58,8 +68,8 @@ router.post('/questions', (req, res) => {
   if (parsed.error) return res.status(400).json({ error: parsed.error });
   const v = parsed.value;
   const info = db
-    .prepare('INSERT INTO questions (category, prompt, answer, notes, sort_order) VALUES (?, ?, ?, ?, ?)')
-    .run(v.category, v.prompt, v.answer, v.notes, v.sort_order);
+    .prepare('INSERT INTO questions (unit_id, category, prompt, answer, notes, sort_order) VALUES (?, ?, ?, ?, ?, ?)')
+    .run(v.unit_id, v.category, v.prompt, v.answer, v.notes, v.sort_order);
   const question = db.prepare('SELECT * FROM questions WHERE id = ?').get(info.lastInsertRowid);
   res.status(201).json({ question });
 });
@@ -71,7 +81,8 @@ router.put('/questions/:id', (req, res) => {
   const parsed = parseQuestionBody(req.body);
   if (parsed.error) return res.status(400).json({ error: parsed.error });
   const v = parsed.value;
-  db.prepare('UPDATE questions SET category = ?, prompt = ?, answer = ?, notes = ?, sort_order = ? WHERE id = ?').run(
+  db.prepare('UPDATE questions SET unit_id = ?, category = ?, prompt = ?, answer = ?, notes = ?, sort_order = ? WHERE id = ?').run(
+    v.unit_id,
     v.category,
     v.prompt,
     v.answer,
@@ -95,9 +106,14 @@ router.delete('/questions/:id', (req, res) => {
 // ---- Quiz questions CRUD ----
 
 router.get('/quiz-questions', (req, res) => {
-  const rows = db
-    .prepare('SELECT id, question, options, correct_index, explanation, topic FROM quiz_questions ORDER BY id')
-    .all();
+  const unitId = req.query.unit_id || req.query.unit || null;
+  const rows = unitId
+    ? db
+        .prepare('SELECT id, unit_id, question, options, correct_index, explanation, topic FROM quiz_questions WHERE unit_id = ? ORDER BY id')
+        .all(unitId)
+    : db
+        .prepare('SELECT id, unit_id, question, options, correct_index, explanation, topic FROM quiz_questions ORDER BY id')
+        .all();
   res.json({ questions: rows.map((r) => ({ ...r, options: JSON.parse(r.options) })) });
 });
 
@@ -106,8 +122,8 @@ router.post('/quiz-questions', (req, res) => {
   if (parsed.error) return res.status(400).json({ error: parsed.error });
   const v = parsed.value;
   const info = db
-    .prepare('INSERT INTO quiz_questions (question, options, correct_index, explanation, topic) VALUES (?, ?, ?, ?, ?)')
-    .run(v.question, JSON.stringify(v.options), v.correct_index, v.explanation, v.topic);
+    .prepare('INSERT INTO quiz_questions (unit_id, question, options, correct_index, explanation, topic) VALUES (?, ?, ?, ?, ?, ?)')
+    .run(v.unit_id, v.question, JSON.stringify(v.options), v.correct_index, v.explanation, v.topic);
   const row = db.prepare('SELECT * FROM quiz_questions WHERE id = ?').get(info.lastInsertRowid);
   res.status(201).json({ question: { ...row, options: JSON.parse(row.options) } });
 });
@@ -120,8 +136,8 @@ router.put('/quiz-questions/:id', (req, res) => {
   if (parsed.error) return res.status(400).json({ error: parsed.error });
   const v = parsed.value;
   db.prepare(
-    'UPDATE quiz_questions SET question = ?, options = ?, correct_index = ?, explanation = ?, topic = ? WHERE id = ?'
-  ).run(v.question, JSON.stringify(v.options), v.correct_index, v.explanation, v.topic, id);
+    'UPDATE quiz_questions SET unit_id = ?, question = ?, options = ?, correct_index = ?, explanation = ?, topic = ? WHERE id = ?'
+  ).run(v.unit_id, v.question, JSON.stringify(v.options), v.correct_index, v.explanation, v.topic, id);
   const row = db.prepare('SELECT * FROM quiz_questions WHERE id = ?').get(id);
   res.json({ question: { ...row, options: JSON.parse(row.options) } });
 });

@@ -1,0 +1,29 @@
+{
+ "generatedAt": "2026-08-08T14:05:54.246Z",
+ "books": [
+  {
+   "id": "first-flight",
+   "name": "First Flight",
+   "tagline": "Prose & poems",
+   "unitIds": [
+    "rime-of-the-ancient-mariner"
+   ]
+  },
+  {
+   "id": "footprints",
+   "name": "Footprints Without Feet",
+   "tagline": "Supplementary reader",
+   "unitIds": []
+  }
+ ],
+ "units": [
+  {
+   "id": "rime-of-the-ancient-mariner",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "The Rime of the Ancient Mariner",
+   "author": "Samuel Taylor Coleridge",
+   "order": 21
+  }
+ ]
+}

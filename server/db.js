@@ -1,12 +1,24 @@
 const path = require('path');
 const Database = require('better-sqlite3');
 const bcrypt = require('bcryptjs');
-const seedData = require('./seedData');
+const crypto = require('crypto');
+const { units, content, quizQuestions } = require('./seedCatalog');
 
 const db = new Database(path.join(__dirname, 'data.db'));
 db.pragma('journal_mode = WAL');
 
+// Schema versioning for the CONTENT tables (users / attempts / progress are
+// user data and are never wiped). When the content schema or the seed catalog
+// changes, the content tables are rebuilt from the catalog so a stale
+// data.db can never break startup.
+const CONTENT_SCHEMA_VERSION = 2;
+
 db.exec(`
+  CREATE TABLE IF NOT EXISTS meta (
+    key TEXT PRIMARY KEY,
+    value TEXT NOT NULL
+  );
+
   CREATE TABLE IF NOT EXISTS users (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
@@ -14,24 +26,6 @@ db.exec(`
     password_hash TEXT NOT NULL,
     role TEXT NOT NULL DEFAULT 'student' CHECK (role IN ('student','teacher')),
     created_at TEXT NOT NULL DEFAULT (datetime('now'))
-  );
-
-  CREATE TABLE IF NOT EXISTS questions (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    category TEXT NOT NULL CHECK (category IN ('summary','theme','device','short','long')),
-    prompt TEXT NOT NULL,
-    answer TEXT NOT NULL,
-    notes TEXT,
-    sort_order INTEGER NOT NULL DEFAULT 0
-  );
-
-  CREATE TABLE IF NOT EXISTS quiz_questions (
-    id INTEGER PRIMARY KEY AUTOINCREMENT,
-    question TEXT NOT NULL,
-    options TEXT NOT NULL,
-    correct_index INTEGER NOT NULL,
-    explanation TEXT NOT NULL,
-    topic TEXT NOT NULL DEFAULT ''
   );
 
   CREATE TABLE IF NOT EXISTS quiz_attempts (
@@ -51,31 +45,96 @@ db.exec(`
   );
 `);
 
-function seed() {
-  const questionCount = db.prepare('SELECT COUNT(*) AS c FROM questions').get().c;
-  if (questionCount === 0) {
-    const insert = db.prepare(
-      'INSERT INTO questions (category, prompt, answer, notes, sort_order) VALUES (?, ?, ?, ?, ?)'
-    );
-    const tx = db.transaction((items) => {
-      for (const it of items) {
-        insert.run(it.category, it.prompt, it.answer, it.notes || null, it.sort_order || 0);
-      }
-    });
-    tx(seedData.questions);
-  }
+// ---- Content tables (versioned) ----
 
-  const quizCount = db.prepare('SELECT COUNT(*) AS c FROM quiz_questions').get().c;
-  if (quizCount === 0) {
-    const insert = db.prepare(
-      'INSERT INTO quiz_questions (question, options, correct_index, explanation, topic) VALUES (?, ?, ?, ?, ?)'
+function createContentTables() {
+  db.exec(`
+    DROP TABLE IF EXISTS questions;
+    DROP TABLE IF EXISTS quiz_questions;
+    DROP TABLE IF EXISTS units;
+
+    CREATE TABLE units (
+      id TEXT PRIMARY KEY,
+      book TEXT NOT NULL CHECK (book IN ('first-flight','footprints')),
+      type TEXT NOT NULL CHECK (type IN ('prose','poem','play')),
+      title TEXT NOT NULL,
+      author TEXT NOT NULL DEFAULT '',
+      position INTEGER NOT NULL DEFAULT 0
     );
-    const tx = db.transaction((items) => {
-      for (const it of items) {
-        insert.run(it.question, JSON.stringify(it.options), it.correct_index, it.explanation, it.topic || '');
-      }
-    });
-    tx(seedData.quizQuestions);
+
+    CREATE TABLE questions (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      unit_id TEXT NOT NULL REFERENCES units(id),
+      category TEXT NOT NULL CHECK (category IN ('summary','theme','device','character','value','analysis','short','long')),
+      prompt TEXT NOT NULL,
+      answer TEXT NOT NULL,
+      notes TEXT,
+      sort_order INTEGER NOT NULL DEFAULT 0
+    );
+
+    CREATE TABLE quiz_questions (
+      id INTEGER PRIMARY KEY AUTOINCREMENT,
+      unit_id TEXT NOT NULL REFERENCES units(id),
+      question TEXT NOT NULL,
+      options TEXT NOT NULL,
+      correct_index INTEGER NOT NULL,
+      explanation TEXT NOT NULL,
+      topic TEXT NOT NULL DEFAULT ''
+    );
+  `);
+}
+
+const seedFingerprint = crypto
+  .createHash('sha256')
+  .update(JSON.stringify({ units, content, quizQuestions }))
+  .digest('hex')
+  .slice(0, 16);
+
+function reseedContent() {
+  createContentTables();
+  // Question ids are assigned in catalog order, but a catalog change can shift
+  // them; stale flashcard progress must not silently point at other questions.
+  db.prepare('DELETE FROM flashcard_progress').run();
+  db.prepare(
+    'INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)'
+  ).run('content_schema_version', String(CONTENT_SCHEMA_VERSION));
+  db.prepare('INSERT OR REPLACE INTO meta (key, value) VALUES (?, ?)').run('seed_fingerprint', seedFingerprint);
+
+  const insertUnit = db.prepare(
+    'INSERT INTO units (id, book, type, title, author, position) VALUES (?, ?, ?, ?, ?, ?)'
+  );
+  for (const u of units) insertUnit.run(u.id, u.book, u.type, u.title, u.author || '', u.order || 0);
+
+  const insertContent = db.prepare(
+    'INSERT INTO questions (unit_id, category, prompt, answer, notes, sort_order) VALUES (?, ?, ?, ?, ?, ?)'
+  );
+  const insertQuiz = db.prepare(
+    'INSERT INTO quiz_questions (unit_id, question, options, correct_index, explanation, topic) VALUES (?, ?, ?, ?, ?, ?)'
+  );
+  const tx = db.transaction(() => {
+    for (const row of content) {
+      insertContent.run(row.unitId, row.category, row.prompt, row.answer, row.notes, row.sortOrder);
+    }
+    for (const q of quizQuestions) {
+      insertQuiz.run(q.unitId, q.question, JSON.stringify(q.options), q.correct_index, q.explanation, q.topic);
+    }
+  });
+  tx();
+}
+
+function seed() {
+  const schemaRow = db.prepare("SELECT value FROM meta WHERE key = 'content_schema_version'").get();
+  const oldSchema = schemaRow ? Number(schemaRow.value) : 0;
+  const hasUnits = db.prepare("SELECT name FROM sqlite_master WHERE type='table' AND name='units'").get();
+
+  if (!hasUnits || oldSchema < CONTENT_SCHEMA_VERSION || db.prepare('SELECT COUNT(*) AS c FROM units').get().c === 0) {
+    // Stale or empty content — rebuild from the catalog. User tables survive.
+    reseedContent();
+  } else {
+    const fp = db.prepare("SELECT value FROM meta WHERE key = 'seed_fingerprint'").get();
+    if (!fp || fp.value !== seedFingerprint) {
+      reseedContent();
+    }
   }
 
   const userCount = db.prepare('SELECT COUNT(*) AS c FROM users').get().c;

@@ -16,8 +16,8 @@ export default function Navbar() {
           <path d="M9 14a3 3 0 0 0 6 0c0-2-3-4-3-4s-3 2-3 4Z" fill="currentColor" opacity="0.85" />
         </svg>
         <span className="brand-text">
-          The Rime of the Ancient Mariner
-          <span className="brand-sub">Study Portal · TALS</span>
+          Class X English Study Portal
+          <span className="brand-sub">First Flight · Footprints · TALS</span>
         </span>
       </Link>
 

@@ -6,6 +6,7 @@ require('./db');
 
 const authRoutes = require('./routes/auth');
 const { contentRouter, questionsRouter } = require('./routes/content');
+const unitsRoutes = require('./routes/units');
 const quizRoutes = require('./routes/quiz');
 const flashcardRoutes = require('./routes/flashcards');
 const adminRoutes = require('./routes/admin');
@@ -16,6 +17,7 @@ app.use(cors({ origin: process.env.CORS_ORIGIN || 'http://localhost:5173' }));
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
+app.use('/api/units', unitsRoutes);
 app.use('/api/content', contentRouter);
 app.use('/api/questions', questionsRouter);
 app.use('/api/quiz', quizRoutes);
@@ -43,6 +45,10 @@ app.use((err, req, res, next) => {
 });
 
 const PORT = process.env.PORT || 5000;
-app.listen(PORT, () => {
-  console.log(`Rime API listening on ${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Rime API listening on ${PORT}`);
+  });
+}
+
+module.exports = app;
