@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Navigate, useNavigate, Link } from 'react-router-dom';
 import { useAuth } from '../authContext';
+import { isStatic } from '../api';
 
 export default function Login() {
   const { user, login } = useAuth();
@@ -59,17 +60,19 @@ export default function Login() {
         <p className="auth-switch">
           New to the portal? <Link to="/register">Create an account</Link>
         </p>
-        <div className="demo-hint">
-          <p>
-            <strong>Demo accounts</strong>
-          </p>
-          <p>
-            Teacher: <code>teacher@tals.edu</code> / <code>teacher123</code>
-          </p>
-          <p>
-            Student: <code>student@tals.edu</code> / <code>student123</code>
-          </p>
-        </div>
+        {!isStatic() && (
+          <div className="demo-hint">
+            <p>
+              <strong>Demo accounts</strong>
+            </p>
+            <p>
+              Teacher: <code>teacher@tals.edu</code> / <code>teacher123</code>
+            </p>
+            <p>
+              Student: <code>student@tals.edu</code> / <code>student123</code>
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );

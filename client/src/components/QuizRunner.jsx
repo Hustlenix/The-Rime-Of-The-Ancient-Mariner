@@ -46,6 +46,7 @@ export default function QuizRunner({ onFinish }) {
 
   if (error) return <p className="error-text">Failed to load quiz: {error}</p>;
   if (!questions) return <p className="page-loader">Loading quiz questions…</p>;
+  if (!questions.length) return <p className="empty-note">No quiz questions available yet.</p>;
 
   const question = questions[index];
   const answered = picked !== null;

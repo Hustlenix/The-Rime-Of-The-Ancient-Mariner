@@ -7,7 +7,7 @@ const router = express.Router();
 router.get('/questions', (req, res) => {
   const limit = Math.min(parseInt(req.query.limit, 10) || 10, 50);
   const rows = db
-    .prepare('SELECT id, question, options, explanation, topic FROM quiz_questions ORDER BY RANDOM() LIMIT ?')
+    .prepare('SELECT id, question, options, correct_index, explanation, topic FROM quiz_questions ORDER BY RANDOM() LIMIT ?')
     .all(limit);
   res.json({ questions: rows.map((r) => ({ ...r, options: JSON.parse(r.options) })) });
 });

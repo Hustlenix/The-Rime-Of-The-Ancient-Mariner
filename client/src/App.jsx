@@ -1,6 +1,8 @@
+import { useEffect, useState } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ProtectedRoute from './components/ProtectedRoute';
+import { isStatic } from './api';
 import Home from './pages/Home';
 import Study from './pages/Study';
 import Questions from './pages/Questions';
@@ -12,10 +14,29 @@ import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Admin from './pages/Admin';
 
+function StaticModeNote() {
+  const [staticMode, setStaticMode] = useState(isStatic());
+
+  useEffect(() => {
+    const onChange = () => setStaticMode(isStatic());
+    window.addEventListener('api:static-mode', onChange);
+    return () => window.removeEventListener('api:static-mode', onChange);
+  }, []);
+
+  if (!staticMode) return null;
+  return (
+    <p className="guest-note" role="status">
+      Preview mode — the study content is built into this page. Sign-in, saved scores and flashcard
+      progress need the school server, which this hosted copy does not run.
+    </p>
+  );
+}
+
 export default function App() {
   return (
     <>
       <Navbar />
+      <StaticModeNote />
       <main className="page">
         <Routes>
           <Route path="/" element={<Home />} />
