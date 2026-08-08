@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { api } from '../api';
+import { img } from '../asset';
 
 const VERDICTS = [
   {
@@ -85,7 +86,7 @@ export default function QuizRunner({ onFinish }) {
     return (
       <div className="quiz-result card">
         <span className={`rank-badge ${pct >= 80 ? 'gold' : ''}`}>{verdict.rank}</span>
-        <img className="result-art" src="/images/lonely.jpg" alt="A lonely sailor at sea" />
+        <img className="result-art" src={img('lonely.jpg')} alt="A lonely sailor at sea" />
         <h2>Voyage Complete</h2>
         <p className="result-score">
           {score} / {questions.length}

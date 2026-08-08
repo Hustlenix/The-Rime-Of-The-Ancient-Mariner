@@ -4,6 +4,7 @@ import { useAuth } from '../authContext';
 import FlashcardDeck from '../components/FlashcardDeck';
 import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
+import { img } from '../asset';
 
 export default function Flashcards() {
   const { user } = useAuth();
@@ -53,7 +54,7 @@ export default function Flashcards() {
         kicker="Learn by heart"
         title="Flashcards"
         sub="Built from the short and long answer questions. Click a card to flip it, then mark it Known or Still learning."
-        image="/images/snakes.jpg"
+        image={img('snakes.jpg')}
       />
       <MotivationBar />
 

@@ -1,11 +1,12 @@
 import { Link } from 'react-router-dom';
+import { img } from '../asset';
 
 const cards = [
   {
     to: '/study',
     title: 'Study',
     text: 'Summaries, the central theme and ten poetic devices — with the poem\u2019s own words as proof.',
-    image: '/images/albatross.jpg',
+    image: img('albatross.jpg'),
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
         <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
@@ -17,7 +18,7 @@ const cards = [
     to: '/questions',
     title: 'Questions',
     text: 'Short and long answer questions from the school question bank, with model answers.',
-    image: '/images/ice.jpg',
+    image: img('ice.jpg'),
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
         <circle cx="12" cy="12" r="9" />
@@ -30,7 +31,7 @@ const cards = [
     to: '/quiz',
     title: 'Quiz',
     text: 'Ten random multiple-choice questions with instant feedback and explanations after each one.',
-    image: '/images/lonely.jpg',
+    image: img('lonely.jpg'),
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
         <path d="M12 2 15 8l6 .9-4.3 4.2 1 6L12 16.6 6.3 19l1-6L3 8.9 9 8Z" />
@@ -41,7 +42,7 @@ const cards = [
     to: '/flashcards',
     title: 'Flashcards',
     text: 'Flip through every question and track which ones you have truly mastered.',
-    image: '/images/snakes.jpg',
+    image: img('snakes.jpg'),
     icon: (
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" aria-hidden="true">
         <rect x="4" y="3" width="16" height="18" rx="2" />
@@ -74,7 +75,7 @@ export default function Home() {
   return (
     <div className="home">
       <section className="hero">
-        <img className="hero-backdrop" src="/images/hellish.jpg" alt="" aria-hidden="true" />
+        <img className="hero-backdrop" src={img('hellish.jpg')} alt="" aria-hidden="true" />
         <div className="hero-overlay" aria-hidden="true" />
         <div className="hero-content">
           <p className="hero-school">The Ashok Leyland School</p>

@@ -3,6 +3,7 @@ import { api } from '../api';
 import QuestionCard from '../components/QuestionCard';
 import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
+import { img } from '../asset';
 
 export default function Questions() {
   const [category, setCategory] = useState('short');
@@ -23,7 +24,7 @@ export default function Questions() {
         kicker="The question bank"
         title="Questions"
         sub="Short and long answer questions with model answers. Click a question to reveal its answer."
-        image="/images/ice.jpg"
+        image={img('ice.jpg')}
       />
       <MotivationBar />
 

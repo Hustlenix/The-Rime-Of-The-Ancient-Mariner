@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../api';
 import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
+import { img } from '../asset';
 
 const TABS = [
   { key: 'summary', label: 'Summary' },
@@ -67,7 +68,7 @@ export default function Study() {
         kicker="Part of the voyage"
         title="Study"
         sub="Two parts of the story, one central theme, and ten poetic devices — every word from the school question bank."
-        image="/images/albatross.jpg"
+        image={img('albatross.jpg')}
       />
       <MotivationBar />
       <div className="tabs">

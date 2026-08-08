@@ -4,6 +4,7 @@ import { useAuth } from '../authContext';
 import QuizRunner from '../components/QuizRunner';
 import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
+import { img } from '../asset';
 
 export default function Quiz() {
   const { user } = useAuth();
@@ -41,7 +42,7 @@ export default function Quiz() {
         kicker="Trial by water"
         title="Quiz Practice Mode"
         sub="Ten random multiple-choice questions, one at a time — with instant feedback and an explanation after every answer."
-        image="/images/lonely.jpg"
+        image={img('lonely.jpg')}
       />
       <MotivationBar />
 

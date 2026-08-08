@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 
 require('./db');
 
@@ -11,7 +12,7 @@ const adminRoutes = require('./routes/admin');
 
 const app = express();
 
-app.use(cors({ origin: 'http://localhost:5173' }));
+app.use(cors({ origin: process.env.CORS_ORIGIN || 'http://localhost:5173' }));
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
@@ -24,6 +25,14 @@ app.use('/api/admin', adminRoutes);
 app.use('/api', (req, res) => {
   res.status(404).json({ error: 'Not found' });
 });
+
+const distDir = path.join(__dirname, '..', 'client', 'dist');
+if (require('fs').existsSync(distDir)) {
+  app.use(express.static(distDir));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(distDir, 'index.html'));
+  });
+}
 
 app.use((err, req, res, next) => {
   if (err.type === 'entity.parse.failed') {

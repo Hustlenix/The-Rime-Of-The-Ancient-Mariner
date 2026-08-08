@@ -44,6 +44,24 @@ The SQLite database (`server/data.db`) is created automatically on first server 
 | Teacher | teacher@tals.edu | teacher123 |
 | Student | student@tals.edu | student123 |
 
+## Deployment (Render, free tier)
+
+The repo includes a `render.yaml` blueprint, so deploying is nearly one click:
+
+1. Create a free account at https://render.com (GitHub sign-in).
+2. Click **New → Blueprint** and select the `The-Rime-Of-The-Ancient-Mariner` repo.
+3. Render reads `render.yaml`, builds the frontend, installs the server deps, and starts the API — done. The live URL is shown in the dashboard.
+4. The SQLite database is created and seeded automatically on first start (it resets on redeploys of the free tier — the app reseeds itself, so this is harmless).
+
+**Note:** JWT signing uses a built-in default secret; for a real deployment set a `JWT_SECRET` environment variable in Render.
+
+## Production build (optional)
+
+```bash
+cd client && npm run build   # outputs client/dist
+node server/index.js         # Express serves the built frontend + API on :5000
+```
+
 ## API summary
 
 | Method | Endpoint | Auth | Description |
