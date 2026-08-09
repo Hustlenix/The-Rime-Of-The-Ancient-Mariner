@@ -4,26 +4,54 @@
    ============================================================ */
 
 :root {
-  --deep-sea: #0b2a43;
-  --abyss: #060f1a;
-  --sea: #134e6f;
-  --sea-mid: #1a6285;
-  --storm: #5a7284;
-  --storm-light: #8ba1b1;
-  --ice: #eef4f7;
-  --ice-dim: #c3d3db;
-  --parchment: #d9b36c;
-  --parchment-light: #ecd2a0;
-  --parchment-deep: #b98d45;
-  --ink: #0d1b26;
-  --good: #3d9c74;
-  --bad: #b05043;
-  --radius: 14px;
-  --shadow: 0 10px 34px rgba(3, 12, 22, 0.45);
-  --shadow-soft: 0 4px 18px rgba(3, 12, 22, 0.3);
-  --glow: 0 0 0 3px rgba(217, 179, 108, 0.22);
-  --serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
-  --sans: 'Source Sans 3', 'Segoe UI', system-ui, sans-serif;
+  /* light neo-brutalist theme (default) */
+  --deep-sea: #f5f0e1; /* page background */
+  --abyss: #111111; /* ink */
+  --sea: #ffffff; /* card surface */
+  --sea-mid: #ffd633; /* primary accent */
+  --storm: #5a5a5a;
+  --storm-light: #6b6b6b;
+  --ice: #111111; /* primary text */
+  --ice-dim: #444444;
+  --parchment: #111111; /* links */
+  --parchment-light: #111111;
+  --parchment-deep: #000000;
+  --ink: #ffffff; /* text on dark fills */
+  --good: #3ddc84;
+  --bad: #ff5a5f;
+  --radius: 4px;
+  --shadow: 4px 4px 0 var(--shadow-ink);
+  --shadow-soft: 2px 2px 0 var(--shadow-ink);
+  --glow: 0 0 0 3px var(--shadow-ink);
+  --serif: 'Space Grotesk', 'Segoe UI', system-ui, sans-serif;
+  --sans: 'Bricolage Grotesque', 'Segoe UI', system-ui, sans-serif;
+  --border-ink: #111111;
+  --shadow-ink: rgba(17, 17, 17, 0.92);
+  --paper-dot: rgba(17, 17, 17, 0.05);
+  --yellow: #ffd633;
+  --cyan: #39d2e7;
+  --magenta: #ff6bb0;
+  --green: #3ddc84;
+  --red: #ff5a5f;
+  --gold: #e8b04b;
+}
+
+[data-theme='dark'] {
+  --deep-sea: #141414;
+  --abyss: #0e0e0e;
+  --sea: #1e1e1e;
+  --sea-mid: #ffd633;
+  --storm: #8a8a8a;
+  --storm-light: #9a9a9a;
+  --ice: #f2f2f2;
+  --ice-dim: #b4b4b4;
+  --parchment: #f2f2f2;
+  --parchment-light: #ffffff;
+  --parchment-deep: #ffd633;
+  --ink: #111111;
+  --border-ink: #000000;
+  --shadow-ink: rgba(0, 0, 0, 0.9);
+  --paper-dot: rgba(255, 255, 255, 0.05);
 }
 
 * {
@@ -39,16 +67,15 @@ body {
   font-family: var(--sans);
   color: var(--ice);
   line-height: 1.65;
-  background:
-    radial-gradient(1200px 600px at 85% -10%, rgba(26, 98, 133, 0.35), transparent 60%),
-    radial-gradient(1000px 500px at -10% 30%, rgba(11, 42, 67, 0.9), transparent 55%),
-    linear-gradient(180deg, var(--abyss) 0%, var(--deep-sea) 40%, #0e3a58 100%) fixed;
+  background-color: var(--deep-sea);
+  background-image: radial-gradient(var(--paper-dot) 1px, transparent 1px);
+  background-size: 22px 22px;
   min-height: 100vh;
 }
 
 ::selection {
-  background: var(--parchment);
-  color: var(--ink);
+  background: var(--yellow);
+  color: var(--abyss);
 }
 
 ::-webkit-scrollbar {
@@ -60,8 +87,8 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--sea-mid);
-  border-radius: 6px;
+  background: var(--border-ink);
+  border-radius: 2px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -92,9 +119,9 @@ code {
 }
 
 mark {
-  background: var(--parchment);
-  color: var(--ink);
-  border-radius: 3px;
+  background: var(--yellow);
+  color: var(--abyss);
+  border-radius: 2px;
   padding: 0 0.15rem;
 }
 
