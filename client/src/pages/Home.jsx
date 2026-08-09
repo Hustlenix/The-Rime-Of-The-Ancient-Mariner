@@ -52,10 +52,10 @@ export default function Home() {
               </div>
               <div className="unit-grid">
                 {book.units.map((u) => (
-                  <Link key={u.id} to={`/unit/${u.id}/study`} className="unit-card card">
+                  <Link key={u.id} to={`/unit/${u.id}/study`} className={`unit-card card book-${book.id}`}>
                     <div className="unit-card-top">
                       <span className={`type-badge type-${u.type}`}>{TYPE_LABELS[u.type] || u.type}</span>
-                      {u.id === 'rime-of-the-ancient-mariner' && <span className="type-badge type-legacy">School legacy</span>}
+                      {u.id === 'rime-of-the-ancient-mariner' && <span className="type-badge type-legacy">CLASSIC</span>}
                     </div>
                     <h3 className="unit-card-title">{u.title}</h3>
                     <p className="unit-card-author">{u.author}</p>

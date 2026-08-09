@@ -99,6 +99,7 @@ export default function App() {
           including the school&rsquo;s legacy unit The Rime of the Ancient Mariner) and Footprints
           Without Feet.
         </p>
+        <p className="heritage-stamp">Est. 1798 · The Rime of the Ancient Mariner</p>
       </footer>
     </>
   );
