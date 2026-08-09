@@ -130,7 +130,7 @@ export default function Study() {
   return (
     <div>
       <PageBanner
-        kicker={`${meta.book === 'footprints' ? 'Footprints Without Feet' : 'First Flight'} · ${TYPE_LABELS[meta.type] || meta.type}`}
+        kicker={`${meta.book === 'literature-reader' ? 'Interact in English — Literature Reader' : meta.book} · ${TYPE_LABELS[meta.type] || meta.type}`}
         title={meta.title}
         sub={`${meta.author ? `By ${meta.author} · ` : ''}Summaries, themes${meta.type === 'poem' ? ', poetic devices' : ', character sketches'} and model analysis for the exam.`}
         image={img(meta.type === 'poem' ? 'lonely.jpg' : 'ice.jpg')}

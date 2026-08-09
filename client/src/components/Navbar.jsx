@@ -35,7 +35,7 @@ export default function Navbar() {
         </svg>
         <span className="brand-text">
           Class X English Study Portal
-          <span className="brand-sub">First Flight · Footprints · TALS</span>
+          <span className="brand-sub">Literature Reader · TALS</span>
         </span>
       </Link>
 

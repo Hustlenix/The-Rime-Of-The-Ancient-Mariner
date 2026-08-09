@@ -23,8 +23,7 @@ router.get('/', (req, res) => {
   };
 
   const books = [
-    { id: 'first-flight', name: 'First Flight', tagline: 'Prose & poems' },
-    { id: 'footprints', name: 'Footprints Without Feet', tagline: 'Supplementary reader' }
+    { id: 'literature-reader', name: 'Interact in English — Literature Reader', tagline: 'Prose, poems & plays' }
   ];
 
   const grouped = books.map((b) => ({

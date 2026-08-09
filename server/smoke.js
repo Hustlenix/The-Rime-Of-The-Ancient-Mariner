@@ -40,7 +40,7 @@ async function main() {
   }
 
   const units = await get('/api/units');
-  check('GET /api/units returns books+units', units.status === 200 && Array.isArray(units.body.books) && units.body.units.length >= 30,
+  check('GET /api/units returns books+units', units.status === 200 && Array.isArray(units.body.books) && units.body.units.length >= 13,
     `${units.body.units ? units.body.units.length : '?'} units`);
   if (units.body.books) {
     for (const b of units.body.books) {
@@ -53,22 +53,22 @@ async function main() {
     && contentDefault.body.summaries.length >= 2 && contentDefault.body.devices.length >= 10,
     `unitId=${contentDefault.body.unitId}`);
 
-  const contentAlias = await get('/api/content?unit=fog');
-  check('GET /api/content?unit= alias works', contentAlias.status === 200 && contentAlias.body.unitId === 'fog');
+  const contentAlias = await get('/api/content?unit=the-letter');
+  check('GET /api/content?unit= alias works', contentAlias.status === 200 && contentAlias.body.unitId === 'the-letter');
 
   const contentBad = await get('/api/content?unit_id=nope');
   check('GET /api/content?unit_id=nope -> 400', contentBad.status === 400);
 
-  const questions = await get('/api/questions?unit_id=the-proposal&category=short');
+  const questions = await get('/api/questions?unit_id=two-gentlemen-of-verona&category=short');
   check('GET /api/questions filtered', questions.status === 200 && questions.body.questions.length > 0,
     `${questions.body.questions ? questions.body.questions.length : '?'} short answers`);
 
-  const quiz = await get('/api/quiz/questions?unit_id=bholi&limit=10');
-  check('GET /api/quiz/questions?unit_id=bholi&limit=10', quiz.status === 200 && quiz.body.questions.length === 10
+  const quiz = await get('/api/quiz/questions?unit_id=ozymandias&limit=10');
+  check('GET /api/quiz/questions?unit_id=ozymandias&limit=10', quiz.status === 200 && quiz.body.questions.length === 10
     && Array.isArray(quiz.body.questions[0].options));
 
-  const search = await get('/api/content/search?q=lencho');
-  check('GET /api/content/search?q=lencho (all units)', search.status === 200 && search.body.results.length > 0,
+  const search = await get('/api/content/search?q=tiger');
+  check('GET /api/content/search?q=tiger (all units)', search.status === 200 && search.body.results.length > 0,
     `${search.body.results.length} hits`);
 
   const searchScoped = await get('/api/content/search?q=albatross&unit_id=rime-of-the-ancient-mariner');
@@ -94,8 +94,8 @@ async function main() {
   }
 
   // Units depth metadata
-  const ff = units.body.books && units.body.books.find((b) => b.id === 'first-flight');
-  const mariner = ff && ff.units.find((u) => u.id === 'rime-of-the-ancient-mariner');
+  const lr = units.body.books && units.body.books.find((b) => b.id === 'literature-reader');
+  const mariner = lr && lr.units.find((u) => u.id === 'rime-of-the-ancient-mariner');
   check('Units metadata carries stats (Mariner)', mariner && mariner.stats && mariner.stats.questions >= 10 && mariner.stats.quiz >= 10);
 
   server.close();

@@ -1,0 +1,352 @@
+{
+ "unit": {
+  "id": "the-letter",
+  "book": "literature-reader",
+  "type": "prose",
+  "title": "The Letter",
+  "author": "Dhumketu (Gujaratilal Jhaveri)",
+  "order": 3
+ },
+ "content": [
+  {
+   "id": 282,
+   "category": "summary",
+   "prompt": "Part 1 — Ali, the watcher at the post office",
+   "answer": "Every day, long before dawn, an old man named Ali would come to the post office in a small Indian town, sit down on the seat outside and wait for a letter. Ali, once a famous hunter, had been transformed by life: his wife had died, and his only daughter Miriam had married and gone far away, to the Punjab, and she had promised to write. Ali came every day for years, in sun and rain, in sickness and health, while the clerks and the postmaster mocked him and called the post office his \"second home\".",
+   "notes": null,
+   "sortOrder": 1
+  },
+  {
+   "id": 283,
+   "category": "summary",
+   "prompt": "Part 2 — The postmaster and the mockery",
+   "answer": "The postmaster, a busy and self-important man, treated Ali as a nuisance and refused to believe any letter would ever come for him. When Ali grew too ill to walk far, he still dragged himself to the office; the clerks laughed, saying his daughter had forgotten him. Ali's only reply was that a father's heart was the truest compass, and that sooner or later the letter would come. But the waiting wore him down, and he grew feebler month by month.",
+   "notes": null,
+   "sortOrder": 2
+  },
+  {
+   "id": 284,
+   "category": "summary",
+   "prompt": "Part 3 — The visit in illness",
+   "answer": "One cold day Ali, gravely ill and barely able to stand, made his last visit. He begged the postmaster to keep his letter for him and hand it over personally when it arrived, for he trusted no one else. The postmaster, irritated, refused to commit himself. Ali asked only for one promise — that the letter, when it came, be kept safe — and then, before he left, he quietly turned away, saying he would come again \"no more\". The postmaster felt a sudden chill and, without knowing why, found himself unable to dismiss the old man's words.",
+   "notes": null,
+   "sortOrder": 3
+  },
+  {
+   "id": 285,
+   "category": "summary",
+   "prompt": "Part 4 — The postmaster's awakening",
+   "answer": "A few days later Ali died, alone. Years passed, and the post office went about its business, the story of the old man almost forgotten — until the postmaster's own daughter fell ill and wrote to him. Holding her letter, the postmaster suddenly understood Ali's agony, and in a flood of remorse he searched the office until he found the letter for Ali that had arrived long after Ali's death, unclaimed and dusty. He waited that evening by the window with Ali's lamp, hoping, like the old man, that he too might receive his letter. The post office had at last found its true postmaster.",
+   "notes": null,
+   "sortOrder": 4
+  },
+  {
+   "id": 286,
+   "category": "theme",
+   "prompt": "Loneliness and the hunger for love",
+   "answer": "The story's deepest theme is human loneliness and the longing for love. Ali, stripped of wife and daughter, spends his last years waiting at the post office — not merely for a letter, but for a proof that he is still loved and remembered. His waiting is a form of prayer. The postmaster, who never feels this hunger, is incapable of understanding it until his own daughter's letter teaches him; the theme is that loneliness can only be understood by those who have suffered it.",
+   "notes": null,
+   "sortOrder": 5
+  },
+  {
+   "id": 287,
+   "category": "theme",
+   "prompt": "Indifference and compassion",
+   "answer": "The story contrasts the cold indifference of the post office staff with the simple humanity Ali deserves. The clerks mock his daily pilgrimage; the postmaster dismisses him as a nuisance, too busy to see the tragedy before him. Ali's last request is refused. The theme is a reproach to this indifference: the postmaster's later remorse — his search for the letter, his vigil with the lamp — shows that compassion, once withheld, can only be repaid with guilt and grief.",
+   "notes": null,
+   "sortOrder": 6
+  },
+  {
+   "id": 288,
+   "category": "theme",
+   "prompt": "Waiting, hope and the irony of time",
+   "answer": "The theme of waiting is the story's frame. Ali waits in hope for years; hope, not the letter, is what keeps him alive. And the cruel irony of time is that the letter he never stopped expecting arrives only after his death — five years too late. The story asks what time does to love: it delays, forgets and mocks, yet the waiting itself, the story insists, was not foolish, for it was the only thing Ali had left. The lamp the postmaster lights at the end passes the waiting on — hope, and its cost.",
+   "notes": null,
+   "sortOrder": 7
+  },
+  {
+   "id": 289,
+   "category": "character",
+   "prompt": "Ali",
+   "answer": "Ali is an old man, once a keen hunter, whose life has been hollowed by loss — his wife dead, his daughter married and gone to the Punjab. He is gentle, dignified and strangely serene; even in the worst weather and the cruellest mockery he waits without bitterness, speaking with quiet faith of his daughter's promise. His wisdom is summed up in his saying that a father's heart is a true compass that will not lie. He is the story's sufferer and its saint: mocked by the world, faithful to love, and brave enough to stop waiting at last. His death, alone and unhonoured, is the story's quiet accusation.",
+   "notes": null,
+   "sortOrder": 8
+  },
+  {
+   "id": 290,
+   "category": "character",
+   "prompt": "The postmaster",
+   "answer": "The postmaster is a busy, self-important official, irritated by Ali's daily presence and impatient with what he sees as a foolish obsession. He refuses Ali's request, confident that no letter will ever come and that the old man is a nuisance. But he is not wicked — merely thoughtless — and his awakening is the story's turning point: when his own daughter falls ill and writes to him, he tastes in an hour what Ali endured for years. His search for the lost letter and his final vigil with Ali's lamp show him transformed, the post office's coldness replaced by a fellow feeling he had never known he lacked.",
+   "notes": null,
+   "sortOrder": 9
+  },
+  {
+   "id": 291,
+   "category": "character",
+   "prompt": "Miriam",
+   "answer": "Miriam is Ali's daughter, who married and went to the Punjab, promising to write. She never appears in the story; like Lucia in \"Two Gentlemen of Verona\", she is known only through others' devotion. Whether she truly forgot her father, or her letters went astray, the story never says — the one letter that finally arrives comes too late. She is the emblem of the absent beloved: the centre of Ali's hope, the proof of love that never came, and the instrument by which the postmaster finally learns compassion.",
+   "notes": null,
+   "sortOrder": 10
+  },
+  {
+   "id": 292,
+   "category": "character",
+   "prompt": "The clerks",
+   "answer": "The post office clerks are the chorus of the story's indifference. They laugh at Ali, call the post office his \"second home\", and predict that his daughter has forgotten him. They represent the busy, heartless world that has no time for the old man's vigil — a world of gossip and routine in which a lonely father's devotion is merely comic. Yet even they are touched in the end: when the letter is finally found, the whole office learns its lesson, and their laughter is replaced by the silence of recognition.",
+   "notes": null,
+   "sortOrder": 11
+  },
+  {
+   "id": 293,
+   "category": "value",
+   "prompt": "Compassion for the lonely and the old",
+   "answer": "The story's central value lesson is that we must show kindness and respect to the lonely, especially the old. Ali asked for so little — a seat, a promise, a letter kept safe — and received mockery and indifference. The postmaster's remorse teaches us that we can never know another's heartache unless we pause to look, and that compassion, offered in time, is a gift both to the giver and the receiver.",
+   "notes": null,
+   "sortOrder": 12
+  },
+  {
+   "id": 294,
+   "category": "value",
+   "prompt": "The faithfulness of love",
+   "answer": "Ali's unwavering faith in his daughter is the story's great value: he waited years on the strength of a promise, and even when hope failed his love did not turn to bitterness. His saying — that a father's heart is a true compass — celebrates the constancy of parental love. The value lesson: love that waits patiently and forgives freely is the most enduring treasure a person can hold, whatever the world's mockery.",
+   "notes": null,
+   "sortOrder": 13
+  },
+  {
+   "id": 295,
+   "category": "short",
+   "prompt": "Who was Ali and what did he do every day?",
+   "answer": "Ali was an old man, once a hunter, who came to the post office every day for years to wait for a letter from his daughter.",
+   "notes": null,
+   "sortOrder": 14
+  },
+  {
+   "id": 296,
+   "category": "short",
+   "prompt": "Where had Ali's daughter gone after her marriage?",
+   "answer": "She had gone far away to the Punjab with her husband.",
+   "notes": null,
+   "sortOrder": 15
+  },
+  {
+   "id": 297,
+   "category": "short",
+   "prompt": "How did the clerks and the postmaster treat Ali?",
+   "answer": "They mocked him, called the post office his \"second home\", and said his daughter had forgotten him.",
+   "notes": null,
+   "sortOrder": 16
+  },
+  {
+   "id": 298,
+   "category": "short",
+   "prompt": "What did Ali say about a father's heart?",
+   "answer": "He said a father's heart was a true compass that would never lie to him about his daughter.",
+   "notes": null,
+   "sortOrder": 17
+  },
+  {
+   "id": 299,
+   "category": "short",
+   "prompt": "What did Ali ask of the postmaster on his last visit?",
+   "answer": "He asked that his letter, when it arrived, be kept safe and handed to him personally.",
+   "notes": null,
+   "sortOrder": 18
+  },
+  {
+   "id": 300,
+   "category": "short",
+   "prompt": "What happened to Ali?",
+   "answer": "He died alone a few days after his last visit, before any letter arrived for him.",
+   "notes": null,
+   "sortOrder": 19
+  },
+  {
+   "id": 301,
+   "category": "short",
+   "prompt": "What made the postmaster understand Ali's suffering?",
+   "answer": "His own daughter fell ill and wrote to him; holding her letter, he at last understood Ali's long vigil.",
+   "notes": null,
+   "sortOrder": 20
+  },
+  {
+   "id": 302,
+   "category": "short",
+   "prompt": "When did Ali's letter finally arrive?",
+   "answer": "It arrived long after his death, and lay unclaimed in the post office for years.",
+   "notes": null,
+   "sortOrder": 21
+  },
+  {
+   "id": 303,
+   "category": "long",
+   "prompt": "Describe Ali's daily routine and the attitude of the post office staff towards him.",
+   "answer": "Ali came to the post office every day, long before sunrise, and sat on the seat outside waiting for a letter from his daughter Miriam, who had married and gone to the Punjab. In summer heat and winter cold, in illness and health, he came — for years on end — until the post office became, as the clerks joked, his \"second home\". The staff mocked him openly: the clerks called him mad, said his daughter had forgotten him, and laughed at his stubborn faith; the postmaster, a busy and self-important man, treated him as a nuisance and refused to believe any letter would ever arrive for him. When Ali grew too weak to walk, he still dragged himself to the office, and his only reply to their mockery was his quiet belief in his daughter's promise and in the compass of a father's heart. The staff's laughter is the story's indictment: a lonely old man's entire world was a daily pilgrimage, and the world answered it with derision.",
+   "notes": null,
+   "sortOrder": 22
+  },
+  {
+   "id": 304,
+   "category": "long",
+   "prompt": "What happened on Ali's last visit to the post office, and what effect did it have on the postmaster?",
+   "answer": "On his last visit, Ali was gravely ill, barely able to walk, and knew he would not live long. He came for the last time, and instead of asking about his letter he made a simple request: that the postmaster keep the letter safe when it came and hand it to him personally, since he trusted no one else in the office. The postmaster, irritated by the old man's persistence, refused to commit himself to any promise. Before leaving, Ali looked at him steadily and said he would come again no more — and something in his tone shook the postmaster, who felt a sudden, nameless chill and could not afterwards get the old man out of his mind. Days later Ali died alone. When the postmaster's own daughter fell ill and sent him a letter, the memory of Ali's face returned like a wound: he understood at last what the old man had suffered, and in remorse he searched the office until he found the letter for Ali that had arrived after Ali's death and lain unclaimed ever since.",
+   "notes": null,
+   "sortOrder": 23
+  },
+  {
+   "id": 305,
+   "category": "long",
+   "prompt": "Value question: What does the story teach us about how we should treat the lonely and the aged?",
+   "answer": "The story teaches that the lonely and the aged ask the world for very little, and the world owes them kindness. Ali asked for nothing but a seat and a promise — yet the clerks mocked his daily pilgrimage and the postmaster dismissed him as a nuisance. The story's lesson is twofold. First, we must never judge another's grief by our own experience: what looked like a foolish obsession was the entire content of an old man's heart, and the postmaster could not understand it until his own daughter's letter taught him in a day what Ali had lived for years. Second, compassion is a duty of time and attention: a few kind words, a promise honoured, would have cost the postmaster nothing and meant everything to Ali. The story ends with the postmaster waiting with Ali's lamp — the lesson finally learned, but too late for the one who needed it. Kindness must be offered while it can still be received.",
+   "notes": null,
+   "sortOrder": 24
+  },
+  {
+   "id": 306,
+   "category": "long",
+   "prompt": "Why is the story titled \"The Letter\"? What role does the letter play?",
+   "answer": "The letter is the story's central object and symbol. For Ali it is everything: the promised proof of his daughter's love, the one thing that would make his waiting worthwhile. For years he waits for it, and its absence defines his life — hope and its slow dying. The letter's role is also ironic: it arrives at last only after Ali's death, and lies unclaimed in the office while the clerks forget him. Yet the letter's greatest work is done after its arrival: when the postmaster, moved by his own daughter's letter, finds Ali's letter at last, it becomes the instrument of his awakening. It carries the love Ali never received and the lesson the postmaster finally learns — that a letter is not paper and ink but a message between hearts, and that the post office, keeper of such messages, failed its truest customer. The title thus points to both the lost letter of a father and the found lesson of a postmaster.",
+   "notes": null,
+   "sortOrder": 25
+  },
+  {
+   "id": 307,
+   "category": "long",
+   "prompt": "How does the postmaster change by the end of the story?",
+   "answer": "The postmaster changes from indifference to compassion, and the story traces that change as a quiet conversion. At first he is a busy, self-important official who treats Ali as a nuisance, refuses his request and dismisses his faith. But Ali's last words — \"I shall come again no more\" — leave a chill on him that he cannot shake, and when Ali dies the memory lingers. The true turning point is his own suffering: his daughter falls ill and writes to him, and in holding her letter he feels for the first time the love and fear that drove Ali to the post office every day. In a flood of remorse he searches out Ali's unclaimed letter and, that evening, takes Ali's lamp and waits at the window himself — hoping, as Ali had hoped, for a letter that may never come. The postmaster has become what Ali was: a waiting heart. The story suggests that we understand others' grief only by tasting it, and that it is never too late — though often too late for the person who needed us.",
+   "notes": null,
+   "sortOrder": 26
+  }
+ ],
+ "quizQuestions": [
+  {
+   "id": 111,
+   "question": "Who wrote \"The Letter\"?",
+   "options": [
+    "Saki",
+    "Dhumketu",
+    "A.J. Cronin",
+    "Guy de Maupassant"
+   ],
+   "correct_index": 1,
+   "explanation": "\"The Letter\" is by Dhumketu (Gujaratilal Jhaveri).",
+   "topic": ""
+  },
+  {
+   "id": 112,
+   "question": "Ali went to the post office every day to:",
+   "options": [
+    "collect his pension",
+    "wait for a letter from his daughter",
+    "work there",
+    "meet friends"
+   ],
+   "correct_index": 1,
+   "explanation": "He waited daily for a letter from his daughter Miriam.",
+   "topic": ""
+  },
+  {
+   "id": 113,
+   "question": "Ali's daughter Miriam had gone to live in:",
+   "options": [
+    "Bombay",
+    "the Punjab",
+    "Delhi",
+    "Calcutta"
+   ],
+   "correct_index": 1,
+   "explanation": "She had married and gone far away to the Punjab.",
+   "topic": ""
+  },
+  {
+   "id": 114,
+   "question": "The post office staff treated Ali with:",
+   "options": [
+    "great respect",
+    "mockery and indifference",
+    "affection",
+    "fear"
+   ],
+   "correct_index": 1,
+   "explanation": "The clerks laughed at him and the postmaster dismissed him as a nuisance.",
+   "topic": ""
+  },
+  {
+   "id": 115,
+   "question": "Ali had once been a famous:",
+   "options": [
+    "soldier",
+    "hunter",
+    "merchant",
+    "postman"
+   ],
+   "correct_index": 1,
+   "explanation": "In his youth Ali was a keen hunter before loss changed his life.",
+   "topic": ""
+  },
+  {
+   "id": 116,
+   "question": "On his last visit, Ali asked the postmaster to:",
+   "options": [
+    "read his letters",
+    "keep his letter safe and hand it to him personally",
+    "send his daughter a telegram",
+    "employ him"
+   ],
+   "correct_index": 1,
+   "explanation": "He asked only that his letter be kept safe and given to him personally.",
+   "topic": ""
+  },
+  {
+   "id": 117,
+   "question": "Ali said that a father's heart was like a:",
+   "options": [
+    "compass",
+    "clock",
+    "flame",
+    "stone"
+   ],
+   "correct_index": 0,
+   "explanation": "He said a father's heart is a true compass that never lies.",
+   "topic": ""
+  },
+  {
+   "id": 118,
+   "question": "Ali died:",
+   "options": [
+    "happy, having received the letter",
+    "alone, before his letter arrived",
+    "on the post office steps",
+    "in the Punjab"
+   ],
+   "correct_index": 1,
+   "explanation": "He died alone a few days after his last visit; the letter came after his death.",
+   "topic": ""
+  },
+  {
+   "id": 119,
+   "question": "The postmaster finally understood Ali's suffering when:",
+   "options": [
+    "Ali returned",
+    "his own daughter fell ill and wrote to him",
+    "the letter was found",
+    "the clerks told him"
+   ],
+   "correct_index": 1,
+   "explanation": "His daughter's letter taught him what waiting in love means.",
+   "topic": ""
+  },
+  {
+   "id": 120,
+   "question": "At the end of the story, the postmaster:",
+   "options": [
+    "returns Ali's letter to the family",
+    "waits with Ali's lamp for his own letter",
+    "retires",
+    "visits the Punjab"
+   ],
+   "correct_index": 1,
+   "explanation": "He lights Ali's lamp and waits by the window, at last understanding the old man.",
+   "topic": ""
+  }
+ ]
+}

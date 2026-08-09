@@ -1,0 +1,209 @@
+module.exports = {
+  unit: {
+    id: 'not-marble-nor-the-gilded-monuments',
+    book: 'literature-reader',
+    type: 'poem',
+    title: 'Not Marble, Nor the Gilded Monuments',
+    author: 'William Shakespeare',
+    order: 8
+  },
+  content: [
+    {
+      category: 'summary',
+      prompt: 'Part 1 — The boast of the sonnet',
+      answer: 'The speaker makes a bold claim at the very opening: not the finest marble, nor the gilded monuments built by princes, shall outlast this poem. While kings and nobles strive to immortalise themselves in stone and gold, the speaker asserts that his verse is the stronger monument — it will survive when marble crumbles and statues are forgotten.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 2 — Against time and war',
+      answer: 'The speaker measures his poem against the great enemies of human achievement: time and war. Stone decays, statues are toppled, and the works of princes are swept away by battle and plunder. But the written word, he insists, defies these forces — it will live while the proud monuments of the mighty lie in ruins, because it is renewed by every pair of eyes that reads it.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 3 — The beloved\'s immortality',
+      answer: 'The poem\'s purpose is revealed: it is not really about poetry but about a person. Through this enduring verse, the speaker\'s beloved will live on — praised and remembered long after death, and after the world itself has grown old. While others are forgotten with their monuments, the beloved is kept alive by the poem, whose lines carry the beloved forward through all ages.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 4 — The living monument',
+      answer: 'The sonnet ends by uniting its two themes: as long as humanity endures and can read, this poem will live, and with it the beloved. The paper-and-ink monument outlasts marble; the memory of love outlasts kingdoms. The speaker\'s art has conquered the very thing all human beings fear — oblivion — by making the beloved the eternal subject of the poem.'
+    },
+    {
+      category: 'theme',
+      prompt: 'Art outlives time',
+      answer: 'The poem\'s central theme is the immortality of art. Marble cracks, gilded monuments decay, statues are toppled by war and time, but poetry endures because it lives in the minds of readers. The speaker contrasts the perishable works of princes — built in stone and gold — with his own "powerful rhyme", which renews itself with every reading. The theme celebrates the power of words to defeat oblivion, a power that wealth and power cannot buy.'
+    },
+    {
+      category: 'theme',
+      prompt: 'Love conquers death',
+      answer: 'Beneath the theme of art is the theme of love. The sonnet is addressed to the beloved, and its real subject is the speaker\'s determination that the beloved shall not die. Death, war and time may take everything else, but the beloved is preserved in the poem, alive in every age that reads it. The theme transforms a poem about writing into a love poem: the truest monument to love is not stone but verse, and the beloved\'s life is extended as long as words are read.'
+    },
+    {
+      category: 'theme',
+      prompt: 'The vanity of worldly power',
+      answer: 'The poem quietly measures the limits of power and wealth. Princes build monuments to be remembered, yet their works crumble and are swept away by war and time. The speaker\'s poor rhyme — mere words — outlasts the gold of kings. The theme humbles the powerful: the things they build to immortalise themselves are the most perishable of all, while the humble written word, addressed to one person\'s love, carries memory further than any palace.'
+    },
+    {
+      category: 'analysis',
+      prompt: 'The speaker — the confident poet-lover',
+      answer: 'The speaker of the sonnet is a poet addressing his beloved, and his voice is one of supreme confidence. He claims for his verse a power that kings cannot achieve with gold: permanence. Yet his confidence is not vanity — it is the conviction of the artist and the lover, the belief that what is written out of love can defeat time. He promises the beloved nothing less than immortality, and the poem itself is the proof of his promise: it has, in fact, outlived all the princes of its age. He is the archetype of the poet who stakes everything on his art.'
+    },
+    {
+      category: 'analysis',
+      prompt: 'The beloved — the immortalised subject',
+      answer: 'The beloved never speaks and is described only through the poem\'s purpose: the person the speaker loves and wishes to save from oblivion. The sonnet\'s genius is that the beloved\'s identity hardly matters — what matters is that the poem confers eternal life upon the subject it praises. The beloved becomes a symbol of all that love wishes to preserve: beauty, worth and memory. And the poem keeps its promise: whoever the beloved was, that person is remembered whenever the sonnet is read.'
+    },
+    {
+      category: 'device',
+      prompt: 'The sonnet form',
+      answer: 'The poem is a Shakespearean sonnet: fourteen lines of iambic pentameter, three quatrains and a concluding couplet. The form itself is part of the argument — the speaker uses the most disciplined and traditional of verse forms to claim that his verse will outlast all monuments. The final couplet delivers the climax and the promise: as long as human beings can read, the poem lives, and so does the beloved. Form and content work together: an immortal claim, cast in an immortal form.'
+    },
+    {
+      category: 'device',
+      prompt: 'Personification of time and war',
+      answer: 'The poem gives human qualities to its great antagonists: time is pictured as a force that gnaws and decays, and war is personified as a destroyer that overturns statues and sweeps away the works of the mighty. By making them actors, the speaker dramatises the contest: time and war fight to erase the beloved, and the poem fights back. The personification turns an abstract argument about immortality into a vivid struggle between living forces.'
+    },
+    {
+      category: 'device',
+      prompt: 'Metaphor of the poem as a monument',
+      answer: 'The poem\'s central metaphor compares verse to architecture: the written lines are a "monument" to the beloved, built not in stone but in words. The metaphor controls the whole argument — the speaker measures his poem against marble, gilded statues and masonry, and finds them wanting. The twist is that the "monument" of words is more durable than real monuments, because it is rebuilt by every reader\'s mind. The metaphor makes the poem\'s claim tangible: the reader is the caretaker of this unusual monument.'
+    },
+    {
+      category: 'device',
+      prompt: 'Contrast and antithesis',
+      answer: 'The poem is built on contrasts: marble against verse, the monuments of princes against the poem of a lover, destruction against endurance, death against life. These oppositions give the sonnet its energy — every perishable thing named (stone, gold, statues, war, death) is set against the one imperishable thing (the poem). The contrast reaches its peak in the final lines, where the "bright" living memory of the beloved is set against the dimness of forgotten monuments.'
+    },
+    {
+      category: 'device',
+      prompt: 'Hyperbole',
+      answer: 'The speaker\'s claim is a magnificent exaggeration: that a few lines of verse will outlive marble, gilded monuments and the ravages of war. This hyperbole is deliberate — the lover\'s boast is the poem\'s engine, and the reader is invited to smile at the boldness even while feeling its truth. The exaggeration also carries real weight: unlike the boasts of princes, the poet\'s boast has proven itself, as the sonnet is still read centuries later while the monuments of its age are dust.'
+    },
+    {
+      category: 'short',
+      prompt: 'What does the speaker say will outlast marble and gilded monuments?',
+      answer: 'His poem — his "powerful rhyme" — which he claims will survive when marble crumbles and monuments decay.'
+    },
+    {
+      category: 'short',
+      prompt: 'What forces does the speaker say destroy the works of princes?',
+      answer: 'Time and war: stone decays, statues are toppled, and battle sweeps away the proud works of the mighty.'
+    },
+    {
+      category: 'short',
+      prompt: 'What is the poem\'s real subject?',
+      answer: 'The beloved — the speaker promises that his verse will keep the beloved alive and remembered after death.'
+    },
+    {
+      category: 'short',
+      prompt: 'Why is the poem more durable than a real monument?',
+      answer: 'Because it is renewed by every reader: as long as people can read, the poem lives and keeps its subject alive.'
+    },
+    {
+      category: 'short',
+      prompt: 'What form does the poem take?',
+      answer: 'It is a Shakespearean sonnet — fourteen lines in iambic pentameter, with three quatrains and a closing couplet.'
+    },
+    {
+      category: 'short',
+      prompt: 'How does the poem personify time and war?',
+      answer: 'It treats them as living destroyers that gnaw at stone, overturn statues and erase the works of princes.'
+    },
+    {
+      category: 'short',
+      prompt: 'What is the central metaphor of the poem?',
+      answer: 'The comparison of the poem itself to a monument — verse as an enduring monument to the beloved.'
+    },
+    {
+      category: 'short',
+      prompt: 'What promise does the speaker make to the beloved?',
+      answer: 'Immortality: the beloved will live on in the poem, praised and remembered as long as humanity can read.'
+    },
+    {
+      category: 'long',
+      prompt: 'Why does the speaker claim that his poem will outlast marble and monuments?',
+      answer: 'The speaker claims his poem will outlast marble and gilded monuments because of the different natures of the two. Stone and gold are physical things: they decay with weather, crack with age, and are toppled by war and time. The proud works of princes, however massive, are helpless before these forces. A poem, by contrast, is made of words — it lives in the minds of its readers and is renewed with every reading. Each new pair of eyes restores it; as long as human beings exist and can read, the poem exists. The claim is also personal: the speaker\'s poem preserves the beloved, while the princes\' monuments preserve nothing but the vanity of their builders. And the claim has proven itself: the sonnet is read centuries later, while the gilded monuments of its age are forgotten. The poem\'s boast is no idle boast — it is the one thing in the sonnet that time has verified.'
+    },
+    {
+      category: 'long',
+      prompt: 'How does the poem present the contrast between art and power?',
+      answer: 'The poem stages a contest between two ways of conquering time: power and art. The princes of the world use wealth to build monuments — marble, gold and masonry — hoping to be remembered by the size and splendour of their works. The speaker, a poor poet, offers only words. Yet the contest is decided in favour of the words: the monuments of princes crumble, are wrecked by war and swallowed by time, while the poem survives because it is not a thing but an act of communication, reborn in every reader. The contrast carries a quiet rebuke to power: the rich and mighty believe they can buy memory, but memory is not for sale; it is granted by love and preserved by art. The sonnet humbles the proud builders and exalts the humble maker — a poem addressed to one beloved has outlasted the boasts of kings. In this way, the theme of art against time becomes also the theme of love against power.'
+    },
+    {
+      category: 'long',
+      prompt: 'Value question: What does the poem suggest about the true meaning of immortality?',
+      answer: 'The poem suggests that true immortality lies not in what we build but in what we give to others through love and art. The princes of the world chase immortality with stone and gold, believing that size and splendour will preserve their names; the speaker achieves it with a few lines of verse, preserved not by wealth but by the simple act of being read. The value lesson is that the things we create out of love — poems, kindnesses, teaching, memory — outlast the things we create out of vanity. The poem also redefines what it means to live on: the beloved "lives" not in a body but in the memory and admiration of future generations, kept alive by art. In a world obsessed with legacy through possessions and power, the sonnet insists that the most durable inheritance is the word, the song, the remembered love. Immortality, the poem teaches, is not a building you erect but a light you pass on — and the humblest verse can carry it further than any monument.'
+    },
+    {
+      category: 'long',
+      prompt: 'How does the poem give its subject — the beloved — eternal life?',
+      answer: 'The poem gives the beloved eternal life through the permanence of verse. Death, the speaker says, will not be able to claim the beloved in the way it claims others: while the beloved\'s physical life ends, the poem carries the beloved\'s praise into every future age. The mechanism is the act of reading: each time the sonnet is read, the beloved is spoken of, imagined and admired — alive in the reader\'s mind. The speaker even predicts that the beloved will outshine the proud monuments of princes, because people will remember the beloved\'s worth while the statues of kings lie ruined. There is a beautiful humility in the promise too: the poet cannot give the beloved gold or power, so he gives what he has — his craft, his praise, his lines. And because the poem has in fact survived, the promise has been kept: the beloved, whoever they were, is still remembered. The sonnet is the only monument of its age that has not failed its purpose.'
+    },
+    {
+      category: 'long',
+      prompt: 'Why is the poem considered a love poem, though it speaks mostly of monuments and time?',
+      answer: 'The poem is a love poem because every claim it makes about art and time is really a claim about the beloved. The opening boast — that the poem will outlive marble — is not poetry for its own sake: it is the lover\'s promise, the assurance that the beloved will not be forgotten. The battle against war and time is fought for the beloved\'s sake, to rescue one person from oblivion. The sonnet\'s famous final promise — that the beloved will live as long as people can read — is the purest expression of love in the poem: the speaker gives everything he has, his verse, to keep the beloved alive after death. Real monuments preserve names; this poem preserves a person. The love it expresses is not passionate or physical but protective and eternal — the love that wants, not to possess, but to ensure the beloved is never lost. That is why, though it speaks of marble, war and time, the poem is remembered as one of the great love sonnets: its subject is always the beloved.'
+    }
+  ],
+  quizQuestions: [
+    {
+      question: 'Who wrote "Not Marble, Nor the Gilded Monuments"?',
+      options: ['Percy Bysshe Shelley', 'William Shakespeare', 'Vikram Seth', 'John Donne'],
+      correct_index: 1,
+      explanation: 'The poem is Shakespeare\'s Sonnet 55.'
+    },
+    {
+      question: 'The poem claims that it will outlast:',
+      options: ['the sea', 'marble and gilded monuments', 'the sun', 'the mountains'],
+      correct_index: 1,
+      explanation: 'The speaker boasts that his verse outlives the monuments of princes.'
+    },
+    {
+      question: 'The forces the poem says destroy monuments are:',
+      options: ['fire and flood', 'time and war', 'wind and rain', 'kings and priests'],
+      correct_index: 1,
+      explanation: 'Decay, time and war wreck the proud works of the mighty.'
+    },
+    {
+      question: 'The poem\'s real subject is:',
+      options: ['the speaker\'s fame', 'the beloved, kept alive by the poem', 'the beauty of statues', 'the power of kings'],
+      correct_index: 1,
+      explanation: 'The speaker promises the beloved immortality through his verse.'
+    },
+    {
+      question: 'The poem\'s central metaphor compares the poem to:',
+      options: ['a garden', 'a monument', 'a river', 'a sword'],
+      correct_index: 1,
+      explanation: 'The verse is a "monument" to the beloved, more durable than stone.'
+    },
+    {
+      question: 'The poem is a:',
+      options: ['ballad', 'Shakespearean sonnet', 'epic', 'lyric of five stanzas'],
+      correct_index: 1,
+      explanation: 'It is a fourteen-line sonnet with three quatrains and a couplet.'
+    },
+    {
+      question: 'Time and war are treated in the poem as:',
+      options: ['allies of the poet', 'personified destroyers', 'friends of the beloved', 'mythical beasts'],
+      correct_index: 1,
+      explanation: 'They are personified as forces that gnaw, overturn and erase.'
+    },
+    {
+      question: 'The poem will live as long as:',
+      options: ['the statues stand', 'people can read', 'the kings rule', 'the sun shines'],
+      correct_index: 1,
+      explanation: 'The poem renews itself with every reading — human readers keep it alive.'
+    },
+    {
+      question: 'The theme of the poem is:',
+      options: ['war is glorious', 'art outlives time; love conquers death', 'stone is beautiful', 'kings are great'],
+      correct_index: 1,
+      explanation: 'Verse and love defeat oblivion where marble fails.'
+    },
+    {
+      question: 'The speaker\'s promise to the beloved is:',
+      options: ['wealth', 'immortality through the poem', 'a monument of gold', 'a kingdom'],
+      correct_index: 1,
+      explanation: 'He promises the beloved eternal remembrance through his verse.'
+    }
+  ]
+};

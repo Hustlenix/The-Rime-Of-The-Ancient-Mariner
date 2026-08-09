@@ -22,7 +22,7 @@ export default function Home() {
         <div className="hero-content">
           <p className="hero-school">The Ashok Leyland School</p>
           <h1 className="hero-title">Class X English Study Portal</h1>
-          <p className="hero-tagline">First Flight · Footprints Without Feet</p>
+          <p className="hero-tagline">Interact in English — Literature Reader</p>
           <p className="hero-sub">
             Every chapter and poem of your English Literature Reader, with deep summaries, themes,
             character sketches, poetic devices, model answers, quizzes and flashcards — exam-ready

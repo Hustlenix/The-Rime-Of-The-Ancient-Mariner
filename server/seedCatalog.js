@@ -53,10 +53,9 @@ for (const file of files) {
 
 // Stable ordering helpers used by both the DB seeder and the fallback generator,
 // so client-side ids always mirror server-side ids.
-const BOOK_ORDER = { 'first-flight': 1, footprints: 2 };
+const BOOK_ORDER = { 'literature-reader': 1 };
 const books = [
-  { id: 'first-flight', name: 'First Flight', tagline: 'Prose & poems' },
-  { id: 'footprints', name: 'Footprints Without Feet', tagline: 'Supplementary reader' }
+  { id: 'literature-reader', name: 'Interact in English — Literature Reader', tagline: 'Prose, poems & plays' }
 ];
 
 function compareUnits(a, b) {

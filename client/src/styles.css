@@ -2104,12 +2104,8 @@ select:focus {
   border-right: 2px solid var(--border-ink);
 }
 
-.unit-card.book-first-flight {
+.unit-card.book-literature-reader {
   --book-accent: var(--cyan);
-}
-
-.unit-card.book-footprints {
-  --book-accent: var(--magenta);
 }
 
 .unit-card:hover {

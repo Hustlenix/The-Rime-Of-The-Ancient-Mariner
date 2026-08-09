@@ -95,9 +95,9 @@ export default function App() {
         </div>
         <p>Class X English Study Portal — The Ashok Leyland School</p>
         <p>
-          Covers the full CBSE Class X English Literature Reader: First Flight (prose &amp; poems,
-          including the school&rsquo;s legacy unit The Rime of the Ancient Mariner) and Footprints
-          Without Feet.
+          Covers the full CBSE Class X English Literature Reader (Interact in English): prose,
+          poems &amp; plays — including the school&rsquo;s legacy unit The Rime of the Ancient
+          Mariner.
         </p>
         <p className="heritage-stamp">Est. 1798 · The Rime of the Ancient Mariner</p>
       </footer>

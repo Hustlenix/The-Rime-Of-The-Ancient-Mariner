@@ -11,7 +11,7 @@ db.pragma('journal_mode = WAL');
 // user data and are never wiped). When the content schema or the seed catalog
 // changes, the content tables are rebuilt from the catalog so a stale
 // data.db can never break startup.
-const CONTENT_SCHEMA_VERSION = 2;
+const CONTENT_SCHEMA_VERSION = 3;
 
 db.exec(`
   CREATE TABLE IF NOT EXISTS meta (
@@ -55,7 +55,7 @@ function createContentTables() {
 
     CREATE TABLE units (
       id TEXT PRIMARY KEY,
-      book TEXT NOT NULL CHECK (book IN ('first-flight','footprints')),
+      book TEXT NOT NULL CHECK (book IN ('literature-reader')),
       type TEXT NOT NULL CHECK (type IN ('prose','poem','play')),
       title TEXT NOT NULL,
       author TEXT NOT NULL DEFAULT '',

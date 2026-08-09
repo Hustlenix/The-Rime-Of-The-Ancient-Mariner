@@ -1,0 +1,214 @@
+module.exports = {
+  unit: {
+    id: 'the-frog-and-the-nightingale',
+    book: 'literature-reader',
+    type: 'poem',
+    title: 'The Frog and the Nightingale',
+    author: 'Vikram Seth',
+    order: 7
+  },
+  content: [
+    {
+      category: 'summary',
+      prompt: 'Part 1 — The frog and the bog',
+      answer: 'In Bingle Bog, a pompous frog croaked away night after night in his loud, ugly voice. Every creature in the bog — the ducks, herons and larks — was annoyed beyond bearing, but nothing could stop him; he croaked on, imagining himself a great singer. The bog endured its nightly nuisance until, one night, a new voice rose above the frog\'s croaking — a nightingale, whose song was so sweet that all the creatures gathered to listen in rapture.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 2 — The nightingale\'s triumph',
+      answer: 'The nightingale\'s singing was a revelation: the creatures of the bog, delighted, applauded and showered her with praise. The frog, burning with envy, decided to take control. He hopped over and introduced himself as the bog\'s great music master, criticising her technique and offering to train her voice — for a fee. The nightingale, flattered and eager to improve, agreed, little suspecting that her "teacher" had no gift at all except greed.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 3 — Lessons and fame',
+      answer: 'Under the frog\'s "training", the nightingale grew famous. Her concerts drew crowds from all over the bog and beyond; her voice was broadcast and praised everywhere. But the price was terrible: the frog charged her for every lesson, raised his fees as her fame grew, and made her rehearse until she was exhausted. The gentle nightingale, who had sung for joy, now sang on command — nervous, overworked and afraid of losing her audience and her master\'s approval.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 4 — The fall',
+      answer: 'The frog drove her without mercy, raising the concert fee even as her voice tired, and when she finally faltered, he blamed her harshly before the whole bog. Humiliated and broken in confidence, the nightingale lost her song entirely. At last, forced to sing once more before the jeering crowd, she strained herself to the limit — and died. The frog, left alone and unrivalled, croaked on in the bog as before, the one "singer" who had never learned to sing.'
+    },
+    {
+      category: 'theme',
+      prompt: 'Vanity and flattery destroy talent',
+      answer: 'The poem\'s central theme is that vanity and flattery can destroy genuine talent. The nightingale sings beautifully and joyously, but the applause of the crowd and the flattery of the frog make her crave approval; she trades her natural gift for lessons she does not need and fame she cannot sustain. The poem warns that those who live for praise become slaves to their flatterers, and that a gift used to please others loses the joy that gave it life.'
+    },
+    {
+      category: 'theme',
+      prompt: 'The exploitation of talent by the cunning',
+      answer: 'The poem is an allegory of how unscrupulous people exploit the talented. The frog — vain, cunning and entirely without talent — positions himself as the nightingale\'s teacher and master, pockets her earnings, overworks her and finally destroys her, all while posing as her benefactor. The theme exposes the pattern of exploitation: the gifted are often naive and eager to please, and the exploiter knows how to use flattery, fees and fear to bind them. Talent, the poem insists, must be guarded from those who would profit from it and then discard it.'
+    },
+    {
+      category: 'theme',
+      prompt: 'Self-confidence versus self-doubt',
+      answer: 'The nightingale\'s tragedy is a crisis of confidence. She doubts her own gift and accepts the frog\'s harsh judgement of her singing; she believes her song is worthless without his "training". The poem teaches that self-belief is the foundation of all art — the moment the nightingale begins to doubt herself, her voice fails. The frog\'s confidence, on the other hand, is pure pretension: he never doubts himself because he never examines himself. The theme contrasts hollow self-assurance with fragile, genuine talent.'
+    },
+    {
+      category: 'analysis',
+      prompt: 'The nightingale — a portrait of naive talent',
+      answer: 'The nightingale represents genuine but naive talent. Her song is a natural gift — beautiful, effortless and joyful — and it charms everyone who hears it. But she is trusting to a fault: she accepts the frog\'s claim to be a music master, pays for useless lessons, and lets him dictate her career. She craves approval, trembles at criticism and fears losing her audience. Her tragedy is that she never learns the value of her own gift; she lets a charlatan define it, and her art dies with her confidence. She is every talented person who allows others to judge their worth.'
+    },
+    {
+      category: 'analysis',
+      prompt: 'The frog — a portrait of the exploiter',
+      answer: 'The frog is the poem\'s villain: vain, cunning and utterly without talent, yet completely sure of himself. He croaks all night, imagining himself a singer, and resents the nightingale\'s beautiful song as a rival. His methods are those of every exploiter: he flatters her to gain her trust, offers "training" for a fee, raises prices as her fame grows, overworks her, and finally destroys her confidence with public criticism. He never produces anything himself — he only preys on others\' gifts, and when the nightingale dies, he simply croaks on, unrivalled and unchanged. He is the eternal parasite of art: the agent who lives on talent and kills it.'
+    },
+    {
+      category: 'analysis',
+      prompt: 'The creatures of the bog — the fickle audience',
+      answer: 'The bog\'s creatures — ducks, herons, larks and the rest — represent the audience, and the poem shows how fickle public praise can be. They applaud the nightingale\'s song wildly, then grow bored when her voice tires; they abandon her when she falters and jeer when she fails. Their approval is bought with performance and withdrawn at the first disappointment. The poem\'s warning is double-edged: not only must artists distrust flatterers, they must not build their lives on applause, for the crowd that raises a singer up will let her fall.'
+    },
+    {
+      category: 'device',
+      prompt: 'Allegory and the fable form',
+      answer: 'The poem is a modern fable, an allegory in which animals stand for human types: the frog is the exploiting charlatan, the nightingale the naive artist, the bog creatures the fickle public. Like the ancient fables, it carries a moral lesson about vanity, flattery and exploitation, and it presents that lesson through a story that works on two levels — a simple tale of a frog and a bird, and a sharp satire on the world of art and commerce.'
+    },
+    {
+      category: 'device',
+      prompt: 'Irony and satire',
+      answer: 'The poem is rich in irony: the frog, who cannot sing at all, becomes the "music master" who destroys the one real singer in the bog; the "training" that is supposed to improve the nightingale\'s voice is what ruins it; and the death of the nightingale leaves the bog\'s worst singer unrivalled. The satire is aimed at a world where the pretentious and the greedy profit from the talented, and where the crowd rewards flattery over truth.'
+    },
+    {
+      category: 'device',
+      prompt: 'Personification and animal symbolism',
+      answer: 'The poem personifies its animals, giving them human traits and voices: the frog is proud, cunning and greedy; the nightingale is gentle, naive and anxious; the ducks and herons applaud and gossip like a theatre audience. Each animal is a symbol — the frog of the exploiter, the nightingale of the artist, the bog of a world where such dramas are played out. The device lets the poet criticise human behaviour while keeping the poem a charming, accessible tale.'
+    },
+    {
+      category: 'device',
+      prompt: 'Sound effects: onomatopoeia and contrast of voices',
+      answer: 'The poem\'s music is part of its meaning. The frog\'s "croaking" is coarse and jarring — onomatopoeic language that suggests an ugly, monotonous voice — while the nightingale\'s song is described as sweet, soft and melodious. This contrast of sound mirrors the contrast of character: the nightingale\'s natural music against the frog\'s noise, true art against pretension. The very sound of the poem enacts its theme: beauty is fragile, noise is persistent.'
+    },
+    {
+      category: 'device',
+      prompt: 'Symbolism of the ending',
+      answer: 'The poem\'s ending is deeply symbolic. The nightingale dies while trying to please a crowd that no longer loves her — a symbol of the artist destroyed by the very forces that made her famous. The frog, meanwhile, simply resumes his croaking, "unrivalled" in the bog — a symbol of the exploiter\'s victory, the mediocrity that outlasts genius. The ending offers no comfort, only the poem\'s moral pointed at the reader: guard your talent, distrust flatterers, and never trade your own voice for another\'s.'
+    },
+    {
+      category: 'short',
+      prompt: 'Where does the poem take place?',
+      answer: 'In Bingle Bog, a swamp full of creatures like ducks, herons and larks.'
+    },
+    {
+      category: 'short',
+      prompt: 'How did the creatures of the bog feel about the frog\'s croaking?',
+      answer: 'They were thoroughly annoyed by his loud, ugly night-long croaking, but could not stop him.'
+    },
+    {
+      category: 'short',
+      prompt: 'What effect did the nightingale\'s song have on the bog?',
+      answer: 'Her sweet song delighted the creatures, who gathered, listened in rapture and applauded her.'
+    },
+    {
+      category: 'short',
+      prompt: 'How did the frog react to the nightingale\'s success?',
+      answer: 'He was envious, and decided to train her himself — for a fee — pretending to be a great music master.'
+    },
+    {
+      category: 'short',
+      prompt: 'What was the frog\'s "training" really like?',
+      answer: 'It was exhausting and costly: he charged for every lesson, raised his fees and made her rehearse until she was worn out.'
+    },
+    {
+      category: 'short',
+      prompt: 'What destroyed the nightingale\'s confidence?',
+      answer: 'The frog\'s constant criticism and public scolding, which made her believe her song was worthless without his approval.'
+    },
+    {
+      category: 'short',
+      prompt: 'How did the nightingale die?',
+      answer: 'Forced to sing once more before a jeering crowd, she strained herself beyond her strength and died.'
+    },
+    {
+      category: 'short',
+      prompt: 'What happened to the frog at the end of the poem?',
+      answer: 'He remained in the bog, croaking as before — now unrivalled, since the only real singer was dead.'
+    },
+    {
+      category: 'long',
+      prompt: 'What does the poem say about the dangers of vanity and flattery?',
+      answer: 'The poem is a fable about how vanity and flattery destroy talent. The nightingale\'s gift is real and natural, but she lets others define its worth. When the bog applauds her, she begins singing for the crowd; when the frog flatters her and calls himself her master, she trades her free song for paid lessons. She never stops to ask whether the frog truly knows music — she is too hungry for approval. The poem\'s warning is that praise is dangerous when it becomes the reason for creating: the artist who sings only for applause must keep pleasing fickle audiences and demanding masters, and will exhaust herself in the effort. Vanity made the nightingale vulnerable to the frog; flattery bound her to him; and the same hunger for approval finally drove her to sing herself to death. True art, the poem suggests, must be rooted in self-belief and joy, not in the applause of the bog.'
+    },
+    {
+      category: 'long',
+      prompt: 'How is the frog a symbol of exploitation? Describe his methods.',
+      answer: 'The frog is the poem\'s symbol of the exploiter who preys on talent. His methods are cunning and complete. First he identifies a gifted and trusting victim — the nightingale — and positions himself as an authority, claiming to be the bog\'s great music master. Next he flatters her into dependence, criticising her voice just enough to make her feel she needs him. Then he commercialises the relationship: lessons for a fee, higher prices as her fame grows, and endless rehearsals that profit him and exhaust her. As her audience grows, he raises the stakes, forcing her to perform more and more; when her voice finally begins to fail, he publicly blames and humiliates her, destroying her confidence completely. His final act is to profit from her death: with the nightingale gone, he is once more the bog\'s "unrivalled" singer. The frog stands for every agent, teacher or master who lives off others\' gifts and discards the giver — a satire on the business of art, where the talent is consumed and the parasite survives.'
+    },
+    {
+      category: 'long',
+      prompt: 'What does the poem teach about self-confidence and the value of one\'s own gift?',
+      answer: 'The poem teaches that self-confidence is the foundation of talent, and that no one should surrender the judgement of their own gift to another. The nightingale\'s voice is beautiful from the start — the bog\'s creatures adore it before the frog ever "trains" her. But she lacks faith in herself: she accepts the frog\'s claim that her singing is unrefined, pays for his worthless lessons and lets his criticism define her. The moment she doubts her own song, her voice begins to fail; by the end, she cannot sing at all, because the confidence that made her sing freely has been destroyed. The frog, by contrast, never doubts himself — though he has no talent, his self-assurance lets him rule the bog. The poem\'s lesson is double: trust your own gift, for it is the only thing no one can give you or take away, and never let a flatterer become the judge of your worth. The artist who surrenders self-belief surrenders everything.'
+    },
+    {
+      category: 'long',
+      prompt: 'How does the poem satirise the world of art, fame and the audience?',
+      answer: 'The poem is a satire on the whole machinery of art: the artist, the manager, the market and the audience. The nightingale represents the artist whose genuine gift is turned into a product; the frog, the manager who commercialises, controls and ultimately destroys the talent he claims to serve; and the bog\'s creatures, the public whose applause is loud but fickle. The satire is sharpest in the details: the frog charges fees for "training" he cannot provide, raises prices as fame grows, and takes credit for the nightingale\'s success while she does all the work. The audience, for its part, applauds wildly, then grows bored, then jeers — proving that fame built on approval is built on sand. The poem\'s final irony completes the satire: the untalented frog, who never sang well, outlives the singer, and the bog — a world that values noise over music — accepts him as its unrivalled voice. It is a warning, wittily told, about what happens when art is left to the flatterers, the greedy and the crowd.'
+    },
+    {
+      category: 'long',
+      prompt: 'Why is the nightingale\'s death a tragedy — and who is responsible?',
+      answer: 'The nightingale\'s death is a tragedy because it is entirely preventable: she dies not of any illness but of overwork, humiliation and despair — of being pushed beyond her strength to please people who no longer care. Responsibility is shared. The frog is the chief culprit: he exploits her, exhausts her, robs her of confidence and publicly destroys her reputation. The audience is also responsible: its fickle applause made her dependent on approval and its jeering delivered the final blow. But the poem also points at the nightingale herself — at her vanity, her trust in a charlatan, and her fatal lack of self-belief. She had the power to refuse the frog\'s "training", to trust her own song, to leave the bog\'s stage. The tragedy is that the purest singer in the bog was destroyed not by her enemies alone, but by her own surrender of her gift. The poem\'s moral — guard your talent, value your own voice — is addressed to every reader who has ever let another\'s judgement silence them.'
+    }
+  ],
+  quizQuestions: [
+    {
+      question: 'Who wrote "The Frog and the Nightingale"?',
+      options: ['Vikram Seth', 'D.H. Lawrence', 'Shelley', 'Shakespeare'],
+      correct_index: 0,
+      explanation: 'The poem is by Vikram Seth.'
+    },
+    {
+      question: 'The poem is set in:',
+      options: ['a forest', 'Bingle Bog', 'a city park', 'a garden'],
+      correct_index: 1,
+      explanation: 'All the action takes place in Bingle Bog.'
+    },
+    {
+      question: 'The frog\'s singing was:',
+      options: ['sweet and melodious', 'loud and unpleasant — a nuisance to the bog', 'quiet and shy', 'rare'],
+      correct_index: 1,
+      explanation: 'His night-long croaking annoyed every creature in the bog.'
+    },
+    {
+      question: 'The nightingale\'s song made the creatures of the bog:',
+      options: ['angry', 'delighted — they gathered and applauded', 'sleepy', 'jealous'],
+      correct_index: 1,
+      explanation: 'Her beautiful song delighted them all.'
+    },
+    {
+      question: 'The frog offered to train the nightingale:',
+      options: ['for free', 'for a fee', 'in exchange for her feathers', 'because he loved music'],
+      correct_index: 1,
+      explanation: 'He charged her for every lesson — the start of the exploitation.'
+    },
+    {
+      question: 'Under the frog\'s training, the nightingale became:',
+      options: ['famous but exhausted and overworked', 'lazy', 'a teacher herself', 'silent'],
+      correct_index: 0,
+      explanation: 'Her concerts drew crowds, but the fees, rehearsals and criticism wore her out.'
+    },
+    {
+      question: 'The frog destroyed the nightingale\'s confidence by:',
+      options: ['praising her', 'criticising and publicly humiliating her', 'ignoring her', 'teaching her properly'],
+      correct_index: 1,
+      explanation: 'He blamed her harshly before the bog when her voice tired.'
+    },
+    {
+      question: 'The nightingale died because she:',
+      options: ['was poisoned', 'strained herself singing for a jeering crowd', 'flew away', 'caught cold'],
+      correct_index: 1,
+      explanation: 'Forced to perform, she pushed her broken voice past its limit.'
+    },
+    {
+      question: 'The frog is a symbol of:',
+      options: ['true artists', 'the exploiter who profits from and destroys talent', 'the audience', 'good teachers'],
+      correct_index: 1,
+      explanation: 'He is the parasite of art — cunning, greedy and untalented.'
+    },
+    {
+      question: 'The poem\'s central message is:',
+      options: ['fame brings happiness', 'guard your talent; distrust flattery; value your own voice', 'frogs are clever', 'bogs are beautiful'],
+      correct_index: 1,
+      explanation: 'Vanity, flattery and self-doubt destroy genuine talent.'
+    }
+  ]
+};

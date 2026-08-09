@@ -1,0 +1,384 @@
+{
+ "unit": {
+  "id": "a-shady-plot",
+  "book": "literature-reader",
+  "type": "prose",
+  "title": "A Shady Plot",
+  "author": "Elsie Brown",
+  "order": 4
+ },
+ "content": [
+  {
+   "id": 1,
+   "category": "summary",
+   "prompt": "Part 1 — The writer's dilemma",
+   "answer": "John Hallock, a writer of ghost stories, is in trouble: Jenkins, his publisher, is demanding a new story immediately, and threatens to engage another writer if John fails. John's stories are not even his own invention — he takes his plots from a Ouija board, an idea given to him by a friend. With the deadline pressing, John sits at his typewriter in a gloomy mood, unable to write a line, when the words of a strange idea come to him as if dictated by an unseen hand.",
+   "notes": null,
+   "sortOrder": 1
+  },
+  {
+   "id": 2,
+   "category": "summary",
+   "prompt": "Part 2 — The ghost appears",
+   "answer": "Suddenly a ghost materialises before John — a beautiful woman in a green dress, who introduces herself as Helen. She is furious: she complains that people have been using Ouija boards and \"materialising\" ghosts for their own ends, robbing real ghosts of their dignity and business. She tells John he is among the worst — writers who churn out false ghost stories — and insists that he must write her story instead. John, terrified and bewildered, can only listen as she dictates her terms and her plot.",
+   "notes": null,
+   "sortOrder": 2
+  },
+  {
+   "id": 3,
+   "category": "summary",
+   "prompt": "Part 3 — Suspicions at home",
+   "answer": "John's wife Lavinia, who knows nothing of ghosts, overhears him speaking passionately about \"Helen\" and jumps to a very human conclusion — that her husband has another woman. John, unable to explain that his rival is a ghost, becomes entangled in denials. Matters worsen when Lavinia reveals that she and a friend have been holding séances in the house opposite, and that a ghost called Helen has appeared to her as well, telling her that John was in love with her. John's world of writer and husband begins to blur hilariously.",
+   "notes": null,
+   "sortOrder": 3
+  },
+  {
+   "id": 4,
+   "category": "summary",
+   "prompt": "Part 4 — The resolution",
+   "answer": "Helen reappears to John, amused at the mess she has caused, and reveals the whole affair was her mischief — but she still demands her story. John, now desperate and inspired, sits down and writes the tale she wants, and the ghost, satisfied, disappears. The story is delivered to Jenkins, Lavinia's misunderstanding dissolves, and John is left with a wry lesson: that inspiration, even from a ghost, can be a \"shady plot\" — and that a writer should be careful what he asks a Ouija board for.",
+   "notes": null,
+   "sortOrder": 4
+  },
+  {
+   "id": 5,
+   "category": "theme",
+   "prompt": "Superstition and the supernatural",
+   "answer": "The story plays with the theme of superstition — the belief in ghosts, Ouija boards and séances. John's livelihood depends on the supernatural, yet when a real ghost appears he is terrified and helpless. The story gently mocks both believers and doubters: the ghost turns out to be vain, demanding and playful, more like a person than a spectre, while the human characters are more afraid of each other — of an imagined affair — than of the actual ghost. The theme suggests that our fears are often more absurd than the things we fear.",
+   "notes": null,
+   "sortOrder": 5
+  },
+  {
+   "id": 6,
+   "category": "theme",
+   "prompt": "The writer and his inspiration",
+   "answer": "The story is a comic meditation on where stories come from. John, a \"ghost-writer\" in both senses, cannot create without supernatural prompting, and even then his plots are dictated to him. Helen's demand that he write her story — and her anger at writers who misuse ghosts — is the story's joke about the profession: writers borrow, distort and exploit their materials, and the \"materials\" (here, ghosts themselves) might one day object. The theme celebrates imagination while laughing at its dependence on borrowed ghosts.",
+   "notes": null,
+   "sortOrder": 6
+  },
+  {
+   "id": 7,
+   "category": "theme",
+   "prompt": "Misunderstanding and trust in marriage",
+   "answer": "The comic engine of the story is the gulf between appearance and reality in John's marriage. Lavinia hears the name \"Helen\" and builds an entire drama of infidelity, while the truth is that the rival is a ghost — a truth John cannot possibly tell. The theme is that suspicion feeds on silence: John's secrecy, born of an impossible situation, breeds doubt, and only the truth (however absurd) can dissolve it. The story ends with trust restored, and the reader laughing at how little is needed to shake it.",
+   "notes": null,
+   "sortOrder": 7
+  },
+  {
+   "id": 8,
+   "category": "character",
+   "prompt": "John Hallock",
+   "answer": "John Hallock is the narrator, a mild, imaginative writer whose career rests on ghost stories he does not truly invent — his plots come from a Ouija board. He is timid before his publisher Jenkins, terrified before the ghost Helen, and helpless before his wife's suspicions. He is a comic figure: a man who writes about the supernatural yet cannot cope with the one ghost who visits him. His final act — writing Helen's story under pressure — shows his true writer's nature: he can only work when cornered by a deadline and a demanding muse.",
+   "notes": null,
+   "sortOrder": 8
+  },
+  {
+   "id": 9,
+   "category": "character",
+   "prompt": "Helen",
+   "answer": "Helen is the ghost who materialises before John — a beautiful woman in a green dress, and the story's most vivid character. She is vain, sharp-tongued and thoroughly modern in her complaints: humans have been \"using\" ghosts, abusing Ouija boards and stealing the ghost profession, and writers like John are the worst offenders. She dictates her demands like a businesswoman, and delights in the confusion she spreads between John and Lavinia. Her blend of supernatural power and very human vanity is the story's comic heart — a ghost with grievances, a muse with an attitude.",
+   "notes": null,
+   "sortOrder": 9
+  },
+  {
+   "id": 10,
+   "category": "character",
+   "prompt": "Lavinia",
+   "answer": "Lavinia is John's wife, the story's voice of ordinary human reality. She is practical, loving and wholly without supernatural interests — until she takes up a Ouija board with a friend and holds séances in the house opposite. Hearing John talk of \"Helen\", she concludes the worst and confronts him with comic jealousy; yet the ghost Helen has also appeared to her, deepening the confusion. Lavinia's arc is from suspicion to relief: her trust in John is restored when the absurd truth comes out, and she ends the story laughing — the human anchor of a tale that floats on spirits.",
+   "notes": null,
+   "sortOrder": 10
+  },
+  {
+   "id": 11,
+   "category": "character",
+   "prompt": "Jenkins",
+   "answer": "Jenkins is John's publisher, the practical engine of the plot. He appears only briefly, but his demands drive everything: he needs a ghost story at once, threatens to hire another writer, and treats John's artistic agonies as mere business. He is the voice of the mundane world pressing in on the writer — deadlines, contracts, markets — and his impatience is what forces John to the Ouija board and into Helen's path. Jenkins never sees a ghost; he only sees copy.",
+   "notes": null,
+   "sortOrder": 11
+  },
+  {
+   "id": 12,
+   "category": "value",
+   "prompt": "Trust and honest communication",
+   "answer": "The story's comic mess is born of a misunderstanding, and its lesson is the value of openness and trust. Lavinia's suspicion grows because John cannot tell her the truth; had they laughed together at the absurd reality, the \"affair\" would have died at birth. The value lesson: in love and marriage, trust and frankness are the surest shields against imagined wrongs, and suspicion, fed in silence, grows into a ghost of its own.",
+   "notes": null,
+   "sortOrder": 12
+  },
+  {
+   "id": 13,
+   "category": "value",
+   "prompt": "Facing our fears with humour",
+   "answer": "John is terrified of the ghost that visits him, yet Helen turns out to be far less frightening than the misunderstandings she causes. The story's gentle lesson: our fears — of the supernatural, of failure, of losing those we love — often loom larger than their causes, and laughter is a brave and sane response. The writer who feared the ghost ends by bargaining with her; the husband who feared losing his wife keeps her. Courage, the story suggests, is mostly a sense of proportion.",
+   "notes": null,
+   "sortOrder": 13
+  },
+  {
+   "id": 14,
+   "category": "device",
+   "prompt": "Irony and situational humour",
+   "answer": "The story's central irony is that a writer of ghost stories is terrified by a real ghost, and that a wife suspects her husband of infidelity when his rival is a phantom. Every human fear in the story is misplaced: John fears Helen, who only wants a story; Lavinia fears a rival, who is a spirit. The humour of \"A Shady Plot\" grows from this repeated gap between what seems to be happening and what is actually happening.",
+   "notes": null,
+   "sortOrder": 14
+  },
+  {
+   "id": 15,
+   "category": "device",
+   "prompt": "First-person narrative voice",
+   "answer": "The story is told in the first person by John Hallock, and the choice is deliberate: we see the supernatural through the eyes of a writer whose business is invention, and his flustered, self-deprecating voice makes the absurd events believable and funny. The intimate tone lets us share his helplessness with the ghost, his panic before Jenkins and his bewilderment with Lavinia, and it lets the author wink at the reader — we know more than the characters, and laugh with the narrator at himself.",
+   "notes": null,
+   "sortOrder": 15
+  },
+  {
+   "id": 16,
+   "category": "device",
+   "prompt": "Personification of the ghost",
+   "answer": "Helen is a ghost given thoroughly human qualities — vanity, irritation, ambition, mischief. She complains about her profession, dictates plots and plays pranks, as though she were a literary agent with supernatural powers. This personification is the story's great comic device: the supernatural is domesticated into something homely, and the ghost becomes the most lifelike character in the tale, while the humans behave like flustered phantoms of suspicion.",
+   "notes": null,
+   "sortOrder": 16
+  },
+  {
+   "id": 17,
+   "category": "device",
+   "prompt": "The pun of the title",
+   "answer": "The title \"A Shady Plot\" is a pun: a \"plot\" is both a piece of land (the house opposite, where the séances occur) and the storyline of a story. John's plots come from shady, supernatural sources, and the ghost herself devises a shady little plot against him. The double meaning frames the whole tale — writing, deception and the supernatural all folded into one playful phrase.",
+   "notes": null,
+   "sortOrder": 17
+  },
+  {
+   "id": 18,
+   "category": "short",
+   "prompt": "Who is the narrator of \"A Shady Plot\"?",
+   "answer": "John Hallock, a writer of ghost stories.",
+   "notes": null,
+   "sortOrder": 18
+  },
+  {
+   "id": 19,
+   "category": "short",
+   "prompt": "Why was John in trouble at the start of the story?",
+   "answer": "His publisher Jenkins demanded a new ghost story at once, threatening to engage another writer if he failed.",
+   "notes": null,
+   "sortOrder": 19
+  },
+  {
+   "id": 20,
+   "category": "short",
+   "prompt": "Where did John get the ideas for his stories?",
+   "answer": "From a Ouija board, which a friend had advised him to use for inspiration.",
+   "notes": null,
+   "sortOrder": 20
+  },
+  {
+   "id": 21,
+   "category": "short",
+   "prompt": "Who was the ghost that appeared to John?",
+   "answer": "A beautiful ghost called Helen, dressed in green, who demanded that he write her story.",
+   "notes": null,
+   "sortOrder": 21
+  },
+  {
+   "id": 22,
+   "category": "short",
+   "prompt": "What was Helen's complaint against humans?",
+   "answer": "She complained that people abused Ouija boards and stole the ghost profession, and that writers like John spread false stories about ghosts.",
+   "notes": null,
+   "sortOrder": 22
+  },
+  {
+   "id": 23,
+   "category": "short",
+   "prompt": "What did Lavinia wrongly conclude about \"Helen\"?",
+   "answer": "She concluded that John had a woman named Helen — she suspected him of an affair.",
+   "notes": null,
+   "sortOrder": 23
+  },
+  {
+   "id": 24,
+   "category": "short",
+   "prompt": "Where did Lavinia and her friend hold their séances?",
+   "answer": "In the house opposite theirs — the \"opposite house\" of the title's pun.",
+   "notes": null,
+   "sortOrder": 24
+  },
+  {
+   "id": 25,
+   "category": "short",
+   "prompt": "How did the story end?",
+   "answer": "John wrote the ghost's story, delivered it to Jenkins, and the misunderstanding with Lavinia dissolved in laughter and trust.",
+   "notes": null,
+   "sortOrder": 25
+  },
+  {
+   "id": 26,
+   "category": "long",
+   "prompt": "Describe the encounter between John and the ghost Helen.",
+   "answer": "Sitting in a gloomy study with a deadline pressing, John felt a strange idea come to him, and then a ghost materialised before him: a beautiful woman in a green dress, who called herself Helen. She was angry rather than terrifying. She complained that humans had taken to using Ouija boards and staging séances, robbing real ghosts of their profession and dignity, and she blamed writers — John above all — for inventing false ghost stories that made the public disbelieve in real spirits. She insisted that he write her story, dictated her demands, and then vanished, leaving John shaken and helpless. The encounter is comic: the professional ghost-writer is speechless before his own subject, and the ghost behaves less like a spectre and more like an aggrieved employer. John's terror gives way to reluctant obedience, and the meeting sets off all the misunderstandings that follow.",
+   "notes": null,
+   "sortOrder": 26
+  },
+  {
+   "id": 27,
+   "category": "long",
+   "prompt": "How does Lavinia's misunderstanding arise, and how is it resolved?",
+   "answer": "Lavinia's misunderstanding arises from a collision of two secrets. John, in the grip of the ghost's visit, speaks of \"Helen\" in ways that sound like a lover's talk, and Lavinia — who knows nothing of ghosts — hears the name of a woman and concludes her husband is unfaithful. Matters are complicated when Lavinia confesses that she and a friend have been holding séances in the house opposite, and that a ghost named Helen has appeared to her as well, telling her that John was in love with her. Now both spouses are certain of things that are half true and wholly absurd. The resolution comes when Helen, reappearing to John, owns her mischief with a laugh; John writes her story, the deadline is met, and he tells Lavinia the whole ridiculous truth. Her jealousy dissolves into relief and laughter, and the couple is left intact — the ghost, who had seemed to threaten their marriage, has instead been the author of its comedy and its cure.",
+   "notes": null,
+   "sortOrder": 27
+  },
+  {
+   "id": 28,
+   "category": "long",
+   "prompt": "Value question: What does the story teach us about suspicion and trust?",
+   "answer": "The story teaches that suspicion, fed on silence, grows into a ghost far more dangerous than any phantom. John and Lavinia love each other, yet a single misunderstood name nearly becomes a marital crisis: Lavinia's jealousy feeds on what John cannot say, and John's evasions — born of an absurd secret — make him look guilty. The lesson is the value of trust and open communication: if John had been able to share his ridiculous encounter, the \"affair\" would have died laughing in an instant. The story also warns against judging by appearances: Lavinia's séance habit, the house opposite, the name Helen — everything looks like evidence of betrayal, and nothing is. And it ends with the value of forgiveness and humour: the couple laugh together at the ghostly farce, their trust renewed. The real message: honesty between loved ones is the only Ouija board that speaks true.",
+   "notes": null,
+   "sortOrder": 28
+  },
+  {
+   "id": 29,
+   "category": "long",
+   "prompt": "How does the story satirise the profession of writing ghost stories?",
+   "answer": "The story is a gentle satire on the writer's trade, and on ghost stories in particular. John Hallock, a \"ghost-writer\" in the fullest sense, cannot invent anything himself: his plots are dictated by a Ouija board, and even his \"inspiration\" belongs to others. His publisher Jenkins treats art as commerce — a story is a commodity with a deadline, and the writer is a supplier who can be replaced. The satire deepens with Helen's complaint: ghosts themselves are the aggrieved party, their profession stolen by charlatans and their reputation damaged by writers who exploit them for copy. The joke is that the supernatural, far from being a source of mystery, is just another workplace with grievances, unions and demands. The story laughs at writers who borrow their wonders wholesale, and at a public that consumes \"shady plots\" without believing a word — yet keeps demanding more.",
+   "notes": null,
+   "sortOrder": 29
+  },
+  {
+   "id": 30,
+   "category": "long",
+   "prompt": "Do you think Helen is a frightening or a funny ghost? Give reasons.",
+   "answer": "Helen is decidedly funny, and the story is built on making her so. She materialises not with wailing and horror but with grievances — she is an aggrieved professional, indignant that humans have stolen the ghost trade with their Ouija boards and séances. She has the vanity of an actress, the tenacity of a businesswoman and the mischief of a prankster: she delights in the confusion between John and Lavinia, appearing to the wife to whisper that John is in love with her. Even her demands are comic — she wants a story written about her, a commission from her chosen author. Against her, the humans are the frightened ones: John, a professional ghost-writer, trembles before his subject, and Lavinia is more alarmed by an imagined rival than by any spirit. The story's comedy lies precisely in this inversion — a ghost with personality and a writer with none — and Helen's final satisfied disappearance leaves the reader laughing, not chilled.",
+   "notes": null,
+   "sortOrder": 30
+  }
+ ],
+ "quizQuestions": [
+  {
+   "id": 1,
+   "question": "Who wrote \"A Shady Plot\"?",
+   "options": [
+    "Dhumketu",
+    "Elsie Brown",
+    "Saki",
+    "Vikram Seth"
+   ],
+   "correct_index": 1,
+   "explanation": "The story is by Elsie Brown.",
+   "topic": ""
+  },
+  {
+   "id": 2,
+   "question": "John Hallock wrote stories about:",
+   "options": [
+    "detectives",
+    "ghosts",
+    "sports",
+    "travellers"
+   ],
+   "correct_index": 1,
+   "explanation": "He was a writer of ghost stories, always pressed by his publisher.",
+   "topic": ""
+  },
+  {
+   "id": 3,
+   "question": "John's publisher was named:",
+   "options": [
+    "Jenkins",
+    "Johnson",
+    "Jackson",
+    "Jensen"
+   ],
+   "correct_index": 0,
+   "explanation": "Jenkins of the \"People's Friend\" press demanded the new story.",
+   "topic": ""
+  },
+  {
+   "id": 4,
+   "question": "John got the ideas for his stories from:",
+   "options": [
+    "dreams",
+    "a Ouija board",
+    "the newspaper",
+    "his wife"
+   ],
+   "correct_index": 1,
+   "explanation": "A friend had advised him to use the Ouija board for inspiration.",
+   "topic": ""
+  },
+  {
+   "id": 5,
+   "question": "The ghost that appeared to John was called:",
+   "options": [
+    "Hilda",
+    "Helen",
+    "Hazel",
+    "Hannah"
+   ],
+   "correct_index": 1,
+   "explanation": "She was Helen, a beautiful ghost in a green dress.",
+   "topic": ""
+  },
+  {
+   "id": 6,
+   "question": "Helen was angry because humans were:",
+   "options": [
+    "frightened of ghosts",
+    "stealing the ghost profession with Ouija boards and séances",
+    "building on haunted land",
+    "forgetting ghost stories"
+   ],
+   "correct_index": 1,
+   "explanation": "She complained that humans abused the ghost trade and writers spread false stories.",
+   "topic": ""
+  },
+  {
+   "id": 7,
+   "question": "Lavinia suspected John of:",
+   "options": [
+    "gambling",
+    "an affair with a woman named Helen",
+    "stealing stories",
+    "joining a club"
+   ],
+   "correct_index": 1,
+   "explanation": "Hearing him speak of Helen, she concluded he had another woman.",
+   "topic": ""
+  },
+  {
+   "id": 8,
+   "question": "Lavinia and her friend held séances:",
+   "options": [
+    "in their own home",
+    "in the house opposite",
+    "in a temple",
+    "at John's office"
+   ],
+   "correct_index": 1,
+   "explanation": "They held séances in the house opposite theirs — the punning \"shady plot\".",
+   "topic": ""
+  },
+  {
+   "id": 9,
+   "question": "The ghost had told Lavinia that John:",
+   "options": [
+    "was a coward",
+    "was in love with her (Helen)",
+    "was a fraud",
+    "should stop writing"
+   ],
+   "correct_index": 1,
+   "explanation": "Helen mischievously told Lavinia that John was in love with her.",
+   "topic": ""
+  },
+  {
+   "id": 10,
+   "question": "At the end of the story, John:",
+   "options": [
+    "gives up writing",
+    "writes Helen's story and the misunderstanding dissolves",
+    "divorces Lavinia",
+    "becomes a publisher"
+   ],
+   "correct_index": 1,
+   "explanation": "He wrote the ghost's story, satisfied the deadline, and the couple laughed the misunderstanding away.",
+   "topic": ""
+  }
+ ]
+}
