@@ -1,11 +1,31 @@
 {
- "generatedAt": "2026-08-08T14:05:54.246Z",
+ "generatedAt": "2026-08-09T01:50:59.828Z",
  "books": [
   {
    "id": "first-flight",
    "name": "First Flight",
    "tagline": "Prose & poems",
    "unitIds": [
+    "a-letter-to-god",
+    "nelson-mandela-long-walk-to-freedom",
+    "two-stories-about-flying",
+    "from-the-diary-of-anne-frank",
+    "glimpses-of-india",
+    "mijbil-the-otter",
+    "madam-rides-the-bus",
+    "the-sermon-at-benares",
+    "the-proposal",
+    "dust-of-snow",
+    "fire-and-ice",
+    "a-tiger-in-the-zoo",
+    "how-to-tell-wild-animals",
+    "the-ball-poem",
+    "amanda",
+    "animals",
+    "the-trees",
+    "fog",
+    "the-tale-of-custard-the-dragon",
+    "for-anne-gregory",
     "rime-of-the-ancient-mariner"
    ]
   },
@@ -13,17 +33,299 @@
    "id": "footprints",
    "name": "Footprints Without Feet",
    "tagline": "Supplementary reader",
-   "unitIds": []
+   "unitIds": [
+    "a-triumph-of-surgery",
+    "the-thiefs-story",
+    "the-midnight-visitor",
+    "a-question-of-trust",
+    "footprints-without-feet",
+    "the-making-of-a-scientist",
+    "the-necklace",
+    "the-hack-driver",
+    "bholi",
+    "the-book-that-saved-the-earth"
+   ]
   }
  ],
  "units": [
+  {
+   "id": "a-letter-to-god",
+   "book": "first-flight",
+   "type": "prose",
+   "title": "A Letter to God",
+   "author": "G.L. Fuentes",
+   "order": 1,
+   "legacy": false
+  },
+  {
+   "id": "nelson-mandela-long-walk-to-freedom",
+   "book": "first-flight",
+   "type": "prose",
+   "title": "Nelson Mandela: Long Walk to Freedom",
+   "author": "Nelson Mandela",
+   "order": 2,
+   "legacy": false
+  },
+  {
+   "id": "two-stories-about-flying",
+   "book": "first-flight",
+   "type": "prose",
+   "title": "Two Stories about Flying",
+   "author": "Liam O'Flaherty & Frederick Forsyth",
+   "order": 3,
+   "legacy": false
+  },
+  {
+   "id": "from-the-diary-of-anne-frank",
+   "book": "first-flight",
+   "type": "prose",
+   "title": "From the Diary of Anne Frank",
+   "author": "Anne Frank",
+   "order": 4,
+   "legacy": false
+  },
+  {
+   "id": "glimpses-of-india",
+   "book": "first-flight",
+   "type": "prose",
+   "title": "Glimpses of India",
+   "author": "Lucio Rodrigues, Lokesh Abrol & Arup Kumar Dutta",
+   "order": 5,
+   "legacy": false
+  },
+  {
+   "id": "mijbil-the-otter",
+   "book": "first-flight",
+   "type": "prose",
+   "title": "Mijbil the Otter",
+   "author": "Gavin Maxwell",
+   "order": 6,
+   "legacy": false
+  },
+  {
+   "id": "madam-rides-the-bus",
+   "book": "first-flight",
+   "type": "prose",
+   "title": "Madam Rides the Bus",
+   "author": "Vallikkannan",
+   "order": 7,
+   "legacy": false
+  },
+  {
+   "id": "the-sermon-at-benares",
+   "book": "first-flight",
+   "type": "prose",
+   "title": "The Sermon at Benares",
+   "author": "Betty Renshaw (adapted)",
+   "order": 8,
+   "legacy": false
+  },
+  {
+   "id": "the-proposal",
+   "book": "first-flight",
+   "type": "play",
+   "title": "The Proposal",
+   "author": "Anton Chekhov",
+   "order": 9,
+   "legacy": false
+  },
+  {
+   "id": "dust-of-snow",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "Dust of Snow",
+   "author": "Robert Frost",
+   "order": 10,
+   "legacy": false
+  },
+  {
+   "id": "fire-and-ice",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "Fire and Ice",
+   "author": "Robert Frost",
+   "order": 11,
+   "legacy": false
+  },
+  {
+   "id": "a-tiger-in-the-zoo",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "A Tiger in the Zoo",
+   "author": "Leslie Norris",
+   "order": 12,
+   "legacy": false
+  },
+  {
+   "id": "how-to-tell-wild-animals",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "How to Tell Wild Animals",
+   "author": "Carolyn Wells",
+   "order": 13,
+   "legacy": false
+  },
+  {
+   "id": "the-ball-poem",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "The Ball Poem",
+   "author": "John Berryman",
+   "order": 14,
+   "legacy": false
+  },
+  {
+   "id": "amanda",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "Amanda!",
+   "author": "Robin Klein",
+   "order": 15,
+   "legacy": false
+  },
+  {
+   "id": "animals",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "Animals",
+   "author": "Walt Whitman",
+   "order": 16,
+   "legacy": false
+  },
+  {
+   "id": "the-trees",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "The Trees",
+   "author": "Adrienne Rich",
+   "order": 17,
+   "legacy": false
+  },
+  {
+   "id": "fog",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "Fog",
+   "author": "Carl Sandburg",
+   "order": 18,
+   "legacy": false
+  },
+  {
+   "id": "the-tale-of-custard-the-dragon",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "The Tale of Custard the Dragon",
+   "author": "Ogden Nash",
+   "order": 19,
+   "legacy": false
+  },
+  {
+   "id": "for-anne-gregory",
+   "book": "first-flight",
+   "type": "poem",
+   "title": "For Anne Gregory",
+   "author": "W.B. Yeats",
+   "order": 20,
+   "legacy": false
+  },
   {
    "id": "rime-of-the-ancient-mariner",
    "book": "first-flight",
    "type": "poem",
    "title": "The Rime of the Ancient Mariner",
    "author": "Samuel Taylor Coleridge",
-   "order": 21
+   "order": 21,
+   "legacy": true
+  },
+  {
+   "id": "a-triumph-of-surgery",
+   "book": "footprints",
+   "type": "prose",
+   "title": "A Triumph of Surgery",
+   "author": "James Herriot",
+   "order": 1,
+   "legacy": false
+  },
+  {
+   "id": "the-thiefs-story",
+   "book": "footprints",
+   "type": "prose",
+   "title": "The Thief's Story",
+   "author": "Ruskin Bond",
+   "order": 2,
+   "legacy": false
+  },
+  {
+   "id": "the-midnight-visitor",
+   "book": "footprints",
+   "type": "prose",
+   "title": "The Midnight Visitor",
+   "author": "Robert Arthur",
+   "order": 3,
+   "legacy": false
+  },
+  {
+   "id": "a-question-of-trust",
+   "book": "footprints",
+   "type": "prose",
+   "title": "A Question of Trust",
+   "author": "Victor Canning",
+   "order": 4,
+   "legacy": false
+  },
+  {
+   "id": "footprints-without-feet",
+   "book": "footprints",
+   "type": "prose",
+   "title": "Footprints Without Feet",
+   "author": "H.G. Wells",
+   "order": 5,
+   "legacy": false
+  },
+  {
+   "id": "the-making-of-a-scientist",
+   "book": "footprints",
+   "type": "prose",
+   "title": "The Making of a Scientist",
+   "author": "Robert W. Peterson",
+   "order": 6,
+   "legacy": false
+  },
+  {
+   "id": "the-necklace",
+   "book": "footprints",
+   "type": "prose",
+   "title": "The Necklace",
+   "author": "Guy de Maupassant",
+   "order": 7,
+   "legacy": false
+  },
+  {
+   "id": "the-hack-driver",
+   "book": "footprints",
+   "type": "prose",
+   "title": "The Hack Driver",
+   "author": "Sinclair Lewis",
+   "order": 8,
+   "legacy": false
+  },
+  {
+   "id": "bholi",
+   "book": "footprints",
+   "type": "prose",
+   "title": "Bholi",
+   "author": "K.A. Abbas",
+   "order": 9,
+   "legacy": false
+  },
+  {
+   "id": "the-book-that-saved-the-earth",
+   "book": "footprints",
+   "type": "play",
+   "title": "The Book That Saved the Earth",
+   "author": "Claire Boiko",
+   "order": 10,
+   "legacy": false
   }
  ]
 }

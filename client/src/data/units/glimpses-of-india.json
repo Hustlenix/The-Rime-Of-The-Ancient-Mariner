@@ -1,0 +1,368 @@
+{
+ "unit": {
+  "id": "glimpses-of-india",
+  "book": "first-flight",
+  "type": "prose",
+  "title": "Glimpses of India",
+  "author": "Lucio Rodrigues, Lokesh Abrol & Arup Kumar Dutta",
+  "order": 5
+ },
+ "content": [
+  {
+   "id": 361,
+   "category": "summary",
+   "prompt": "Part 1 — A Baker from Goa",
+   "answer": "The first story, by Lucio Rodrigues, recalls the traditional bread-bakers of Goa, called \"paders\". In the narrator's childhood, the baker used to visit every house in the morning with his bamboo staff, making a jingling sound with the thud of his stick that announced his arrival. Bread was an essential part of Goan life: the villagers' eating habits revolved around it, and it was used in feasts and ceremonies. The bakers were prosperous — they wore a special dress, the kabai, a single-piece frock reaching below the knees, and the baker's family never starved. The narrator remembers that the baker's arrival was a daily pleasure of childhood, and the article ends with the thought that even today the thud and jingle of the traditional baker's bamboo still rings in the narrator's ears.",
+   "notes": null,
+   "sortOrder": 1
+  },
+  {
+   "id": 362,
+   "category": "summary",
+   "prompt": "Part 1 (continued) — The baker's importance in Goan life",
+   "answer": "The story emphasises how deeply the baker was woven into Goan life. During marriages, cakes and bolinhas were essential; bread was also used in religious ceremonies. The baker's furnace, built in the courtyard, was where the family's daily bread was baked, and the baker made his breads with a practiced hand. The narrator recalls the baker as a man of status: the paders were known for their prosperity and their dress, and they were important enough that their arrival was an event in the village. Even the children's games and festivals were connected to the baker, showing that bread, and the man who made it, was the heart of the Goan home.",
+   "notes": null,
+   "sortOrder": 2
+  },
+  {
+   "id": 363,
+   "category": "summary",
+   "prompt": "Part 2 — Coorg, the land of the Kodavus",
+   "answer": "The second story, by Lokesh Abrol, describes Coorg (Kodagu), the smallest district of Karnataka, situated between Mysore and the coastal town of Mangalore. It is a land of evergreen forests, coffee plantations and rolling hills, often called the \"Scotland of India\" because of its misty hills and brave people. The people of Coorg, the Kodavus, are believed to be descendants of Greeks or Arabs — possibly of Alexander's soldiers who stayed behind, or of Arab traders. They are a proud, hospitable and martial people, well known for their bravery in battle. The region is also home to wildlife — elephants, bison, sambar and wild boar — and to the river Kaveri, which attracts fish, mahseer, and tourists for river rafting and angling.",
+   "notes": null,
+   "sortOrder": 3
+  },
+  {
+   "id": 364,
+   "category": "summary",
+   "prompt": "Part 2 (continued) — The attractions of Coorg",
+   "answer": "The story also describes Coorg's attractions for visitors. The evergreen forests and coffee estates offer trekking, and the river Kaveri provides rafting and fishing. The region's beautiful views include the Brahmagiri hills, the waterfalls and the misty valleys. The Kodavus are known for their hospitality: guests are welcomed warmly, and Coorgi traditions include serving the visitors with the best of local food. The region also has a famous Tibetan settlement at Bylakuppe, with Buddhist monks in red and maroon robes, adding to the cultural diversity of Coorg. The story ends by describing Coorg as a place that offers something for everyone — adventure, nature, culture and history.",
+   "notes": null,
+   "sortOrder": 4
+  },
+  {
+   "id": 365,
+   "category": "summary",
+   "prompt": "Part 3 — Tea from Assam",
+   "answer": "The third story, by Arup Kumar Dutta, is about a journey by train through Assam, as the narrator Rajvir visits his friend Pranjol during the tea season. As the train passes through the countryside, Rajvir is amazed by the endless rows of tea bushes — a sight that Pranjol, who is from Assam, takes for granted. Pranjol, whose father manages a tea garden, tells Rajvir that the tea they drink is made from leaves that grow on these bushes. Rajvir then shares the legends of the discovery of tea: a Chinese legend says tea was discovered when some leaves fell into a pot of boiling water, and a Buddhist legend says Bodhidharma cut off his eyelids to stay awake and tea plants grew from the spot, and he then made tea from the leaves.",
+   "notes": null,
+   "sortOrder": 5
+  },
+  {
+   "id": 366,
+   "category": "summary",
+   "prompt": "Part 3 (continued) — The history and production of tea",
+   "answer": "Rajvir tells Pranjol that tea was first drunk in China, and that it was in fact the Chinese who discovered how to brew it. He also mentions that tea was brought to India by the British, and that the first tea gardens were planted in Assam — the region that is now the largest producer of tea in the country. Pranjol's father's garden, with its second flush of leaves, is part of this history. The story ends with the two boys arriving at Pranjol's village, where the vast tea gardens stretch as far as the eye can see, and Rajvir looks forward to seeing the tea-making process. The story celebrates the beauty of Assam and the importance of tea to the region and the nation.",
+   "notes": null,
+   "sortOrder": 6
+  },
+  {
+   "id": 367,
+   "category": "theme",
+   "prompt": "The importance of tradition and heritage",
+   "answer": "The three stories together celebrate the traditions and heritage of different regions of India. The first celebrates the Goan baker and the tradition of bread-making; the second celebrates the Kodavus, their bravery, hospitality and the natural beauty of Coorg; the third celebrates the tea culture of Assam and the legends of its discovery. The theme reminds us that these traditions — food, hospitality, agriculture — are the threads that bind a community together and are worth preserving.",
+   "notes": null,
+   "sortOrder": 7
+  },
+  {
+   "id": 368,
+   "category": "theme",
+   "prompt": "Nature and natural beauty",
+   "answer": "Each story celebrates nature: the misty hills of Coorg, the evergreen forests and wildlife, the endless tea gardens of Assam, and even the morning sound of the baker's bamboo in Goa. The theme shows how nature shapes the lives and identities of people — the Kodavus' bravery in the hills, the tea-growers' dependence on the monsoon, and the villagers' daily rhythm set by the baker's arrival.",
+   "notes": null,
+   "sortOrder": 8
+  },
+  {
+   "id": 369,
+   "category": "theme",
+   "prompt": "Diversity and unity of India",
+   "answer": "The stories show the rich diversity of India — different regions, different customs, different livelihoods — yet they are united by common threads: hospitality, hard work, and pride in local culture. From the coastal bakeries of Goa to the misty hills of Coorg and the tea gardens of Assam, India is presented as a land of varied beauty and shared values.",
+   "notes": null,
+   "sortOrder": 9
+  },
+  {
+   "id": 370,
+   "category": "character",
+   "prompt": "The baker (pader) of Goa",
+   "answer": "The Goan baker is a symbol of prosperity and tradition. He is a familiar figure, arriving with his bamboo staff, dressed in the kabai, and carrying bread that is essential to Goan life. He is a man of status — his family never starves, and his arrival is an event. The narrator's fond memory of the baker represents the loss of a cherished tradition and the childhood joy of the baker's daily visit.",
+   "notes": null,
+   "sortOrder": 10
+  },
+  {
+   "id": 371,
+   "category": "character",
+   "prompt": "The Kodavus of Coorg",
+   "answer": "The Kodavus are described as a proud, brave and hospitable people, believed to be descendants of Greeks or Arabs. They are martial — well known for their courage in battle — and yet warm and welcoming to guests. Their culture, rooted in the hills of Coorg, is marked by a spirit of independence and a deep connection to their land.",
+   "notes": null,
+   "sortOrder": 11
+  },
+  {
+   "id": 372,
+   "category": "character",
+   "prompt": "Rajvir",
+   "answer": "Rajvir is the narrator of the third story, a curious and knowledgeable young man visiting Assam for the first time. He is amazed by the tea gardens and eager to learn about the history and legends of tea, which he shares with his friend Pranjol. His enthusiasm and curiosity stand in contrast to Pranjol's familiarity, showing how a fresh perspective can reveal the wonder in things we take for granted.",
+   "notes": null,
+   "sortOrder": 12
+  },
+  {
+   "id": 373,
+   "category": "value",
+   "prompt": "Respect for local traditions",
+   "answer": "The stories teach the value of respecting and preserving local traditions. The Goan baker's craft, the Kodavu way of life and the tea culture of Assam are all part of India's heritage. The lesson is that we should value the customs, crafts and knowledge handed down through generations, for they give a community its identity.",
+   "notes": null,
+   "sortOrder": 13
+  },
+  {
+   "id": 374,
+   "category": "value",
+   "prompt": "Curiosity and learning",
+   "answer": "Rajvir's curiosity about tea — its legends, its history and its cultivation — shows the value of asking questions and learning about the world around us. His enthusiasm turns an ordinary train journey into an adventure of discovery, reminding us that there is always something new to learn, even about the things we see every day.",
+   "notes": null,
+   "sortOrder": 14
+  },
+  {
+   "id": 375,
+   "category": "short",
+   "prompt": "What was the traditional dress of the Goan baker?",
+   "answer": "The Goan baker wore a kabai, a single-piece frock that reached below the knees. It was the traditional dress of the paders, marking them out in the village.",
+   "notes": null,
+   "sortOrder": 15
+  },
+  {
+   "id": 376,
+   "category": "short",
+   "prompt": "Why was bread important in Goan life?",
+   "answer": "Bread was essential to Goan eating habits and was used in feasts and ceremonies. During marriages, cakes and bolinhas were made, and bread was also part of religious ceremonies.",
+   "notes": null,
+   "sortOrder": 16
+  },
+  {
+   "id": 377,
+   "category": "short",
+   "prompt": "Who are the Kodavus?",
+   "answer": "The Kodavus are the people of Coorg. They are believed to be descendants of Greeks or Arabs, and are known for their bravery, hospitality and martial traditions.",
+   "notes": null,
+   "sortOrder": 17
+  },
+  {
+   "id": 378,
+   "category": "short",
+   "prompt": "Why is Coorg called the \"Scotland of India\"?",
+   "answer": "Coorg is called the Scotland of India because of its misty hills, beautiful landscapes and brave people, which resemble the character of Scotland.",
+   "notes": null,
+   "sortOrder": 18
+  },
+  {
+   "id": 379,
+   "category": "short",
+   "prompt": "What are the two legends of the discovery of tea?",
+   "answer": "The Chinese legend says tea was discovered when leaves fell into boiling water; the Buddhist legend says Bodhidharma cut off his eyelids and tea plants grew from the spot where they fell.",
+   "notes": null,
+   "sortOrder": 19
+  },
+  {
+   "id": 380,
+   "category": "short",
+   "prompt": "Where was tea first drunk?",
+   "answer": "Tea was first drunk in China, and the Chinese discovered how to brew it. It was later brought to India by the British, and the first tea gardens were planted in Assam.",
+   "notes": null,
+   "sortOrder": 20
+  },
+  {
+   "id": 381,
+   "category": "short",
+   "prompt": "What animals are found in Coorg?",
+   "answer": "Coorg is home to elephants, bison, sambar and wild boar, and its river Kaveri is famous for mahseer fish.",
+   "notes": null,
+   "sortOrder": 21
+  },
+  {
+   "id": 382,
+   "category": "short",
+   "prompt": "Who was Pranjol's father?",
+   "answer": "Pranjol's father managed a tea garden in Assam, which is why the boys were visiting during the tea season.",
+   "notes": null,
+   "sortOrder": 22
+  },
+  {
+   "id": 383,
+   "category": "long",
+   "prompt": "Why does the narrator say that the baker's arrival was an event in the Goan village?",
+   "answer": "The baker's arrival was an event because bread was central to Goan life. His bamboo staff announced him with a jingling thud, and children ran to greet him because he brought not only bread but also happiness. The baker was a prosperous and respected figure — he wore the kabai, his family never starved, and his craft was essential to every household, from daily meals to weddings and religious ceremonies. The narrator's nostalgia shows that the baker represented more than bread: he was a daily presence that gave rhythm to village life, and his memory lives on in the narrator's ears as the \"thud and jingle\" of tradition.",
+   "notes": null,
+   "sortOrder": 23
+  },
+  {
+   "id": 384,
+   "category": "long",
+   "prompt": "Describe Coorg as \"a piece of heaven that must have drifted from the kingdom of God\".",
+   "answer": "The description of Coorg as a piece of heaven reflects its breathtaking natural beauty. It is a land of evergreen forests, coffee plantations, rolling hills and misty valleys, with the river Kaveri winding through it. The author's imagery suggests that such beauty could only have come from paradise. Beyond the landscape, Coorg offers adventure — rafting, trekking, fishing — and culture: the brave and hospitable Kodavus, their traditions and the Tibetan settlement at Bylakuppe. The comparison to heaven captures both the visual splendour of the region and the sense of peace and wonder it gives visitors, making Coorg a place that feels almost otherworldly.",
+   "notes": null,
+   "sortOrder": 24
+  },
+  {
+   "id": 385,
+   "category": "long",
+   "prompt": "How does Rajvir show his knowledge of tea in \"Tea from Assam\"?",
+   "answer": "Rajvir demonstrates his knowledge by recounting the legends and history of tea. He tells Pranjol the Chinese legend of tea leaves falling into boiling water and the Buddhist legend of Bodhidharma's eyelids. He adds that tea was first drunk in China and that the Chinese invented the brewing method. He also knows that the British brought tea to India and that the first tea gardens were planted in Assam. His knowledge, gathered from books, contrasts with Pranjol's practical familiarity with tea gardens. Rajvir's enthusiasm and research show that curiosity and learning can enrich even the most ordinary journey.",
+   "notes": null,
+   "sortOrder": 25
+  },
+  {
+   "id": 386,
+   "category": "long",
+   "prompt": "Value question: What do the three stories teach us about India's diversity?",
+   "answer": "The three stories present India as a land of rich diversity. Goa's coastal life is shaped by the baker and his bread; Coorg's hill people are brave, hospitable Kodavus living amid misty forests; Assam's tea gardens feed a national industry and a beloved beverage. Each region has its own customs, food, dress and livelihood — yet common values unite them: hospitality, hard work and pride in one's heritage. The lesson is that India's strength lies in this unity in diversity: while every region is unique, together they form a nation of shared traditions and mutual respect. The stories encourage us to explore and appreciate the many faces of our country.",
+   "notes": null,
+   "sortOrder": 26
+  },
+  {
+   "id": 387,
+   "category": "long",
+   "prompt": "Why was the baker's family never starved? What does this tell us about the baker's trade?",
+   "answer": "The baker's family was never starved because bread was indispensable to Goan households — it was eaten daily and used in marriages, festivals and religious ceremonies. The demand for bread was constant and reliable, making the baker's trade prosperous. This tells us that the baker held an important and respected position in the community: his craft was not a luxury but a necessity, and his skill ensured that his family lived comfortably. The narrator's statement is also a tribute to the dignity of honest labour — the baker, through his skill and service, secured not only his own family's wellbeing but also the daily happiness of the village.",
+   "notes": null,
+   "sortOrder": 27
+  },
+  {
+   "id": 388,
+   "category": "long",
+   "prompt": "Compare the three regions described in \"Glimpses of India\".",
+   "answer": "Goa, Coorg and Assam differ in landscape, livelihood and culture, yet share common threads. Goa is coastal, with a warm tropical climate; its life revolves around the sea and the traditional baker, and its culture blends Portuguese and Indian influences. Coorg is mountainous and misty, a land of coffee and forests, inhabited by the martial Kodavus known for bravery and hospitality. Assam is the land of the mighty Brahmaputra and endless tea gardens, where tea cultivation shapes the economy and daily life. While the stories celebrate these differences — from Goan bread to Coorgi bravery to Assamese tea — they also show that all three regions are bound by Indian values of hospitality, hard work and pride in heritage, presenting a complete portrait of India's unity in diversity.",
+   "notes": null,
+   "sortOrder": 28
+  }
+ ],
+ "quizQuestions": [
+  {
+   "id": 131,
+   "question": "The traditional bread-bakers of Goa were called:",
+   "options": [
+    "paders",
+    "bakers",
+    "kabai",
+    "bolinhas"
+   ],
+   "correct_index": 0,
+   "explanation": "The Goan bread-bakers were called paders, and their craft was essential to village life.",
+   "topic": ""
+  },
+  {
+   "id": 132,
+   "question": "The traditional dress of the Goan baker was the:",
+   "options": [
+    "dhoti",
+    "kabai",
+    "saree",
+    "kurta"
+   ],
+   "correct_index": 1,
+   "explanation": "The baker wore a kabai, a single-piece frock reaching below the knees.",
+   "topic": ""
+  },
+  {
+   "id": 133,
+   "question": "Coorg is also known as:",
+   "options": [
+    "the Scotland of India",
+    "the Switzerland of India",
+    "the Kashmir of the South",
+    "the Tea Country"
+   ],
+   "correct_index": 0,
+   "explanation": "Coorg is called the Scotland of India because of its misty hills and brave people.",
+   "topic": ""
+  },
+  {
+   "id": 134,
+   "question": "The people of Coorg, the Kodavus, are believed to be descendants of:",
+   "options": [
+    "the British",
+    "Greeks or Arabs",
+    "the Chinese",
+    "the Persians"
+   ],
+   "correct_index": 1,
+   "explanation": "They are believed to be descendants of Greeks or Arabs — possibly Alexander's soldiers or Arab traders.",
+   "topic": ""
+  },
+  {
+   "id": 135,
+   "question": "The river that flows through Coorg is the:",
+   "options": [
+    "Brahmaputra",
+    "Kaveri",
+    "Ganga",
+    "Godavari"
+   ],
+   "correct_index": 1,
+   "explanation": "The Kaveri flows through Coorg and is famous for mahseer fish and rafting.",
+   "topic": ""
+  },
+  {
+   "id": 136,
+   "question": "In the Buddhist legend, tea plants grew from the spot where:",
+   "options": [
+    "a king was buried",
+    "Bodhidharma's eyelids fell",
+    "a monk meditated",
+    "a seed was sown"
+   ],
+   "correct_index": 1,
+   "explanation": "Bodhidharma cut off his eyelids to stay awake, and tea plants grew from the spot where they fell.",
+   "topic": ""
+  },
+  {
+   "id": 137,
+   "question": "Where was tea first drunk?",
+   "options": [
+    "India",
+    "China",
+    "England",
+    "Japan"
+   ],
+   "correct_index": 1,
+   "explanation": "Tea was first drunk in China, and the Chinese discovered how to brew it.",
+   "topic": ""
+  },
+  {
+   "id": 138,
+   "question": "Tea was brought to India by:",
+   "options": [
+    "the Portuguese",
+    "the British",
+    "the Dutch",
+    "the French"
+   ],
+   "correct_index": 1,
+   "explanation": "The British brought tea to India, and the first tea gardens were planted in Assam.",
+   "topic": ""
+  },
+  {
+   "id": 139,
+   "question": "Who was Pranjol?",
+   "options": [
+    "A Goan baker",
+    "Rajvir's friend from Assam",
+    "A Kodavu warrior",
+    "A tea merchant"
+   ],
+   "correct_index": 1,
+   "explanation": "Pranjol was Rajvir's friend from Assam, whose father managed a tea garden.",
+   "topic": ""
+  },
+  {
+   "id": 140,
+   "question": "The Tibetan settlement in Coorg is at:",
+   "options": [
+    "Bylakuppe",
+    "Mangalore",
+    "Mysore",
+    "Madikeri"
+   ],
+   "correct_index": 0,
+   "explanation": "The Tibetan settlement at Bylakuppe is home to Buddhist monks in red and maroon robes.",
+   "topic": ""
+  }
+ ]
+}

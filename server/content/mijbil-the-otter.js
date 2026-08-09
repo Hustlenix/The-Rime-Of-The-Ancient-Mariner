@@ -1,0 +1,204 @@
+module.exports = {
+  unit: {
+    id: 'mijbil-the-otter',
+    book: 'first-flight',
+    type: 'prose',
+    title: 'Mijbil the Otter',
+    author: 'Gavin Maxwell',
+    order: 6
+  },
+  content: [
+    {
+      category: 'summary',
+      prompt: 'Part 1 — How the author got an otter',
+      answer: 'Gavin Maxwell describes how, after the death of his dog, he travelled to Iraq and was advised by his friend, who lived in the Tigris marshes, to keep an otter instead of a dog. The friend\'s recommendation was simple: an otter is an amusing and affectionate pet. Maxwell sent money to the friend, and in the following weeks he was brought a large sack. When he undid the fastenings and thrust a hand inside, he felt a furry creature; he pulled it out and found himself holding the first otter he had ever seen. It was a small, dark-brown animal about the size of a kitten, and Maxwell named it Mijbil — Mij for short. The otter soon became his constant companion, and he decided to take it back to England when he left Iraq.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 2 — Mij\'s behaviour and water games',
+      answer: 'Maxwell describes Mij\'s playful and intelligent nature. The otter was full of energy and mischief — it liked to sleep in the author\'s bed, played with water in the bathroom, and invented games. Mij\'s favourite game was with a ping-pong ball and a pitcher of water: he would drop the ball into the water, watch it bob up, and then play with it. The author also noticed that Mij had an unusual habit of dragging a rubber object through water. Over time, Mij became attached to Maxwell and followed him everywhere, proving the author\'s friend right: the otter was indeed an amusing and affectionate pet.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 3 — The journey to England',
+      answer: 'Maxwell had to travel from Iraq to England, and the British airline would not allow Mij to travel in the cabin. The author was forced to book a ticket on a different flight, and he made arrangements to keep Mij in a specially designed box. On the day of departure, the airport officials insisted on examining the otter. During the flight, Mij was restless in his box, and when Maxwell opened it slightly, the otter escaped and ran wildly up and down the aisle of the plane, causing chaos among the passengers. Eventually, after much difficulty, the author managed to recapture Mij and calm the other passengers, who were both amused and shocked by the sight of an otter loose in an aircraft.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 4 — Mij in England',
+      answer: 'When Maxwell reached London, he took Mij home, where the otter soon settled into his new life. Mij\'s playful nature continued — he loved water, would play in the bathroom, and invented games with balls and other objects. The author describes Mij\'s characteristic habit of rolling a ball under a low piece of furniture and then trying to retrieve it. The otter became famous in the neighbourhood, and Maxwell enjoyed watching Mij\'s antics. The story ends with the author reflecting on the bond that had grown between him and his unusual pet, a relationship that began with a friend\'s suggestion and became one of the most memorable experiences of his life.'
+    },
+    {
+      category: 'theme',
+      prompt: 'The bond between humans and animals',
+      answer: 'The story celebrates the deep bond that can form between a human being and an animal. Maxwell, grieving the loss of his dog, finds a new companion in Mij, and the two develop a relationship of trust, playfulness and affection. The theme shows that animals can bring joy, companionship and healing, and that caring for a creature can enrich our lives in unexpected ways.'
+    },
+    {
+      category: 'theme',
+      prompt: 'The intelligence and personality of animals',
+      answer: 'The story shows that animals have distinct personalities and remarkable intelligence. Mij is not just a pet but a character — playful, mischievous, curious and affectionate. His games with balls and water, his habit of dragging objects, and his escape on the plane all reveal an animal with a rich inner life. The theme challenges the view of animals as simple creatures and celebrates their individuality.'
+    },
+    {
+      category: 'theme',
+      prompt: 'Adaptation to change',
+      answer: 'The story also touches on the theme of adaptation. Maxwell adapts to life without his dog by accepting an otter; Mij adapts to life with a new owner, to travel, and finally to a new country. The theme shows that change, though difficult, can bring new joys, and that both humans and animals can adjust to new circumstances with patience and flexibility.'
+    },
+    {
+      category: 'character',
+      prompt: 'Mijbil (Mij)',
+      answer: 'Mijbil is the central character of the story — a small, dark-brown otter with a playful and affectionate personality. He is intelligent, curious and full of energy: he plays games with balls and water, drags objects, sleeps in his owner\'s bed and follows Maxwell everywhere. His escape on the plane shows his wild spirit, while his attachment to Maxwell reveals his loving nature. Mij is not just a pet but a character in his own right, and the author\'s detailed descriptions bring him vividly to life.'
+    },
+    {
+      category: 'character',
+      prompt: 'Gavin Maxwell (the narrator)',
+      answer: 'The narrator is an animal lover who, after losing his dog, decides to keep an otter on his friend\'s advice. He is patient, observant and affectionate, devoting time and care to Mij — from naming him to arranging his travel to England. His love for Mij is evident in the way he describes the otter\'s games, habits and personality. Maxwell\'s willingness to adapt to his pet\'s needs shows his kindness and his deep respect for animals.'
+    },
+    {
+      category: 'character',
+      prompt: 'The airline crew and fellow travellers',
+      answer: 'The airline staff and passengers are minor but memorable figures in the story. When Mij escapes from his box on the plane, the air hostess is astonished, and the passengers join in the search for the runaway otter, which finally appears in the middle of the cabin to their amazement. Their reactions — surprise, amusement and good-natured help — highlight how unusual and charming Mij is, and how even strangers warm to the little animal. They also show the author\'s point about the comic chaos an affectionate pet can create.'
+    },
+    {
+      category: 'value',
+      prompt: 'Compassion for animals',
+      answer: 'The story teaches the value of compassion and care for animals. Maxwell treats Mij with kindness, patience and respect, from providing him with a safe box for travel to letting him play freely. The lesson is that animals deserve our love and attention, and that caring for them brings us joy and fulfilment.'
+    },
+    {
+      category: 'value',
+      prompt: 'Accepting the unexpected',
+      answer: 'Maxwell\'s journey from a grieving dog owner to the delighted owner of an otter shows the value of accepting the unexpected. What began as a strange suggestion became a source of deep happiness. The story encourages us to embrace the surprises life brings, as they may lead to the most rewarding experiences.'
+    },
+    {
+      category: 'short',
+      prompt: 'What did Maxwell\'s friend suggest he should keep after his dog died?',
+      answer: 'After his dog died, Maxwell\'s friend, who lived in the Tigris marshes, suggested that he should keep an otter instead of a dog, saying that an otter is an amusing and affectionate pet.'
+    },
+    {
+      category: 'short',
+      prompt: 'How did Maxwell receive the otter?',
+      answer: 'A friend brought him a large sack, and when Maxwell undid the fastenings and thrust his hand inside, he felt a furry creature. He pulled out the first otter he had ever seen — a small, dark-brown animal about the size of a kitten.'
+    },
+    {
+      category: 'short',
+      prompt: 'What did Maxwell name the otter?',
+      answer: 'He named the otter Mijbil, and shortened it to Mij for everyday use.'
+    },
+    {
+      category: 'short',
+      prompt: 'What game did Mij enjoy with water and a ball?',
+      answer: 'Mij loved to play with a ping-pong ball and a pitcher of water: he would drop the ball into the water, watch it bob up to the surface and then play with it.'
+    },
+    {
+      category: 'short',
+      prompt: 'Why did Maxwell have to book a different flight for Mij?',
+      answer: 'The British airline would not allow Mij to travel in the cabin, so Maxwell was forced to book a ticket on a different flight where he could take the otter.'
+    },
+    {
+      category: 'short',
+      prompt: 'What happened when Maxwell opened Mij\'s box on the plane?',
+      answer: 'The moment Maxwell opened the box, Mij escaped and ran wildly up and down the aisle of the plane, causing chaos among the passengers. The author eventually managed to recapture the otter.'
+    },
+    {
+      category: 'short',
+      prompt: 'How did Mij behave in London?',
+      answer: 'In London, Mij settled happily into his new home. He loved water, played in the bathroom, invented games with balls and other objects, and became famous in the neighbourhood for his antics.'
+    },
+    {
+      category: 'short',
+      prompt: 'What was Mij\'s unusual habit with objects?',
+      answer: 'Mij had a habit of dragging rubber or other objects through water and rolling a ball under low furniture, then trying to retrieve it — a game he found endlessly amusing.'
+    },
+    {
+      category: 'long',
+      prompt: 'Describe the bond that developed between Maxwell and Mij.',
+      answer: 'The bond between Maxwell and Mij grew gradually from a chance meeting into deep friendship. Maxwell, grieving the loss of his dog, was initially surprised by the otter, but his natural love for animals led him to care for Mij — naming him, feeding him, playing with him and arranging his travel to England. Mij, in turn, became attached to his owner: he followed Maxwell everywhere, slept in his bed and invented games to play with him. The story shows that this bond was based on mutual affection and trust — Maxwell respected Mij\'s playful nature, and Mij trusted Maxwell completely. By the end, Maxwell\'s life had been transformed by the otter, proving that love between a human and an animal can be as deep as any other.'
+    },
+    {
+      category: 'long',
+      prompt: 'What does the episode on the plane reveal about Mij\'s character?',
+      answer: 'The plane episode reveals Mij\'s wild, spirited and unpredictable nature. Despite being cooped up in a box, the otter\'s natural energy could not be contained: the moment the box was opened, he burst out and ran wildly up and down the aisle, startling passengers. This behaviour shows that Mij, though affectionate at home, remained a wild creature at heart, driven by curiosity and an irrepressible love of freedom. It also shows his intelligence and agility — he evaded capture for a while, darting among seats. The episode is comic but revealing: Mij was not a tame, docile pet but a lively animal with a mind of his own, and that very spirit was part of what made him so endearing to Maxwell.'
+    },
+    {
+      category: 'long',
+      prompt: 'How does Maxwell\'s description of Mij\'s games show the otter\'s intelligence?',
+      answer: 'Maxwell\'s descriptions reveal Mij as a highly intelligent animal. The otter\'s favourite game with the ping-pong ball and pitcher of water shows problem-solving: he understood that the ball would float, and he took pleasure in observing and playing with the result. His habit of dragging objects through water and rolling balls under furniture shows planning and curiosity — he was not acting on instinct alone but exploring and experimenting. The fact that Mij invented his own games, repeated them and took delight in them demonstrates a playful, thinking mind. Through these details, Maxwell shows that animals are not mere instinct-driven creatures; they have personalities, preferences and intelligence that deserve our respect and wonder.'
+    },
+    {
+      category: 'long',
+      prompt: 'Value question: What lessons about caring for animals does the story teach us?',
+      answer: 'The story teaches several valuable lessons about caring for animals. First, it shows the importance of patience and kindness: Maxwell gave Mij time to settle, respected his playful nature and never treated him as a mere possession. Second, it shows the need to understand an animal\'s needs: Maxwell ensured Mij had space, water and games, and arranged safe travel for him. Third, it reveals the joy of companionship: Mij\'s affection enriched Maxwell\'s life after his loss. Finally, the story teaches that animals are individuals with personalities and feelings — they deserve our love, not just our care. By treating animals with compassion, we not only improve their lives but also discover a source of happiness and meaning in our own.'
+    },
+    {
+      category: 'long',
+      prompt: 'Why did Maxwell describe Mij as "the first otter I had ever seen"? What impression does this create?',
+      answer: 'Maxwell\'s phrase creates a sense of wonder and discovery. Before receiving Mij, Maxwell had never encountered an otter — he knew them only from reputation. Pulling a small, dark-brown creature from a sack and realising it was an otter was a moment of surprise and delight. The phrase also signals the beginning of a unique relationship: this was not just any otter but the first of its kind in his life, and it would become his constant companion. By emphasising his inexperience, Maxwell makes Mij\'s subsequent charm and intelligence all the more striking — the reader, too, is meeting this remarkable creature for the first time, through the eyes of a narrator who is as fascinated as we are.'
+    },
+    {
+      category: 'long',
+      prompt: 'What did Maxwell learn from keeping an otter?',
+      answer: 'Maxwell learned that animals are far more complex and rewarding than we often imagine. He had kept a dog before, but Mij taught him about the intelligence, playfulness and individuality of a wild animal tamed by affection. He learned patience — the otter could be mischievous and unpredictable, as the plane episode showed. He learned the value of companionship: after the loss of his dog, Mij filled his life with joy and purpose. And he learned that caring for an animal is a responsibility that brings its own rewards. The story suggests that Maxwell\'s life was enriched not just by having a pet but by the daily discoveries of Mij\'s personality — a lesson about openness, wonder and the deep connections possible between humans and animals.'
+    }
+  ],
+  quizQuestions: [
+    {
+      question: 'After his dog died, Maxwell\'s friend suggested he should keep:',
+      options: ['a cat', 'an otter', 'a parrot', 'a rabbit'],
+      correct_index: 1,
+      explanation: 'His friend, who lived in the Tigris marshes, suggested an otter as an amusing and affectionate pet.'
+    },
+    {
+      question: 'Maxwell received the otter in a:',
+      options: ['wooden crate', 'large sack', 'basket', 'metal cage'],
+      correct_index: 1,
+      explanation: 'A large sack was brought to him, and inside was the otter.'
+    },
+    {
+      question: 'Mijbil was about the size of a:',
+      options: ['dog', 'kitten', 'rabbit', 'mouse'],
+      correct_index: 1,
+      explanation: 'The small, dark-brown otter was about the size of a kitten.'
+    },
+    {
+      question: 'Mij\'s favourite game involved:',
+      options: ['a ball and a pitcher of water', 'a rope', 'a stick', 'a mirror'],
+      correct_index: 0,
+      explanation: 'He loved dropping a ping-pong ball into water and watching it bob up.'
+    },
+    {
+      question: 'Why did Maxwell have to take a different flight to England?',
+      options: ['He missed his flight', 'The airline would not allow Mij in the cabin', 'The first flight was cancelled', 'He wanted a cheaper ticket'],
+      correct_index: 1,
+      explanation: 'The British airline did not allow the otter in the cabin, so he booked another flight.'
+    },
+    {
+      question: 'On the plane, Mij escaped and:',
+      options: ['fell asleep', 'ran up and down the aisle', 'attacked a passenger', 'hid under a seat'],
+      correct_index: 1,
+      explanation: 'The otter escaped from his box and ran wildly up and down the aisle.'
+    },
+    {
+      question: 'Mijbil was taken by Maxwell to:',
+      options: ['Iraq', 'England', 'China', 'Scotland'],
+      correct_index: 1,
+      explanation: 'Maxwell took Mij home to England from Iraq.'
+    },
+    {
+      question: 'Mij liked to play with water in the:',
+      options: ['kitchen', 'bathroom', 'garden', 'river'],
+      correct_index: 1,
+      explanation: 'Mij loved playing with water in the bathroom, among other places.'
+    },
+    {
+      question: 'The story is written by:',
+      options: ['Liam O\'Flaherty', 'Gavin Maxwell', 'Victor Canning', 'Sinclair Lewis'],
+      correct_index: 1,
+      explanation: 'Mijbil the Otter is written by Gavin Maxwell.'
+    },
+    {
+      question: 'Mijbil\'s personality can best be described as:',
+      options: ['fierce and aggressive', 'playful, intelligent and affectionate', 'timid and lazy', 'silent and unfriendly'],
+      correct_index: 1,
+      explanation: 'Mij was playful, intelligent and deeply attached to his owner.'
+    }
+  ]
+};

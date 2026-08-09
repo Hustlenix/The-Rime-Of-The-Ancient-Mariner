@@ -9,7 +9,7 @@
  },
  "content": [
   {
-   "id": 1,
+   "id": 497,
    "category": "summary",
    "prompt": "Part I",
    "answer": "The Ancient Mariner, an old sailor with a grey beard and a mysterious \"glittering eye,\" stops one of three men on their way to a wedding. Though the Wedding Guest is eager to attend the celebration, he becomes spellbound by the Mariner's gaze and is forced to listen to his story. The Mariner narrates how his ship sailed southward but was driven by a violent storm towards the South Pole, where it was trapped among huge icebergs, mist, and snow. The eerie silence of the icy region is broken by the arrival of an Albatross, a large seabird. The sailors welcome it as a holy and lucky bird, believing it has been sent by God. They feed it, and soon a favourable wind helps the ship escape the icy waters. However, without any reason, the Mariner suddenly shoots the innocent Albatross with his crossbow. This senseless act becomes the turning point of the poem and brings terrible consequences.",
@@ -17,7 +17,7 @@
    "sortOrder": 1
   },
   {
-   "id": 2,
+   "id": 498,
    "category": "summary",
    "prompt": "Part II",
    "answer": "After the Albatross is killed, the sailors are horrified and blame the Mariner for his cruel deed. However, when the fog clears and the weather improves, they change their minds and praise him, believing the bird had caused the mist. By approving his action, the sailors also share the guilt. Soon, nature turns against them. The wind stops completely, leaving the ship stranded on a motionless sea under the burning \"bloody Sun\" and a \"hot and copper sky.\" The crew suffers from unbearable thirst, surrounded by water that they cannot drink—\"Water, water, everywhere, nor any drop to drink.\" Strange slimy sea creatures appear, and the sailors realise that supernatural forces are punishing them for the killing of the Albatross. Unable to speak because of thirst, they silently blame the Mariner and hang the dead Albatross around his neck in place of a cross, making it a symbol of his sin, guilt, and punishment.",
@@ -25,7 +25,7 @@
    "sortOrder": 2
   },
   {
-   "id": 3,
+   "id": 499,
    "category": "theme",
    "prompt": "Central Theme",
    "answer": "The theme of \"The Rime of the Ancient Mariner\" is, in reality, weaved throughout the entire narrative. It is also easily understood through the symbolic representation of the bird Albatross, other seafarers, and the Ancient Mariner. Sea becomes another symbol. The poem is based on the idea of sin and atonement. The old mariner's remorse at killing the albatross, which he considers to be sin, haunts him in the shape of odd natural and paranormal occurrences. He changes his mind and regrets his conduct after one horrific incident. The theme of The Rime of the Ancient Mariner is sin and natural forces' retaliation. When the innocent Albatross is killed, the Ancient Mariner sins. His shipmates initially become furious with him for this callous deed. However, they defend the killing when they discover that the weather has improved since the albatross was killed. As a result, they join the Ancient Mariner in committing a crime. Natural forces exact revenge for this crime and calm the ship. There was no water to drink, and it was extremely hot. The sailors suffered a great deal.",
@@ -33,7 +33,7 @@
    "sortOrder": 1
   },
   {
-   "id": 4,
+   "id": 500,
    "category": "device",
    "prompt": "ALLITERATION",
    "answer": "\"Below the kirk, below the hill, Below the lighthouse top\" ('b' sound is repeated); \"The furrow followed free\" ('f' sound is repeated)",
@@ -41,7 +41,7 @@
    "sortOrder": 1
   },
   {
-   "id": 5,
+   "id": 501,
    "category": "device",
    "prompt": "IMAGERY",
    "answer": "\"hot and copper sky\" (the sky is imagined as a piece of copper), \"bloody Sun\"",
@@ -49,7 +49,7 @@
    "sortOrder": 2
   },
   {
-   "id": 6,
+   "id": 502,
    "category": "device",
    "prompt": "IRONY",
    "answer": "\"Water, water, everywhere, nor any drop to drink\" (although they were surrounded by water, they did not have a drop of water to drink)",
@@ -57,7 +57,7 @@
    "sortOrder": 3
   },
   {
-   "id": 7,
+   "id": 503,
    "category": "device",
    "prompt": "METAPHOR",
    "answer": "\"All in a hot and copper sky, The bloody sun, at noon\" (The sky's colour has been indirectly compared to the colour of copper. The Sun has been indirectly compared to blood)",
@@ -65,7 +65,7 @@
    "sortOrder": 4
   },
   {
-   "id": 8,
+   "id": 504,
    "category": "device",
    "prompt": "ONOMATOPOEIA",
    "answer": "The ice 'cracked and growled, and roared and howled'",
@@ -73,7 +73,7 @@
    "sortOrder": 5
   },
   {
-   "id": 9,
+   "id": 505,
    "category": "device",
    "prompt": "PERSONIFICATION",
    "answer": "\"The sun came up upon the left, Out of the sea came he\" (The Sun has been personified when addressed as 'he'); \"And now the storm-blast came, and he was tyrannous and strong\" (The storm blast has been personified when addressed as 'he'); \"The death-fires danced at night\" (Fire has been personified when said that it danced)",
@@ -81,7 +81,7 @@
    "sortOrder": 6
   },
   {
-   "id": 10,
+   "id": 506,
    "category": "device",
    "prompt": "HYPERBOLE",
    "answer": "\"Still treads the shadow of his foe\" (The storm has been shown as a person with a lot of powers which have been exaggerated)",
@@ -89,7 +89,7 @@
    "sortOrder": 7
   },
   {
-   "id": 11,
+   "id": 507,
    "category": "device",
    "prompt": "REPETITION",
    "answer": "\"The ice was here, the ice was there, The ice was all around\" (The word 'ice' has been repeated to lay emphasis); \"Day after day, day after day\" (to lay emphasis)",
@@ -97,7 +97,7 @@
    "sortOrder": 8
   },
   {
-   "id": 12,
+   "id": 508,
    "category": "device",
    "prompt": "RHYME SCHEME",
    "answer": "ab cb",
@@ -105,7 +105,7 @@
    "sortOrder": 9
   },
   {
-   "id": 13,
+   "id": 509,
    "category": "device",
    "prompt": "SIMILE",
    "answer": "\"The Wedding-Guest stood still, And listens like a three years' child\"; \"The bride hath paced into the hall, Red as a rose is she\" (The bride is compared to a red rose); \"Nor dim nor red, like God's own head\" (The Sun has been compared to the halo surrounding God); \"As idle as a painted ship Upon a painted ocean\" (the ship and the sea have been compared to those in a painting); \"like a witch's oils\" (The sea is dramatically compared to the witch burning oils)",
@@ -113,7 +113,7 @@
    "sortOrder": 10
   },
   {
-   "id": 14,
+   "id": 510,
    "category": "short",
    "prompt": "The sailors are fickle-minded. Justify this statement with reference to the poem.",
    "answer": "The sailors are confused because at first, they blamed the mariner. Then, they praised him. They thought that the killing of the albatross brought them great woe. When the sun rose, they felt he had done the right thing. They did not judge the killing of albatross by any standard of reasoning but by the change in the weather.",
@@ -121,7 +121,7 @@
    "sortOrder": 1
   },
   {
-   "id": 15,
+   "id": 511,
    "category": "short",
    "prompt": "What crime had the mariner committed and how did it prove hellish?",
    "answer": "The innocent bird that had brought new hope and the blowing of the south breeze had been killed by the mariner. The Mariners' ship was stranded in the midst of the scorching sea when the bird was killed. They went through a lot of physical and mental suffering because they had no water to drink and no sign of hope to cheer them up.",
@@ -129,7 +129,7 @@
    "sortOrder": 2
   },
   {
-   "id": 16,
+   "id": 512,
    "category": "short",
    "prompt": "How did the sailors react to the killing of the Albatross by the Ancient Mariner?",
    "answer": "First, they blamed him. Then they praised him. They believed that the death of the albatross had caused them considerable suffering. They believed he made the right decision when the sun dawned. They used the weather change instead of any other standard of logic to evaluate the killing of the albatross.",
@@ -137,7 +137,7 @@
    "sortOrder": 3
   },
   {
-   "id": 17,
+   "id": 513,
    "category": "short",
    "prompt": "The crew hangs the albatross around the sailor's neck. What was the significance of this act?",
    "answer": "When the crew became lost in the polar zone, the albatross started to pursue the ship. It was welcomed with tremendous jubilation and hospitality and was seen as auspicious. In a fit of rage, the Ancient Mariner shot the albatross with a crossbow. It was believed that doing so would curse the ship, which did experience awful misfortunes.",
@@ -145,7 +145,7 @@
    "sortOrder": 4
   },
   {
-   "id": 18,
+   "id": 514,
    "category": "short",
    "prompt": "Interpret imagery and symbolism in The Rime of the Ancient Mariner, as elements that contribute to the poem's overarching themes of retribution and redemption.",
    "answer": "The albatross, initially a symbol of nature's grace, becomes a burden when the Mariner kills it, representing his guilt. The ship's desolate imagery and the ghostly events reflect retribution for his actions. The eventual removal of the albatross and the Mariner's compulsion to share his tale symbolise redemption, illustrating his transformation through suffering and penance.",
@@ -153,7 +153,7 @@
    "sortOrder": 5
   },
   {
-   "id": 19,
+   "id": 515,
    "category": "short",
    "prompt": "How were the mariners saved from the land of ice and snow?",
    "answer": "The mariner had commenced his voyage in a very favourable weather condition. The fellow mariners were also very excited and happy. All of a sudden there came a storm and it was very powerful and tyrannous. When the sea water froze and the ship was surrounded by icebergs from all sides, the mariners lost their hope of survival. They thought that they would die of starvation and thirst after consuming their limited food and water. All of a sudden, there came an albatross piercing the fog and the mist. Its arrival proved auspicious and ice began to melt. Their crewmen started steering the ship and the mariners were saved.",
@@ -161,7 +161,7 @@
    "sortOrder": 6
   },
   {
-   "id": 20,
+   "id": 516,
    "category": "short",
    "prompt": "What traits of the ancient mariner's character are revealed in the poem, \"The Rime of the Ancient Mariner'?",
    "answer": "The protagonist of the poem is feeble, frail and skinny owing to his old age. He is neither considerate nor positive in his attitude. Being cruel and short tempered he kills an innocent bird without any provocation. Being Selfish, he compels others to listen to his story so that he can get his sin reduced by making confession. He has learnt magic for getting his work done according to his own wish and desire.",
@@ -169,7 +169,7 @@
    "sortOrder": 7
   },
   {
-   "id": 21,
+   "id": 517,
    "category": "long",
    "prompt": "Examine the ideas of crime and punishment in the poem.",
    "answer": "Without giving a good cause, the Mariner killed the albatross. This killing of the harmless bird infuriated the sailors. But once the fog cleared, they claimed that killing the bird responsible for the fog and mist was the right decision. They begin to applaud the act of murdering the bird and join forces in crime rather than denouncing it. As the winds calm down and they become stranded aboard the ship, without any water to drink and feel as though they are choking in soot, they feel that they are being punished by God for their transgression. With the albatross's weight around his neck, the sailors punished the Ancient Mariner. The value that this incident provides is that harming an innocent creature has terrible repercussions.",
@@ -177,7 +177,7 @@
    "sortOrder": 1
   },
   {
-   "id": 22,
+   "id": 518,
    "category": "long",
    "prompt": "What is the poet trying to convey through this poem?",
    "answer": "We are forced to bear the repercussions of our careless acts whenever we act or behave in a careless manner. Our own conscience is the one that holds us accountable. We struggle to find joy. Our daily lives become challenging. As the saying goes, \"A continual Christmas is a clear conscience.\" We only confess our sins once it is too late. You cannot reverse what has already been done. A heart burdened with guilt is denied the simple joys of happiness. He walks around with a lowered head when he knows he has sinned. Part of one's penance is to share one's guilt. Accepting responsibility for one's actions equates to innocence. A person who feels guilty wants to share their suffering and wanders around seeking a sympathetic ear. He may feel lighter after doing this. The anguish can be eased by acknowledging one's error, pleading for pardon, and making a firm commitment never to repeat the wrong. The sinner is also redeemed by confession of sin.",
@@ -185,7 +185,7 @@
    "sortOrder": 2
   },
   {
-   "id": 23,
+   "id": 519,
    "category": "long",
    "prompt": "No sinful action can ever go without its consequences. What consequences does the Ancient Mariner have to face as a result of his sinful action?",
    "answer": "The poem, The Rime of the Ancient Mariner, deals a cruel mariner who did the ghastly act of killing the albatross. As a result, he landed himself in such a situation that all the sailors blamed him for the problem they faced during their voyage and hung the dead albatross around his neck to remind him of his sinful act. Through the poem, Coleridge wants to say that we are paid back in the same coin. The mariner was being tormented and the only way to lessen this torment was by sharing the incident with someone and to do the same, he stopped one of the wedding guests and told him the story. Thus, since that day, the mariner has been living a life of guilt and looking to expiate his sin.",
@@ -195,7 +195,7 @@
  ],
  "quizQuestions": [
   {
-   "id": 1,
+   "id": 181,
    "question": "Who shot the Albatross, and with what weapon did he shoot it?",
    "options": [
     "The Wedding Guest, with a pistol",
@@ -208,7 +208,7 @@
    "topic": "Plot"
   },
   {
-   "id": 2,
+   "id": 182,
    "question": "Why did the sailors first blame the Mariner for killing the Albatross?",
    "options": [
     "Because the bird was the captain’s favourite",
@@ -221,7 +221,7 @@
    "topic": "Plot"
   },
   {
-   "id": 3,
+   "id": 183,
    "question": "Why did the sailors later praise the Mariner for killing the Albatross?",
    "options": [
     "The ship reached the shore soon after",
@@ -234,7 +234,7 @@
    "topic": "Plot"
   },
   {
-   "id": 4,
+   "id": 184,
    "question": "What did the sailors hang around the Mariner’s neck?",
    "options": [
     "A compass",
@@ -247,7 +247,7 @@
    "topic": "Symbolism"
   },
   {
-   "id": 5,
+   "id": 185,
    "question": "What does \"Water, water, everywhere, nor any drop to drink\" express?",
    "options": [
     "The sea was flooding the ship",
@@ -260,7 +260,7 @@
    "topic": "Poetic Device"
   },
   {
-   "id": 6,
+   "id": 186,
    "question": "Which poetic device is used in \"The ice was here, the ice was there, The ice was all around\"?",
    "options": [
     "Simile",
@@ -273,7 +273,7 @@
    "topic": "Poetic Device"
   },
   {
-   "id": 7,
+   "id": 187,
    "question": "Which poetic device is used in \"The furrow followed free\"?",
    "options": [
     "Alliteration",
@@ -286,7 +286,7 @@
    "topic": "Poetic Device"
   },
   {
-   "id": 8,
+   "id": 188,
    "question": "Which of these lines from the poem is a simile?",
    "options": [
     "The ice was here, the ice was there",
@@ -299,7 +299,7 @@
    "topic": "Poetic Device"
   },
   {
-   "id": 9,
+   "id": 189,
    "question": "What is the central theme of the poem?",
    "options": [
     "The joy of sea voyages",
@@ -312,7 +312,7 @@
    "topic": "Theme"
   },
   {
-   "id": 10,
+   "id": 190,
    "question": "How were the mariners saved from the land of ice and snow?",
    "options": [
     "Another ship rescued them",
@@ -325,7 +325,7 @@
    "topic": "Plot"
   },
   {
-   "id": 11,
+   "id": 191,
    "question": "Which of these traits describes the Ancient Mariner?",
    "options": [
     "Kind and forgiving",
@@ -338,7 +338,7 @@
    "topic": "Character"
   },
   {
-   "id": 12,
+   "id": 192,
    "question": "What does \"All in a hot and copper sky, The bloody sun, at noon\" describe?",
    "options": [
     "A beautiful sunrise at sea",
@@ -351,7 +351,7 @@
    "topic": "Imagery"
   },
   {
-   "id": 13,
+   "id": 193,
    "question": "Which bird pierced the fog and mist to reach the trapped ship?",
    "options": [
     "A raven",
@@ -364,7 +364,7 @@
    "topic": "Plot"
   },
   {
-   "id": 14,
+   "id": 194,
    "question": "Who is the Wedding Guest in the poem?",
    "options": [
     "The Mariner’s son",
@@ -377,7 +377,7 @@
    "topic": "Plot"
   },
   {
-   "id": 15,
+   "id": 195,
    "question": "What curse did the sailors share by approving the killing of the Albatross?",
    "options": [
     "They were turned to stone",
@@ -390,7 +390,7 @@
    "topic": "Theme"
   },
   {
-   "id": 16,
+   "id": 196,
    "question": "What is the rhyme scheme of the poem’s typical stanza?",
    "options": [
     "aabb",
@@ -403,7 +403,7 @@
    "topic": "Poetic Device"
   },
   {
-   "id": 17,
+   "id": 197,
    "question": "Why could the sailors not speak as they watched the Mariner suffer?",
    "options": [
     "A spell cast by the Albatross",
@@ -416,7 +416,7 @@
    "topic": "Plot"
   },
   {
-   "id": 18,
+   "id": 198,
    "question": "What is personified in \"The death-fires danced at night\"?",
    "options": [
     "The sun",
@@ -429,7 +429,7 @@
    "topic": "Poetic Device"
   },
   {
-   "id": 19,
+   "id": 199,
    "question": "Where was the ship stranded after the wind stopped?",
    "options": [
     "On a motionless sea under the burning \"bloody Sun\" and a \"hot and copper sky\"",
@@ -442,7 +442,7 @@
    "topic": "Imagery"
   },
   {
-   "id": 20,
+   "id": 200,
    "question": "Why is the Mariner compelled to share his tale with the Wedding Guest?",
    "options": [
     "To warn others about the dangers of the sea",

@@ -1,0 +1,344 @@
+{
+ "unit": {
+  "id": "the-hack-driver",
+  "book": "footprints",
+  "type": "prose",
+  "title": "The Hack Driver",
+  "author": "Sinclair Lewis",
+  "order": 8
+ },
+ "content": [
+  {
+   "id": 576,
+   "category": "summary",
+   "prompt": "Part 1 — The young lawyer and the summons",
+   "answer": "The story is narrated by a young, ambitious lawyer who has just begun his career. He is given his first important task: to go to the small town of New Mullion and serve legal papers on a man named Oliver Lutkins, who is needed as a witness in a lawsuit. The narrator imagines Lutkins as a serious, important man — a villain perhaps, or at least a respectable citizen. He travels by train to New Mullion, full of enthusiasm, ready to prove his worth as a sharp and capable lawyer.",
+   "notes": null,
+   "sortOrder": 1
+  },
+  {
+   "id": 577,
+   "category": "summary",
+   "prompt": "Part 2 — The friendly hack driver",
+   "answer": "At the railway station, the narrator finds no one to help him and asks about Lutkins. A cheerful hack driver, Bill Magnuson, offers to help him find Lutkins. Bill is friendly, talkative and full of stories about the town — he drives the narrator around New Mullion, taking him to the farm where Lutkins is said to live, to his favourite shops and haunts, even to a poolroom and a barber's. Everyone they meet tells tales of Lutkins's cunning and toughness — that he is a wizard at cards, hard to catch, and owes money all over town. The narrator pays Bill generously for his time, and Bill's price grows with each excursion.",
+   "notes": null,
+   "sortOrder": 2
+  },
+  {
+   "id": 578,
+   "category": "summary",
+   "prompt": "Part 3 — The fruitless search",
+   "answer": "The narrator searches the whole day for Lutkins — the farm, the poolroom, the barber shop, the hotel — but Lutkins is never there: he has always \"just left\". The young lawyer grows tired, discouraged and embarrassed, while Bill enjoys the town's jokes at the stranger's expense. The narrator even has lunch at a restaurant, where the waitress and locals tease him about his quest. Convinced that Lutkins is a dangerous, slippery criminal, the narrator gives up, takes the train back, and reports to his firm that Lutkins is a hardened character impossible to catch — while Bill, his faithful ally, waves goodbye at the station.",
+   "notes": null,
+   "sortOrder": 3
+  },
+  {
+   "id": 579,
+   "category": "summary",
+   "prompt": "Part 4 — The discovery",
+   "answer": "A few days later, the narrator's senior partner sends him back to New Mullion with a message for Lutkins. This time, at the station, he sees a familiar figure — and realises with shock that the friendly hack driver, Bill Magnuson, was Oliver Lutkins himself. All day long, Lutkins had driven him around, pocketed his money, and laughed at him with the whole town. The narrator is humiliated and furious, but Lutkins, delighted, greets him cheerfully. The story ends with the young lawyer learning a lesson in humility and in not judging by appearances.",
+   "notes": null,
+   "sortOrder": 4
+  },
+  {
+   "id": 580,
+   "category": "theme",
+   "prompt": "Appearances can be deceptive",
+   "answer": "The central theme is that appearances deceive. The narrator imagines Lutkins as a formidable, important man, while the \"simple\" hack driver Bill turns out to be Lutkins himself. The cheerful, helpful country fellow was the cunning trickster all along. The story warns against trusting first impressions and against pride: the narrator's confidence in his own cleverness is exactly what makes him easy to fool.",
+   "notes": null,
+   "sortOrder": 5
+  },
+  {
+   "id": 581,
+   "category": "theme",
+   "prompt": "Humility and learning from experience",
+   "answer": "The story is about a young man's education in humility. The narrator sets out full of self-importance, sure he will shine at his first case, and is outwitted by a small-town trickster. His failure teaches him not to underestimate people, and not to rely on his own cleverness too quickly. The theme: experience, not self-regard, is the real teacher.",
+   "notes": null,
+   "sortOrder": 6
+  },
+  {
+   "id": 582,
+   "category": "theme",
+   "prompt": "Small-town humour and wit",
+   "answer": "The story celebrates the wit and humour of small-town life. The whole of New Mullion is in on the joke — the farm woman, the shopkeepers, the poolroom boys, the waitress — and every one of them helps Bill string along the city lawyer. The trick is friendly rather than cruel: Lutkins treats his victim to a day of amusement at his expense, and even at the end seems proud and cheerful. The theme shows how communities protect their own and enjoy a joke at the outsider's expense.",
+   "notes": null,
+   "sortOrder": 7
+  },
+  {
+   "id": 583,
+   "category": "character",
+   "prompt": "The narrator (the young lawyer)",
+   "answer": "The narrator is a young, ambitious lawyer just starting his career, keen to impress his firm with his first assignment. He is confident, a little conceited, and full of romantic ideas about the \"important\" man he is to serve papers on. He is also naive and trusting: he is charmed by Bill's friendliness and never suspects the helper is the man he seeks. His day is a comedy of errors, ending in humiliation when he discovers the truth. His experience teaches him humility — a lesson he admits he deserved. He is likeable in his earnestness, and his defeat makes him wiser.",
+   "notes": null,
+   "sortOrder": 8
+  },
+  {
+   "id": 584,
+   "category": "character",
+   "prompt": "Bill Magnuson (Oliver Lutkins)",
+   "answer": "Bill Magnuson, the hack driver, is actually Oliver Lutkins himself — the very man the narrator is looking for. He is cheerful, talkative and brilliantly cunning: instead of being caught, he befriends the young lawyer, drives him around the town all day, collects his money and enjoys a town-wide joke at his expense. He is the picture of the shrewd, good-humoured country man — a \"hack driver\" with a wizard's skill at cards and a master's skill at deception. When his identity is revealed, he is not ashamed but delighted, greeting his victim with friendly cheer. He represents the theme: the simplest, friendliest man may be the cleverest of all.",
+   "notes": null,
+   "sortOrder": 9
+  },
+  {
+   "id": 585,
+   "category": "character",
+   "prompt": "The people of New Mullion",
+   "answer": "The townspeople of New Mullion — the farm woman, the shopkeepers, the poolroom boys, the barber and the waitress — are supporting characters who make Lutkins's trick work. Every one of them plays a part: they describe Lutkins as a dangerous character, tell the lawyer he has \"just left\", and share knowing smiles behind his back. They are loyal to their own, welcoming the stranger with hospitality even while joining the joke at his expense. Together they represent the tight-knit, humorous world of a small town, where everybody knows everybody — and where a clever local can outwit a visiting lawyer with the whole community's help.",
+   "notes": null,
+   "sortOrder": 10
+  },
+  {
+   "id": 586,
+   "category": "value",
+   "prompt": "Do not judge by appearances",
+   "answer": "The story teaches that first impressions are unreliable. The narrator judged Lutkins by his own romantic imagination and judged Bill by his friendly smile — both wrong. The lesson is to be observant, humble and slow to trust appearances, whether of people or situations.",
+   "notes": null,
+   "sortOrder": 11
+  },
+  {
+   "id": 587,
+   "category": "value",
+   "prompt": "Humility and self-awareness",
+   "answer": "The young lawyer's conceit — his belief in his own cleverness — was the very thing that blinded him. The story teaches that pride before knowledge makes fools of us all, and that humility, patience and attention to detail are the true tools of learning.",
+   "notes": null,
+   "sortOrder": 12
+  },
+  {
+   "id": 588,
+   "category": "short",
+   "prompt": "What task was the young lawyer given?",
+   "answer": "He was sent to the town of New Mullion to serve legal papers on Oliver Lutkins, a witness needed in a lawsuit.",
+   "notes": null,
+   "sortOrder": 13
+  },
+  {
+   "id": 589,
+   "category": "short",
+   "prompt": "How did the narrator imagine Lutkins?",
+   "answer": "He imagined him as an important, serious man — possibly a villain, certainly someone formidable and respectable.",
+   "notes": null,
+   "sortOrder": 14
+  },
+  {
+   "id": 590,
+   "category": "short",
+   "prompt": "Who offered to help the narrator find Lutkins?",
+   "answer": "Bill Magnuson, a cheerful, talkative hack driver, offered to drive him around town and help him search.",
+   "notes": null,
+   "sortOrder": 15
+  },
+  {
+   "id": 591,
+   "category": "short",
+   "prompt": "What did the townspeople say about Lutkins?",
+   "answer": "They described him as cunning and tough — a wizard at cards, hard to catch, and owing money all over town.",
+   "notes": null,
+   "sortOrder": 16
+  },
+  {
+   "id": 592,
+   "category": "short",
+   "prompt": "Where did Bill take the narrator in his search?",
+   "answer": "He took him to the farm where Lutkins was said to live, and to his favourite haunts — shops, a poolroom, a barber shop and the hotel.",
+   "notes": null,
+   "sortOrder": 17
+  },
+  {
+   "id": 593,
+   "category": "short",
+   "prompt": "Why did the narrator give up the search?",
+   "answer": "After a whole day of chasing Lutkins and finding him always \"just left\", he was tired and discouraged and took the evening train back.",
+   "notes": null,
+   "sortOrder": 18
+  },
+  {
+   "id": 594,
+   "category": "short",
+   "prompt": "How did the narrator learn the truth?",
+   "answer": "When he returned to New Mullion, he saw the \"hack driver\" at the station and recognised him — Bill Magnuson was Oliver Lutkins himself.",
+   "notes": null,
+   "sortOrder": 19
+  },
+  {
+   "id": 595,
+   "category": "short",
+   "prompt": "How did Lutkins react to being discovered?",
+   "answer": "He was delighted, greeted the narrator cheerfully, and seemed proud of the joke he had played.",
+   "notes": null,
+   "sortOrder": 20
+  },
+  {
+   "id": 596,
+   "category": "long",
+   "prompt": "How did Oliver Lutkins trick the young lawyer?",
+   "answer": "Oliver Lutkins tricked the narrator with perfect simplicity and wit. When the young lawyer stepped off the train in New Mullion, Lutkins was right there — as Bill Magnuson, the friendly hack driver. Instead of being caught, he offered his help, and then turned the search into a town-wide comedy. He drove the narrator to the farm where \"Lutkins\" supposedly lived, then to his favourite haunts — the poolroom, the barber shop, the hotel — always arriving just after Lutkins had \"left\". Everyone in town played along, describing Lutkins as a slippery, dangerous character, so that the lawyer became more and more convinced of his villainy. All day Lutkins collected the narrator's money for the rides, and even the farm woman, the shopkeepers and the waitress enjoyed the joke. The narrator returned home, convinced that Lutkins was a hardened criminal — while the criminal himself had waved goodbye at the station.",
+   "notes": null,
+   "sortOrder": 21
+  },
+  {
+   "id": 597,
+   "category": "long",
+   "prompt": "What does the story teach about judging people by appearances?",
+   "answer": "The story is a perfect illustration of the danger of judging by appearances. The narrator formed his opinion of Lutkins before meeting him: he imagined a villain or at least a very important man. And he formed his opinion of Bill with equal haste: a friendly, simple country driver, completely harmless. Both judgments were wrong — Bill was Lutkins, and the \"simple\" man was the cleverest person in town. The lesson is that first impressions, flattery and our own preconceptions blind us. The narrator was so sure of his own cleverness that he never noticed the signs around him: the townspeople's amused smiles, their suspicious knowledge of Lutkins, Bill's eagerness to drive and his ever-increasing fee. The story teaches us to observe carefully, to question our assumptions and to be humble — especially when we are most confident that we are right.",
+   "notes": null,
+   "sortOrder": 22
+  },
+  {
+   "id": 598,
+   "category": "long",
+   "prompt": "Value question: What lesson does the narrator learn from his experience?",
+   "answer": "The narrator learns the lesson of humility — and it costs him a day of embarrassment. He began the assignment full of self-importance, certain that his sharpness would impress his seniors. But his very confidence made him easy prey: he trusted Bill's friendliness, believed every tale about Lutkins and never questioned why his helper always knew so much. The discovery that Bill was Lutkins was a brutal but valuable education. He learns that cleverness in a courtroom is not the same as wisdom in the world; that the humble-seeming country man can outwit the proud city lawyer; and that we should not rely on first impressions or our own vanity. His humiliation makes him a better lawyer and, more importantly, a wiser person. The story's message: experience is the best teacher, and it usually begins with being proved wrong.",
+   "notes": null,
+   "sortOrder": 23
+  },
+  {
+   "id": 599,
+   "category": "long",
+   "prompt": "Describe the character of Bill Magnuson as the narrator saw him.",
+   "answer": "To the narrator, Bill Magnuson seemed the perfect picture of a cheerful country hack driver. He was friendly, talkative and endlessly helpful — the first person to greet the young lawyer at the station and offer his services. He seemed simple and good-natured, full of gossip about the town, its people and their quirks. He drove the narrator patiently from the farm to the poolroom to the barber shop, and he seemed as disappointed as his passenger every time Lutkins slipped away. He even seemed protective, warning the lawyer that Lutkins was a dangerous man to catch. Only in the retelling does the reader see what the narrator missed: Bill's stories were a little too detailed, his guesses a little too accurate, his help a little too eager — and his fees grew with every mile. The narrator describes him with affection, which makes the final revelation all the more delicious: the \"simple\" driver was, all along, the trickster himself.",
+   "notes": null,
+   "sortOrder": 24
+  },
+  {
+   "id": 600,
+   "category": "long",
+   "prompt": "Why did the whole town of New Mullion help Lutkins in his trick?",
+   "answer": "The whole town of New Mullion joined Lutkins's trick because small communities are loyal to their own — especially against a stranger. The narrator was an outsider, a city lawyer who arrived with his own air of importance, and the town enjoyed a joke at his expense. Every person he met played a part: the farm woman told him Lutkins had just left; the shopkeepers and poolroom boys shared tales of Lutkins's cunning; the barber and the waitress teased him about his quest. No one warned him that the hack driver he trusted was the very man he sought. The trick was friendly, even affectionate — Lutkins treated the narrator to a day of amusement rather than harm — and the town enjoyed it as a shared story, which they would retell for years. The episode shows the closeness and humour of small-town life: strangers are outsiders, and the community protects its cleverest son with a smile.",
+   "notes": null,
+   "sortOrder": 25
+  }
+ ],
+ "quizQuestions": [
+  {
+   "id": 221,
+   "question": "Who wrote \"The Hack Driver\"?",
+   "options": [
+    "Guy de Maupassant",
+    "Sinclair Lewis",
+    "H.G. Wells",
+    "Robert W. Peterson"
+   ],
+   "correct_index": 1,
+   "explanation": "The story is written by Sinclair Lewis, the first American to win the Nobel Prize in Literature.",
+   "topic": ""
+  },
+  {
+   "id": 222,
+   "question": "The young lawyer was sent to serve papers on:",
+   "options": [
+    "Bill Magnuson",
+    "Oliver Lutkins",
+    "the judge",
+    "the barber"
+   ],
+   "correct_index": 1,
+   "explanation": "Oliver Lutkins was the witness needed for a lawsuit.",
+   "topic": ""
+  },
+  {
+   "id": 223,
+   "question": "The town the lawyer travelled to was:",
+   "options": [
+    "New Mullion",
+    "New York",
+    "Reading",
+    "London"
+   ],
+   "correct_index": 1,
+   "explanation": "The whole adventure took place in the small town of New Mullion.",
+   "topic": ""
+  },
+  {
+   "id": 224,
+   "question": "The hack driver's name was:",
+   "options": [
+    "Oliver Lutkins",
+    "Bill Magnuson",
+    "Sam Farmer",
+    "Tom Pool"
+   ],
+   "correct_index": 1,
+   "explanation": "The friendly driver introduced himself as Bill Magnuson.",
+   "topic": ""
+  },
+  {
+   "id": 225,
+   "question": "The townspeople described Lutkins as:",
+   "options": [
+    "honest and kind",
+    "cunning and tough",
+    "old and weak",
+    "rich and famous"
+   ],
+   "correct_index": 1,
+   "explanation": "They said he was a wizard at cards, hard to catch and owed money everywhere.",
+   "topic": ""
+  },
+  {
+   "id": 226,
+   "question": "The narrator searched for Lutkins:",
+   "options": [
+    "for a week",
+    "all day",
+    "for an hour",
+    "for a month"
+   ],
+   "correct_index": 1,
+   "explanation": "He spent the whole day driving around New Mullion with Bill.",
+   "topic": ""
+  },
+  {
+   "id": 227,
+   "question": "Each time the narrator reached a place, Lutkins:",
+   "options": [
+    "was waiting",
+    "had just left",
+    "was asleep",
+    "was in jail"
+   ],
+   "correct_index": 1,
+   "explanation": "The townspeople always told him Lutkins had just left.",
+   "topic": ""
+  },
+  {
+   "id": 228,
+   "question": "The narrator returned to the firm believing Lutkins was:",
+   "options": [
+    "a saint",
+    "a dangerous, slippery character",
+    "a poor farmer",
+    "an old man"
+   ],
+   "correct_index": 1,
+   "explanation": "He reported that Lutkins was too clever to catch.",
+   "topic": ""
+  },
+  {
+   "id": 229,
+   "question": "The narrator discovered the truth when he:",
+   "options": [
+    "found a photograph",
+    "saw Bill at the station",
+    "read a letter",
+    "asked the police"
+   ],
+   "correct_index": 1,
+   "explanation": "On his second visit, he recognised the hack driver — Bill was Lutkins.",
+   "topic": ""
+  },
+  {
+   "id": 230,
+   "question": "The moral of the story is:",
+   "options": [
+    "small towns are boring",
+    "do not judge people by appearances",
+    "lawyers are clever",
+    "hack drivers are tricky"
+   ],
+   "correct_index": 1,
+   "explanation": "The \"simple\" driver outwitted the proud city lawyer — appearances deceive.",
+   "topic": ""
+  }
+ ]
+}

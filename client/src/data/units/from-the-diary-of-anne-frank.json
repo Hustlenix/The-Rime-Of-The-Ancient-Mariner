@@ -1,0 +1,344 @@
+{
+ "unit": {
+  "id": "from-the-diary-of-anne-frank",
+  "book": "first-flight",
+  "type": "prose",
+  "title": "From the Diary of Anne Frank",
+  "author": "Anne Frank",
+  "order": 4
+ },
+ "content": [
+  {
+   "id": 336,
+   "category": "summary",
+   "prompt": "Part 1 — Why Anne kept a diary",
+   "answer": "The extract from Anne Frank's diary opens with her explanation of why she keeps a diary even though she already has one. She says that paper has more patience than people, and she remembers this saying on days when she feels miserable and cannot decide whether to go out or stay at home. Anne feels that she has no true friend with whom she can share her thoughts — she has loving parents, a sister, and about thirty people she can call friends, but she cannot confide in any of them. She writes that friends may tell her not to worry, but they do not really know her, and so she decides that the paper of her diary, which she names Kitty, will be her best and most patient friend.",
+   "notes": null,
+   "sortOrder": 1
+  },
+  {
+   "id": 337,
+   "category": "summary",
+   "prompt": "Part 2 — Anne's family and her school life",
+   "answer": "Anne introduces her family: her father is the most adorable father she has ever seen, her mother does not know how to talk to her, and her elder sister Margot is very beautiful but keeps to herself. Anne was born in Frankfurt and came to Holland with her family when she was four years old, where she entered a Montessori kindergarten and later a Jewish school because her father's business was suffering and he emigrated. She describes her school life cheerfully, including a complaint that the whole class is worried about her because she talks so much that even her teachers punish her for it — she was recently given extra homework as a punishment for talking in class.",
+   "notes": null,
+   "sortOrder": 2
+  },
+  {
+   "id": 338,
+   "category": "summary",
+   "prompt": "Part 3 — The essay on a chatterbox",
+   "answer": "Anne's mathematics teacher, Mr Keesing, punishes her for talking too much by making her write an essay titled \"A Chatterbox\". She finds the subject funny and writes three pages on it, arguing that talking is a student's trait and that she will do her best to improve. When her mother's friend jokingly tells Mr Keesing that Anne has inherited her talkative nature from her mother, Mr Keesing gives her a second assignment: \"An Incorrigible Chatterbox\". Anne writes this too and is praised by Mr Keesing for its correctness. Determined to teach her a lesson, he gives her a third essay — \"Quack, Quack, Quack, said Mistress Chatterbox\" — but this time Anne turns the assignment into a story.",
+   "notes": null,
+   "sortOrder": 3
+  },
+  {
+   "id": 339,
+   "category": "summary",
+   "prompt": "Part 4 — The duck family story and victory",
+   "answer": "For the third essay, Anne writes a story about a family of ducks: a mother duck, a father swan and three baby ducklings who are bitten to death by the father because they quack too much. Mr Keesing, taking the joke in the right spirit, reads the story to the class and afterwards lets Anne talk in class and does not assign her any more essays. Anne's \"victory\" is complete: she has proved that even a punishment can be turned into an opportunity for creativity, and Mr Keesing has learned to respect her cleverness. Since then, Anne writes, Mr Keesing has allowed her to talk in class and gives her no more extra homework.",
+   "notes": null,
+   "sortOrder": 4
+  },
+  {
+   "id": 340,
+   "category": "theme",
+   "prompt": "The need for a confidant and friendship",
+   "answer": "The central theme is the adolescent need for someone who truly understands. Anne feels lonely even in the midst of a loving family and many acquaintances, because she cannot share her inner thoughts with anyone. Her diary becomes her confidant — she names it Kitty and treats it as a friend. The theme reflects the universal experience of feeling misunderstood during adolescence and the importance of having a trusted outlet for one's feelings.",
+   "notes": null,
+   "sortOrder": 5
+  },
+  {
+   "id": 341,
+   "category": "theme",
+   "prompt": "The spirit of youth and creativity",
+   "answer": "The extract celebrates the resilience and creativity of youth. Even in the grim circumstances of war and persecution, Anne's diary sparkles with humour, mischief and imagination. Her handling of the essays shows how a creative mind turns punishment into play, and Mr Keesing's final amusement shows that even adults can be won over by intelligence and wit.",
+   "notes": null,
+   "sortOrder": 6
+  },
+  {
+   "id": 342,
+   "category": "character",
+   "prompt": "Anne Frank",
+   "answer": "Anne emerges as a bright, talkative, mischievous and thoughtful thirteen-year-old. She is intelligent — as her essays prove — and self-aware, reflecting honestly on her loneliness and her need for a friend. She is humorous, as seen in her duck family story, and affectionate, as seen in her admiration of her father. Her diary reveals a girl who, despite the darkness around her, keeps her spirit and her optimism alive through writing.",
+   "notes": null,
+   "sortOrder": 7
+  },
+  {
+   "id": 343,
+   "category": "character",
+   "prompt": "Mr Keesing",
+   "answer": "Mr Keesing, Anne's mathematics teacher, is strict but fair and ultimately good-humoured. He punishes Anne for her talking with essay assignments, but he reads her work, praises her second essay, and finally appreciates the cleverness of her third — laughing at the joke and freeing her from further essays. He represents the adult who, despite initial irritation, recognises and respects a child's talent.",
+   "notes": null,
+   "sortOrder": 8
+  },
+  {
+   "id": 344,
+   "category": "character",
+   "prompt": "Margot and Anne's parents",
+   "answer": "Margot is Anne's elder sister, described as beautiful and quiet. Anne's father is her ideal — the most adorable father she has ever seen — while her mother, in Anne's youthful judgment, does not know how to talk to her in a way Anne appreciates. These sketches reveal the different emotional relationships within the family and Anne's longing to be understood by her mother as she is by her father.",
+   "notes": null,
+   "sortOrder": 9
+  },
+  {
+   "id": 345,
+   "category": "value",
+   "prompt": "The value of self-expression",
+   "answer": "Anne's diary teaches the importance of expressing one's feelings. Writing gives her a way to cope with loneliness, fear and confusion, and it preserves her thoughts for the world. The value of self-expression is that it converts private emotion into understanding and strength.",
+   "notes": null,
+   "sortOrder": 10
+  },
+  {
+   "id": 346,
+   "category": "value",
+   "prompt": "Optimism in adversity",
+   "answer": "Despite the persecution she faced, Anne's writing is full of hope, humour and energy. Her ability to find joy in small things — a joke, an essay, a class victory — teaches the value of optimism, showing that the human spirit can remain bright even in dark times.",
+   "notes": null,
+   "sortOrder": 11
+  },
+  {
+   "id": 347,
+   "category": "short",
+   "prompt": "Why does Anne say \"paper has more patience than people\"?",
+   "answer": "Anne says this because a diary accepts everything she writes without judgment, while people grow tired of listening, do not really understand her, or give her advice she does not want. Paper waits patiently for her thoughts whenever she needs to share them.",
+   "notes": null,
+   "sortOrder": 12
+  },
+  {
+   "id": 348,
+   "category": "short",
+   "prompt": "Why did Anne think she had no true friend?",
+   "answer": "Although she had parents, a sister and about thirty acquaintances, Anne felt she could not confide in anyone. She believed that her friends and family did not really know her — they might be friendly, but they would not understand her inner feelings.",
+   "notes": null,
+   "sortOrder": 13
+  },
+  {
+   "id": 349,
+   "category": "short",
+   "prompt": "What did Anne name her diary and why?",
+   "answer": "Anne named her diary \"Kitty\". She gave it a name because she wanted to treat it as a real friend — someone to talk to and confide in, as she had no other true friend.",
+   "notes": null,
+   "sortOrder": 14
+  },
+  {
+   "id": 350,
+   "category": "short",
+   "prompt": "Why did Mr Keesing punish Anne?",
+   "answer": "Mr Keesing punished Anne because she talked too much in class. As punishment, he made her write essays, the first of which was titled \"A Chatterbox\".",
+   "notes": null,
+   "sortOrder": 15
+  },
+  {
+   "id": 351,
+   "category": "short",
+   "prompt": "What was the subject of Anne's third essay?",
+   "answer": "The third essay was titled \"Quack, Quack, Quack, said Mistress Chatterbox\". Anne wrote it as a story about a family of ducks — a mother duck, a father swan and three ducklings who were bitten to death for quacking too much.",
+   "notes": null,
+   "sortOrder": 16
+  },
+  {
+   "id": 352,
+   "category": "short",
+   "prompt": "How did Mr Keesing react to Anne's third essay?",
+   "answer": "Mr Keesing took the joke in the right spirit. He read the story to the class, laughing at it, and from then on he allowed Anne to talk in class and gave her no more punishment essays.",
+   "notes": null,
+   "sortOrder": 17
+  },
+  {
+   "id": 353,
+   "category": "short",
+   "prompt": "Where was Anne born and where did her family emigrate?",
+   "answer": "Anne was born in Frankfurt, Germany. Her family emigrated to Holland when she was four years old, after her father's business suffered.",
+   "notes": null,
+   "sortOrder": 18
+  },
+  {
+   "id": 354,
+   "category": "short",
+   "prompt": "How does Anne describe her father, mother and sister?",
+   "answer": "Anne describes her father as the most adorable father she has ever seen, her mother as someone who does not know how to talk to her, and her elder sister Margot as very beautiful but quiet and distant.",
+   "notes": null,
+   "sortOrder": 19
+  },
+  {
+   "id": 355,
+   "category": "long",
+   "prompt": "Why did Anne Frank keep a diary? What did the diary mean to her?",
+   "answer": "Anne kept a diary because she felt lonely and had no one to confide in. Although she had loving parents, a sister and many acquaintances, she could not share her deepest thoughts with any of them, feeling that none of them really knew her. She believed that paper has more patience than people, so she decided to make her diary her best friend. She named it Kitty and wrote to it as if writing to a real friend. The diary became her confidant — a place where she could be completely honest without fear of judgment — and, as history shows, it also became a powerful record of her life during the Holocaust, giving the world a window into the thoughts of a young girl under persecution.",
+   "notes": null,
+   "sortOrder": 20
+  },
+  {
+   "id": 356,
+   "category": "long",
+   "prompt": "Describe the episode of the essays as a victory for Anne's intelligence.",
+   "answer": "Mr Keesing punished Anne for talking by making her write an essay on \"A Chatterbox\". Anne wrote three pages, cleverly arguing that talking is a student's trait and promising to improve. When Mr Keesing gave her a second essay, \"An Incorrigible Chatterbox\", she wrote it correctly and won his praise. For the third, \"Quack, Quack, Quack, said Mistress Chatterbox\", she transformed the punishment into a creative story about a family of ducks. Mr Keesing read the story to the class, laughed, and stopped assigning her essays. The episode shows how Anne's wit and creativity turned a punishment into a demonstration of her intelligence, earning her the respect of her teacher — a small but significant victory in her restricted life.",
+   "notes": null,
+   "sortOrder": 21
+  },
+  {
+   "id": 357,
+   "category": "long",
+   "prompt": "What does the extract reveal about Anne's character and her relationship with her family?",
+   "answer": "The extract reveals Anne as a lively, intelligent, talkative and sensitive girl. She is humorous and mischievous, as seen in her essay episode, yet deeply reflective, as seen in her thoughts about friendship and loneliness. Her relationship with her family is affectionate but uneven: she adores her father, describing him as the most adorable father she has ever seen, but feels that her mother does not understand her, and she finds her sister Margot beautiful yet distant. These relationships show the typical emotional distance of adolescence, but also the extraordinary self-awareness with which Anne examined her own feelings — a self-awareness that would make her diary one of the most famous documents of the twentieth century.",
+   "notes": null,
+   "sortOrder": 22
+  },
+  {
+   "id": 358,
+   "category": "long",
+   "prompt": "Value question: What does Anne's diary teach us about the importance of self-expression?",
+   "answer": "Anne's diary teaches us that expressing our feelings is essential for emotional wellbeing. Anne had a loving family, yet she felt isolated because she could not share her inner world with anyone. Writing to her diary, Kitty, gave her a safe outlet for her loneliness, fears and joys, and helped her cope with the horrors around her. The value of self-expression is that it turns private pain into understanding — by writing, Anne could examine her feelings, make sense of her experiences and preserve her identity. Her diary also shows that self-expression can outlive us: her words continue to teach millions about courage, hope and the importance of speaking one's truth even in the darkest of times.",
+   "notes": null,
+   "sortOrder": 23
+  },
+  {
+   "id": 359,
+   "category": "long",
+   "prompt": "How does Anne's diary reflect the spirit of a teenager despite her difficult circumstances?",
+   "answer": "Despite the persecution, fear and restriction of her life, Anne's diary sparkles with teenage energy. She complains about teachers, jokes about her talkative nature, argues with her mother in her mind, and celebrates small victories like outwitting Mr Keesing. Her humour is fresh and self-mocking, and her imagination is lively, as shown in the duck family story. Her worries are the universal worries of a teenager — being understood, being liked, being free to talk — set against a backdrop of war. This contrast makes the diary both heart-breaking and inspiring: it shows that even in the worst conditions, the human spirit, especially the spirit of youth, finds ways to hope, laugh and dream.",
+   "notes": null,
+   "sortOrder": 24
+  },
+  {
+   "id": 360,
+   "category": "long",
+   "prompt": "Why do you think Anne's diary became so famous?",
+   "answer": "Anne's diary became famous for several reasons. First, it is a genuine, uncensored account of a young girl's thoughts, feelings and daily life, written with honesty and wit. Second, it gives a human face to the Holocaust — behind the statistics of millions of victims, Anne's voice is a real, relatable teenage girl who loved her father, quarrelled with her mother and dreamed of being a writer. Third, it is a story of hope: even in hiding, Anne believed in the goodness of people. Her famous line that people are truly good at heart captures this optimism. Finally, her father Otto Frank, the only survivor of the family, published the diary after the war, fulfilling Anne's own wish to be a writer — making it a testament to the power of words to defeat silence and oblivion.",
+   "notes": null,
+   "sortOrder": 25
+  }
+ ],
+ "quizQuestions": [
+  {
+   "id": 121,
+   "question": "Why did Anne feel the need to keep a diary?",
+   "options": [
+    "Her teacher asked her to",
+    "She had no true friend to confide in",
+    "She wanted to write a novel",
+    "Her sister advised her"
+   ],
+   "correct_index": 1,
+   "explanation": "Anne felt lonely and believed she had no true friend, so she made her diary her confidant.",
+   "topic": ""
+  },
+  {
+   "id": 122,
+   "question": "What did Anne name her diary?",
+   "options": [
+    "Margot",
+    "Kitty",
+    "Emily",
+    "Sophie"
+   ],
+   "correct_index": 1,
+   "explanation": "Anne named her diary Kitty, treating it as a real friend.",
+   "topic": ""
+  },
+  {
+   "id": 123,
+   "question": "According to Anne, \"paper has more patience than\":",
+   "options": [
+    "teachers",
+    "people",
+    "parents",
+    "friends"
+   ],
+   "correct_index": 1,
+   "explanation": "Anne's famous saying is that paper has more patience than people.",
+   "topic": ""
+  },
+  {
+   "id": 124,
+   "question": "Anne's talkative nature led her teacher Mr Keesing to:",
+   "options": [
+    "praise her",
+    "punish her with essays",
+    "send her home",
+    "expel her"
+   ],
+   "correct_index": 1,
+   "explanation": "Mr Keesing made her write essays as punishment for talking too much.",
+   "topic": ""
+  },
+  {
+   "id": 125,
+   "question": "What was the title of Anne's first essay?",
+   "options": [
+    "A Chatterbox",
+    "An Incorrigible Chatterbox",
+    "Quack, Quack, Quack",
+    "The Talking Girl"
+   ],
+   "correct_index": 0,
+   "explanation": "The first essay was \"A Chatterbox\", followed by \"An Incorrigible Chatterbox\" and \"Quack, Quack, Quack\".",
+   "topic": ""
+  },
+  {
+   "id": 126,
+   "question": "Anne's third essay was about:",
+   "options": [
+    "a family of ducks",
+    "a naughty girl",
+    "a singing bird",
+    "a noisy classroom"
+   ],
+   "correct_index": 0,
+   "explanation": "She wrote a story about a family of ducks to make fun of the essay topic.",
+   "topic": ""
+  },
+  {
+   "id": 127,
+   "question": "How did Mr Keesing react to the third essay?",
+   "options": [
+    "He tore it up",
+    "He took the joke in the right spirit",
+    "He punished Anne again",
+    "He ignored it"
+   ],
+   "correct_index": 1,
+   "explanation": "He read the story to the class, laughed, and stopped assigning essays.",
+   "topic": ""
+  },
+  {
+   "id": 128,
+   "question": "Where was Anne Frank born?",
+   "options": [
+    "Amsterdam",
+    "Frankfurt",
+    "Berlin",
+    "Vienna"
+   ],
+   "correct_index": 1,
+   "explanation": "Anne was born in Frankfurt, Germany, and emigrated to Holland at the age of four.",
+   "topic": ""
+  },
+  {
+   "id": 129,
+   "question": "Anne describes her father as:",
+   "options": [
+    "strict",
+    "the most adorable father she has ever seen",
+    "silent",
+    "absent-minded"
+   ],
+   "correct_index": 1,
+   "explanation": "Anne adored her father and described him as the most adorable father she had ever seen.",
+   "topic": ""
+  },
+  {
+   "id": 130,
+   "question": "Anne's elder sister was named:",
+   "options": [
+    "Kitty",
+    "Margot",
+    "Edith",
+    "Hannah"
+   ],
+   "correct_index": 1,
+   "explanation": "Her elder sister Margot was beautiful but, in Anne's eyes, distant.",
+   "topic": ""
+  }
+ ]
+}

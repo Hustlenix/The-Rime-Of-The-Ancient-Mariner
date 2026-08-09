@@ -1,0 +1,199 @@
+module.exports = {
+  unit: {
+    id: 'a-triumph-of-surgery',
+    book: 'footprints',
+    type: 'prose',
+    title: 'A Triumph of Surgery',
+    author: 'James Herriot',
+    order: 1
+  },
+  content: [
+    {
+      category: 'summary',
+      prompt: 'Part 1 — Tricki\'s overindulgent owner',
+      answer: 'The story is narrated by James Herriot, a veterinary surgeon. Mrs Pumphrey, a rich and doting lady, brings her pet dog Tricki to him. Tricki is a small Pekinese who has become enormously fat. Mrs Pumphrey explains that she feeds him cod-liver oil and malt, sometimes two eggs at a time, and a bowl of Horlicks at eleven o\'clock, along with other rich foods. Herriot warns her that this overfeeding is dangerous and that Tricki must be put on a strict diet, but Mrs Pumphrey cannot bear to see her darling hungry. She continues to overfeed the dog, and Tricki\'s condition worsens: he becomes lazy, listless and refuses to eat, and eventually Mrs Pumphrey, alarmed, brings him to Herriot\'s surgery.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 2 — The "hospital" treatment',
+      answer: 'When Tricki arrives at the surgery, he is in a sorry state — bloated, lethargic and barely moving. Herriot realises that the cure is not medicine but discipline: the dog needs to be starved and exercised. He decides to keep Tricki at the surgery for a fortnight. He tells Mrs Pumphrey that Tricki must be hospitalised, and although she is reluctant, she agrees. At the surgery, Tricki is put in a kennel with other dogs, and he is given no rich food — only a plain diet. At first, Tricki refuses to eat, but after a day he begins to recover, and soon he is joining the other dogs in their meals and their play.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 3 — The recovery',
+      answer: 'Tricki makes a remarkable recovery. The plain food, the exercise and the company of the other dogs work wonders: he becomes active, playful and hungry. He joins the other dogs in their morning exercises and eats heartily. When Mrs Pumphrey visits, she is amazed at the change in her pet. Herriot, however, decides to keep Tricki a little longer, because the dog is doing so well. Mrs Pumphrey\'s daily visits bring gifts — initially meals and then, as she grows more anxious, junk foods and delicacies — which the narrator and his partners enjoy themselves, saving the best for Tricki.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Part 4 — The triumphant return',
+      answer: 'When Tricki is finally discharged, he is transformed: lean, active and full of life. Mrs Pumphrey is overjoyed at the "triumph of surgery" and showers the narrator with gratitude. As the car drives away, Tricki is happy and alert, and Herriot reflects on the real secret of the cure: it was not surgery or medicine but simple common sense — a strict diet and exercise. The title is ironic: the "triumph" was not of surgery but of good veterinary judgement, and of the discipline that the doting Mrs Pumphrey could never enforce herself.'
+    },
+    {
+      category: 'theme',
+      prompt: 'The dangers of overindulgence',
+      answer: 'The central theme is the danger of overindulgence. Mrs Pumphrey\'s excessive love for Tricki — feeding him rich food, eggs and Horlicks — nearly kills him. The story shows that too much of a good thing is harmful: love must be balanced with discipline, and animals (like children) need a healthy diet and exercise. The theme warns against spoiling, showing that true care sometimes means saying no.'
+    },
+    {
+      category: 'theme',
+      prompt: 'Common sense and professional judgement',
+      answer: 'The story celebrates common sense and professional judgement. Herriot knows that Tricki does not need medicine but discipline — the "treatment" is a plain diet and exercise. He also handles Mrs Pumphrey with tact, pretending to "hospitalise" the dog to protect her feelings while actually applying simple veterinary sense. The theme shows that expertise lies not in complex solutions but in understanding the real problem and treating it with practical wisdom.'
+    },
+    {
+      category: 'character',
+      prompt: 'Mrs Pumphrey',
+      answer: 'Mrs Pumphrey is a rich, doting and comically overprotective dog owner. She is convinced that her love for Tricki is expressed through food — cod-liver oil, malt, eggs and Horlicks — and she cannot bear to see him hungry. Her visits to the surgery bring a flood of delicacies, which she assumes the "poor dear" needs. Yet her love is sincere, and her joy at Tricki\'s recovery is genuine. She represents well-meaning but misguided affection, and her name itself — "Pumphrey", pompous-sounding — hints at her comic excess.'
+    },
+    {
+      category: 'character',
+      prompt: 'Tricki',
+      answer: 'Tricki is the spoilt Pekinese at the centre of the story. He is enormously fat, lazy and listless because of his owner\'s overfeeding. At the surgery, he revives on a plain diet and exercise, becoming playful and healthy. His transformation is the "triumph" of the title — though the triumph belongs to the common sense of the vet, not to surgery. Tricki represents the victim of excessive love: an animal harmed by kindness without discipline.'
+    },
+    {
+      category: 'character',
+      prompt: 'Dr James Herriot (the narrator)',
+      answer: 'Herriot is a wise, observant and good-humoured veterinary surgeon. He diagnoses Tricki\'s real problem instantly — not illness but overfeeding — and prescribes the simplest cure: diet and exercise. He is also a skilled diplomat: he knows how to handle Mrs Pumphrey, using the word "hospital" to satisfy her while actually applying plain common sense. His humour is gentle, and his joy at Tricki\'s recovery, and at the delicacies Mrs Pumphrey sends, shows his warm, down-to-earth character. He embodies the professional who looks past the surface to the real problem.'
+    },
+    {
+      category: 'value',
+      prompt: 'Discipline and balance in caring',
+      answer: 'The story teaches that true care requires balance and discipline. Mrs Pumphrey\'s love was all indulgence and no limits, and it nearly killed Tricki. The lesson is that whether caring for animals, children or ourselves, we must combine affection with healthy habits — moderation, exercise and sensible limits are forms of love too.'
+    },
+    {
+      category: 'value',
+      prompt: 'Trust in professional expertise',
+      answer: 'The story shows the value of trusting professional judgement. Mrs Pumphrey, alarmed by Tricki\'s condition, follows Herriot\'s advice, and her trust saves her pet. Herriot\'s treatment — simple, sensible, non-medical — proves that expertise is not about complicated remedies but about understanding the true cause of a problem.'
+    },
+    {
+      category: 'short',
+      prompt: 'Who was Tricki and what was his problem?',
+      answer: 'Tricki was Mrs Pumphrey\'s small Pekinese dog. His problem was obesity: he had become enormously fat and listless because his owner overfed him with rich foods, eggs and Horlicks.'
+    },
+    {
+      category: 'short',
+      prompt: 'What did Mrs Pumphrey feed Tricki?',
+      answer: 'She fed him cod-liver oil and malt, sometimes two eggs at a time, a bowl of Horlicks at eleven o\'clock, and other rich foods.'
+    },
+    {
+      category: 'short',
+      prompt: 'What was Herriot\'s real treatment for Tricki?',
+      answer: 'Herriot\'s real treatment was not medicine but discipline: he put Tricki on a plain diet, kept him in a kennel with other dogs and let him exercise and play.'
+    },
+    {
+      category: 'short',
+      prompt: 'Why did Tricki\'s condition worsen at home?',
+      answer: 'Despite Herriot\'s warning, Mrs Pumphrey could not stop overfeeding Tricki, and the rich food made him lazier, more bloated and listless, until he refused to eat and could barely move.'
+    },
+    {
+      category: 'short',
+      prompt: 'How did Tricki recover at the surgery?',
+      answer: 'At the surgery, Tricki was starved of rich food and given a plain diet; he joined the other dogs in their meals and exercises, and his health returned within a few days.'
+    },
+    {
+      category: 'short',
+      prompt: 'What did Mrs Pumphrey bring on her visits to the surgery?',
+      answer: 'She brought gifts — initially meals and then, growing anxious, junk foods and delicacies such as cream cakes and chocolates, which the narrator and his partners enjoyed.'
+    },
+    {
+      category: 'short',
+      prompt: 'Why is the title "A Triumph of Surgery" ironic?',
+      answer: 'The title is ironic because no surgery was performed — Tricki was cured by plain diet and exercise, the common sense of the vet, not by any surgical operation.'
+    },
+    {
+      category: 'short',
+      prompt: 'How did Tricki look when he was discharged?',
+      answer: 'Tricki was transformed: lean, active and full of life, his coat glossy, completely changed from the bloated, listless dog that had arrived.'
+    },
+    {
+      category: 'long',
+      prompt: 'How did Mrs Pumphrey\'s love for Tricki nearly kill him?',
+      answer: 'Mrs Pumphrey\'s love for Tricki was expressed entirely through food. She fed him cod-liver oil and malt, two eggs at a time, a bowl of Horlicks at eleven o\'clock and other rich foods, unable to bear the thought of him being hungry. Herriot warned her that Tricki must be put on a strict diet, but she could not follow the advice — her love was all indulgence and no discipline. The overfeeding made Tricki enormously fat, lazy and listless; his condition worsened until he refused to eat and could barely move. Her kindness, in short, was killing him: he needed hunger and exercise, and she gave him abundance and comfort. The story shows how love without wisdom can harm the very being it seeks to protect.'
+    },
+    {
+      category: 'long',
+      prompt: 'Describe the treatment Herriot gave Tricki at the surgery.',
+      answer: 'Herriot\'s treatment was a masterclass in simplicity. He kept Tricki at the surgery for a fortnight, putting him in a kennel with other dogs. The first day, Tricki was listless and refused to eat. But Herriot let hunger do its work: with no rich food available, the dog began to eat the plain meals given to all the dogs, and soon he was joining them in their morning exercises and play. The plain diet, the company of other dogs and the exercise worked wonders — Tricki became active, hungry and healthy. When Mrs Pumphrey visited, she was amazed at the change. Herriot kept the dog a little longer because he was doing so well. The treatment reveals Herriot\'s insight: the cure was not medicine but the restoration of natural habits — food in moderation and exercise.'
+    },
+    {
+      category: 'long',
+      prompt: 'Value question: What does the story teach us about the true meaning of care?',
+      answer: 'The story teaches that true care is not the same as indulgence. Mrs Pumphrey loved Tricki dearly, but her love took the form of excessive feeding that nearly killed him. Herriot, who cared for the dog professionally, understood that real care meant discipline: a plain diet, exercise and sensible limits. The lesson is that caring for someone — an animal, a child or ourselves — requires balance and wisdom. We must say no sometimes, impose healthy habits and resist the temptation to give in to every want. The story also teaches us to trust experts: Mrs Pumphrey\'s trust in Herriot saved her pet. And it teaches a touch of humility: the "triumph of surgery" was really a triumph of common sense, reminding us that the simplest solutions are often the most effective.'
+    },
+    {
+      category: 'long',
+      prompt: 'Why is the story humorous? Give examples.',
+      answer: 'The story is humorous because of its characters and situations. Mrs Pumphrey is a comic figure: her "sincere" belief that Tricki needs cod-liver oil, eggs and Horlicks, and her horror at the idea of him going hungry, are absurdly overprotective. Her daily visits, growing more desperate, bring a flood of junk food — cream cakes, chocolates and delicacies — which the narrator and his partners enjoy while pretending they are for Tricki. The narrator\'s dry humour ("the supply of junk food was cut off by a sudden change in his condition") and his candid admission that the household lived on the offerings add to the comedy. Tricki himself — a fat, lazy dog who revives on a plain diet — is comic, and the final irony — the "triumph of surgery" being no surgery at all — gives the story its smiling punchline.'
+    },
+    {
+      category: 'long',
+      prompt: 'How does Herriot handle Mrs Pumphrey? What does this reveal about his character?',
+      answer: 'Herriot handles Mrs Pumphrey with tact, humour and gentle authority. He knows that telling her directly to starve her beloved dog would cause an uproar, so he frames the treatment as "hospitalisation" — a word that appeals to her anxious care. He allows her visits and accepts her gifts without complaint, maintaining a professional patience with her comic excess. His decision to keep Tricki longer than needed, because the dog is thriving, shows his practical wisdom. These details reveal Herriot\'s character: he is kind (he never humiliates Mrs Pumphrey), wise (he treats the real problem, not the symptoms), patient (he endures her visits and gifts) and good-humoured (he enjoys the irony of the situation). He is the model of the caring professional who combines expertise with humanity.'
+    },
+    {
+      category: 'long',
+      prompt: 'What lesson does the story give about the relationship between owners and their pets?',
+      answer: 'The story teaches that the relationship between owners and pets should be based on the pet\'s needs, not the owner\'s emotions. Mrs Pumphrey loved Tricki, but she treated him as a child to be indulged rather than a dog to be cared for, and her emotional feeding nearly killed him. The lesson is that pets are living beings with natural needs — a healthy diet, exercise and discipline — and that responsible ownership means providing those needs even when it is hard. It also teaches that owners should listen to professionals: Herriot\'s advice was sound, and following it saved Tricki. Finally, the story suggests that a pet\'s happiness lies in health and activity, not in pampering — Tricki was never happier than when he was running and eating plain food with the other dogs.'
+    }
+  ],
+  quizQuestions: [
+    {
+      question: 'Who wrote "A Triumph of Surgery"?',
+      options: ['Ruskin Bond', 'James Herriot', 'Victor Canning', 'Sinclair Lewis'],
+      correct_index: 1,
+      explanation: 'The story is written by James Herriot, the famous veterinary surgeon and author.'
+    },
+    {
+      question: 'Tricki was a:',
+      options: ['labrador', 'Pekinese', 'German shepherd', 'beagle'],
+      correct_index: 1,
+      explanation: 'Tricki was Mrs Pumphrey\'s small Pekinese dog.'
+    },
+    {
+      question: 'Mrs Pumphrey fed Tricki things like:',
+      options: ['meat and bones', 'cod-liver oil, malt and Horlicks', 'vegetables and rice', 'milk and bread'],
+      correct_index: 1,
+      explanation: 'She fed him cod-liver oil, malt, eggs and a bowl of Horlicks — far too much rich food.'
+    },
+    {
+      question: 'Herriot\'s real treatment for Tricki was:',
+      options: ['an operation', 'a plain diet and exercise', 'special medicines', 'massage'],
+      correct_index: 1,
+      explanation: 'The "cure" was simple discipline: plain food and exercise in the company of other dogs.'
+    },
+    {
+      question: 'Where was Tricki kept during his recovery?',
+      options: ['At Mrs Pumphrey\'s home', 'In a kennel at the surgery', 'At a farm', 'In a zoo'],
+      correct_index: 1,
+      explanation: 'He was kept in a kennel with the other dogs at Herriot\'s surgery.'
+    },
+    {
+      question: 'Mrs Pumphrey brought Tricki:',
+      options: ['toys', 'junk food and delicacies', 'medicine', 'blankets'],
+      correct_index: 1,
+      explanation: 'On her visits she brought meals, then cream cakes, chocolates and other junk food.'
+    },
+    {
+      question: 'The story is narrated by:',
+      options: ['Mrs Pumphrey', 'the vet, Dr Herriot', 'Tricki', 'a nurse'],
+      correct_index: 1,
+      explanation: 'It is narrated in the first person by the veterinary surgeon James Herriot.'
+    },
+    {
+      question: 'The title "A Triumph of Surgery" is:',
+      options: ['serious', 'ironic', 'sad', 'mysterious'],
+      correct_index: 1,
+      explanation: 'No surgery was done — the triumph was of diet and common sense, making the title ironic.'
+    },
+    {
+      question: 'Tricki\'s problem was caused by:',
+      options: ['an infection', 'overfeeding', 'cold weather', 'lack of sleep'],
+      correct_index: 1,
+      explanation: 'His obesity and illness were caused by Mrs Pumphrey\'s excessive feeding.'
+    },
+    {
+      question: 'When Tricki was discharged, he was:',
+      options: ['still fat and lazy', 'lean, active and full of life', 'sick and weak', 'angry'],
+      correct_index: 1,
+      explanation: 'The plain diet and exercise transformed him into a lean, energetic dog.'
+    }
+  ]
+};

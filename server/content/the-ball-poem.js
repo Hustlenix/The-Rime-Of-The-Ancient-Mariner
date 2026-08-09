@@ -1,0 +1,229 @@
+module.exports = {
+  unit: {
+    id: 'the-ball-poem',
+    book: 'first-flight',
+    type: 'poem',
+    title: 'The Ball Poem',
+    author: 'John Berryman',
+    order: 14
+  },
+  content: [
+    {
+      category: 'summary',
+      prompt: 'Meaning of the poem',
+      answer: 'The poem is about a boy who loses his ball. The poet watches the boy standing helplessly, his ball bouncing away into the water and sinking out of sight. The boy is stunned and grieving, and although the poet could easily buy him another ball, he realises that what the boy has lost is not just a ball. The loss of the ball stands for the loss of childhood, innocence and the things money cannot buy. The poet reflects that the boy, through this loss, is learning an important lesson about life — the epistemology of loss — and that he must learn to stand up and face such losses, because in life, as in games, things slip away and cannot be recovered, no matter how much money one has.'
+    },
+    {
+      category: 'summary',
+      prompt: 'Overall movement of the poem',
+      answer: 'The poem moves from a concrete event to a deep philosophical reflection. It opens with the boy\'s ball bouncing away into the water — a small, everyday accident. The boy stands still, stunned, watching the ball disappear, and the poet observes his grief. The poet then reflects on the meaning of the loss: the ball cannot be bought back, and no amount of money can replace what is gone. The movement of the poem is thus from the particular (a lost ball) to the universal (the loss of childhood and the inevitability of loss in life). The poem ends with the poet\'s conviction that the boy must learn to stand up and face loss, and that through this experience he is growing into a deeper understanding of life.'
+    },
+    {
+      category: 'theme',
+      prompt: 'Loss and the inevitability of change',
+      answer: 'The central theme is loss and the inevitability of change. The boy\'s ball is lost forever — it sinks into the water and cannot be recovered. The poet uses this small loss to speak of larger losses: childhood, innocence and the things we love that slip away from us. The theme teaches that loss is a natural part of life, and that we must learn to accept it and move on.'
+    },
+    {
+      category: 'theme',
+      prompt: 'Growing up and facing reality',
+      answer: 'The poem is about the process of growing up. The boy is learning, through his loss, a lesson about the world: that some things cannot be bought back, that grief is real, and that one must stand up after a loss. The poet\'s refusal to buy the boy another ball is deliberate — he wants the boy to experience the loss fully and learn from it. The theme celebrates the painful but necessary process of maturing.'
+    },
+    {
+      category: 'character',
+      prompt: 'The boy',
+      answer: 'The boy is the central figure of the poem. He stands stunned and grief-stricken as his ball bounces away and sinks. He is too shocked to speak or act, and his grief is out of proportion to the loss of a mere ball — because, as the poet understands, the ball stands for something much deeper: his childhood. The boy is at the threshold of maturity: he is experiencing his first real loss, and the poet sees that this experience will shape him, teaching him that life involves loss and that he must learn to stand up.'
+    },
+    {
+      category: 'character',
+      prompt: 'The poet/speaker',
+      answer: 'The speaker is a compassionate observer who understands the meaning of the boy\'s loss. He could easily buy the boy another ball — money could replace the object — but he chooses not to, because he knows that the real loss cannot be bought back. He reflects on the "epistemology of loss", showing a philosophical depth: he understands that the boy is learning, through this small tragedy, the fundamental lesson of life: that nothing is permanent and that one must learn to stand up after every loss.'
+    },
+    {
+      category: 'analysis',
+      prompt: 'Structure and form',
+      answer: 'The poem is written in free verse — it has no regular rhyme scheme or metre. The freedom of the form matches the freedom of the poet\'s thoughts: the poem flows like a meditation, moving naturally from observation to reflection. The lines vary in length, some short and staccato, others long and flowing, mirroring the boy\'s shock and the poet\'s musings. The irregular form also reflects the unpredictability of loss itself.'
+    },
+    {
+      category: 'analysis',
+      prompt: 'Tone and mood',
+      answer: 'The tone of the poem is gentle, reflective and philosophical. The poet observes the boy with sympathy, without intruding or patronising him. The mood is sombre and contemplative, built around the boy\'s grief, but it carries a quiet wisdom: the poet\'s reflection transforms the sadness into understanding. The tone never becomes sentimental; instead, it respects the boy\'s experience as a genuine lesson in life.'
+    },
+    {
+      category: 'analysis',
+      prompt: 'Imagery and symbolism',
+      answer: 'The poem\'s central image is the ball bouncing away and sinking into the water — a vivid picture of something slipping beyond reach. The ball is the poem\'s great symbol: it represents childhood, innocence and the lost world of play, and its loss represents the losses we all experience as we grow up. The water in which the ball sinks symbolises the depth and finality of loss — what is gone cannot be retrieved. The poem\'s imagery is simple but resonant, carrying the weight of its philosophical meaning.'
+    },
+    {
+      category: 'device',
+      prompt: 'SYMBOLISM',
+      answer: 'The ball is a symbol of childhood, innocence and the things money cannot buy. Its loss symbolises the experience of loss itself — the inevitable slipping away of the precious things of life. The poem\'s whole meaning depends on this symbolism: a trivial object stands for a profound truth.'
+    },
+    {
+      category: 'device',
+      prompt: 'ANAPHORA',
+      answer: 'The poet uses repetition for effect, as in "What is the boy now, and what does he feel, and what is the boy now..." — the repeated questions emphasise the poet\'s concern and the boy\'s helplessness. The anaphora creates a rhythm of concern that draws the reader into the boy\'s world.'
+    },
+    {
+      category: 'device',
+      prompt: 'METAPHOR',
+      answer: 'The "epistemology of loss" is a metaphor: epistemology is the study of knowledge, and the poet uses it to suggest that the boy is learning a new kind of knowledge — the knowledge of what loss means. The metaphor elevates a small event into a lesson in the deepest understanding of life.'
+    },
+    {
+      category: 'device',
+      prompt: 'TRANSFERRED EPITHET',
+      answer: '"His desperate eyes" transfers the boy\'s desperation to his eyes — a transferred epithet that makes his emotion vivid and immediate. The phrase captures the intensity of the boy\'s grief in two words.'
+    },
+    {
+      category: 'device',
+      prompt: 'PERSONIFICATION',
+      answer: 'The ball "merrily bouncing" is given human-like liveliness, contrasting its joyful motion with the boy\'s grief. The personification heightens the poignancy: the ball that was so full of life is now gone, and the boy\'s childhood merriment goes with it.'
+    },
+    {
+      category: 'device',
+      prompt: 'RHETORICAL QUESTION',
+      answer: 'The poet\'s questions — "What is the boy now, and what does he feel?" — are rhetorical: the reader knows the answer (he feels the loss of his childhood), and the questions deepen the poem\'s reflection rather than seek information.'
+    },
+    {
+      category: 'device',
+      prompt: 'ALLITERATION',
+      answer: 'The repetition of consonant sounds, as in "buys a ball back", "Balls, balls", and "merrily bouncing", creates a musical quality and emphasises key words. The alliteration binds the poem\'s sound to its meaning, giving the free verse a subtle rhythm.'
+    },
+    {
+      category: 'device',
+      prompt: 'ENJAMBMENT',
+      answer: 'The poem\'s lines run on into one another without strong pauses, as in "I would not intrude on him, / A dime, another ball, is worthless." The flow of the lines mirrors the flow of the poet\'s meditation and the ongoing process of the boy\'s learning, unbroken and continuous.'
+    },
+    {
+      category: 'short',
+      prompt: 'What happens to the boy\'s ball in the poem?',
+      answer: 'The boy\'s ball bounces away from him, falls into the water and sinks out of sight. He cannot retrieve it — it is lost forever.'
+    },
+    {
+      category: 'short',
+      prompt: 'How does the boy react to the loss of his ball?',
+      answer: 'The boy is stunned and grief-stricken. He stands still, unable to move or speak, watching helplessly as his ball disappears into the water.'
+    },
+    {
+      category: 'short',
+      prompt: 'Why does the poet not buy the boy another ball?',
+      answer: 'The poet does not buy the boy another ball because he understands that the loss is not about money — the real loss, of childhood and innocence, cannot be bought back. The boy must experience the loss and learn from it.'
+    },
+    {
+      category: 'short',
+      prompt: 'What does the ball symbolise in the poem?',
+      answer: 'The ball symbolises the boy\'s childhood, innocence and the world of play — the precious things of life that money cannot buy and that are lost as we grow up.'
+    },
+    {
+      category: 'short',
+      prompt: 'What does the poet mean by "the epistemology of loss"?',
+      answer: 'Epistemology is the study of knowledge, so "the epistemology of loss" means the deep understanding of loss — the knowledge the boy is gaining through his experience, learning what it means to lose something precious.'
+    },
+    {
+      category: 'short',
+      prompt: 'What lesson is the boy learning through his loss?',
+      answer: 'The boy is learning that loss is a part of life, that some things cannot be recovered, and that he must learn to stand up and move on — an essential lesson of growing up.'
+    },
+    {
+      category: 'short',
+      prompt: 'What is the form of the poem?',
+      answer: 'The poem is written in free verse — it has no regular rhyme scheme or metre, which matches its meditative, philosophical tone.'
+    },
+    {
+      category: 'short',
+      prompt: 'How does the poet\'s attitude towards the boy show understanding?',
+      answer: 'The poet respects the boy\'s grief and does not intrude or dismiss it. He understands that the boy is experiencing something profound — the loss of childhood — and lets him feel it fully, recognising that this experience is part of growing up.'
+    },
+    {
+      category: 'long',
+      prompt: 'Why does the loss of a ball mean more than the loss of money?',
+      answer: 'The loss of a ball means more than money because the ball stands for something money cannot replace. The poet explains that a dime, another ball, is worthless against what the boy has truly lost: the ball was not just a toy but a symbol of his childhood — the world of play, innocence and carefree joy. When it bounces away and sinks, something of the boy\'s childhood sinks with it, and no amount of money can bring that back. The poem teaches that the most precious things in life — childhood, innocence, memories — cannot be bought. The boy\'s grief, which seems out of proportion to a lost ball, is really the grief of growing up, and it is this understanding that makes the poet refuse to simply replace the ball.'
+    },
+    {
+      category: 'long',
+      prompt: 'What is the message of the poem about growing up?',
+      answer: 'The poem\'s message about growing up is that maturity is born out of loss. The boy\'s ball is lost, and through this small tragedy he experiences for the first time the reality of loss — the understanding that some things slip away forever and cannot be recovered. The poet deliberately does not comfort the boy with a new ball, because he knows that the boy must learn to stand up and face his loss alone. This is the "epistemology of loss": the deepest knowledge of life is not academic but experiential — we learn about loss by losing. Growing up means accepting that life is full of small and great losses, and that the ability to stand up after each loss, to grieve and then move on, is what makes us mature. The poem presents this lesson with gentle wisdom: loss is not only sad; it is also a teacher.'
+    },
+    {
+      category: 'long',
+      prompt: 'Value question: What lesson does the poem teach us about handling loss?',
+      answer: 'The poem teaches us that loss is an unavoidable part of life and that we must learn to accept it and move forward. The boy\'s ball is gone, and no amount of money can bring it back — just as, in life, we will lose people, things and phases of our lives that we can never recover. The lesson is not to cling to what is gone but to learn from the experience: to feel the grief fully, understand it, and then stand up. The poet\'s refusal to replace the ball is a lesson in itself — we cannot always fix loss with substitutes; sometimes we must simply live with it. The poem also teaches compassion: when we see others grieving, we should respect their pain rather than dismiss it. Loss, handled with understanding, makes us stronger, wiser and more compassionate.'
+    },
+    {
+      category: 'long',
+      prompt: 'Explain the significance of the poet\'s refusal to intrude on the boy\'s grief.',
+      answer: 'The poet\'s refusal to intrude is significant because it shows his deep understanding of what the boy is experiencing. He says, "I would not intrude on him", recognising that the boy\'s grief is real and must be respected. Buying him another ball would be an intrusion — a shallow attempt to fix something that cannot be fixed, and a denial of the boy\'s right to grieve. The poet understands that the boy is not mourning the loss of a toy but the loss of his childhood, and that this grief is a necessary part of growing up. By standing back, the poet gives the boy the space to experience his loss fully and to learn from it. The refusal is thus an act of wisdom and compassion: the deepest help is often not intervention but respectful presence.'
+    },
+    {
+      category: 'long',
+      prompt: 'How does the poet connect a small loss with a philosophical lesson?',
+      answer: 'The poet connects the small loss of a ball with the philosophy of life through symbolism and reflection. The ball, to the boy, is not just a ball — it is the symbol of his childhood and all the things he is losing as he grows. When it sinks into the water, the poet sees it as the first of many losses the boy will experience: people, places, phases of life, all of which will slip away beyond recovery. The poet uses the language of knowledge — "the epistemology of loss" — to show that this small event is teaching the boy the deepest lesson of human existence: that nothing is permanent, that money cannot replace what is lost, and that one must learn to stand up and face the world after every loss. From a bouncing ball, the poet builds a meditation on the human condition, proving that the largest truths often arrive through the smallest experiences.'
+    },
+    {
+      category: 'long',
+      prompt: 'What do you understand by the boy\'s "desperate eyes"?',
+      answer: '"Desperate eyes" is a transferred epithet — the desperation is the boy\'s, but the poet transfers it to his eyes to make the emotion vivid and immediate. The phrase reveals the intensity of the boy\'s grief: his eyes are fixed on the ball as it bounces away and sinks, full of helpless longing. The desperation comes from his understanding, even at his young age, that the ball is gone for good — and, the poet implies, something of himself is gone with it. The eyes also communicate the boy\'s silent appeal: he is waiting, perhaps hoping that someone will do something, that the ball will somehow come back. But the poet chooses not to respond with a new ball, because the lesson the boy must learn — that some losses are final — can only be learned by standing and watching the ball sink.'
+    }
+  ],
+  quizQuestions: [
+    {
+      question: 'Who wrote "The Ball Poem"?',
+      options: ['Robert Frost', 'John Berryman', 'Walt Whitman', 'Adrienne Rich'],
+      correct_index: 1,
+      explanation: '"The Ball Poem" is written by John Berryman.'
+    },
+    {
+      question: 'What happens to the boy\'s ball?',
+      options: ['It is stolen', 'It falls into the water and sinks', 'It bursts', 'It is given away'],
+      correct_index: 1,
+      explanation: 'The ball bounces away into the water and sinks out of sight.'
+    },
+    {
+      question: 'The boy reacts to the loss with:',
+      options: ['anger', 'stunned grief', 'laughter', 'indifference'],
+      correct_index: 1,
+      explanation: 'He stands stunned and helpless, grieving for his lost ball.'
+    },
+    {
+      question: 'Why does the poet not buy the boy another ball?',
+      options: ['He has no money', 'He knows the loss cannot be replaced with money', 'He is angry with the boy', 'The ball was expensive'],
+      correct_index: 1,
+      explanation: 'The real loss — of childhood — cannot be bought back, so another ball is worthless.'
+    },
+    {
+      question: 'The ball symbolises:',
+      options: ['money', 'childhood and innocence', 'friendship', 'competition'],
+      correct_index: 1,
+      explanation: 'The ball stands for the boy\'s childhood, play and innocence — the things money cannot buy.'
+    },
+    {
+      question: '"The epistemology of loss" means:',
+      options: ['the fear of loss', 'the deep understanding of loss', 'the money lost', 'the sadness of the boy'],
+      correct_index: 1,
+      explanation: 'The boy is learning a new kind of knowledge — what loss truly means.'
+    },
+    {
+      question: '"His desperate eyes" is an example of:',
+      options: ['simile', 'transferred epithet', 'metaphor', 'hyperbole'],
+      correct_index: 1,
+      explanation: 'The desperation is transferred from the boy to his eyes.'
+    },
+    {
+      question: 'The poem is written in:',
+      options: ['regular rhyme', 'free verse', 'blank verse', 'a sonnet'],
+      correct_index: 1,
+      explanation: 'The poem has no regular rhyme or metre — it is free verse.'
+    },
+    {
+      question: 'What must the boy learn, according to the poet?',
+      options: ['To buy better balls', 'To stand up and face loss', 'To play more carefully', 'To avoid the water'],
+      correct_index: 1,
+      explanation: 'He must learn that loss is part of life and that he must stand up after it.'
+    },
+    {
+      question: 'The central theme of the poem is:',
+      options: ['the joy of play', 'loss and growing up', 'the value of money', 'the beauty of the sea'],
+      correct_index: 1,
+      explanation: 'The poem meditates on loss and the painful but necessary lessons of growing up.'
+    }
+  ]
+};
