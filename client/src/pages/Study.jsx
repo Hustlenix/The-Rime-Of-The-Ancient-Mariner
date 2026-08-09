@@ -41,12 +41,12 @@ export default function Study() {
   }
 
   const TABS = (c) => [
-    { key: 'summary', label: 'Summary', count: c.summaries.length },
+    { key: 'summary', label: 'Chapter Notes', count: c.summaries.length },
     { key: 'theme', label: 'Themes', count: c.themes.length },
-    { key: 'character', label: meta.type === 'poem' ? 'Speaker & Characters' : 'Characters', count: c.characters.length },
+    { key: 'character', label: meta.type === 'poem' ? 'Speaker & Characters' : 'Character Sketches', count: c.characters.length },
     { key: 'analysis', label: 'Analysis', count: c.analysis.length },
     { key: 'device', label: 'Poetic Devices', count: c.devices.length },
-    { key: 'value', label: 'Values', count: c.values.length }
+    { key: 'value', label: 'Value Points', count: c.values.length }
   ];
   const tabs = content ? TABS(content).filter((t) => t.count > 0) : [];
   const active = tabs.some((t) => t.key === tab) ? tab : (tabs[0] && tabs[0].key);
