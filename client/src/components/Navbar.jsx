@@ -1,8 +1,26 @@
+import { useEffect, useState } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 import { useAuth } from '../authContext';
+import { api } from '../api';
+import ThemeToggle from './ThemeToggle';
 
 export default function Navbar() {
   const { user, loading, logout } = useAuth();
+  const [marqueeItems, setMarqueeItems] = useState([]);
+
+  useEffect(() => {
+    api
+      .getUnits()
+      .then((d) => {
+        const items = (d.books || [])
+          .flatMap((b) => b.units || [])
+          .map((u) => `${u.title} · ${u.author || 'Anonymous'}`);
+        setMarqueeItems(items);
+      })
+      .catch(() => {
+        /* marquee is decorative; ignore failures */
+      });
+  }, []);
 
   return (
     <header className="navbar">
@@ -43,6 +61,7 @@ export default function Navbar() {
       </nav>
 
       <div className="nav-auth">
+        <ThemeToggle />
         {loading ? null : user ? (
           <>
             <NavLink to="/profile" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
@@ -68,6 +87,18 @@ export default function Navbar() {
           </>
         )}
       </div>
+
+      {marqueeItems.length > 0 && (
+        <div className="marquee" aria-hidden="true">
+          <div className="marquee-track">
+            {[...marqueeItems, ...marqueeItems].map((item, i) => (
+              <span key={i} className="marquee-item">
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+      )}
     </header>
   );
 }
