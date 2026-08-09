@@ -1733,3 +1733,496 @@ textarea:focus {
   font-size: 0.85rem;
   font-weight: 400;
 }
+
+/* ============================================================
+   NEO-BRUTALIST LAYER
+   ============================================================ */
+
+/* ---------- surfaces ---------- */
+
+.card,
+.nav-card,
+.journey-step,
+.study-card,
+.theme-card,
+.device-card,
+.q-card,
+.quiz-runner,
+.quiz-result,
+.moti-bar,
+.page-banner {
+  background: var(--sea);
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+}
+
+.card::before {
+  display: none;
+}
+
+/* ---------- navbar ---------- */
+
+.navbar {
+  background: var(--deep-sea);
+  border-bottom: 2.5px solid var(--border-ink);
+  box-shadow: 0 4px 0 var(--shadow-ink);
+  backdrop-filter: none;
+}
+
+.nav-link {
+  color: var(--ice);
+  font-weight: 600;
+}
+
+.nav-link.active {
+  color: var(--ice);
+  border-bottom: 3px solid var(--yellow);
+}
+
+.marquee {
+  flex-basis: 100%;
+  order: 10;
+  overflow: hidden;
+  border-top: 2.5px solid var(--border-ink);
+  margin-top: 0.4rem;
+  padding-top: 0.3rem;
+}
+
+.marquee-track {
+  display: flex;
+  gap: 3rem;
+  white-space: nowrap;
+  animation: marquee-scroll 45s linear infinite;
+  width: max-content;
+}
+
+.marquee-item {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ice-dim);
+}
+
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.theme-toggle {
+  letter-spacing: 0.04em;
+}
+
+/* ---------- buttons ---------- */
+
+.btn {
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  color: var(--ice);
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.15s ease;
+}
+
+.btn:hover:not(:disabled) {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--shadow-ink);
+}
+
+.btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: none;
+}
+
+.btn-primary {
+  background: var(--yellow);
+  color: var(--abyss);
+}
+
+.btn-outline {
+  background: var(--sea);
+  color: var(--ice);
+  border: 2.5px solid var(--border-ink);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ice);
+}
+
+.btn-danger {
+  background: var(--red);
+  color: var(--abyss);
+  border: 2.5px solid var(--border-ink);
+}
+
+.btn-known {
+  background: var(--green);
+  color: var(--abyss);
+  border: 2.5px solid var(--border-ink);
+}
+
+.btn-learning {
+  background: var(--yellow);
+  color: var(--abyss);
+  border: 2.5px solid var(--border-ink);
+}
+
+/* ---------- inputs ---------- */
+
+input[type='text'],
+input[type='password'],
+input[type='email'],
+input[type='search'],
+textarea,
+select {
+  background: var(--sea);
+  color: var(--ice);
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  padding: 0.5rem 0.6rem;
+  font-family: var(--sans);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+}
+
+/* ---------- tabs (printed labels) ---------- */
+
+.tab {
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  background: var(--sea);
+  color: var(--ice);
+  font-family: var(--serif);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tab.active {
+  background: var(--yellow);
+  color: var(--abyss);
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+}
+
+/* ---------- study cards (board-exam stamp) ---------- */
+
+.study-card {
+  position: relative;
+  overflow: visible;
+}
+
+.study-card::after {
+  content: 'BOARD EXAM READY';
+  position: absolute;
+  top: 0.6rem;
+  right: -0.4rem;
+  transform: rotate(6deg);
+  font-family: var(--serif);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: var(--ice-dim);
+  border: 2px solid var(--ice-dim);
+  border-radius: 3px;
+  padding: 0.15rem 0.4rem;
+  background: var(--sea);
+  opacity: 0.85;
+}
+
+/* ---------- poetic devices as sticker chips ---------- */
+
+.device-card {
+  background: var(--sea);
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+}
+
+.device-name {
+  display: inline-block;
+  background: var(--yellow);
+  color: var(--abyss);
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  padding: 0.3rem 0.7rem;
+  margin: 0 0 0.6rem;
+  font-family: var(--serif);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+  transform: rotate(-1deg);
+}
+
+/* ---------- quiz ---------- */
+
+.quiz-option {
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  background: var(--sea);
+  color: var(--ice);
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+  transition: transform 0.1s ease, box-shadow 0.1s ease, background 0.15s ease;
+}
+
+.quiz-option:hover:not(:disabled) {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--shadow-ink);
+}
+
+.quiz-option.correct {
+  background: var(--green);
+  color: var(--abyss);
+  border-color: var(--border-ink);
+}
+
+.quiz-option.wrong {
+  background: var(--red);
+  color: var(--abyss);
+  border-color: var(--border-ink);
+}
+
+.quiz-option.dimmed {
+  opacity: 0.5;
+}
+
+.quiz-result {
+  border: 3px solid var(--border-ink);
+  box-shadow: 6px 6px 0 var(--shadow-ink);
+}
+
+.quiz-result::before {
+  content: 'RESULT';
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  transform: rotate(6deg);
+  font-family: var(--serif);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  color: var(--abyss);
+  background: var(--yellow);
+  border: 2.5px solid var(--border-ink);
+  border-radius: 3px;
+  padding: 0.2rem 0.5rem;
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+}
+
+.quiz-bar-fill {
+  background: var(--yellow);
+}
+
+/* ---------- flashcards ---------- */
+
+.flip-face {
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-soft);
+  background: var(--sea);
+  color: var(--ice);
+}
+
+.flip-hint {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--abyss);
+  background: var(--cyan);
+  border: 2px solid var(--border-ink);
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+}
+
+/* ---------- home hero poster ---------- */
+
+.hero-books {
+  background: var(--deep-sea);
+}
+
+.hero-content {
+  border: 2.5px solid var(--border-ink);
+  background: var(--sea);
+  box-shadow: var(--shadow);
+  padding: 2rem 2.5rem;
+}
+
+.hero-school {
+  display: inline-block;
+  font-family: var(--serif);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--abyss);
+  background: var(--cyan);
+  border: 2px solid var(--border-ink);
+  border-radius: 3px;
+  padding: 0.2rem 0.6rem;
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+}
+
+.hero-title {
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+
+/* ---------- book covers ---------- */
+
+.book-section-head {
+  border-left: 6px solid var(--border-ink);
+}
+
+.unit-card {
+  position: relative;
+  background: var(--sea);
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  box-shadow: 3px 3px 0 var(--shadow-ink);
+  padding-left: 1.4rem;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.unit-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 7px;
+  background: var(--book-accent, var(--sea-mid));
+  border-right: 2px solid var(--border-ink);
+}
+
+.unit-card.book-first-flight {
+  --book-accent: var(--cyan);
+}
+
+.unit-card.book-footprints {
+  --book-accent: var(--magenta);
+}
+
+.unit-card:hover {
+  transform: rotate(-1deg) translateY(-2px);
+  box-shadow: 6px 6px 0 var(--shadow-ink);
+}
+
+.type-badge {
+  font-family: var(--serif);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border: 2px solid var(--border-ink);
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  background: var(--sea);
+  color: var(--ice);
+  box-shadow: 1px 1px 0 var(--shadow-ink);
+}
+
+.type-poem {
+  background: var(--yellow);
+  color: var(--abyss);
+}
+
+.type-play {
+  background: var(--green);
+  color: var(--abyss);
+}
+
+.type-legacy {
+  background: var(--gold);
+  color: var(--abyss);
+}
+
+.unit-card-author {
+  color: var(--storm-light);
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.8rem;
+}
+
+.unit-card-go {
+  color: var(--ice);
+  font-weight: 700;
+}
+
+/* ---------- misc ---------- */
+
+.step-num {
+  display: inline-block;
+  font-family: var(--serif);
+  font-weight: 700;
+  color: var(--abyss);
+  background: var(--magenta);
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+}
+
+.quote-band {
+  border-top: 2.5px solid var(--border-ink);
+  border-bottom: 2.5px solid var(--border-ink);
+}
+
+.site-footer {
+  border-top: 2.5px solid var(--border-ink);
+  background: var(--sea);
+  color: var(--ice);
+}
+
+.site-footer .ornament {
+  color: var(--ice);
+}
+
+.heritage-stamp {
+  display: inline-block;
+  font-family: var(--serif);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--abyss);
+  background: var(--gold);
+  border: 2px solid var(--border-ink);
+  border-radius: 3px;
+  padding: 0.2rem 0.6rem;
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+  transform: rotate(-2deg);
+  margin-top: 0.5rem;
+}
+
+/* ---------- page banner ---------- */
+
+.page-banner {
+  border: 2.5px solid var(--border-ink);
+  border-radius: var(--radius);
+  box-shadow: 3px 3px 0 var(--shadow-ink);
+  overflow: hidden;
+}
+
+.banner-kicker {
+  display: inline-block;
+  font-family: var(--serif);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--abyss);
+  background: var(--yellow);
+  border: 2px solid var(--border-ink);
+  border-radius: 3px;
+  padding: 0.15rem 0.5rem;
+  box-shadow: 2px 2px 0 var(--shadow-ink);
+}
