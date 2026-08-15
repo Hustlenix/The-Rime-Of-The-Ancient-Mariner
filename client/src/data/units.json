@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-09T12:55:18.755Z",
+ "generatedAt": "2026-08-15T09:49:58.555Z",
  "books": [
   {
    "id": "literature-reader",
@@ -46,7 +46,7 @@
    "book": "literature-reader",
    "type": "prose",
    "title": "The Letter",
-   "author": "Dhumketu (Gujaratilal Jhaveri)",
+   "author": "Dhumaketu",
    "order": 3,
    "legacy": false
   },
@@ -90,7 +90,7 @@
    "id": "not-marble-nor-the-gilded-monuments",
    "book": "literature-reader",
    "type": "poem",
-   "title": "Not Marble, Nor the Gilded Monuments",
+   "title": "Not Marble nor the Gilded Monuments",
    "author": "William Shakespeare",
    "order": 8,
    "legacy": false
@@ -100,7 +100,7 @@
    "book": "literature-reader",
    "type": "poem",
    "title": "Ozymandias",
-   "author": "Percy Bysshe Shelley",
+   "author": "P.B. Shelley",
    "order": 9,
    "legacy": false
   },

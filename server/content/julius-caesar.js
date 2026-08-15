@@ -10,210 +10,237 @@ module.exports = {
   content: [
     {
       category: 'summary',
-      prompt: 'Part 1 — Omens and warnings',
-      answer: 'Caesar returns to Rome in triumph, and the crowd adores him. But the air is full of warnings: a soothsayer cries out that Caesar should beware the Ides of March; strange prodigies are reported — lions walking in the streets, men on fire, the dead walking. Caesar dismisses the omens and the soothsayer alike. Meanwhile, in private, Cassius is sowing suspicion among the nobles, arguing that Caesar\'s growing power makes him a tyrant and that Rome\'s freedom depends on stopping him.'
+      prompt: 'Scene 1 — Calpurnia\'s dream and the omens',
+      answer: 'On the morning of the Ides of March, Caesar\'s wife Calpurnia begs him not to go to the Senate. She has dreamt that a statue of Caesar, spouting blood, was bathed in the washing of a hundred Romans — a sign that his blood will be shed for the people. Calpurnia has also heard of terrible omens in the streets: a lioness whelping in the Capitol, the dead rising from their graves, men on fire who are not burned, and warriors fighting in the clouds. She pleads with Caesar to stay at home, and Caesar, moved by her fear, is half persuaded — until Decius Brutus arrives and reinterprets the dream as a good omen: the blood is not Caesar\'s but the people\'s love, and the senators have resolved to crown him today.'
     },
     {
       category: 'summary',
-      prompt: 'Part 2 — The conspiracy forms',
-      answer: 'Cassius wins over Brutus, the noblest Roman of them all, by persuading him that Caesar\'s ambition threatens the republic. Brutus, who loves Caesar but loves Rome more, is torn: he decides, in the end, that Caesar must die for the public good — not from envy but from principle. The conspirators gather, and Brutus is persuaded to take the lead, for his reputation will make the deed seem honourable rather than murderous. The plot is set for the Ides of March at the Capitol.'
+      prompt: 'Scene 2 — The Senate and the assassination',
+      answer: 'Caesar goes to the Capitol, where the conspirators wait. Metellus Cimber kneels, begging that the banishment of his brother Publius Cimber be reversed. Caesar refuses proudly, declaring that he is as constant as the northern star. The conspirators surround him, pretending to plead, and at a signal — Casca\'s "Speak, hands, for me!" — they stab him. Caesar sees his friend Brutus among the daggers and cries out, and falls dead at the foot of Pompey\'s statue, wrapped in his robe. The conspirators cry "Liberty! Freedom! Tyranny is dead!" and Brutus persuades them to bathe their hands in Caesar\'s blood as a symbol of their deed — but first he bids them not to harm Antony, and he and Cassius agree to face the people and justify the assassination.'
     },
     {
       category: 'summary',
-      prompt: 'Part 3 — The night before',
-      answer: 'The night before the assassination is full of terror and portents: storms, thunder, strange sights. Calpurnia, Caesar\'s wife, has dreamed of his statue spouting blood and pleads with him not to go to the Capitol. Caesar, shaken, agrees to stay — but Decius Brutus, one of the conspirators, arrives and reinterprets the dream flatteringly, turning it into a good omen, and flatters Caesar\'s pride by hinting the Senate means to crown him. Caesar, won over by pride and persuasion, goes to the Capitol — and so do the conspirators, armed.'
+      prompt: 'Scene 3 — Brutus\'s speech to the people',
+      answer: 'At the Forum, Brutus addresses the crowd. He declares that he loved Caesar, but that he loved Rome more: he asks the people if they would rather Caesar were alive and they all slaves, or Caesar dead and they all freemen. He explains that he killed Caesar for ambition — Caesar\'s ambition would have enslaved them — and he asks them to judge him as they judge him: "As I slew my best lover for the good of Rome, I have the same dagger for myself, when it shall please my country to need my death." The crowd is moved, and cries out that Brutus is an honourable man, that Caesar was a tyrant — and Brutus, satisfied, leaves the Forum, telling the people to stay and hear Caesar\'s funeral oration by Antony, who has his permission to speak.'
     },
     {
       category: 'summary',
-      prompt: 'Part 4 — The assassination and its aftermath',
-      answer: 'At the Capitol, a warning letter from Artemidorus is thrust at Caesar, but he waves it away. The conspirators crowd around him; the first blow is struck, and Caesar, seeing Brutus among the daggers, falls with his famous reproach — the betrayal of his best friend breaks him more than the knives. The conspirators bathe their hands in his blood and proclaim liberty. But Mark Antony, Caesar\'s friend, asks to speak at the funeral, and his speech — turning the crowd with irony, pointing to Caesar\'s wounds and his will — whips the mob into a frenzy. The people, once Caesar\'s adorers, now turn against the conspirators, and Rome descends into civil war.'
+      prompt: 'Scene 4 — Antony\'s funeral oration',
+      answer: 'Antony steps up with Caesar\'s body and turns the crowd. He opens with the famous address — "Friends, Romans, countrymen, lend me your ears" — and tells them that he has come to bury Caesar, not to praise him. In an irony that builds line by line, he calls the conspirators "honourable men" while showing that their reasons are false: Caesar enriched the people with the ransom money of captives, wept with the poor, and refused the crown three times at the Lupercal. He reads Caesar\'s will, in which Caesar leaves seventy-five drachmas to every Roman citizen and his walks, gardens and orchards to the people, to be enjoyed by all. The crowd, inflamed, rises against the conspirators, and Antony exults: "Now let it work."'
+    },
+    {
+      category: 'summary',
+      prompt: 'Scene 5 — The mob and the flight of the conspirators',
+      answer: 'The oration has done its work. The mob rushes through the streets crying "Caesar\'s better parts shall be crowned in Brutus!" and killing anyone who bears the name of a conspirator: the poet Cinna is torn to pieces merely for his name. Brutus and Cassius, warned that the city is lost, flee from Rome. Antony, with Octavius Caesar — the dead ruler\'s heir — and Lepidus, takes control of the city and sets about hunting the conspirators down. The play\'s excerpt ends with the civil struggle begun: the assassins are scattered, the people are with Antony, and the revenge for Caesar\'s murder is only beginning.'
     },
     {
       category: 'theme',
-      prompt: 'Ambition and the abuse of power',
-      answer: 'The play\'s central theme is ambition and the danger of unlimited power. The conspirators justify the murder by claiming Caesar\'s ambition would enslave Rome — and the question the play keeps asking is whether they are right. Caesar does display ambition, yet he refuses the crown three times, and the murder of a man on suspicion of future tyranny is itself a tyranny. The theme is double-edged: power corrupts and must be watched, but the cure of assassination breeds its own corruption — and the play shows both Caesar\'s pride and the conspirators\' fall.'
+      prompt: 'Ambition and the fear of tyranny',
+      answer: 'The conspirators justify the assassination as a defence of liberty: they fear Caesar\'s ambition will make him king and enslave them. Brutus, the "noblest Roman of them all", kills his friend for the love of Rome, believing that one ambitious man must die that all may be free. The theme is double-edged: ambition is Caesar\'s supposed crime, but ambition — of Brutus, Cassius, Antony — drives the play. The fear of tyranny leads to murder, and murder leads to civil war. Shakespeare asks: when does a man\'s ambition threaten a state, and who is to judge — and at what cost?'
+    },
+    {
+      category: 'theme',
+      prompt: 'The power of rhetoric and persuasion',
+      answer: 'The excerpt is a study in the power of words. Brutus speaks first, and the crowd is his; Antony speaks second, and the crowd is lost to the conspirators. Antony\'s art lies in irony — "Brutus is an honourable man" — and in staging: he shows the bloody robe, he reads the will, he pauses to weep. Each device turns the people further. The theme is that public speech can move multitudes for good or ill, and that the crowd is fickle: it hailed Brutus, then tore Cinna apart. Rhetoric, Shakespeare shows, is the real battlefield — the daggers only begin the war.'
     },
     {
       category: 'theme',
       prompt: 'Fate, omens and free will',
-      answer: 'The play is crowded with omens — the soothsayer\'s warning, Calpurnia\'s dream, storms and prodigies — and the question of whether fate can be escaped runs through it. Caesar ignores every warning and walks to his death; the conspirators act freely, yet seem driven by a fate they cannot control; and every warning given is proved true. The theme suggests a world where fate and choice are interwoven: the omens are there for those who will read them, but men act on pride and passion, and so the warnings are always heard too late.'
+      answer: 'The scene is thick with portents: Calpurnia\'s dream of the statue spouting blood, the lioness whelping in the Capitol, the dead rising from their graves, the warring armies in the clouds. Caesar, who says "cowards die many times before their deaths", chooses to go to the Senate despite the warnings — or is led there by Decius\'s reinterpretation of the dream. The theme asks whether Caesar\'s fall was written in the stars or chosen by the men who feared him. The play\'s answer is characteristically Shakespearean: omens may warn, but men make the decisions — and pay the price.'
     },
     {
       category: 'theme',
-      prompt: 'Rhetoric and the power of public opinion',
-      answer: 'The play\'s great political theme is the power of words over crowds. Brutus speaks first at the funeral — calm, reasoned, honest — and the mob is persuaded that the murder was for liberty. Then Antony speaks — and with irony, tears and Caesar\'s will, he turns the same crowd into a mob howling for the conspirators\' blood. The theme shows how public opinion is not found but made, and how easily the truth is bent by eloquence. Antony\'s speech is the play\'s masterpiece: a lesson in how rhetoric can conquer reason and ignite revolution.'
-    },
-    {
-      category: 'theme',
-      prompt: 'Betrayal and friendship',
-      answer: 'At the heart of the play is the theme of betrayal — and its most piercing instance is private, not public. Brutus, Caesar\'s beloved friend, strikes the last and deadliest blow, and Caesar\'s dying reproach to Brutus is the play\'s most haunting moment: the wounds of friendship hurt more than the knives. The theme asks what loyalty means and what it costs: Brutus betrays his friend out of principle and is destroyed by his own conscience, while Antony, who truly loved Caesar, avenges him and inherits the chaos. Betrayal, the play suggests, leaves no one innocent.'
+      prompt: 'Friendship betrayed',
+      answer: 'The deepest wound in the scene is personal. Caesar dies not only at the hands of enemies but at the daggers of friends — above all of Brutus, whom he loved and trusted, and whose name is last on his lips. The friendship between Brutus and Caesar is the play\'s tragic hinge: Brutus joins the conspiracy out of conscience, not envy, and yet it is his betrayal that breaks Caesar\'s heart: "Et tu, Brute?" The theme is that political ideals, however noble, cannot cleanse a treacherous act; and that the noblest-seeming motive may be the most destructive.'
     },
     {
       category: 'character',
       prompt: 'Julius Caesar',
-      answer: 'Caesar is the play\'s title figure — Rome\'s greatest general, returning in triumph, adored by the crowd. He is proud, confident and superstitious in a strangely selective way: he dismisses the soothsayer, waves away warnings and flatters himself that he alone is fearless. Yet he refuses the crown three times — whether from modesty or theatre is left ambiguous. His greatness is his tragedy: he thinks himself above fate and above the fears of lesser men, and his confidence walks him into the Capitol and the daggers. His fall is completed by the betrayal of Brutus, the friend he trusted most, and his dying reproach shows that it is the heartbreak, not the wounds, that kills him.'
+      answer: 'Caesar is the ruler of Rome, a great soldier and a proud man. He is superstitious yet self-confident: he mocks the soothsayer\'s warning, dismisses Calpurnia\'s dream until it is reinterpreted, and refuses Metellus Cimber\'s plea with the famous claim that he is as constant as the northern star. He is a man of appetite — the crowd speaks of his refusal of the crown three times, and his will leaves the people orchards and gardens — and of pride, which the conspirators use to lure him to the Capitol. His death at the foot of Pompey\'s statue, with Brutus\'s name on his lips, is the fall of a colossus.'
     },
     {
       category: 'character',
       prompt: 'Brutus',
-      answer: 'Brutus is the noblest Roman of them all — honourable, thoughtful and loved by the people. The conspirators need him because his name makes murder look like virtue. He joins the plot not from envy but from principle: he convinces himself that Caesar\'s ambition must be stopped for the good of Rome. Yet his nobility is also his blindness: he refuses to kill Antony, allows Antony to speak at the funeral, and believes the crowd will understand pure motives. His generosity destroys him — Antony\'s speech turns the mob, and Brutus, the man of honour, is driven to his death by the very people he meant to free. His tragedy is the tragedy of the good man in evil times.'
-    },
-    {
-      category: 'character',
-      prompt: 'Cassius',
-      answer: 'Cassius is the plot\'s engineer — sharp-eyed, envious and cynical. He hates Caesar\'s power and sees through him: he notes how Caesar, like any man, has his weaknesses, and he believes no man should be a god to other men. He is the politician of the play, persuading, flattering and manipulating — he wins Brutus by playing on his honour. Yet his cynicism is his limit: he cannot see what Brutus sees, and his quarrel with Brutus over principle is one of the play\'s great debates. He is the realist who sets the tragedy in motion and is finally destroyed by the storm he raised.'
+      answer: 'Brutus is the noblest of the conspirators, loved by the people and loved by Caesar. He joins the conspiracy not for envy or gain but from principle — he fears what Caesar\'s ambition will do to Rome, and he is willing to sacrifice his friend for the republic. He is honourable and also naive: he refuses to harm Antony, allowing the funeral oration that destroys the conspiracy; he speaks honestly where Antony schemes. His speech moves the crowd, but he underestimates Antony\'s rhetoric. Brutus is the play\'s tragic figure of conscience: a good man whose deed, however reasoned, brings ruin.'
     },
     {
       category: 'character',
       prompt: 'Mark Antony',
-      answer: 'Antony is Caesar\'s loyal friend and the play\'s great survivor. After the murder he plays the humble servant, winning the conspirators\' trust and their permission to speak at Caesar\'s funeral — and then he delivers the speech that destroys them. His genius is rhetorical: he calls the conspirators honourable men while exposing their deed, weeps over Caesar\'s wounds, and finally produces the will that turns the crowd into a mob. Antony is the man of feeling and the man of calculation at once — and his victory shows the play\'s hard truth: in politics, eloquence and ruthlessness beat honour. He ends with an epitaph over Brutus, praising the one enemy who acted from noble motives.'
+      answer: 'Antony is Caesar\'s loyal friend and the conspirators\' deadliest enemy. In the funeral oration he hides a master strategist inside a grieving mourner: weeping, showing the bloody robe, repeating that the conspirators are "honourable men" until the irony turns the crowd. He is shrewd, patient and ruthless — reading the will at exactly the right moment, waiting for the mob to do its work, and then seizing power with Octavius. Antony represents the theme of rhetoric: words, in his hands, are weapons more deadly than daggers, and he wins the city without striking a blow.'
     },
     {
       category: 'character',
-      prompt: 'Calpurnia and the soothsayer',
-      answer: 'Calpurnia, Caesar\'s wife, is the voice of private love and fear in the play: her dream of Caesar\'s statue spouting blood is the most famous of the omens, and her pleading nearly saves Caesar\'s life. She is overruled by Decius\'s flattery — and her helpless grief marks the moment when fate takes over. The soothsayer is the play\'s prophet of doom: his warning to beware the Ides of March is given and ignored, and he reappears to remind Caesar that the day has come. Together they represent the warnings that surround the great and are always heard too late — fate speaking in the voice of love and the voice of truth, while pride marches past both.'
+      prompt: 'Calpurnia',
+      answer: 'Calpurnia is Caesar\'s wife, the voice of foreboding in the scene. She has dreamt of his statue spouting blood, and she pleads with him with a wife\'s fear: "Do not go forth today." She has heard the omens of the streets — the lioness, the graves opening, the men in flames — and she reads them as warnings. Her fear is sound, and Caesar is almost persuaded; but Decius reinterprets the dream, and her warning is undone by rhetoric. Calpurnia embodies the play\'s theme of omens and fate: the truth was written in her dream, yet the tide of persuasion ran against it.'
+    },
+    {
+      category: 'character',
+      prompt: 'Decius Brutus',
+      answer: 'Decius is the conspirator who ensures the plot succeeds. When Caesar, moved by Calpurnia, decides to stay home, Decius is sent for — and with a single stroke of flattery and reinterpretation he reverses the decision. He explains the dream anew: the blood in the statue\'s mouth is not Caesar\'s but Rome\'s love, the people washing themselves in it; and he adds that the Senate, having resolved to crown Caesar today, will think him afraid of his wife\'s dreams. The ambition in the dream\'s new meaning is exactly what Caesar wishes to believe. Decius shows how language can bend fate — and how Caesar\'s pride is his undoing.'
+    },
+    {
+      category: 'character',
+      prompt: 'The common people of Rome',
+      answer: 'The crowd is itself a character in the scene. It gathers at the Forum, ready to be swayed; it applauds Brutus\'s reasoning; and it is turned in a single speech by Antony\'s art. It is fickle and violent: moments after hailing the assassins as honourable men, it rushes to tear apart the poet Cinna for no reason but his name. The people embody the theme of mob rule and the power of rhetoric: they are the prize the orators fight for, and the play shows how easily their love is won and how dangerously it is used.'
     },
     {
       category: 'value',
-      prompt: 'Beware the flattery of the powerful',
-      answer: 'The play teaches the danger of flattery and pride. Caesar is undone not by the Senate\'s daggers alone but by his own vanity: he stays home until Decius flatters him into going. The value lesson: listen to honest warning and honest friends; the flatterer\'s tongue is a dagger in velvet. Those who surround themselves with praise are blind to danger, and pride — the belief that one is above fate — is the surest road to a fall.'
+      prompt: 'Loyalty and friendship',
+      answer: 'The excerpt values loyalty and friendship, and shows the cost of their betrayal. Caesar\'s death is a betrayal of trust — the stab of Brutus wounds him more than any other: "Et tu, Brute?" — while Antony\'s loyalty to his dead friend is honoured in the play: he risks his life to speak for Caesar and to hunt down his murderers. The value lesson: friendship is a bond that politics should not break; and the friend who betrays a friend, however noble the excuse, breaks something in himself that can never be mended.'
     },
     {
       category: 'value',
-      prompt: 'Honour, conscience and the cost of good intentions',
-      answer: 'Brutus acts from the purest motives — the good of Rome — and his honesty costs him everything. The play\'s lesson is complex: good intentions do not excuse bad means, and violence done "for the public good" unleashes violence that no one can control. Brutus\'s conscience torments him, and his honour is repaid with ruin. The value lesson: act with integrity, but weigh consequences; believe in the goodness of others, but do not trust the crowd; and remember that the noblest cause, pursued by the wrong means, can still destroy the noblest man.'
+      prompt: 'The responsibility of the public speaker',
+      answer: 'The scene teaches the weight of words. Brutus speaks for liberty and honesty; Antony speaks for revenge — and both move the same crowd. The value lesson is that rhetoric is a responsibility: the crowd that loves you today will act on your words tomorrow, and the orator who inflames a mob must answer for its deeds — from the murder of Cinna to the civil war. Words, the play warns, are like daggers: they kill; and the tongue that uses them carelessly, or cruelly, must carry the blame.'
     },
     {
       category: 'short',
-      prompt: 'What warning did the soothsayer give Caesar?',
-      answer: 'He warned Caesar to beware the Ides of March.'
+      prompt: 'Who wrote "Julius Caesar"?',
+      answer: 'William Shakespeare.'
     },
     {
       category: 'short',
-      prompt: 'Why did Cassius want to win Brutus to the conspiracy?',
-      answer: 'Because Brutus\'s noble reputation would make the assassination seem honourable and win the people\'s approval.'
+      prompt: 'What did Calpurnia dream?',
+      answer: 'That a statue of Caesar, spouting blood, was bathed in the washing of a hundred Romans.'
     },
     {
       category: 'short',
-      prompt: 'What was Brutus\'s reason for joining the conspiracy?',
-      answer: 'He believed Caesar\'s ambition threatened the freedom of Rome, and he joined from principle, not envy.'
+      prompt: 'Name the omens Calpurnia reported.',
+      answer: 'A lioness whelping in the Capitol, the dead rising from their graves, men on fire but not burned, and warriors fighting in the clouds.'
     },
     {
       category: 'short',
-      prompt: 'What dream did Calpurnia have, and what did she beg Caesar to do?',
-      answer: 'She dreamed his statue spouted blood, and she begged him not to go to the Capitol.'
+      prompt: 'How did Decius reinterpret Calpurnia\'s dream?',
+      answer: 'He said the blood was the people\'s love bathing in Caesar\'s blood, a sign that the Romans would receive life from him — a good omen.'
     },
     {
       category: 'short',
-      prompt: 'How did Decius Brutus persuade Caesar to go to the Capitol?',
-      answer: 'He reinterpreted the dream as a good omen and flattered Caesar\'s pride, hinting the Senate meant to crown him.'
+      prompt: 'What did Metellus Cimber beg of Caesar?',
+      answer: 'That the banishment of his brother Publius Cimber be reversed.'
     },
     {
       category: 'short',
-      prompt: 'What happened to Artemidorus\'s warning letter?',
-      answer: 'Caesar waved it away without reading it — the last warning ignored.'
+      prompt: 'Where did Caesar fall?',
+      answer: 'At the foot of Pompey\'s statue, wrapped in his robe, stabbed by the conspirators.'
     },
     {
       category: 'short',
-      prompt: 'What was Caesar\'s reaction when he saw Brutus among the assassins?',
-      answer: 'His famous reproach — the betrayal of his trusted friend broke him more than the daggers, and he fell.'
+      prompt: 'What were Caesar\'s last words?',
+      answer: '"Et tu, Brute?" — "You too, Brutus?" — upon seeing Brutus among the assassins.'
     },
     {
       category: 'short',
-      prompt: 'What did Antony ask of the conspirators after the murder?',
-      answer: 'To be allowed to speak at Caesar\'s funeral — and Brutus granted it, against Cassius\'s advice.'
+      prompt: 'Why did Brutus say he killed Caesar?',
+      answer: 'Not because he loved Caesar less, but because he loved Rome more — he feared Caesar\'s ambition would enslave the people.'
     },
     {
       category: 'short',
-      prompt: 'How did Antony turn the crowd against the conspirators?',
-      answer: 'With irony and emotion — calling the conspirators honourable while exposing the murder, showing Caesar\'s wounds and reading his will.'
+      prompt: 'What did Caesar\'s will leave to every Roman citizen?',
+      answer: 'Seventy-five drachmas each, and his walks, gardens and orchards for all the people to enjoy.'
+    },
+    {
+      category: 'short',
+      prompt: 'What happened to the poet Cinna?',
+      answer: 'The mob tore him to pieces because he bore the name of one of the conspirators.'
     },
     {
       category: 'long',
-      prompt: 'How does Brutus justify Caesar\'s assassination, and how does Antony turn the people against him?',
-      answer: 'Brutus justifies the assassination as a public duty: he loved Caesar, but he loved Rome more, and he feared that Caesar\'s ambition would make the people slaves. His speech at the funeral is calm, reasoned and honest — he asks the crowd whether they would rather be free with Caesar dead or slaves with Caesar alive, and the crowd, moved, accepts the murder as liberty. Antony then takes the same crowd and undoes Brutus in minutes. He speaks with perfect irony, repeating that the conspirators are honourable men while proving, point by point, that Caesar was their friend and benefactor: Caesar wept for the poor, refused the crown three times, and left the people his wealth in his will. Antony shows Caesar\'s bloodied mantle, names each wound, and holds up the will — and the crowd, transformed from mourners into a mob, howls for the conspirators\' blood and burns the houses of the men it had just applauded. Brutus spoke to reason; Antony spoke to the heart — and the heart won.'
+      prompt: 'Compare Brutus\'s and Antony\'s speeches at the Forum.',
+      answer: 'Brutus speaks first, in plain and honest prose, asking the crowd to judge him as they judge him. He argues that he loved Caesar but loved Rome more — that Caesar\'s ambition would have enslaved them, and that he slew his best friend for the good of the commonwealth, offering his own dagger if ever Rome should need his death. The speech is reasoned, dignified and true to his character; it wins the crowd at once, and Brutus leaves, satisfied, trusting his honesty to speak for itself. Antony speaks second, and his art is in his irony. He opens by calling them "Friends, Romans, countrymen", claiming he comes to bury Caesar, not to praise him; and then, while repeating that the conspirators are "honourable men", he proves them false — Caesar wept with the poor, refused the crown three times, and enriched the people. He shows the bloody robe, weeps, pauses, and at last reads the will, which leaves seventy-five drachmas and the gardens to every Roman. Where Brutus appeals to reason, Antony appeals to pity, memory and self-interest; and in a single speech the crowd is turned from "honourable men" to a murderous mob.'
     },
     {
       category: 'long',
-      prompt: 'What role do omens and warnings play in the play?',
-      answer: 'Omens and warnings crowd the play, and every one of them is true — which makes the tragedy all the darker. The soothsayer warns Caesar to beware the Ides of March, and Caesar dismisses him as a dreamer; on the day itself the soothsayer returns, and Caesar still walks into the Capitol. The night before the murder is full of prodigies — storms, fire, the dead walking — and Calpurnia\'s dream of Caesar\'s statue spouting blood is a plain forecast of his death. Artemidorus writes Caesar a letter naming every conspirator, and Caesar waves it away unread. The theme is fate and free will: the warnings are given clearly, but Caesar\'s pride — his belief that he is fearless, above the fears of common men — closes his ears. The play suggests that fate sends its messages and men ignore them; that destiny is not hidden but announced; and that the great are often the last to hear the truth. The omens give the play its atmosphere of doom: every sign points to the Capitol, and Caesar walks there anyway.'
+      prompt: 'How does the crowd\'s mood change during Antony\'s oration?',
+      answer: 'At first the crowd is hostile to Antony — "He had no hand in his death" — and disposed to the conspirators. Antony plays them patiently. He begins modestly, insisting he has not come to praise Caesar; he builds sympathy by remembering Caesar\'s kindnesses; and with each repetition of "Brutus is an honourable man", his irony works deeper, planting doubt. When he shows Caesar\'s mantle, stabbed and bloody, the crowd murmurs; when he reveals the body and weeps, their pity turns to anger; and when he reads the will — seventy-five drachmas to every citizen, the walks and orchards for their pleasure — their anger becomes fury. They cry that Caesar was a tyrant no more; they resolve to burn the traitors\' houses; and the crowd, which minutes before had hailed Brutus as honourable, now hunts his name through the streets and tears the innocent poet Cinna to pieces. The oration is a masterpiece of rhetoric — and a portrait of the fickleness of mobs, who love and hate at the word of a speaker.'
     },
     {
       category: 'long',
-      prompt: 'Value question: What does the play teach us about ambition, pride and the use of power?',
-      answer: 'The play is a political fable with a double lesson. First, it warns against unchecked ambition: Caesar\'s power frightens the republic, and the conspirators\' fear is not entirely wrong — power concentrated in one man is a danger to liberty. But the play warns equally against the cure: assassination done for the public good is still murder, and the conspirators\' victory breeds only chaos — the mob turns, Rome burns, and civil war follows. The deeper lesson is about pride: Caesar falls because he believes himself above fate and flattery; he is undone by his vanity. And Brutus falls because he trusts too much — he believes the crowd will understand honour, and he is devoured by it. The value the play presses on the reader is moderation and self-knowledge: watch power in yourself and others, refuse flattery, listen to honest warnings, and remember that means cannot be separated from ends. Ambition without bounds destroys the ambitious; and violence done in the name of virtue still unleashes violence.'
+      prompt: 'Why does Caesar fall at the foot of Pompey\'s statue, and why is this significant?',
+      answer: 'Caesar falls at the base of the statue of Pompey, the great general he defeated at Pharsalus — the man whose death had opened Caesar\'s road to absolute power. The staging is Shakespeare\'s irony: the tyrant falls at the monument of the man he destroyed, as if the old republic were claiming its revenge. Symbolically, the assassination is meant to restore the liberty of the old Rome that Pompey represented, yet the scene at the statue shows that the conspirators are repeating history, not mending it — killing a great man at the foot of a great man\'s image, in the very theatre of power. The blood of Caesar, spilling where Pompey\'s memory stands, announces that the republic will not be restored by daggers: the civil war that follows will drown the ideals of both Pompey and the conspirators, and Caesar\'s own heir will inherit the empire.'
     },
     {
       category: 'long',
-      prompt: 'Why is Antony\'s funeral speech so powerful? Describe its method.',
-      answer: 'Antony\'s speech is the most famous rhetoric in English drama, and its method is flawless. He begins by disarming suspicion — he says he comes to bury Caesar, not to praise him — and then repeats, like a refrain, that Brutus and the conspirators are honourable men. Each repetition is more ironic than the last, because between them he stacks the evidence that contradicts it: Caesar was my friend, faithful and just; he brought captives home and filled the treasury; the poor wept when he wept; he thrice refused the crown. The crowd begins to doubt the "honourable men". Then Antony moves from argument to emotion: he descends to the body, shows Caesar\'s mantle, names each wound and each assassin — "this was the most unkindest cut of all" when Brutus, whom Caesar loved, struck. He weeps, pauses, lets the crowd feel his grief — and only then delivers the will, the final proof that Caesar loved the people. The crowd is no longer an audience but a mob, and Antony\'s last words — that he has no wit to stir them to mutiny — are the crowning irony: he has already done it. Reason lost the day to rhetoric; the people were won by the heart.'
+      prompt: 'Value question: What does the scene teach us about trust and betrayal?',
+      answer: 'The scene is a lesson in trust and its betrayal. Caesar trusts the Senate, the conspirators, and above all Brutus — the man he loves; and it is precisely that trust that undoes him. He is lured to the Capitol by flattery dressed as friendship; he is stabbed by men who embrace him; and his last words — "Et tu, Brute?" — are a cry of betrayal, not of pain: the deepest wound is not in his body but in the discovery that Brutus has a dagger. The lesson cuts both ways. Trust is noble: Antony, loyal to Caesar, survives the conspirators\' city by his wits and avenges his friend. Betrayal is contagious: once the noblest man in Rome has joined the murder, no one is safe — the mob turns on the poet Cinna, and the conspiracy itself begins to tear itself apart. The value of the scene is that loyalty must be chosen carefully, honoured truly, and never betrayed for a phrase like "the good of Rome" — for words, as the play shows, can justify any dagger.'
     },
     {
       category: 'long',
-      prompt: 'Do you think Brutus was noble or foolish to allow Antony to speak? Give reasons.',
-      answer: 'Brutus\'s decision to allow Antony to speak at Caesar\'s funeral is the turning point of the play, and it shows both the best and the worst of him. It was noble in intention: Brutus believed in honourable conduct — the funeral should be open, the people should hear both sides, and a great Roman should be buried with proper rites. He refused to be a tyrant even in his victory. But it was fatal in judgement. Cassius, the politician, warned him not to let Antony speak; Brutus, the idealist, overruled him. He underestimated Antony, imagining that because Antony grieved, he could be trusted; he underestimated the crowd, believing reason would defeat eloquence; and he underestimated rhetoric itself, the art he never mastered. The speech that followed undid in minutes what Brutus had built in weeks. The play\'s verdict is complex: Brutus\'s error came from his virtue — he could not think like a politician — and that very virtue made him, in Antony\'s own final words, "the noblest Roman of them all". Nobility without prudence, the play suggests, is still nobility — and still fatal.'
+      prompt: 'How does Shakespeare use the theme of fate and omens in this excerpt?',
+      answer: 'Shakespeare thickens the scene with omens. Calpurnia\'s dream of the statue spouting blood; the lioness whelping in the Capitol; the dead rising from their graves; men walking with hands on fire yet unburned; warriors fighting in the clouds over the Capitol — all point to Caesar\'s death. The characters read them differently: Calpurnia reads them as fate\'s warning and begs Caesar to stay; Decius reinterprets the dream to feed Caesar\'s ambition; and Caesar, torn between superstition and pride, chooses the reading that flatters him. The irony is that the omens were true — the dream showed exactly what happened, a hundred Romans bathing in the blood of his statue — yet no reading could change the outcome, because the conspiracy was not made by fate but by men. Shakespeare\'s point is subtle: the portents are real, but they do not compel; they warn. Caesar\'s death comes not from the stars but from his own pride and the daggers of his friends — fate, in the end, is what men choose.'
     }
   ],
   quizQuestions: [
     {
       question: 'Who wrote "Julius Caesar"?',
-      options: ['Christopher Marlowe', 'William Shakespeare', 'Ben Jonson', 'Stanley Houghton'],
+      options: ['Christopher Marlowe', 'William Shakespeare', 'George Bernard Shaw', 'John Galsworthy'],
       correct_index: 1,
-      explanation: 'The tragedy is by William Shakespeare.'
+      explanation: 'The play is by William Shakespeare.'
     },
     {
-      question: 'The soothsayer warned Caesar to:',
-      options: ['stay in Rome', 'beware the Ides of March', 'trust Brutus', 'crown himself'],
+      question: 'What did Calpurnia dream on the Ides of March?',
+      options: ['that Caesar was crowned', 'that a statue of Caesar spouting blood was bathed in the washing of a hundred Romans', 'that the Senate fell', 'that Antony betrayed Caesar'],
       correct_index: 1,
-      explanation: 'His warning came true — Caesar was killed on the Ides of March.'
+      explanation: 'Her dream showed Caesar\'s blood shed for the people of Rome.'
     },
     {
-      question: 'Cassius wanted Brutus in the conspiracy because:',
-      options: ['Brutus was rich', 'his noble reputation would make the murder seem honourable', 'Brutus hated Caesar', 'he needed soldiers'],
-      correct_index: 1,
-      explanation: 'The people trusted Brutus; his name would sanctify the deed.'
+      question: 'Which of these was an omen reported by Calpurnia?',
+      options: ['a lioness whelping in the Capitol', 'an eclipse of the sun', 'a flood of the Tiber', 'a shipwreck in the harbour'],
+      correct_index: 0,
+      explanation: 'She reported the lioness, the graves opening, men on fire, and warriors in the clouds.'
     },
     {
-      question: 'Brutus joined the conspiracy because he believed:',
-      options: ['Caesar was weak', 'Caesar\'s ambition endangered the freedom of Rome', 'Cassius forced him', 'Antony would be king'],
+      question: 'How did Decius Brutus reinterpret Calpurnia\'s dream?',
+      options: ['as a sign of death', 'as a good omen — the blood was the people\'s love', 'as a warning of war', 'as a prophecy of Antony\'s rise'],
       correct_index: 1,
-      explanation: 'He acted from principle — he loved Rome more than he feared death.'
+      explanation: 'He said the blood showed Romans bathing in Caesar\'s greatness — a sign of love and life.'
     },
     {
-      question: 'Calpurnia\'s dream was of:',
-      options: ['a war', 'Caesar\'s statue spouting blood', 'a lion', 'a shipwreck'],
+      question: 'What did Metellus Cimber beg of Caesar?',
+      options: ['the crown', 'mercy for his brother Publius Cimber', 'an office in the Senate', 'permission to leave Rome'],
       correct_index: 1,
-      explanation: 'The dream foretold Caesar\'s murder, and she begged him not to go to the Capitol.'
+      explanation: 'He pleaded that his brother\'s banishment be reversed.'
     },
     {
-      question: 'Decius persuaded Caesar to go by:',
-      options: ['threatening him', 'reinterpreting the dream as a good omen and flattering his pride', 'promising a crown', 'revealing the plot'],
+      question: 'Where did Caesar fall dead?',
+      options: ['on the steps of the Senate', 'at the foot of Pompey\'s statue', 'in the Forum', 'at the altar of the Capitol'],
       correct_index: 1,
-      explanation: 'Flattery did what fear could not — pride walked Caesar to his death.'
+      explanation: 'He fell at the foot of Pompey\'s statue, wrapped in his robe.'
     },
     {
-      question: 'The warning letter that Caesar ignored was from:',
-      options: ['Calpurnia', 'Artemidorus', 'Antony', 'the soothsayer'],
-      correct_index: 1,
-      explanation: 'Artemidorus named the conspirators, but Caesar waved the letter away.'
+      question: 'What were Caesar\'s last words?',
+      options: ['"Et tu, Brute?"', '"Speak, hands, for me!"', '"Liberty! Freedom!"', '"Caesar, beware of Brutus!"'],
+      correct_index: 0,
+      explanation: 'Seeing Brutus among the daggers, Caesar cried "You too, Brutus?"'
     },
     {
-      question: 'When Caesar saw Brutus among the assassins, he:',
-      options: ['fought back', 'reproached him — the betrayal of his friend broke him', 'ran away', 'called for help'],
+      question: 'Why did Brutus say he killed Caesar?',
+      options: ['he hated Caesar', 'he loved Rome more than he loved Caesar', 'Cassius forced him', 'he wanted the crown'],
       correct_index: 1,
-      explanation: 'The trust betrayed hurt more than the daggers.'
+      explanation: 'He feared Caesar\'s ambition would enslave Rome and kill his friend for the republic.'
     },
     {
-      question: 'Antony won permission to speak at the funeral because:',
-      options: ['he bribed the conspirators', 'Brutus, over Cassius\'s objection, granted it', 'he was elected', 'the mob demanded it'],
+      question: 'What did Caesar\'s will leave to every Roman citizen?',
+      options: ['his crown', 'seventy-five drachmas', 'a share of the treasury', 'his lands in Gaul'],
       correct_index: 1,
-      explanation: 'Brutus\'s generosity of spirit gave Antony his weapon.'
+      explanation: 'The will gave seventy-five drachmas to each citizen, plus his walks, gardens and orchards.'
     },
     {
-      question: 'Antony turned the crowd against the conspirators by:',
-      options: ['drawing his sword', 'irony, emotion and the reading of Caesar\'s will', 'calling for war', 'accusing them of theft'],
+      question: 'What happened to the poet Cinna?',
+      options: ['he joined the conspirators', 'the mob tore him to pieces for his name', 'he fled to Greece', 'he was crowned poet laureate'],
       correct_index: 1,
-      explanation: 'He called them "honourable men" while exposing the murder, and the will won the mob.'
+      explanation: 'The mob mistook him for the conspirator Cinna and killed him.'
+    },
+    {
+      question: 'Antony\'s speech turned the crowd mainly through:',
+      options: ['logic and facts', 'irony, pity and the reading of the will', 'threats and bribes', 'promises of war'],
+      correct_index: 1,
+      explanation: 'His ironic praise of the "honourable men", the bloody robe and the will inflamed the people.'
+    },
+    {
+      question: 'What happened to Brutus and Cassius at the end of the excerpt?',
+      options: ['they were crowned', 'they fled from Rome', 'they pardoned Antony', 'they buried Caesar'],
+      correct_index: 1,
+      explanation: 'With the city against them, the conspirators fled as Antony and Octavius took control.'
     }
   ]
 };

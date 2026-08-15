@@ -9,351 +9,369 @@
  },
  "content": [
   {
-   "id": 227,
+   "id": 232,
    "category": "summary",
-   "prompt": "Part 1 — The \"death\" of Abel Merryweather",
-   "answer": "In the sitting room of the Slaters' house, Mrs Amelia Slater is putting on her black mourning dress while her husband Henry complains about the expense. Amelia's elderly father, Abel Merryweather, is believed to have died in his sleep — Amelia found him cold and still that morning. Even before the mourning has begun, Amelia has quietly taken possession of her father's bureau and his new clock, fearing her sister Elizabeth will get to them first.",
+   "prompt": "Act I — The discovery in the Slaters' house",
+   "answer": "The one-act play opens in the living room of the Slaters — Amelia, her husband Henry Slater, and their daughter Victoria. Amelia is mending a dress when she is startled by the sound of a falling object: her father, Abel Merryweather, seems to have died suddenly. She sends Victoria to fetch the doctor, and immediately begins eyeing her father's belongings. She and Henry take his bureau, his clock and a pair of slippers before the Jordans — Elizabeth, the younger sister, and her husband Ben — arrive. Elizabeth notices the theft, and the two sisters quarrel over who loved their father more and who has the better claim to his things.",
    "notes": null,
    "sortOrder": 1
   },
   {
-   "id": 228,
+   "id": 233,
    "category": "summary",
-   "prompt": "Part 2 — The sisters and the spoils",
-   "answer": "The Jordans — Amelia's sister Elizabeth, her husband Ben, and their daughter — arrive to mourn. But the mourning is hollow: the sisters immediately begin bickering over their father's belongings, the furniture, the clock and the insurance money. Each tries to claim that the other has taken more, while pretending grief. Ben is sent off to register the death, and the family settles in to divide the inheritance before the corpse is even buried.",
+   "prompt": "Act I — The quarrel over the will",
+   "answer": "Amelia claims the bureau was promised to her; Elizabeth counters that her own father had been staying with her for the last three years and that Abel had paid the Slaters well for their care. The quarrel turns to the insurance policy: the premium of 19 pounds, 3 shillings has not been paid, and the sisters argue over who should have paid it. Ben tries to calm the women, but the quarrel only deepens when Amelia reveals that she has already taken the bureau. Henry, meanwhile, tries to get the insurance policy to arrange the burial — but the sisters put self-interest first, and even Victoria is drawn into the battle for the insurance money.",
    "notes": null,
    "sortOrder": 2
   },
   {
-   "id": 229,
+   "id": 234,
    "category": "summary",
-   "prompt": "Part 3 — The resurrection",
-   "answer": "The family is thrown into panic when Abel Merryweather himself walks calmly into the room — he was not dead at all, only sleeping off a drop too much to drink. The sisters are horrified, not relieved: all their scheming has been exposed. Abel, who has heard their squabbling over his possessions, is disgusted. He quietly studies the greedy faces of his daughters and announces his decision.",
+   "prompt": "Act I — The surprise ending",
+   "answer": "Amid the scheming, the doctor arrives and, to everyone's horror and embarrassment, reveals that Abel Merryweather is not dead at all — he has merely fallen asleep, slightly the worse for drink at the Ring-O-Bells, the pub. The family's greed is exposed: the bureau, the clock and the slippers must be put back, the death notice has been sent to the newspapers, and the whole charade collapses. Abel himself is not fooled. He declares that he will change his will, and — having heard how his daughters have quarrelled over him — announces that he will marry Mrs John Shorrocks, the widow who keeps the Ring-O-Bells. He pays the insurance premium himself, pockets his papers, and leaves, telling the family he will send them a piece of the wedding cake.",
    "notes": null,
    "sortOrder": 3
   },
   {
-   "id": 230,
-   "category": "summary",
-   "prompt": "Part 4 — The new will",
-   "answer": "Abel reveals that he is going to marry — his landlady, Mrs John Shorrocks — and that he will make a new will. The sisters, who had already spent their inheritance in their minds, are outraged; they try to prevent the marriage and the will. Abel, however, is unmoved: he has seen his daughters' true hearts, and he departs, leaving the greedy family to count what they have actually won — nothing but shame. The satire is complete: the \"dear departed\" was never dead, but their decency is.",
+   "id": 235,
+   "category": "theme",
+   "prompt": "Greed and hypocrisy in family life",
+   "answer": "The central theme of the play is the greed and hypocrisy that can hide beneath family affection. The moment the sisters believe their father is dead, they stop mourning and start grabbing — the bureau, the clock, the slippers, the insurance money. Their quarrel is not about love for Abel but about possession of his goods, each sister claiming to be the favoured child. Stanley Houghton satirises this sham family feeling: the \"dear departed\" is not mourned but divided, and the real devotion is to property, not to the dead.",
    "notes": null,
    "sortOrder": 4
   },
   {
-   "id": 231,
+   "id": 236,
    "category": "theme",
-   "prompt": "Greed and hypocrisy in the family",
-   "answer": "The play's central theme is the hypocrisy of a family whose love is measured in money. The daughters do not mourn their father; they divide his property. Amelia steals his bureau and clock before the \"funeral\"; the sisters quarrel over the insurance money; and their grief is a performance put on for appearances. The theme exposes how greed can hollow out the most sacred human bonds — even the bond between parent and child — and how death, that great leveller, becomes in such hearts merely an occasion for plunder.",
+   "prompt": "Pretence and pretension",
+   "answer": "The Slaters and the Jordans are continually putting on airs. Amelia fusses over her dress-making as if she were a fashionable lady; Elizabeth pretends to have loved her father best; both families pretend sorrow for a death they are secretly glad of. When the truth is revealed — that Abel is alive — the pretence collapses into shame. The play's comedy comes from this contrast between what the characters claim and what they are. Houghton shows that pretence is hollow: the moment a true test comes, the show is over.",
    "notes": null,
    "sortOrder": 5
   },
   {
-   "id": 232,
+   "id": 237,
    "category": "theme",
-   "prompt": "Satire on social pretence",
-   "answer": "The play is a satire on the pretence of respectable society. The family is careful about appearances — mourning clothes, funeral arrangements, the propriety of grief — while their true concern is the inheritance. The comedy lies in the gap between what they show and what they are: the \"dear departed\" is mourned with crocodile tears, and the funeral is planned as a social event. Stanley Houghton's satire is aimed at the Victorian/Edwardian family's sham respectability: the outward forms of love and duty that conceal inner emptiness.",
+   "prompt": "The irony of the \"dear departed\"",
+   "answer": "The title itself is ironic. \"Dear departed\" is the polite phrase for the dead — but Abel is not dead, and he is not \"dear\" to his daughters in any loving sense; he is dear to them only as a source of property and insurance money. The irony cuts both ways: the family treats the \"departed\" father as a nuisance to be buried and divided, while the real betrayal is Abel's — or rather, the joke is on the family when Abel, very much alive, disposes of his will as he pleases and leaves them with nothing. The phrase that should express love is used to expose the absence of it.",
    "notes": null,
    "sortOrder": 6
   },
   {
-   "id": 233,
-   "category": "theme",
-   "prompt": "Justice and the exposure of false hearts",
-   "answer": "The play's comic justice is that the schemers are exposed. Abel's return — the \"dead\" man walking in on the vultures — turns the tables: the sisters' greed is laid bare before the very man they were robbing, and his announcement of remarriage and a new will takes from them the inheritance they had already claimed. The theme is the triumph of wit and truth over greed: the old man, whom they thought a burden and a dupe, proves the sharpest of them all, and the family that would have sold him is left with nothing.",
+   "id": 238,
+   "category": "character",
+   "prompt": "Abel Merryweather",
+   "answer": "Abel is the old father who appears to die and is actually very much alive — drunk, in fact, at the Ring-O-Bells. He is a sharp, humorous old man who is not fooled by his daughters' grief. When he hears the quarrel over his bureau, his clock and his insurance, he quietly takes revenge: he changes his will, marries the widow Shorrocks of the Ring-O-Bells, pays his own insurance premium, and leaves the family with nothing but embarrassment and the promise of a slice of wedding cake. He embodies the play's satire: the \"dead\" man turns out to be the liveliest and the wisest of them all.",
    "notes": null,
    "sortOrder": 7
   },
   {
-   "id": 234,
+   "id": 239,
    "category": "character",
-   "prompt": "Abel Merryweather",
-   "answer": "Abel Merryweather is the elderly father whose apparent death sets the plot in motion — and whose \"resurrection\" resolves it. He is not actually dead, only sleeping off too much drink, and he returns to find his daughters squabbling over his possessions. He is a quiet, sharp-eyed old man: he watches, listens, and takes his measure of his family's greed. His final stroke is masterly — he announces he will marry Mrs John Shorrocks and make a new will, robbing the schemers of their expected inheritance. Beneath his simple, genial exterior is a shrewd judge of character: the \"dear departed\" was never departed, and never deceived.",
+   "prompt": "Amelia Slater",
+   "answer": "Amelia is the elder daughter, quick, sharp-tongued and the first to start looting her father's belongings — the bureau and the clock are hers within minutes of the \"death\". She is greedy and pretentious, fond of posing as a lady, yet mean with the insurance premium. She quarrels with her sister Elizabeth over who loved Abel best, each claim contradicted by her actions. When the doctor reveals the truth, Amelia's pretence collapses, and her greed stands exposed. She is the play's chief target of satire: family love, in her hands, is simply property.",
    "notes": null,
    "sortOrder": 8
   },
   {
-   "id": 235,
+   "id": 240,
    "category": "character",
-   "prompt": "Amelia Slater",
-   "answer": "Amelia Slater is the elder daughter, the play's first schemer. The moment she believes her father dead, her thoughts turn to plunder: she takes his bureau (with the insurance papers) and his clock before anyone else can claim them, and she dresses in mourning while quietly celebrating her gains. She is sharp, pushy and self-justifying, always accusing her sister of the very greed she herself displays. Her shock at Abel's return is one of the play's great comic moments — the plunderer caught red-handed. She represents the hypocrisy of respectable greed.",
+   "prompt": "Elizabeth Jordan",
+   "answer": "Elizabeth is the younger daughter, married to Ben Jordan. She is as greedy as her sister but quieter, using soft words where Amelia uses sharp ones. She points out, with some truth, that her father lived with her for the last three years, and she resents Amelia's stealing of the bureau. When the truth is revealed, she, too, is caught in the lie of her mourning. Elizabeth represents the second face of the same hypocrisy: family affection worn like a costume, with the insurance money underneath.",
    "notes": null,
    "sortOrder": 9
   },
   {
-   "id": 236,
-   "category": "character",
-   "prompt": "Henry Slater",
-   "answer": "Henry Slater is Amelia's husband, a henpecked, money-grubbing little man who thinks first of expense. He grumbles about the cost of mourning clothes, calculates the value of the old man's possessions, and is quick to grab whatever his wife has not already claimed. He is small-minded, sly and easily dominated — his comic function is to show that greed is not confined to one sex or one house: the Slaters are two of a kind. His anxiety about spending is part of the play's satire on petty materialism.",
+   "id": 241,
+   "category": "value",
+   "prompt": "Honour family love over possessions",
+   "answer": "The play is a warning against valuing goods above people. The sisters' greed — over a bureau, a clock, slippers and an insurance premium — makes them blind to the real treasure: their father himself. The value lesson is plain: love for family must be shown while the loved one is alive, in care and kindness, not lamented in words and measured in property after death. Abel's final jest — marrying the pub widow and cutting off his grasping daughters — is a comic judgment on those who mistake things for love.",
    "notes": null,
    "sortOrder": 10
   },
   {
-   "id": 237,
-   "category": "character",
-   "prompt": "Elizabeth Jordan and Ben Jordan",
-   "answer": "Elizabeth Jordan, the younger daughter, is a milder version of her sister — she has come to claim her share and is stung by Amelia's head start. Her husband Ben Jordan is a small, fussy man, sent off on errands, who fusses over trifles and takes his tone from his wife. Together the Jordans complete the play's portrait of a family united only in greed: the two sisters, however different in manner, are identical in motive, and their husbands are their mirror images. Their arrival, with Elizabeth's sharp questions about the bureau and the clock, exposes Amelia's theft and sets the sisters at each other's throats.",
+   "id": 242,
+   "category": "value",
+   "prompt": "Honesty with oneself and others",
+   "answer": "The play also teaches honesty. Every character in the two households pretends — the sisters pretend grief, Henry pretends authority, Ben pretends calm — and every pretence is shattered by the doctor's news. The lesson: pretence may serve for a while, but the truth will out, and those who are honest with themselves need never be shamed. Abel alone is honest — he says plainly that he has heard the quarrels and will do as he likes with his will — and he alone is happy at the end, leaving the rest to their confusion.",
    "notes": null,
    "sortOrder": 11
   },
   {
-   "id": 238,
-   "category": "character",
-   "prompt": "Victoria",
-   "answer": "Victoria is the Slaters' young daughter, the play's one genuinely feeling character. She is genuinely upset by her grandfather's \"death\" — she remembers him with real affection, and the family's quarrelling over his belongings distresses her. Her innocence is the moral yardstick of the play: the audience sees the greed of the adults precisely because Victoria is present to contrast it. When Abel returns, her joy is real, in sharp contrast to her parents' horror. She represents the honesty and warmth that the older generation has lost.",
+   "id": 243,
+   "category": "short",
+   "prompt": "Who wrote \"The Dear Departed\"?",
+   "answer": "Stanley Houghton.",
    "notes": null,
    "sortOrder": 12
   },
   {
-   "id": 239,
-   "category": "value",
-   "prompt": "Family love cannot be measured in property",
-   "answer": "The play's great value lesson is that the worth of family bonds is not measured in clocks, bureaus or insurance money. Abel's daughters treat his death as a windfall and his life as a burden, and they are left with nothing but shame. The play asks its audience to examine their own hearts: do we honour our elders in life, or only divide their belongings in death? True love for parents and family is shown in care given while they live — not in the scramble after they are gone.",
+   "id": 244,
+   "category": "short",
+   "prompt": "Where does the play open?",
+   "answer": "In the living room of the Slaters' house — Amelia, Henry and their daughter Victoria.",
    "notes": null,
    "sortOrder": 13
   },
   {
-   "id": 240,
-   "category": "value",
-   "prompt": "Honesty and the folly of pretence",
-   "answer": "Every pretence in the play is exposed: the mourning that hides greed, the grief that is performed, the respectability that conceals plunder. The lesson is that pretence is self-defeating — the schemers lose what they schemed for, and their hypocrisy is laid bare before the one person it was meant to deceive. Honesty, the play suggests, is both a virtue and a practical wisdom: the family that had loved and honoured Abel openly would have had his love and his will; the family that schemed lost both.",
+   "id": 245,
+   "category": "short",
+   "prompt": "What did Amelia and Henry take from the \"dead\" father's room?",
+   "answer": "His bureau, his clock, and a pair of slippers.",
    "notes": null,
    "sortOrder": 14
   },
   {
-   "id": 241,
+   "id": 246,
    "category": "short",
-   "prompt": "What is the title of the play and who wrote it?",
-   "answer": "\"The Dear Departed\", a one-act comedy by the British playwright Stanley Houghton.",
+   "prompt": "Who is Victoria?",
+   "answer": "The Slaters' daughter — quick-witted, but her elders use her to fetch the doctor and later to get the insurance policy.",
    "notes": null,
    "sortOrder": 15
   },
   {
-   "id": 242,
+   "id": 247,
    "category": "short",
-   "prompt": "Why did the family believe Abel Merryweather was dead?",
-   "answer": "Amelia found him cold and still in bed that morning — in fact he was only sleeping off a drop too much to drink.",
+   "prompt": "What had Abel been doing instead of dying?",
+   "answer": "He had been at the Ring-O-Bells, the pub, and had fallen asleep — \"the worse for drink\".",
    "notes": null,
    "sortOrder": 16
   },
   {
-   "id": 243,
+   "id": 248,
    "category": "short",
-   "prompt": "What did Amelia take before anyone else could claim it?",
-   "answer": "Her father's bureau, which held his insurance papers, and his new clock.",
+   "prompt": "What was the quarrel about concerning the insurance?",
+   "answer": "The premium of 19 pounds, 3 shillings had not been paid, and the sisters argued over who should have paid it.",
    "notes": null,
    "sortOrder": 17
   },
   {
-   "id": 244,
+   "id": 249,
    "category": "short",
-   "prompt": "How did the sisters behave towards each other over the inheritance?",
-   "answer": "They bickered and quarrelled, each accusing the other of greed while claiming as much as she could for herself.",
+   "prompt": "What did Henry send to the newspapers?",
+   "answer": "A death notice announcing the \"deceased\" Abel Merryweather.",
    "notes": null,
    "sortOrder": 18
   },
   {
-   "id": 245,
+   "id": 250,
    "category": "short",
-   "prompt": "What did the family plan to do about the \"corpse\"?",
-   "answer": "Ben Jordan was sent to register the death, and the family began dividing the belongings and discussing the insurance money.",
+   "prompt": "How does Abel punish his daughters?",
+   "answer": "He changes his will, pays his own insurance premium, and marries Mrs John Shorrocks, the widow who keeps the Ring-O-Bells.",
    "notes": null,
    "sortOrder": 19
   },
   {
-   "id": 246,
+   "id": 251,
    "category": "short",
-   "prompt": "What happened when Abel Merryweather walked in?",
-   "answer": "The family was horrified — their scheming was exposed, and Abel had heard their quarrelling over his possessions.",
+   "prompt": "What does Abel promise to send the family?",
+   "answer": "A piece of his wedding cake.",
    "notes": null,
    "sortOrder": 20
   },
   {
-   "id": 247,
+   "id": 252,
    "category": "short",
-   "prompt": "What did Abel announce he was going to do?",
-   "answer": "That he would marry his landlady, Mrs John Shorrocks, and make a new will.",
+   "prompt": "What is the theme of the play?",
+   "answer": "The satire of greed, hypocrisy and false family feeling — love of property disguised as love of family.",
    "notes": null,
    "sortOrder": 21
   },
   {
-   "id": 248,
-   "category": "short",
-   "prompt": "Who is Victoria and how does she differ from the adults?",
-   "answer": "She is Amelia's young daughter, genuinely grieved and loving — the honest heart that contrasts with the adults' greed.",
+   "id": 253,
+   "category": "long",
+   "prompt": "Describe the sisters' quarrel after the discovery of the \"death\".",
+   "answer": "The quarrel begins the moment Amelia's scheming is noticed. Elizabeth arrives with her husband Ben, and at once she sees that Amelia has taken the bureau — \"he gave it to me\" says Elizabeth; \"he promised it to me\" says Amelia, and the contest is joined. Each sister claims to have been the favourite: Amelia insists her father liked her best and had promised her the bureau; Elizabeth reminds her that Abel had lived with her family for the last three years and had paid Amelia well for his keep. The quarrel deepens when Elizabeth finds the clock missing and then a pair of slippers. Ben, trying to keep the peace, asks for the insurance policy to arrange the burial — and the dispute turns to the unpaid premium of 19 pounds, 3 shillings. Each sister insists the other should have paid it, and even Victoria is caught up in the argument, running to fetch the policy while the grown-ups trade insults. Greed, not grief, rules the room; and when the doctor arrives with the astonishing news that Abel is alive, the sisters' selfishness stands exposed in all its pettiness.",
    "notes": null,
    "sortOrder": 22
   },
   {
-   "id": 249,
+   "id": 254,
    "category": "long",
-   "prompt": "Describe how the family reacts to the news of Abel's death.",
-   "answer": "The family's reaction to Abel's \"death\" is a masterpiece of comic hypocrisy. Amelia Slater is already dressed in mourning — but her real business is plunder: she has quietly taken her father's bureau, with the insurance papers inside, and his new clock, so that her sister cannot claim them. Henry Slater grumbles about the cost of the mourning clothes and eyes the possessions with a valuer's calculation. When the Jordans arrive, Elizabeth immediately begins questioning what Amelia has taken, and the two sisters fall to bickering over the furniture, the clock and the insurance money, each pretending grief while guarding her share. Ben Jordan is despatched to register the death. Only Victoria, the child, is genuinely distressed. The comedy lies in the gap between the performance of mourning and the reality of greed: the family behaves as if death were an inheritance sale, and the \"dear departed\" is remembered mainly as an asset.",
+   "prompt": "How does the doctor's news change the situation?",
+   "answer": "The doctor's arrival is the play's turning point. Victoria has gone for him believing her grandfather dead, and the family has already begun to divide his goods and even sent a death notice to the newspapers. When the doctor examines Abel, he is astonished: the old man is not dead at all — merely asleep, the worse for drink at the Ring-O-Bells. The effect is comic and devastating at once. Amelia and Henry must quietly put back the bureau, the clock and the slippers; the death notice is a disaster; and the sisters' careful mourning is revealed as a sham. Worse still, Abel is no fool. He has heard enough of the quarrels over his property and his insurance. He changes his will, pays the premium himself, and announces his plan to marry Mrs John Shorrocks, the widow who keeps the Ring-O-Bells. The family that raced to bury him is left with nothing but embarrassment — and a promise of wedding cake.",
    "notes": null,
    "sortOrder": 23
   },
   {
-   "id": 250,
+   "id": 255,
    "category": "long",
-   "prompt": "What happens when Abel Merryweather returns, and how does he turn the tables on his family?",
-   "answer": "Abel Merryweather returns by simply walking into the sitting room, very much alive — he had been sleeping off a drop too much drink, not dead at all. The family's horror is total: the mourning, the schemes, the division of spoils — all exposed in a moment. But Abel has heard everything; he knows his daughters' true hearts. He takes his time, letting them twist in their embarrassment, and then delivers his stroke: he is going to marry his landlady, Mrs John Shorrocks, and he will make a new will. The sisters, who had already spent their inheritance in their minds, are outraged — they try to prevent the marriage, and their protests reveal exactly how little they love him. Abel, calm and unmoved, has turned the tables completely: the old man they thought a dupe and a burden has outwitted them all, and the family that counted his money while he \"lay dead\" ends with nothing. The \"dear departed\" departs at last — leaving them to their empty mourning.",
+   "prompt": "Value question: What does the play teach us about family values?",
+   "answer": "The play is a comic sermon on family values. Its lesson is that love of family must be practised while the loved one lives, in care and kindness, not performed after death for the sake of property. The sisters fail every test: they loot the bureau and the clock instead of mourning; they quarrel over the insurance premium instead of praying; they even put Victoria to work as a messenger of their greed. The satire bites because the family's behaviour is so recognisable — the polite phrases, the sudden love of \"dear departed\", the careful arithmetic of grief. Abel's response is the play's verdict: he who is treated as a burden becomes a free man, marrying the cheerful widow and leaving the grasping to each other. The value the play honours is honesty — of affection, of care, of word. Those who measure love in money, the play says, will end with nothing but a piece of cake.",
    "notes": null,
    "sortOrder": 24
   },
   {
-   "id": 251,
+   "id": 256,
    "category": "long",
-   "prompt": "Value question: What does the play teach us about love, greed and family duty?",
-   "answer": "The play is a satirical mirror held up to the audience, and its lesson is sharp: family love is not measured in property, and greed can destroy the very bonds that make a family. Abel's daughters treat him as an inconvenience in life and a windfall in death — they cannot even wait for the funeral to divide his belongings, and their \"grief\" is a performance. The play's value lesson is that parents deserve honour and care while they live, not plunder after they die; that the inheritance that matters is love, not the clock and the bureau. The play also teaches the folly of pretence: every lie and scheme is exposed, and the schemers gain nothing but shame. And it teaches, through Abel, the value of self-respect: the old man refuses to be used, and his calm final move shows that age, patience and wit can defeat greed. The audience is invited to laugh at the Slaters and Jordans — and to search its own heart for the same greed.",
+   "prompt": "Describe the character of Abel Merryweather.",
+   "answer": "Abel Merryweather is the play's liveliest and wisest character. He appears to be a frail old man — and then turns out to be wonderfully alive, having spent the afternoon at the Ring-O-Bells, the public house, and come home to fall asleep and be mistaken for dead. He is sharp-witted and observant: woken by the doctor, he takes in at once the bureau, the clock, the slippers and the quarrelling daughters, and he is not fooled by their sham grief. His revenge is witty rather than cruel: he will change his will, he will marry Mrs John Shorrocks, the widow of the Ring-O-Bells — the very pub where he has been enjoying himself — and he will pay his own insurance premium so that his daughters cannot profit from his death. He leaves with the mocking promise of a piece of his wedding cake. Abel is the play's mirror: he shows his daughters that they never really knew him, and that the \"dear departed\" is not the only one in the family with a scheme.",
    "notes": null,
    "sortOrder": 25
   },
   {
-   "id": 252,
+   "id": 257,
    "category": "long",
-   "prompt": "How does Stanley Houghton use humour to deliver his social criticism?",
-   "answer": "Houghton's satire works through the comedy of hypocrisy — the laughter is the criticism. He sets the family in a grotesque situation: mourning a father who is not dead, and dividing an inheritance that is not due. Every detail of the play is a joke at the family's expense: Amelia's lightning theft of the bureau, Henry's grumbling about funeral expenses, the sisters' quarrels over the clock, the pretence of grief that collapses into bargaining. The humour reaches its peak at Abel's return: the \"corpse\" rising from the dead to expose the mourners is the oldest of comic devices, and Houghton uses it to make the family's hypocrisy physically visible — the shock on their faces is the truth they cannot hide. Even the title is ironic: \"The Dear Departed\" is the language of loving remembrance, applied to a family whose love is counterfeit. The laughter never lets the audience forget the serious point beneath: this is what greed does to the family, and this is how love dies.",
+   "prompt": "Why is the title \"The Dear Departed\" ironic?",
+   "answer": "The title is ironic in every sense. \"Dear departed\" is the polite euphemism for the dead — but Abel is not dead, and he is not \"dear\" to his family in any tender way. His daughters speak of their \"dear\" father only as a claim to his goods; their affection is measured in bureaus and insurance premiums. The irony is doubled at the end: the \"departed\" Abel does depart — but it is the family who is left behind, deprived of his will, his company and his money. He marries the widow Shorrocks, pays his own premium, and leaves the sisters with nothing but the memory of their quarrel and the promise of wedding cake. The title, then, is a joke on the family: the only \"dear\" thing that departs is their hope of inheritance. Houghton's satire is complete — the family who treated the old man as a corpse is left looking like one in spirit, while the \"dear departed\" walks off, livelier and richer than before.",
    "notes": null,
    "sortOrder": 26
-  },
-  {
-   "id": 253,
-   "category": "long",
-   "prompt": "Do you think Abel's decision to remarry and change his will is justified? Give reasons.",
-   "answer": "Abel's decision is entirely justified, and the play presents it as comic justice. His daughters have shown him exactly what they think of him: within minutes of believing him dead, they are stealing his possessions and quarrelling over his insurance money. They have treated him as a burden in life and a windfall in death, and their grief was a sham. A father in such a position has every right to decide who will inherit his honest savings — and a man who has watched his daughters scheme over his \"corpse\" is wise to give his property to someone who actually cares for him. Abel's choice of Mrs John Shorrocks, his landlady, is itself a rebuke: a woman who has looked after him for pay has shown him more genuine attention than his daughters. The decision is also his declaration of independence: he is not an asset to be divided but a man with a will of his own. The sisters' outrage confirms the justice of his action — they are angry, not because they loved him, but because they have lost his money.",
-   "notes": null,
-   "sortOrder": 27
   }
  ],
  "quizQuestions": [
   {
-   "id": 91,
+   "id": 105,
    "question": "Who wrote \"The Dear Departed\"?",
    "options": [
-    "George Bernard Shaw",
     "Stanley Houghton",
+    "G.B. Shaw",
     "William Shakespeare",
-    "J.B. Priestley"
-   ],
-   "correct_index": 1,
-   "explanation": "The one-act comedy is by Stanley Houghton.",
-   "topic": ""
-  },
-  {
-   "id": 92,
-   "question": "The family believed Abel Merryweather was dead because:",
-   "options": [
-    "he had a heart attack",
-    "Amelia found him cold and still — he was only sleeping off drink",
-    "he told them so",
-    "the doctor said so"
-   ],
-   "correct_index": 1,
-   "explanation": "He was merely sleeping off a drop too much to drink.",
-   "topic": ""
-  },
-  {
-   "id": 93,
-   "question": "Before anyone else could claim them, Amelia took:",
-   "options": [
-    "his watch and coat",
-    "his bureau and his new clock",
-    "his money and shoes",
-    "his house"
-   ],
-   "correct_index": 1,
-   "explanation": "The bureau held the insurance papers, and the clock was new — both valuable.",
-   "topic": ""
-  },
-  {
-   "id": 94,
-   "question": "The sisters' chief interest in their father's death was:",
-   "options": [
-    "his funeral",
-    "his possessions and insurance money",
-    "his friends",
-    "his grave"
-   ],
-   "correct_index": 1,
-   "explanation": "They quarrelled over the furniture, clock and insurance money.",
-   "topic": ""
-  },
-  {
-   "id": 95,
-   "question": "Abel Merryweather was actually:",
-   "options": [
-    "dead",
-    "alive — he returned and exposed the family's greed",
-    "in hospital",
-    "abroad"
-   ],
-   "correct_index": 1,
-   "explanation": "He walked in and heard their scheming over his belongings.",
-   "topic": ""
-  },
-  {
-   "id": 96,
-   "question": "Abel announced that he would:",
-   "options": [
-    "disown the family",
-    "marry his landlady, Mrs John Shorrocks, and make a new will",
-    "go to Australia",
-    "give everything to Victoria"
-   ],
-   "correct_index": 1,
-   "explanation": "Marriage and a new will were his revenge on the greedy sisters.",
-   "topic": ""
-  },
-  {
-   "id": 97,
-   "question": "The child who was genuinely grieved by the \"death\" was:",
-   "options": [
-    "Elizabeth",
-    "Victoria",
-    "Amelia",
-    "Mary"
-   ],
-   "correct_index": 1,
-   "explanation": "Victoria, the Slaters' young daughter, was the only honest heart in the room.",
-   "topic": ""
-  },
-  {
-   "id": 98,
-   "question": "The play is a satire on:",
-   "options": [
-    "doctors",
-    "greed and hypocrisy in the family",
-    "the police",
-    "marriage"
-   ],
-   "correct_index": 1,
-   "explanation": "It exposes the sham mourning and property-grabbing of a \"respectable\" family.",
-   "topic": ""
-  },
-  {
-   "id": 99,
-   "question": "The title \"The Dear Departed\" is ironic because:",
-   "options": [
-    "Abel was not dear to them and was not departed",
-    "the family loved him",
-    "he was buried",
-    "it describes Victoria"
+    "D.H. Lawrence"
    ],
    "correct_index": 0,
-   "explanation": "He was never \"departed\", and their \"dear\" love was counterfeit.",
+   "explanation": "The play is by Stanley Houghton.",
    "topic": ""
   },
   {
-   "id": 100,
-   "question": "At the end of the play, the scheming family is left with:",
+   "id": 106,
+   "question": "The play is a:",
    "options": [
-    "the inheritance",
-    "nothing but shame",
-    "the clock",
-    "the house"
+    "tragedy in five acts",
+    "one-act comedy",
+    "verse drama",
+    "melodrama"
    ],
    "correct_index": 1,
-   "explanation": "Abel's new will robs them of their expected inheritance.",
+   "explanation": "It is a one-act comedy satirising family greed.",
+   "topic": ""
+  },
+  {
+   "id": 107,
+   "question": "Where does the play open?",
+   "options": [
+    "in a church",
+    "in the Slaters' living room",
+    "at the Ring-O-Bells",
+    "in a lawyer's office"
+   ],
+   "correct_index": 1,
+   "explanation": "Amelia, Henry and Victoria are at home when Abel \"dies\".",
+   "topic": ""
+  },
+  {
+   "id": 108,
+   "question": "What did Amelia take from her \"dead\" father's room?",
+   "options": [
+    "his watch",
+    "his bureau and clock",
+    "his coat",
+    "his chair"
+   ],
+   "correct_index": 1,
+   "explanation": "Amelia and Henry took the bureau, the clock and a pair of slippers.",
+   "topic": ""
+  },
+  {
+   "id": 109,
+   "question": "Who is Elizabeth Jordan?",
+   "options": [
+    "Amelia's neighbour",
+    "Abel's younger daughter",
+    "the doctor's wife",
+    "Mrs Shorrocks"
+   ],
+   "correct_index": 1,
+   "explanation": "Elizabeth, married to Ben Jordan, is Abel's other daughter.",
+   "topic": ""
+  },
+  {
+   "id": 110,
+   "question": "What was the quarrel about concerning the insurance?",
+   "options": [
+    "the sum was too small",
+    "the premium had not been paid",
+    "the policy was lost",
+    "Abel had no insurance"
+   ],
+   "correct_index": 1,
+   "explanation": "The premium of 19 pounds, 3 shillings was unpaid, and the sisters blamed each other.",
+   "topic": ""
+  },
+  {
+   "id": 111,
+   "question": "Where had Abel actually been?",
+   "options": [
+    "at the doctor's",
+    "at the Ring-O-Bells, the pub",
+    "at the Jordans'",
+    "on a journey"
+   ],
+   "correct_index": 1,
+   "explanation": "He had been at the Ring-O-Bells and fallen asleep, worse for drink.",
+   "topic": ""
+  },
+  {
+   "id": 112,
+   "question": "Who revealed that Abel was alive?",
+   "options": [
+    "Victoria",
+    "Henry",
+    "the doctor",
+    "Ben"
+   ],
+   "correct_index": 2,
+   "explanation": "The doctor, fetched by Victoria, found the old man merely asleep.",
+   "topic": ""
+  },
+  {
+   "id": 113,
+   "question": "How did Abel punish his daughters?",
+   "options": [
+    "he scolded them",
+    "he changed his will and married Mrs John Shorrocks",
+    "he disowned them publicly",
+    "he left them the bureau"
+   ],
+   "correct_index": 1,
+   "explanation": "He changed his will, married the widow who keeps the Ring-O-Bells, and paid his own premium.",
+   "topic": ""
+  },
+  {
+   "id": 114,
+   "question": "What does Abel promise to send the family?",
+   "options": [
+    "a letter",
+    "a piece of his wedding cake",
+    "his insurance policy",
+    "a new clock"
+   ],
+   "correct_index": 1,
+   "explanation": "He leaves with the mocking promise of a slice of wedding cake.",
+   "topic": ""
+  },
+  {
+   "id": 115,
+   "question": "The main theme of the play is:",
+   "options": [
+    "true love",
+    "greed and hypocrisy in family life",
+    "the hardships of old age",
+    "the importance of insurance"
+   ],
+   "correct_index": 1,
+   "explanation": "It satirises how family affection is replaced by greed for property.",
+   "topic": ""
+  },
+  {
+   "id": 116,
+   "question": "The title \"The Dear Departed\" is ironic because:",
+   "options": [
+    "Abel is not dead and not dear",
+    "the play is a tragedy",
+    "Victoria dies at the end",
+    "the family is very poor"
+   ],
+   "correct_index": 0,
+   "explanation": "Abel is very much alive, and his daughters care for his property, not for him.",
    "topic": ""
   }
  ]

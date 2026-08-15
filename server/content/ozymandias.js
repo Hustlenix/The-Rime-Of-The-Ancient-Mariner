@@ -4,211 +4,233 @@ module.exports = {
     book: 'literature-reader',
     type: 'poem',
     title: 'Ozymandias',
-    author: 'Percy Bysshe Shelley',
+    author: 'P.B. Shelley',
     order: 9
   },
   content: [
     {
       category: 'summary',
       prompt: 'Part 1 — The traveller\'s tale',
-      answer: 'The speaker recalls meeting a traveller from an ancient land, who told him of a desert sight: two vast stone legs, trunkless, standing in the sand, and beside them a shattered face half-buried — a broken visage whose frown, wrinkled lip and sneer of cold command still spoke of the tyrant it had once belonged to.'
+      answer: 'The poet meets a traveller from an antique land, who tells him of a desert where two vast and trunkless legs of stone stand in the sand, and beside them lies a shattered visage — half sunk in the sand, its frown, wrinkled lip and sneer of cold command still readable on the broken face. The sculptor who carved the face understood the passions of the king who commanded it, and stamped them on the stone, so that even in ruin the face speaks: the hand that mocked them and the heart that fed them are gone, but the passions remain, read by the passer-by.'
     },
     {
       category: 'summary',
-      prompt: 'Part 2 — The sculptor\'s art',
-      answer: 'The traveller notes that the sculptor who carved that face read the passions of the ruler well — the sneer of arrogant power was captured so faithfully that it survived the ruin of the statue itself. The hand that mocked and the heart that fed on power, the traveller reflects, are gone, but the sculptor\'s faithful record of that cruelty remains in the shattered stone.'
-    },
-    {
-      category: 'summary',
-      prompt: 'Part 3 — The boastful inscription',
-      answer: 'On the pedestal of the ruined statue is carved a boastful inscription: the king\'s name, and a challenge to the mighty — to look upon his works and despair at their grandeur. The irony is overwhelming: nothing of his works remains. The boast, carved to intimidate, now stands as a mockery of the tyrant who made it.'
-    },
-    {
-      category: 'summary',
-      prompt: 'Part 4 — The desolation',
-      answer: 'The poem closes with the image of total desolation: nothing survives of the king\'s achievements but this wreck, and around it stretch the boundless and bare sands of the desert — lone and level, reaching far away. The mightiest ruler of an ancient empire is reduced to a shattered statue in an empty waste, and the desert itself has outlasted him.'
+      prompt: 'Part 2 — The words on the pedestal',
+      answer: 'On the pedestal of the shattered statue, the traveller reads these words: "My name is Ozymandias, King of Kings: Look on my works, ye Mighty, and despair!" The boast is colossal: the king commands all future powers to look on his works and lose hope of matching them. But around the statue, the traveller says, there is nothing — nothing but the lone and level sands stretching far away. The ruin of the desert is the answer to the boast: the king\'s works are gone, his name survives only on a broken stone, and the Mighty who look on this are taught, not despair, but humility.'
     },
     {
       category: 'theme',
-      prompt: 'The vanity of power',
-      answer: 'The poem\'s central theme is the vanity of worldly power. Ozymandias, a king of kings, built a colossal statue to immortalise his might and demanded that all who saw it despair at his works. Yet nothing of his empire remains: his works are swallowed by the desert, and his statue lies in pieces. The poem strips power of its pretensions — the tyrant who ruled millions is now remembered only by the ruins that mock his boast. All earthly power, the poem insists, is as transient as the sand.'
+      prompt: 'The vanity of power and pride',
+      answer: 'The poem\'s central theme is the vanity of human power. Ozymandias called himself "King of Kings" and commanded all who saw his works to despair — yet nothing of his works remains but two stone legs and a shattered face in an empty desert. The boast is answered by the desert: the tyrant\'s pride is swallowed by the sands, and his name lives only as a lesson in ruin. The theme teaches that power is transient, pride is hollow, and the mightiest of kings becomes, in time, the dust that blows across his own kingdom.'
     },
     {
       category: 'theme',
-      prompt: 'Time defeats the tyrant',
-      answer: 'The poem is a meditation on what time does to human pride. Time, the silent worker of the poem, has eroded the statue, scattered the empire and buried the works of the king. The tyrant\'s sneer of "cold command" could not command time; the boast that bade the mighty despair is now a broken jest. The theme is Shelley\'s great political argument in miniature: tyrants imagine themselves immortal, but time and history dismantle them, and their cruelty survives only as a warning carved in stone.'
+      prompt: 'Time\'s triumph over all things',
+      answer: 'The poem is a meditation on time, the great leveler. Time breaks the statue\'s legs, buries its face, erases the kingdom, and turns the "works" of the king into the lone and level sands. The artist\'s skill, too, is defeated in the end: the sculptor\'s masterpiece is half sunk in the sand, and the passions stamped on the stone will themselves crumble. Only the boast — and the irony of it — survives, and even that survives only because time has made it true in reverse. The theme: nothing man builds outlasts time; the desert is time\'s monument.'
     },
     {
       category: 'theme',
-      prompt: 'Art survives the artist — and the tyrant',
-      answer: 'The poem carries a quieter theme: the power of art. The sculptor, whose name history has not preserved, has nonetheless outlasted the king he served. His faithful carving of the tyrant\'s sneer survives centuries of wind and sand, outliving the empire and its ruler. There is irony in this: the artist who served the tyrant, capturing his cruelty for posterity, becomes the agent of his exposure. The poem suggests that art endures where power perishes — and that the truest record of a tyrant is the portrait his own age commissioned.'
-    },
-    {
-      category: 'analysis',
-      prompt: 'Ozymandias — the tyrant king',
-      answer: 'Ozymandias (the Greek name of the Egyptian pharaoh Ramesses II) appears in the poem only through his ruins — and that is the point. All we know of him is what his own monument reveals: a sneer of cold command, a frown, a proud boast to the mighty. He was a ruler of enormous power and arrogance, who believed his works would last forever and his name would terrify posterity. Time has answered him: his empire is dust, his statue is shattered, and his name survives only because a passing traveller spoke it — a lesson in the final equality of all rulers. He is the archetype of the tyrant whose only monument is the record of his own vanity.'
-    },
-    {
-      category: 'analysis',
-      prompt: 'The traveller — the messenger of ruins',
-      answer: 'The traveller from an antique land is the poem\'s witness, and the framing device that gives the poem its strange authority. He has seen what the reader cannot see — the actual wreck in the desert — and his account is plain, factual and unemotional, which makes the ruin all the more devastating. He speaks of the shattered face and the boastful inscription without commentary, letting the ironies speak for themselves. He is also the poem\'s human link to time: a living man carrying the story of a dead king, proof that what remains of tyrants is only what wandering storytellers remember.'
-    },
-    {
-      category: 'analysis',
-      prompt: 'The sculptor — the silent victor',
-      answer: 'The sculptor never appears directly, but the traveller\'s words give him a ghostly presence: he "read" the king\'s passions well and stamped them in stone. He is the poem\'s quiet victor in the contest of time. He served the tyrant, carving the sneer and frown for the king\'s glory — but his craft outlived both the king and his empire, preserving the tyrant\'s cruelty for all ages to see. The sculptor\'s art, commissioned as propaganda, survives as indictment. He represents the strange immortality of the artist: forgotten himself, his work endures, and the thing he carved for power now serves truth.'
+      prompt: 'Art versus the artist\'s subject',
+      answer: 'The poem sets the artist against the tyrant. Ozymandias commanded a sculptor to immortalise him; the sculptor did his work so well that the "passions" of the king — the frown, the sneer of cold command — survive in stone long after the king is dust. But the irony is complete: the art outlives the king only to expose him. The sneer that mocked the sculptor\'s hand is now mocked by the desert; the heart that fed on the passions of cruelty has fed the sands. Art, the poem suggests, is more lasting than power — but even art is dust in the face of time, and the truest monument is the poem itself, which teaches the lesson.'
     },
     {
       category: 'device',
       prompt: 'Irony',
-      answer: 'The poem is built on one immense irony: the inscription on the pedestal boasts of the king\'s mighty works and challenges the world to despair before them, yet all that remains is a shattered statue in an empty desert. The boast meant to intimidate posterity now exposes the vanity of the boaster. The irony deepens at every level — the "king of kings" is king of nothing; the statue built to outlast time is broken by time; and the "greatness" the inscription announces is witnessed by nothing but sand. Irony is not just a figure here but the poem\'s whole argument.'
+      answer: 'The poem is built on one colossal irony. The pedestal\'s boast — "Look on my works, ye Mighty, and despair!" — is spoken in a desert where there are no works at all; the traveller\'s eye, looking around, finds nothing but the lone and level sands. The "King of Kings" is a king of nothing; the command to despair falls on the empty air. The irony is doubled by the poem\'s survival: the boast is remembered only because it is so perfectly disproved. The shattered face and the grand words together make the poem\'s point: the louder the boast, the louder the fall.'
+    },
+    {
+      category: 'device',
+      prompt: 'The frame narrative',
+      answer: 'The poem uses a frame narrative: the poet speaks first, then reports the words of a traveller "from an antique land", who in turn reports the words written on the pedestal. The device creates distance — the king\'s boast is relayed through two voices and an unknown span of time, as if the poem were an archaeological find. The frame also builds the poem\'s irony: we hear the boast second-hand, from the ruins, and we can see what the king could not — the empty desert around the shattered stone. The layered voices make the poem a kind of testimony: the traveller testifies to the ruin, and the poet testifies to the lesson.'
     },
     {
       category: 'device',
       prompt: 'The sonnet form',
-      answer: 'Shelley casts this meditation on fallen empires in the most disciplined of forms — a sonnet of fourteen lines. The form\'s compactness is itself meaningful: the rise and fall of an empire is compressed into fourteen lines, the tyrant\'s story into a traveller\'s anecdote. The rhyme scheme is loose (Petrarchan rather than strict), and the sense flows in long, unbroken clauses, mirroring the open desert. The sonnet, the traditional form of love poetry, is here devoted to the ruin of power — a quiet joke against the tyrant, whose "greatness" cannot command even the form of the poem that records his fall.'
+      answer: 'The poem is a sonnet — fourteen lines — but Shelley bends the form to his subject. The octave (the first eight lines) sets the scene: the traveller\'s tale of the legs, the shattered face, the sculptor\'s art. The sestet (the last six) delivers the boast and its ironic answer: the words on the pedestal, and then the lone and level sands. The volta, or turn, comes at the moment the pedestal is read — the boast — and the poem turns it inside out with the desert. The tight, disciplined form holds the wild emptiness of the desert in tension, giving the poem its power.'
     },
     {
       category: 'device',
-      prompt: 'Imagery of desolation',
-      answer: 'The poem\'s images build a landscape of ruin: the two vast trunkless legs, the shattered visage half-sunk in sand, and finally the boundless, bare, level sands stretching far away. Each image is precise and visual, and together they create the poem\'s overwhelming sense of emptiness and decay. The contrast between the colossal scale of the statue — vast legs, giant face — and the endless smallness of what remains gives the imagery its power: human greatness, once colossal, is now a fragment in a waste of sand.'
+      prompt: 'Imagery of ruin and emptiness',
+      answer: 'The poem\'s imagery is spare and desolate: two vast and trunkless legs of stone, a shattered visage half sunk in the sand, a pedestal in a desert, and the lone and level sands stretching far away. Every image is a negation — legs without a trunk, a face without a body, a monument without a kingdom, a king without works. The "sneer of cold command" is the one vivid, living image, and even it survives only on broken stone. The imagery teaches the poem\'s lesson without a word of moralising: the reader sees the ruin and knows the boast is empty.'
     },
     {
       category: 'device',
       prompt: 'Alliteration and sound',
-      answer: 'The poem\'s music is subtle and purposeful. Phrases such as "boundless and bare" and "lone and level" use repeated consonants to create a slow, flat, monotonous sound — the sound of the empty desert itself. The heavy stresses weigh the lines down, echoing the desolation of the scene. Sound and sense unite: the poem not only describes emptiness, it sounds empty; the language itself becomes a landscape of bare sand stretching to the horizon.'
+      answer: 'Shelley\'s sound-work deepens the poem\'s mood. The "s" sounds of "sands", "sunk", "sneer", "stamped", "sculptor", "stretch" and "shattered" whisper through the poem like wind across the desert — the poem itself sounds like the bare level sand. The alliteration binds the images: the "cold command", the "sneer of cold command", the "lone and level sands" whose repeated "l" sounds stretch the line out, as if the desert were visible in the sound. The poem\'s music is minimal and dry — appropriate to a landscape of dust — and its emptiness is felt in the ear as well as the eye.'
     },
     {
-      category: 'device',
-      prompt: 'Framing narrative',
-      answer: 'The poem uses a double frame: the speaker tells us what a traveller told him. This distance is deliberate — the story of Ozymandias reaches us second-hand, like history itself, and the framing gives the account an air of age and authority. It also universalises the lesson: this is not the poet\'s invention but a report from the world, a story any traveller might tell of any empire. The frame lets the poem move from the particular (one ruined king) to the general (all human power) — the final truth that the sand, the great leveller, teaches us all.'
+      category: 'analysis',
+      prompt: 'Why does the poem end with the image of the lone and level sands?',
+      answer: 'The final image is the poem\'s verdict. The pedestal boasts of works; the poem answers with emptiness — "Nothing beside remains" — and then expands that nothing into the only visible thing: the lone and level sands stretching far away. The sands are the true "works" of the desert: level, endless, featureless, the negation of every monument. The image does three things at once. It confirms the irony, showing the king\'s boast answered by vacancy. It gives time a face, picturing the ages that have smoothed every trace of the kingdom. And it closes the poem in stillness and scale — the reader is left standing in the same desert, looking on the same nothing, and the boast of the "King of Kings" shrinks to a whisper on the wind.'
     },
     {
-      category: 'short',
-      prompt: 'From whom does the speaker hear the story of Ozymandias?',
-      answer: 'From a traveller from an antique (ancient) land, whom he met.'
+      category: 'analysis',
+      prompt: 'What is the role of the sculptor in the poem?',
+      answer: 'The sculptor is the poem\'s quiet hero — and its quiet victim. He was commanded by the tyrant to immortalise him, and he did his work with terrible fidelity: he "read" the passions of the king — the frown, the wrinkled lip, the sneer of cold command — and stamped them into the stone, so that the face survives the hand that mocked it and the heart that fed it. The sculptor outlives the king in his work; yet the poem\'s irony touches him too, for the art that preserves the king also preserves his cruelty, and the work that was built to defy time is half sunk in the sand. The sculptor is the poem\'s proof that art is stronger than power — and time is stronger than art.'
     },
     {
-      category: 'short',
-      prompt: 'What did the traveller see in the desert?',
-      answer: 'Two vast, trunkless stone legs, and near them a shattered face half-buried in the sand.'
+      category: 'analysis',
+      prompt: 'How does the poem\'s form match its theme?',
+      answer: 'The sonnet\'s strict form — fourteen lines, tightly turned — is the perfect vessel for a poem about ruin. The discipline of the form stands against the wildness of the desert, as the poem\'s civilisation stands against the waste it describes. The octave is all scene and craft: the traveller, the legs, the face, the sculptor\'s art — a carefully built picture. The sestet is all collapse: the boast, and then the nothing. The volta, the turn, lands exactly where the pedestal is read, and the poem turns from the king\'s voice to the desert\'s silence. The form does what the sculptor does: it stamps meaning on the void. And like the statue, the poem\'s very orderliness is what makes the emptiness felt — the neatest sonnet describing the emptiest landscape in English poetry.'
     },
     {
-      category: 'short',
-      prompt: 'What did the broken face reveal about the king?',
-      answer: 'A frown, a wrinkled lip and a sneer of cold command — the face of a proud, cruel tyrant.'
+      category: 'value',
+      prompt: 'Pride comes before the fall',
+      answer: 'The poem is the oldest of lessons told anew: pride goes before destruction. Ozymandias called himself King of Kings and believed his works would make the mighty despair; time answered with a desert. The value lesson is humility — the knowledge that power, wealth and fame are lent to us, not owned, and that the boast built on them will be read, in the end, by the wind. The poem does not preach; it shows. The king\'s sneer is stamped on stone, and the stone is sunk in sand. He who exalts himself, the poem says, will be levelled; and the only true monument is the lesson, remembered.'
     },
     {
-      category: 'short',
-      prompt: 'Who was Ozymandias?',
-      answer: 'A mighty ruler of an ancient land (the Greek name for the pharaoh Ramesses II).'
-    },
-    {
-      category: 'short',
-      prompt: 'What did the inscription on the pedestal boast?',
-      answer: 'The king\'s name and a challenge: the mighty were bidden to look on his works and despair.'
+      category: 'value',
+      prompt: 'The lasting worth of the artist',
+      answer: 'Against the king stands the sculptor — and the poet. The king\'s works are dust, but the sculptor\'s reading of him survives, and the poem that remembers the whole scene survives in the reader\'s mind. The value lesson: creation outlasts conquest. The tyrant builds with fear; the artist builds with understanding — and understanding outlives fear. The poem honours the quiet craft of the sculptor and the poet over the loud command of the king: what is made with care and truth remains, when what is made with force and pride has crumbled to the lone and level sands.'
     },
     {
       category: 'short',
-      prompt: 'What remains of the king\'s works?',
-      answer: 'Nothing — only the shattered statue itself, surrounded by bare desert sands.'
+      prompt: 'Who wrote "Ozymandias"?',
+      answer: 'P.B. Shelley, the Romantic poet.'
     },
     {
       category: 'short',
-      prompt: 'What does the poem say about the sculptor?',
-      answer: 'The sculptor read the king\'s passions well and carved them faithfully — and his art outlived the king and his empire.'
+      prompt: 'Who tells the poet about the statue?',
+      answer: 'A traveller from an antique land.'
     },
     {
       category: 'short',
-      prompt: 'What is the poem\'s central message?',
-      answer: 'All worldly power is transient: time destroys tyrants and their works, and nothing of their greatness survives.'
+      prompt: 'What remains of the statue in the desert?',
+      answer: 'Two vast and trunkless legs of stone, and beside them a shattered visage half sunk in the sand.'
+    },
+    {
+      category: 'short',
+      prompt: 'What is written on the pedestal?',
+      answer: '"My name is Ozymandias, King of Kings: Look on my works, ye Mighty, and despair!"'
+    },
+    {
+      category: 'short',
+      prompt: 'What does the traveller see around the statue?',
+      answer: 'Nothing — only the lone and level sands stretching far away.'
+    },
+    {
+      category: 'short',
+      prompt: 'What did the sculptor read and stamp on the stone?',
+      answer: 'The passions of the king — his frown, wrinkled lip and sneer of cold command.'
+    },
+    {
+      category: 'short',
+      prompt: 'What form is the poem written in?',
+      answer: 'A sonnet of fourteen lines, with an octave and a sestet.'
+    },
+    {
+      category: 'short',
+      prompt: 'What is the central theme of the poem?',
+      answer: 'The vanity of power and pride — time destroys all human works.'
+    },
+    {
+      category: 'short',
+      prompt: 'What irony lies in the words on the pedestal?',
+      answer: 'The king commands the mighty to look on his works and despair — but there are no works left, only ruins and sand.'
+    },
+    {
+      category: 'short',
+      prompt: 'What survives longer than the king\'s works in the poem?',
+      answer: 'The sculptor\'s art (the carved passions) and the poet\'s verse that remembers it.'
     },
     {
       category: 'long',
-      prompt: 'How does the poem use irony to expose the vanity of power?',
-      answer: 'The poem\'s irony is its engine, and it works at every level. The king built a colossal statue to immortalise himself, yet the traveller sees only fragments: two trunkless legs and a shattered face. The inscription on the pedestal is the cruelest irony of all — the king proclaims his name and commands the mighty to look upon his works and despair. But there is nothing to look upon: his works are gone, swallowed by the desert, and the boast now stands as a monument to the boaster\'s folly rather than his greatness. The king who demanded that posterity despair at his power is now pitied, or laughed at, by every reader of the poem. The irony is complete in the final image: the tyrant who bade the world gaze upon his works is now gazed upon by nothing but the lone and level sands. The poem turns the tyrant\'s own monument into his indictment — and the reader, not the king, has the last word.'
+      prompt: 'Describe the scene the traveller reports.',
+      answer: 'The traveller describes a desert of colossal ruin. Two vast and trunkless legs of stone stand in the sand — the remains of a statue so large that its legs alone are enormous — but the body they once supported is gone. Beside them lies the shattered visage, the face of the statue, half sunk in the sand, so that only part of it is visible. Yet the face still speaks: its frown, its wrinkled lip and its "sneer of cold command" are clearly readable in the stone, and they tell us of the king who commanded the work — a tyrant whose passions were so strong that they were stamped into his own likeness. The traveller reflects that the sculptor who carved the face understood those passions perfectly and preserved them, so that the hand that mocked the king and the heart that fed on his cruelties are both gone, yet their record remains. On the pedestal stand the king\'s boastful words — and all around, nothing but the lone and level sands stretching far away. The scene is the poem\'s whole argument in pictures: a monument, a boast, and a desert.'
     },
     {
       category: 'long',
-      prompt: 'Why does the poem\'s ending — the boundless desert — carry the whole meaning?',
-      answer: 'The final image of the poem — the boundless and bare sands stretching far away around the shattered wreck — is the conclusion of its entire argument. It answers the king\'s boast: the empire he ruled, the works he commanded, the armies and cities and monuments of his age, are all reduced to this — nothing. The desert is the poem\'s image of time itself: patient, silent, endless, wearing down everything human pride can build. The statue that was meant to defy the ages is now just one more fragment in the sand, its colossal scale dwarfed by the emptiness around it. The image also universalises the lesson: the king\'s name and story survive only as a traveller\'s anecdote, while the desert, which has no name and no ambition, simply endures. The ending shows what power truly comes to: not triumph, but the silence of the sands — and that image, more than any moral, is what makes the reader feel the vanity of all human empire.'
+      prompt: 'Explain the irony of the words on the pedestal.',
+      answer: 'The words on the pedestal are the boast of a tyrant at the height of his power: "My name is Ozymandias, King of Kings: Look on my works, ye Mighty, and despair!" The king commands every future power to gaze on his achievements and despair of ever equalling them. The irony is absolute, because the traveller reports the boast from a desert where nothing of the king\'s works remains: the statue is shattered, its body gone, its face sunk in the sand, and the kingdom itself has vanished — "Nothing beside remains". The Mighty who read the words today are taught, not despair at the king\'s greatness, but humility at his ruin. The boast has survived only in its own destruction: the words are remembered precisely because they are so completely disproved. The king who called himself King of Kings is now the king of a heap of stone in an empty desert — and the only despair the monument inspires is the despair of pride itself.'
     },
     {
       category: 'long',
-      prompt: 'Value question: What does the poem teach us about pride, power and permanence?',
-      answer: 'The poem teaches that pride in power is the most perishable of possessions. Ozymandias had everything human ambition desires — empire, might, colossal works, a name that bade the world despair — and time swept it all away, leaving only a broken statue that mocks his boast. The value lesson is humility: the powerful should remember that their power is borrowed from time and will be taken back; the proud should see in the shattered sneer the fate of every tyrant. The poem also teaches where true permanence lies: not in works of stone or conquest but in the quieter things — art, truth, human memory. The sculptor\'s carving has outlasted the king\'s empire; the traveller\'s story has outlived the king\'s name. And the poem itself, written by a poet who opposed tyranny, has kept the lesson alive for two centuries. The wise, the poem suggests, build nothing that sand can bury — or if they build, they build in the durable materials of truth and art.'
+      prompt: 'Value question: What does the poem teach us about power and pride?',
+      answer: 'The poem teaches the oldest of lessons: power is borrowed, and pride is perishable. Ozymandias possessed an empire and commanded a monument to outlast it; time reduced both to rubble and sand. The value lesson is humility — not the humility of self-deprecation, but the knowledge that every boast is spoken over a grave. The poem shows that what we build with force and fear is blown away, while what is made with understanding — the sculptor\'s craft, the poet\'s verse, the truth of a lesson — endures. It teaches us to weigh our lives by lasting things: kindness, craft, truth, memory — not by the sneer of cold command. And it teaches us to read history honestly: the mighty of every age believe their works are eternal; the next age finds their name on a broken stone in a desert. The poem\'s quiet command to us is to build what time cannot despise.'
     },
     {
       category: 'long',
-      prompt: 'What role does the sculptor play in the poem, and what irony surrounds him?',
-      answer: 'The sculptor is the poem\'s hidden victor, though he appears only in the traveller\'s passing remark. It was he who read the king\'s passions well and stamped the sneer and frown into stone, faithfully recording the tyrant\'s arrogance for his master\'s glory. The irony is layered. The sculptor was a servant of power — he carved propaganda, a statue meant to terrify posterity into admiration. Yet his faithful art has outlived both the king and the empire: while the king\'s works are dust, the sculptor\'s carving of the sneer survives, and it now serves not the tyrant\'s glory but his exposure. The sneer that was meant to awe is now read, in every age, as the mask of a fool. The artist who seemed the king\'s tool became his judge. The poem thus hints that art — even commissioned, even obedient — carries a truth beyond its masters\' intentions, and that the hand that "mocked" the tyrant\'s features may, in the end, have mocked the tyrant himself.'
+      prompt: 'What is the poet\'s attitude towards the king?',
+      answer: 'The poet\'s attitude is one of calm, ironic judgment — no rage, no triumph, simply the picture and the desert. He lets the king\'s own boast destroy the king: the traveller reports the words, and the sands answer them. The sneer of "cold command" is recorded without comment, but the poem\'s arrangement — the shattered face, the boast, the nothing — is the comment. The poet\'s sympathy is with the sculptor, whose art preserved the king\'s passions, and with the reader, who is given the lesson. Ozymandias is not hated or pitied; he is measured. The poem\'s tone is the tone of time itself: vast, level, indifferent. The king of kings is reduced to a curiosity, a story a traveller tells, and the poet\'s power over the tyrant is complete — he is remembered only as the poem chooses to remember him, and the poem chooses to remember him as a lesson.'
     },
     {
       category: 'long',
-      prompt: 'How does the poem suggest that tyrants are remembered only by the ruins they leave?',
-      answer: 'The poem suggests that what survives a tyrant is not his power but the evidence of his cruelty. Ozymandias is remembered at all only because his shattered statue preserves his sneer — the frown, the wrinkled lip, the cold command. The traveller does not speak of his battles or his cities; he speaks of the face, and the face speaks of arrogance and oppression. The inscription, too, survives only to be mocked: the boast that was meant to terrify now testifies to the vanity of the boaster. The poem\'s dark suggestion is that tyrants build their own memorials without knowing it: their statues, portraits and boasts — commissioned to exalt them — become the very records by which history convicts them. Power, the poem implies, leaves ruins, and ruins tell the truth. The tyrant who wished to be remembered as a king of kings is remembered as a lesson: that cruelty cannot be made eternal, and that the only monument power builds for itself is the sneer preserved in broken stone.'
+      prompt: 'How does the poem use the contrast between the statue and the desert?',
+      answer: 'The poem is built on the contrast between the king\'s monument and the king\'s waste. The statue is all effort and meaning: the vast legs, the carved face, the frown and sneer stamped in stone, the boastful words on the pedestal — a whole empire of purpose, frozen in one image of pride. The desert is all emptiness: the lone and level sands that stretch far away, featureless, endless, swallowing every trace of what was built. The contrast works in every direction: the statue speaks, the desert is silent; the statue is shattered, the desert is whole; the statue points to a past, the desert has no memory. The king\'s works and the desert\'s nothing are set against each other like question and answer, boast and response. The poem ends where the contrast is most complete — with the boast fading into the sands — so that the last image we carry is not the king\'s face but the emptiness that outlasted it.'
     }
   ],
   quizQuestions: [
     {
       question: 'Who wrote "Ozymandias"?',
-      options: ['William Shakespeare', 'Percy Bysshe Shelley', 'Vikram Seth', 'D.H. Lawrence'],
+      options: ['William Wordsworth', 'P.B. Shelley', 'John Keats', 'William Blake'],
       correct_index: 1,
-      explanation: 'The poem is by the Romantic poet Percy Bysshe Shelley.'
+      explanation: 'The poem is by P.B. Shelley.'
     },
     {
-      question: 'The speaker hears the story from:',
-      options: ['a king', 'a traveller from an ancient land', 'a sculptor', 'a dream'],
-      correct_index: 1,
-      explanation: 'A traveller from an antique land tells the speaker of the ruin.'
+      question: 'Who reports the description of the statue?',
+      options: ['a traveller from an antique land', 'the sculptor', 'the king himself', 'a desert guide'],
+      correct_index: 0,
+      explanation: 'The poet meets a traveller who tells him of the ruin.'
     },
     {
-      question: 'The traveller saw in the desert:',
-      options: ['a palace', 'two vast trunkless legs and a shattered face', 'a temple', 'a city'],
+      question: 'What remains of the statue?',
+      options: ['a standing figure', 'two vast and trunkless legs of stone and a shattered visage', 'a marble throne', 'a broken chariot'],
       correct_index: 1,
-      explanation: 'Only the fragments of a colossal statue remained.'
+      explanation: 'Only the legs and the half-buried face remain.'
     },
     {
-      question: 'The shattered face bore the expression of:',
-      options: ['kindness', 'a sneer of cold command', 'sorrow', 'joy'],
+      question: 'The face of the statue expresses:',
+      options: ['joy and peace', 'a frown, a wrinkled lip and a sneer of cold command', 'grief and sorrow', 'fear and wonder'],
       correct_index: 1,
-      explanation: 'The frown, wrinkled lip and sneer revealed a cruel tyrant.'
+      explanation: 'The sculptor stamped the king\'s passions on the stone.'
     },
     {
-      question: 'Ozymandias was:',
-      options: ['a Greek god', 'a mighty king of an ancient land', 'the traveller', 'the sculptor'],
+      question: 'The words on the pedestal are:',
+      options: ['"Here lies a king"', '"My name is Ozymandias, King of Kings: Look on my works, ye Mighty, and despair!"', '"Glory to the sculptor"', '"Time conquers all"'],
       correct_index: 1,
-      explanation: 'He was the king whose statue the desert had broken.'
+      explanation: 'These are the boastful words on the pedestal.'
     },
     {
-      question: 'The inscription on the pedestal:',
-      options: ['praised the sculptor', 'boasted of the king\'s works and challenged the mighty', 'described the desert', 'named the traveller'],
-      correct_index: 1,
-      explanation: 'It proclaimed the king\'s name and bade the mighty look on his works and despair.'
+      question: 'What surrounds the statue?',
+      options: ['a great city', 'green fields', 'the lone and level sands stretching far away', 'a river'],
+      correct_index: 2,
+      explanation: 'Nothing remains of the king\'s works but empty desert.'
     },
     {
-      question: 'Of the king\'s works, what remains?',
-      options: ['his cities', 'nothing but the broken statue', 'his treasure', 'his tomb'],
+      question: 'The poem\'s central theme is:',
+      options: ['the joy of travel', 'the vanity of power and pride', 'the skill of sculptors', 'the beauty of deserts'],
       correct_index: 1,
-      explanation: 'Everything is gone; only the wreck and the bare sands remain.'
+      explanation: 'The mighty king is reduced to ruins — power is transient.'
     },
     {
-      question: 'The poem\'s main theme is:',
-      options: ['the beauty of art', 'the vanity of power and the fall of tyrants', 'the desert is vast', 'the sculptor\'s fame'],
+      question: 'The poem is written in the form of a:',
+      options: ['ballad', 'sonnet', 'ode', 'epic'],
       correct_index: 1,
-      explanation: 'Time destroys tyrants and their works; power is transient.'
+      explanation: 'It is a fourteen-line sonnet with an octave and sestet.'
     },
     {
-      question: 'The sculptor\'s carving has survived because:',
-      options: ['he was a king', 'his faithful art outlived the empire it served', 'he hid the statue', 'the desert preserves stone'],
-      correct_index: 1,
-      explanation: 'Art outlasts power — the carving survives to expose the tyrant.'
+      question: 'Who "mocked" the passions and "fed" them, in the traveller\'s words?',
+      options: ['the hand that mocked them and the heart that fed them — the sculptor and the king', 'the desert and the wind', 'the traveller and the poet', 'the Mighty and the slaves'],
+      correct_index: 0,
+      explanation: 'The sculptor\'s hand carved them; the king\'s heart lived them.'
     },
     {
-      question: 'The poem ends with an image of:',
-      options: ['a rising city', 'the boundless, bare sands of the desert', 'a marching army', 'a burning palace'],
+      question: 'What makes the boast on the pedestal ironic?',
+      options: ['the king is unknown', 'there are no works left — only ruins and sand', 'the statue is very small', 'the sculptor was unskilled'],
       correct_index: 1,
-      explanation: 'The lone and level sands stretch far away — desolation completes the lesson.'
+      explanation: 'The king commands the Mighty to despair at his works, but nothing remains.'
+    },
+    {
+      question: 'The phrase "sneer of cold command" suggests the king was:',
+      options: ['kind and gentle', 'cruel and autocratic', 'weak and indecisive', 'merry and careless'],
+      correct_index: 1,
+      explanation: 'The cold sneer shows a tyrant who ruled by fear.'
+    },
+    {
+      question: 'What survives longer than the king\'s works in the poem?',
+      options: ['his empire', 'the sculptor\'s art and the poet\'s verse', 'his treasure', 'his name on coins'],
+      correct_index: 1,
+      explanation: 'The carved passions and the poem itself outlast the kingdom.'
     }
   ]
 };
