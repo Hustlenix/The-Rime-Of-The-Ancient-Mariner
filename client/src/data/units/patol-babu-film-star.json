@@ -9,386 +9,368 @@
  },
  "content": [
   {
-   "id": 149,
+   "id": 170,
    "category": "summary",
-   "prompt": "Part 1 — The unexpected offer",
-   "answer": "Patol Babu, a fifty-two-year-old man whose stage-acting days were far behind him, was about to go to the market when his neighbour Nishikanto Babu called out. Nishikanto's brother-in-law, Naresh Dutt, who worked in the film business, needed a short, bald-headed man of about fifty for a small role, and Nishikanto had recommended Patol. The offer was beyond Patol Babu's wildest dreams — a chance to act again. In his excitement he bought red chillies instead of onion seeds and quite forgot the aubergines his wife had asked for.",
-   "notes": null,
+   "prompt": "Part 1 — An unexpected offer",
+   "answer": "Patol Babu is an ordinary, middle-aged man of about fifty, short and bald-headed, who lost his steady clerical job years earlier and has since struggled through a string of failed ventures and jobs to support his family. In his youth, however, he had been a passionate and admired amateur stage actor, performing in local \"jatras\" (folk theatre) with genuine talent, though he gave this passion up entirely once the responsibilities of earning a livelihood took over his life. One day his neighbour, Nishikanto Ghosh, brings him unexpected news: Ghosh's brother-in-law, Naresh Dutt, works in the production department of the film industry and is looking for an actor matching Patol Babu's exact description — short, bald, and middle-aged — for a small role in a film. Overjoyed and flustered by the news, Patol Babu is so distracted by excitement that he makes the wrong purchases at the vegetable market that same day.",
+   "notes": "Introduces Patol Babu's background and the acting opportunity.",
    "sortOrder": 1
   },
   {
-   "id": 150,
+   "id": 171,
    "category": "summary",
-   "prompt": "Part 2 — The man who was a star once",
-   "answer": "Long ago, Patol Babu had been in demand in Jatras and amateur theatricals, with his name on handbills and people buying tickets to see him. Life had not treated him kindly since: a job in a railway factory at Kanchrapara, then nine years as a clerk with Hudson and Kimberley in Calcutta, where he lost his post when the war brought retrenchment. A variety store, a Bengali firm, a spell as an insurance agent — nothing had lasted. Now, at the age of fifty-two, he was being offered a film role, and his heart thumped as he went to meet Naresh Dutt, who greeted him at the office gate, mistaking his name for \"Atul Babu\".",
-   "notes": null,
+   "prompt": "Part 2 — The disappointing role",
+   "answer": "Patol Babu meets Naresh Dutt and is asked to report to the shooting location the following day. There he learns the full truth of the role he has been offered: it is an extremely minor part with no lines beyond a single monosyllabic exclamation — \"Oh!\" — spoken as a pedestrian who accidentally collides with the film's hero, a rising young executive played by the popular actor Chanchal Kumar, while hurrying down the street. Patol Babu is bitterly disappointed; after dreaming of a meaningful return to acting, being reduced to a single interjection feels like a mockery of his talent and years of theatrical passion, and he seriously considers walking away from the role altogether rather than accept such humiliation.",
+   "notes": "The central disappointment: the minor, one-word role.",
    "sortOrder": 2
   },
   {
-   "id": 151,
+   "id": 172,
    "category": "summary",
-   "prompt": "Part 3 — The single word \"Oh!\"",
-   "answer": "The role was a street scene: Patol Babu was to play an absent-minded pedestrian who collides with the hero, Chanchal Kumar, and must say a single word — \"Oh!\". When Jyoti handed him a torn page with \"Oh\" written on it, Patol Babu's heart sank; he felt demeaned. But then he remembered his mentor Gogon Pakrashi's advice — that no role is too small for a true artist, and that every word is like a fruit on a tree, to be plucked and served to the audience. Patol Babu rehearsed the exclamation in a dozen inflections until he discovered that one word could carry many shades of meaning. He even suggested carrying a newspaper, to make the absent-minded pedestrian look natural.",
-   "notes": null,
+   "prompt": "Part 3 — A change of heart and rehearsal",
+   "answer": "Before abandoning the role, Patol Babu recalls the wisdom of his old acting mentor, who had taught him that no role, however small, is insignificant if approached with sincerity and dedication — every part is an opportunity to serve the art of acting itself, not merely to seek recognition or a bigger part. Reflecting on this teaching, Patol Babu resolves to treat his single word with the same seriousness he would give a starring role. He spends considerable time and thought working out precisely how to deliver his \"Oh!\" — its timing, its tone, the exact physical reaction of surprise and pain that should accompany it — rehearsing internally with genuine artistic care despite the role's outward insignificance.",
+   "notes": "Turning point: professional integrity over ego.",
    "sortOrder": 3
   },
   {
-   "id": 152,
+   "id": 173,
    "category": "summary",
-   "prompt": "Part 4 — A perfect performance, and no money",
-   "answer": "When the scene was shot, the hero's head knocked hard against Patol Babu's forehead and the pain was intense, but by a supreme effort of will he pulled himself together and cried \"Oh!\" — mixing fifty parts of anguish, twenty-five of surprise and twenty-five of irritation — and resumed his walk. \"Cut!\" cried the director. Patol Babu had done the role perfectly. He thought of the small fee — ten, fifteen or twenty rupees — and decided it was nothing compared with the satisfaction of a job done with perfection and dedication. He left the set without taking his money. His mentor Gogon Pakrashi, he was sure, would have been proud of him.",
-   "notes": null,
+   "prompt": "Part 4 — The performance and its quiet triumph",
+   "answer": "When the moment for the actual shot finally arrives, Patol Babu delivers his brief performance with complete sincerity and precision, timing his collision with Chanchal Kumar and his exclamation of \"Oh!\" so perfectly that the actor himself is startled, remarking afterward that Patol Babu's timing nearly made him lose his composure, and the director, Baren Mallick, praises the take as \"jolly good.\" Having achieved genuine artistic satisfaction from performing his tiny role with total dedication, Patol Babu quietly leaves the set without waiting to collect any payment, content that he has honoured his craft. The story closes on his realisation that true fulfilment in art comes from personal integrity and sincere effort rather than the size of the role or the money it brings.",
+   "notes": "Resolution: personal satisfaction over material reward.",
    "sortOrder": 4
   },
   {
-   "id": 153,
+   "id": 174,
    "category": "theme",
-   "prompt": "No role is too small — the dignity of work",
-   "answer": "The story's central theme is that the value of a task lies in how it is done, not in its size. Patol Babu is offered a role with a single word of dialogue, yet he treats it with the seriousness of a major part, rehearsing the one word until it carries the whole weight of his craft. The lesson, taught by his mentor Gogon Pakrashi, is that every role, every task, deserves an artist's full attention — for a play, like life, is the combined effort of many.",
-   "notes": null,
+   "prompt": "Dignity of labour and personal integrity in one's work",
+   "answer": "The story's central message is that genuine professionalism and self-respect do not depend on the size or prestige of a task, but on the sincerity brought to performing it. Patol Babu, despite his initial humiliation at being offered only a single word to say, ultimately commits himself fully to delivering that word with excellence, demonstrating that dignity in labour comes from one's own standards rather than from external recognition. Ray uses this small, everyday episode to make a much larger statement about the value of doing any job — however modest — with complete sincerity.",
+   "notes": "",
    "sortOrder": 5
   },
   {
-   "id": 154,
+   "id": 175,
    "category": "theme",
-   "prompt": "Artistic satisfaction over money",
-   "answer": "Patol Babu, who badly needs money, chooses satisfaction over payment. After delivering his \"Oh!\" to perfection, he reflects that the twenty rupees or so he might earn are nothing against the intense satisfaction of a small job done with dedication. He leaves the set without taking his fee. The theme celebrates the true artist's priority: creation and self-respect over reward. Money, the story suggests, can never buy the pride of work perfectly done.",
-   "notes": null,
+   "prompt": "Personal satisfaction versus material or financial reward",
+   "answer": "Patol Babu's decision to leave the film set without collecting payment for his role underscores the story's theme that true artistic and personal satisfaction cannot be measured in money. He performs his small part not for the modest fee it might bring but purely for the inner fulfilment of doing his craft justice, echoing his acting mentor's teaching that art matters for its own sake. Ray contrasts this with the film industry's commercial, transactional approach to acting, suggesting that genuine passion for one's craft transcends the industry's indifferent treatment of small performers.",
+   "notes": "",
    "sortOrder": 6
   },
   {
-   "id": 155,
+   "id": 176,
    "category": "theme",
-   "prompt": "The commercialization of art",
-   "answer": "The story contrasts the film industry's indifference with the artist's devotion. The film unit hires extras for ten or twenty rupees, makes them \"go through certain motions\", pays them and forgets them. Patol Babu, however, brings to his tiny role a lifetime of craft, and he is hurt by the crew's inability to appreciate what he has given. The theme criticises an age in which art is treated as a commodity, and celebrates the amateur's passion that survives even in a hired extra on a film set.",
-   "notes": null,
+   "prompt": "The clash between amateur theatre and the film industry",
+   "answer": "The story quietly contrasts the passionate, artistically committed world of amateur stage theatre — where Patol Babu once thrived — with the more impersonal, business-driven world of professional filmmaking, where actors are treated as replaceable, standardised parts and roles are handed out based on physical description rather than talent. Ray subtly critiques this transactional attitude of the film industry, symbolised by Patol Babu being selected simply because he \"looks the part,\" while simultaneously showing that even within this indifferent system, individual artistic sincerity can still triumph.",
+   "notes": "",
    "sortOrder": 7
   },
   {
-   "id": 156,
+   "id": 177,
    "category": "character",
    "prompt": "Patol Babu",
-   "answer": "Patol Babu, whose real name is Sitalakanta Ray, is a fifty-two-year-old former stage actor, now a struggling middle-aged man who once had a real passion — verging on obsession — for the stage. He had been in demand in Jatras and amateur plays, but lost his railway factory job, spent nine years as a clerk at Hudson and Kimberley, and then drifted through a variety store, a Bengali firm and insurance work. He is modest, meticulous and principled: he treats the single word \"Oh!\" as a masterpiece of interpretation, and refuses payment because he values the satisfaction of perfect work. He is an artist in an age that has forgotten what artists are.",
-   "notes": null,
+   "answer": "Patol Babu is a short, bald, middle-aged man of about fifty who once had genuine passion and talent for amateur stage acting but had to abandon it after losing his steady clerical job and taking on the burdens of supporting his family. His character arc in the story moves from excited hope, through bitter disappointment at the triviality of his offered film role, to a renewed sense of purpose once he recalls his mentor's teaching about the value of sincerity in even the smallest role. His decision to rehearse his single word with total dedication, and to leave without collecting payment once he has performed it to his own satisfaction, reveals a man of quiet artistic integrity whose sense of self-worth does not depend on outside validation.",
+   "notes": "",
    "sortOrder": 8
   },
   {
-   "id": 157,
+   "id": 178,
    "category": "character",
-   "prompt": "Gogon Pakrashi",
-   "answer": "Gogon Pakrashi was Patol Babu's mentor in his stage days — a wonderful actor without a trace of vanity, a saintly person and an actor in a million. His advice shapes the story: never consider any role beneath your dignity; make the most of every opportunity; and remember that each word an actor speaks is like a fruit on a tree — not everyone in the audience can reach it, but the actor must pluck it, get at its essence and serve it up for their edification. It is his voice that saves Patol Babu from despair and turns the one-word role into a triumph.",
-   "notes": null,
+   "prompt": "Nishikanto Ghosh",
+   "answer": "Nishikanto Ghosh is Patol Babu's neighbour, a genial man who lives a few houses away and is the one who first brings Patol Babu the news of the possible film role, since his own brother-in-law, Naresh Dutt, works in the film production business. Though a relatively minor character, Ghosh acts as the crucial link that sets the entire story's events in motion, and his goodwill toward Patol Babu, offering the connection without expecting anything in return, sets a warm, community-minded tone at the story's opening.",
+   "notes": "",
    "sortOrder": 9
   },
   {
-   "id": 158,
+   "id": 179,
    "category": "character",
    "prompt": "Naresh Dutt",
-   "answer": "Naresh Dutt is Nishikanto Babu's brother-in-law, a man of about thirty working in the film business. It is he who was looking for a short, bald-headed man of about fifty for a small part in a street scene, and through Nishikanto he brings the offer to Patol Babu. He is brisk and businesslike, mistaking Patol's name for \"Atul Babu\" at their first meeting, but he conducts the actor to the set and arranges the shooting. He represents the film industry — efficient, impersonal, and blind to the artistic depths of the extras it hires.",
-   "notes": null,
+   "answer": "Naresh Dutt is Nishikanto Ghosh's brother-in-law, working in the production side of the film industry, who is looking for an actor of a very specific physical type — short, bald, and middle-aged — for a minor role in a film. He represents the practical, commercially minded side of filmmaking, treating the casting of Patol Babu's part as a simple matter of finding someone who fits a physical requirement rather than someone with genuine acting talent, which becomes part of the story's quiet irony once Patol Babu proves himself a far more serious artist than the role initially suggests.",
+   "notes": "",
    "sortOrder": 10
   },
   {
-   "id": 159,
+   "id": 180,
    "category": "character",
-   "prompt": "The film unit (the director and crew)",
-   "answer": "The film unit that shoots the street scene treats its extras as numbers: men are hired to perform a few motions, paid ten or twenty rupees, and forgotten. The director, Baren Mullick, calls \"Cut!\" and praises Patol briefly (\"Jolly good!\") before turning back to his business, while Sosanko and Jyoti handle the small logistics of the scene. The unit is not cruel — merely indifferent. It provides the story's contrast: the world measures work by the rupee, while the true artist measures it by the heart he pours into it.",
-   "notes": null,
+   "prompt": "Chanchal Kumar and Baren Mallick",
+   "answer": "Chanchal Kumar is the film's popular leading actor, playing a rising young executive, into whom Patol Babu's character is meant to collide during the brief scene; his sincere compliment after the take — that Patol Babu's timing nearly caught him off guard — validates Patol Babu's dedicated performance from within the professional film world itself. Baren Mallick is the film's director, whose brief praise, \"Jolly good!\", after the shot further confirms that Patol Babu's sincerity and skill, even in a role reduced to a single syllable, has been genuinely noticed and appreciated by the professionals present.",
+   "notes": "",
    "sortOrder": 11
   },
   {
-   "id": 160,
+   "id": 181,
    "category": "value",
-   "prompt": "Give your best to every task, however small",
-   "answer": "The story teaches that greatness lies in attention to detail. Patol Babu is offered a one-word role and could easily have shrugged it off as beneath him; instead he rehearses \"Oh!\" in a dozen inflections until it becomes a perfect, shaded performance. The value lesson, from Gogon Pakrashi, is that no task is too small to be done with full dedication — the quality of a life is the sum of the small things done well.",
-   "notes": null,
+   "prompt": "What does the story teach about approaching even small or humble tasks with dedication?",
+   "answer": "The story teaches that no task is too small to deserve genuine effort and sincerity, and that self-respect comes from how well one performs a duty rather than from its size or prestige. Evidence: despite being offered only a single-word role, Patol Babu, remembering his mentor's teaching, rehearses his performance with the same seriousness he would give a leading part, and this dedication earns him genuine admiration from the film's professionals. The lesson is to bring one's best effort to every task, regardless of how insignificant it may initially appear.",
+   "notes": "",
    "sortOrder": 12
   },
   {
-   "id": 161,
+   "id": 182,
    "category": "value",
-   "prompt": "Self-respect is worth more than money",
-   "answer": "Patol Babu needs money badly, yet he walks away from the fee because he will not cheapen the work he has done with love. The lesson: money measures labour, but only self-respect measures the worker. A person who values his own craft will not sell it cheap, even when he is poor; and the satisfaction of work perfectly performed is a reward no payment can match.",
-   "notes": null,
+   "prompt": "What does the story teach about finding satisfaction beyond material reward?",
+   "answer": "The story suggests that true fulfilment in work comes from personal integrity and pride in one's craft, not necessarily from financial compensation or recognition. Evidence: Patol Babu leaves the film set without collecting payment for his role, content simply with having performed it sincerely and well. The lesson is that inner satisfaction earned through honest effort can be its own reward, independent of external, material gain.",
+   "notes": "",
    "sortOrder": 13
   },
   {
-   "id": 162,
+   "id": 183,
    "category": "short",
-   "prompt": "What was Patol Babu's real name?",
-   "answer": "Sitalakanta Ray — though everyone knew him by his stage name, Patol Babu.",
+   "prompt": "What kind of person was Patol Babu at the story's opening?",
+   "answer": "He was a short, bald-headed, middle-aged man of about fifty who had lost his steady job years earlier and struggled through various failed ventures since.",
    "notes": null,
    "sortOrder": 14
   },
   {
-   "id": 163,
+   "id": 184,
    "category": "short",
-   "prompt": "How old was Patol Babu when he got the film offer?",
-   "answer": "Fifty-two years old.",
+   "prompt": "What had Patol Babu been passionate about in his youth?",
+   "answer": "He had been a passionate and admired amateur stage actor, performing in local jatras (folk theatre), before giving it up for the demands of earning a livelihood.",
    "notes": null,
    "sortOrder": 15
   },
   {
-   "id": 164,
+   "id": 185,
    "category": "short",
-   "prompt": "Who brought Patol Babu the film offer?",
-   "answer": "His neighbour Nishikanto Babu, whose brother-in-law Naresh Dutt worked in the film business.",
+   "prompt": "Who informed Patol Babu about the possible film role, and how?",
+   "answer": "His neighbour, Nishikanto Ghosh, told him that his brother-in-law Naresh Dutt, who worked in film production, was looking for an actor matching Patol Babu's description.",
    "notes": null,
    "sortOrder": 16
   },
   {
-   "id": 165,
+   "id": 186,
    "category": "short",
-   "prompt": "What did the role require Patol Babu to do?",
-   "answer": "To play an absent-minded pedestrian who collides with the hero, Chanchal Kumar, and say the single word \"Oh!\".",
+   "prompt": "Why was Patol Babu chosen for the role, according to Naresh Dutt?",
+   "answer": "He was chosen simply because his physical appearance — short, bald, and middle-aged — matched exactly what the role required.",
    "notes": null,
    "sortOrder": 17
   },
   {
-   "id": 166,
+   "id": 187,
    "category": "short",
-   "prompt": "Who was Gogon Pakrashi?",
-   "answer": "Patol Babu's mentor in his stage days, who taught him that no role is too small for a true artist.",
+   "prompt": "What was the nature of the role Patol Babu was actually offered?",
+   "answer": "It was a very minor role as a pedestrian who collides with the film's hero and only has to say a single exclamation, \"Oh!\"",
    "notes": null,
    "sortOrder": 18
   },
   {
-   "id": 167,
+   "id": 188,
    "category": "short",
-   "prompt": "How did Patol Babu practise his dialogue?",
-   "answer": "He spoke \"Oh\" with different inflections, discovering that one word could carry many shades of meaning.",
+   "prompt": "How did Patol Babu initially react upon learning the true nature of his role?",
+   "answer": "He was bitterly disappointed, feeling that such a tiny, wordless role made a mockery of his acting talent, and he considered abandoning it altogether.",
    "notes": null,
    "sortOrder": 19
   },
   {
-   "id": 168,
+   "id": 189,
    "category": "short",
-   "prompt": "What mixture of feelings did Patol put into his \"Oh!\"?",
-   "answer": "Fifty parts of anguish, twenty-five of surprise and twenty-five of irritation.",
+   "prompt": "What made Patol Babu change his mind about the role?",
+   "answer": "He remembered his old acting mentor's teaching that no role is insignificant if performed with sincerity and dedication.",
    "notes": null,
    "sortOrder": 20
   },
   {
-   "id": 169,
+   "id": 190,
    "category": "short",
-   "prompt": "What did Patol Babu suggest to make the scene look natural?",
-   "answer": "That he should carry a newspaper as he walked, so the absent-minded pedestrian would look natural.",
+   "prompt": "How did Patol Babu prepare for his brief performance?",
+   "answer": "He carefully worked out the exact timing, tone and physical reaction needed for his single exclamation, rehearsing it with the seriousness of a major role.",
    "notes": null,
    "sortOrder": 21
   },
   {
-   "id": 170,
+   "id": 191,
    "category": "short",
-   "prompt": "Did Patol Babu take the money offered for the role?",
-   "answer": "No — he left the set without taking his fee, content with the satisfaction of work well done.",
+   "prompt": "Who did Patol Babu's character collide with in the scene, and who played that role?",
+   "answer": "He collided with the film's hero, a rising young executive, played by the popular actor Chanchal Kumar.",
    "notes": null,
    "sortOrder": 22
   },
   {
-   "id": 171,
+   "id": 192,
    "category": "short",
-   "prompt": "Where had Patol Babu worked for nine years?",
-   "answer": "As a clerk with Hudson and Kimberley in Calcutta, until the war brought retrenchment.",
+   "prompt": "How did Chanchal Kumar and the director react to Patol Babu's performance?",
+   "answer": "Chanchal Kumar remarked that Patol Babu's timing nearly caught him off guard, and the director, Baren Mallick, praised the take as \"jolly good.\"",
    "notes": null,
    "sortOrder": 23
   },
   {
-   "id": 172,
-   "category": "long",
-   "prompt": "Describe Patol Babu's early life and career. How had his fortunes declined?",
-   "answer": "Patol Babu's real name was Sitalakanta Ray, and in his youth he had a passion for the stage that verged on obsession. In Jatras, in amateur theatricals and in plays put up by the club in his neighbourhood, he was always in demand; his name appeared in handbills on countless occasions, once in bold type near the top — \"Sitalakanta Ray (Patol Babu) in the role of Parasar\" — and people bought tickets especially to see him. He lived then in Kanchrapara, with a job in the railway factory there. In 1934 he was offered higher pay in a clerical post with Hudson and Kimberley in Calcutta, and he gave up the factory job and moved to the city. For a while all went well, but in 1943 the Second World War brought retrenchment and he lost his post after nine years of service. From then on fortune left him: a variety store that lasted five years, a Bengali firm, a spell as an insurance agent — nothing lasted. Now, at fifty-two, he was a nobody, a man who had once been a star and was now lucky to hear a kind word from his neighbour.",
+   "id": 193,
+   "category": "short",
+   "prompt": "What did Patol Babu do after completing his performance?",
+   "answer": "He quietly left the film set without waiting to collect any payment for his role.",
    "notes": null,
    "sortOrder": 24
   },
   {
-   "id": 173,
-   "category": "long",
-   "prompt": "How did Patol Babu prepare for his single-word role?",
-   "answer": "When Patol Babu first saw his \"dialogue\" — the word \"Oh\" written on a torn page by Jyoti — he was crestfallen; the role seemed an insult to his craft. But as he sat dejected, the memory of Gogon Pakrashi stirred: \"However small a part you're offered, never consider it beneath your dignity to accept it. As an artist your aim should be to make the most of your opportunity, and squeeze the last drop of meaning out of your lines.\" His mentor had also taught him that each word an actor speaks is like a fruit on a tree, to be plucked and served to the audience. Patol Babu began to rehearse, uttering \"Oh\" over and over with a different inflection each time, and made an astonishing discovery: the same exclamation, spoken in different ways, carried different shades of meaning — surprise, pain, irritation, even humour. He imagined the scene, the impact of the collision, the feelings of the pedestrian. He even suggested to the unit that he should be carrying a newspaper, so the absent-minded pedestrian would look entirely natural. By the time the camera rolled, the one-word role had become a small masterpiece of preparation.",
+   "id": 194,
+   "category": "short",
+   "prompt": "What is the central message conveyed by Patol Babu's decision to leave without payment?",
+   "answer": "It conveys that true satisfaction in work comes from personal integrity and sincere effort rather than material or financial reward.",
    "notes": null,
    "sortOrder": 25
   },
   {
-   "id": 174,
+   "id": 195,
    "category": "long",
-   "prompt": "Describe the shooting of the scene and Patol Babu's performance.",
-   "answer": "The scene was a street scene: the hero, Chanchal Kumar, walks along the footpath while Patol Babu, an absent-minded pedestrian with a newspaper, comes the other way. At the signal, the two collided — and the hero's head struck Patol Babu's forehead with such force that the pain was intense and Patol Babu almost lost consciousness. But by a supreme effort of will he pulled himself together. Mixing fifty parts of anguish with twenty-five of surprise and twenty-five of irritation, he cried \"Oh!\" — exactly as he had rehearsed — and, after a brief pause, resumed his walk as if nothing had happened. \"Cut!\" shouted the director, and the scene was over. Patol Babu stepped towards the director anxiously asking, \"Was that right?\" and received a hearty \"Jolly good! You're quite an actor.\" For Patol Babu, that moment was everything: he had taken the humblest role in the film — a collision, one word — and turned it into a piece of true acting, with his mentor Gogon Pakrashi's words ringing in his ears.",
+   "prompt": "Describe the change in Patol Babu's attitude toward his film role over the course of the story.",
+   "answer": "Structured answer:\n\nIntroduction: Patol Babu's emotional journey moves from excited hope, through sharp disappointment, to renewed artistic purpose, forming the heart of the story's narrative arc.\n\nEvidence: He is thrilled at the initial news of a possible film role, so much so that he makes mistakes at the market out of excitement. Upon learning his part is limited to a single exclamation, \"Oh!\", he feels humiliated and considers giving it up entirely. Recalling his mentor's teaching that no role is too small to deserve sincerity, he resolves instead to rehearse and deliver his single line with complete artistic dedication.\n\nConclusion: This arc from disappointment to renewed commitment illustrates the story's central theme — that genuine professionalism and self-respect are found in the sincerity of effort, not in the size or prestige of the task.",
    "notes": null,
    "sortOrder": 26
   },
   {
-   "id": 175,
+   "id": 196,
    "category": "long",
-   "prompt": "Why did Patol Babu refuse to take the money?",
-   "answer": "After the scene, Patol Babu had time to think. He knew the film unit's ways: they got hold of some people, got them to go through certain motions, paid them for their labours and forgot all about it. Paid them, yes — but how much? Ten, fifteen, twenty rupees. He needed money very badly; his circumstances had never been worse. But as he stood there, he measured the sum against what he had just done — a single shot in which he had poured all the labour and imagination of his years on the stage, and had produced, for one instant, the perfect piece of acting his mentor would have blessed. What was twenty rupees against the intense satisfaction of a small job done with perfection and dedication? The money, he felt, would cheapen the achievement; taking it would be like saying his \"Oh!\" was worth no more than that. So he declined the payment and left the set quietly — poorer in his pocket, but rich in the one thing no one could pay for: the knowledge that he had done his craft honour, and that Gogon Pakrashi, wherever he was, would have been proud of him.",
+   "prompt": "Discuss the theme of personal satisfaction versus material reward as shown through Patol Babu's actions.",
+   "answer": "Structured answer:\n\nIntroduction: Satyajit Ray uses Patol Babu's brief film role to explore the idea that genuine fulfilment in work can be independent of, and even more valuable than, financial reward.\n\nEvidence: Despite the disappointment of being offered such a minor role, Patol Babu invests real effort and artistic care into performing it, earning sincere praise from Chanchal Kumar and the director Baren Mallick. Rather than staying to collect payment for the work, he leaves quietly, satisfied simply with having done his craft justice.\n\nConclusion: Through this ending, Ray suggests that the deepest professional satisfaction comes from inner artistic integrity, and that recognising this can free a person from measuring their worth purely in monetary terms.",
    "notes": null,
    "sortOrder": 27
   },
   {
-   "id": 176,
+   "id": 197,
    "category": "long",
-   "prompt": "Value question: What does the story teach us about attitude towards work?",
-   "answer": "The story teaches that the worth of our work is determined not by its size but by the heart we bring to it. Patol Babu could have treated his one-word role with contempt — he was, after all, a man who had once been a star. Instead he remembered his mentor's teaching: no role is beneath an artist's dignity; every opportunity deserves the maximum effort; every word is a fruit to be plucked and served. So he rehearsed, refined and perfected a single exclamation until it contained fifty parts of anguish, twenty-five of surprise and twenty-five of irritation. The values the story holds up are dedication, self-respect and the joy of honest craft: work done with love is its own reward, and no amount of money can buy the satisfaction of a job perfectly done. In a world that measures work by wages, the story stands as a quiet reminder that the labourer's true wage is his own pride — and that the small tasks, done supremely well, are what make a life and an art.",
+   "prompt": "Explain how the story contrasts the world of amateur theatre with the professional film industry.",
+   "answer": "Structured answer:\n\nIntroduction: The story sets up a quiet but meaningful contrast between the passionate amateur theatre world Patol Babu once inhabited and the commercially driven, impersonal film industry he encounters as an older man.\n\nEvidence: In his youth, Patol Babu acted in jatras purely out of love for the craft, developing genuine skill and audience admiration. In contrast, the film role he is offered as an adult comes about purely because his physical appearance matches a casting requirement, and the role itself is reduced to a single syllable, showing how little the professional industry initially values him as an individual performer.\n\nConclusion: Yet the story ultimately shows that individual artistic sincerity can still shine through even within this indifferent commercial system, as Patol Babu's dedication earns him genuine respect from the professionals on set.",
    "notes": null,
    "sortOrder": 28
+  },
+  {
+   "id": 198,
+   "category": "long",
+   "prompt": "What role does Patol Babu's old acting mentor's teaching play in the story's resolution?",
+   "answer": "Structured answer:\n\nIntroduction: The remembered advice of Patol Babu's acting mentor — that no role is insignificant if approached with sincerity — becomes the turning point that transforms the story from one of humiliation to one of quiet triumph.\n\nEvidence: On the verge of abandoning the demeaning single-word role, Patol Babu recalls this teaching and instead resolves to give the part his complete artistic attention, carefully working out his timing and delivery. This renewed commitment directly leads to the successful take that impresses both Chanchal Kumar and the director.\n\nConclusion: The mentor's teaching thus functions as the story's guiding philosophy, showing that inherited wisdom about craft and integrity can transform even the smallest opportunity into a meaningful personal achievement.",
+   "notes": null,
+   "sortOrder": 29
   }
  ],
  "quizQuestions": [
   {
-   "id": 61,
-   "question": "Who wrote \"Patol Babu, Film Star\"?",
+   "id": 53,
+   "question": "What had Patol Babu been passionate about in his younger days?",
    "options": [
-    "Satyajit Ray",
-    "A.J. Cronin",
-    "Elsie Brown",
-    "Dhumaketu"
+    "Painting",
+    "Amateur stage acting in jatras",
+    "Writing novels",
+    "Classical music"
    ],
-   "correct_index": 0,
-   "explanation": "The story is by Satyajit Ray, the celebrated Indian filmmaker and writer.",
-   "topic": ""
+   "correct_index": 1,
+   "explanation": "Patol Babu had once been a passionate and admired amateur stage actor, performing in local jatras before giving it up for livelihood.",
+   "topic": "character"
+  },
+  {
+   "id": 54,
+   "question": "Who informed Patol Babu of the possible film role?",
+   "options": [
+    "Naresh Dutt directly",
+    "His neighbour, Nishikanto Ghosh",
+    "Chanchal Kumar",
+    "Baren Mallick"
+   ],
+   "correct_index": 1,
+   "explanation": "His neighbour Nishikanto Ghosh told him that his brother-in-law Naresh Dutt, who worked in film production, was looking for an actor like him.",
+   "topic": "plot"
+  },
+  {
+   "id": 55,
+   "question": "Why was Patol Babu selected for the role?",
+   "options": [
+    "He had prior film experience",
+    "His physical appearance matched what was needed",
+    "He offered to work for free",
+    "He was recommended by Chanchal Kumar"
+   ],
+   "correct_index": 1,
+   "explanation": "The role required someone short, bald, and middle-aged, and Patol Babu fit the description exactly.",
+   "topic": "plot"
+  },
+  {
+   "id": 56,
+   "question": "What was Patol Babu's role in the film?",
+   "options": [
+    "The film's main hero",
+    "A pedestrian who bumps into the hero and says only \"Oh!\"",
+    "A police officer with several lines",
+    "A narrator for the whole film"
+   ],
+   "correct_index": 1,
+   "explanation": "His role was a minor pedestrian part with a single word of dialogue — an exclamation of \"Oh!\" upon colliding with the hero.",
+   "topic": "plot"
+  },
+  {
+   "id": 57,
+   "question": "How did Patol Babu initially react to learning the size of his role?",
+   "options": [
+    "He was thrilled",
+    "He was bitterly disappointed and considered quitting",
+    "He asked for a bigger role immediately",
+    "He was indifferent"
+   ],
+   "correct_index": 1,
+   "explanation": "He felt the tiny, wordless role mocked his acting talent and seriously considered abandoning it.",
+   "topic": "plot"
+  },
+  {
+   "id": 58,
+   "question": "What changed Patol Babu's mind about performing the role sincerely?",
+   "options": [
+    "A pay raise offer",
+    "Remembering his acting mentor's teaching that no role is insignificant",
+    "Pressure from Nishikanto Ghosh",
+    "A promise of a bigger role next time"
+   ],
+   "correct_index": 1,
+   "explanation": "He recalled his mentor's advice that every role deserves sincerity and dedication, regardless of its size.",
+   "topic": "theme"
+  },
+  {
+   "id": 59,
+   "question": "Who played the film's hero that Patol Babu's character collides with?",
+   "options": [
+    "Baren Mallick",
+    "Naresh Dutt",
+    "Chanchal Kumar",
+    "Nishikanto Ghosh"
+   ],
+   "correct_index": 2,
+   "explanation": "The hero, a rising young executive, was played by the popular actor Chanchal Kumar.",
+   "topic": "character"
+  },
+  {
+   "id": 60,
+   "question": "How did Chanchal Kumar react to Patol Babu's performance?",
+   "options": [
+    "He was annoyed by the delay",
+    "He remarked that the timing nearly caught him off guard",
+    "He ignored Patol Babu completely",
+    "He asked to reshoot the scene"
+   ],
+   "correct_index": 1,
+   "explanation": "Chanchal Kumar praised Patol Babu's precise timing, saying it had nearly caught him off guard.",
+   "topic": "plot"
+  },
+  {
+   "id": 61,
+   "question": "What did Patol Babu do after completing his scene?",
+   "options": [
+    "He demanded a bigger role",
+    "He left without collecting his payment",
+    "He asked for an autograph from Chanchal Kumar",
+    "He complained to the director"
+   ],
+   "correct_index": 1,
+   "explanation": "Satisfied with having performed his role sincerely, Patol Babu left the set without waiting to collect payment.",
+   "topic": "plot"
   },
   {
    "id": 62,
-   "question": "Patol Babu's real name was:",
+   "question": "What central theme does Patol Babu's decision to leave without payment best illustrate?",
    "options": [
-    "Nishikanto Ghosh",
-    "Sitalakanta Ray",
-    "Naresh Dutt",
-    "Gogon Pakrashi"
+    "The importance of financial planning",
+    "That personal artistic satisfaction can matter more than material reward",
+    "That film work never pays well",
+    "That actors should always negotiate fees"
    ],
    "correct_index": 1,
-   "explanation": "His real name was Sitalakanta Ray; everyone knew him by his stage name Patol Babu.",
-   "topic": ""
-  },
-  {
-   "id": 63,
-   "question": "How old was Patol Babu when he received the film offer?",
-   "options": [
-    "forty",
-    "forty-five",
-    "fifty-two",
-    "sixty"
-   ],
-   "correct_index": 2,
-   "explanation": "At fifty-two, the offer was beyond his wildest dreams.",
-   "topic": ""
-  },
-  {
-   "id": 64,
-   "question": "Who brought Patol Babu the film offer?",
-   "options": [
-    "his son",
-    "his neighbour Nishikanto Babu",
-    "the director himself",
-    "his old teacher"
-   ],
-   "correct_index": 1,
-   "explanation": "Nishikanto Babu's brother-in-law Naresh Dutt needed such a man, and Nishikanto recommended Patol.",
-   "topic": ""
-  },
-  {
-   "id": 65,
-   "question": "Patol Babu's entire dialogue in the film was:",
-   "options": [
-    "\"Hello!\"",
-    "\"Oh!\"",
-    "\"Help!\"",
-    "\"Good day!\""
-   ],
-   "correct_index": 1,
-   "explanation": "He had only one word to say — \"Oh!\" — after colliding with the hero.",
-   "topic": ""
-  },
-  {
-   "id": 66,
-   "question": "Patol Babu's mentor was:",
-   "options": [
-    "Naresh Dutt",
-    "Gogon Pakrashi",
-    "Chanchal Kumar",
-    "Baren Mullick"
-   ],
-   "correct_index": 1,
-   "explanation": "Gogon Pakrashi, his stage mentor, taught him that no role is too small.",
-   "topic": ""
-  },
-  {
-   "id": 67,
-   "question": "Patol Babu put which mixture of feelings into his \"Oh!\"?",
-   "options": [
-    "fifty parts anguish, twenty-five surprise, twenty-five irritation",
-    "all anger",
-    "all pain",
-    "fifty surprise, fifty joy"
-   ],
-   "correct_index": 0,
-   "explanation": "He mixed fifty parts of anguish with twenty-five of surprise and twenty-five of irritation.",
-   "topic": ""
-  },
-  {
-   "id": 68,
-   "question": "Who was the hero in the street scene?",
-   "options": [
-    "Naresh Dutt",
-    "Chanchal Kumar",
-    "Gogon Pakrashi",
-    "Atul Babu"
-   ],
-   "correct_index": 1,
-   "explanation": "The hero was Chanchal Kumar, whose head knocked against Patol Babu's forehead.",
-   "topic": ""
-  },
-  {
-   "id": 69,
-   "question": "Patol Babu suggested carrying a newspaper to:",
-   "options": [
-    "read while acting",
-    "make the absent-minded pedestrian look natural",
-    "hide his face",
-    "sell it after the shoot"
-   ],
-   "correct_index": 1,
-   "explanation": "The newspaper was his touch of realism for the absent-minded pedestrian.",
-   "topic": ""
-  },
-  {
-   "id": 70,
-   "question": "At the end of the story, Patol Babu:",
-   "options": [
-    "asked for double pay",
-    "refused to take the money and left the set",
-    "demanded another role",
-    "quarrelled with the director"
-   ],
-   "correct_index": 1,
-   "explanation": "Satisfied with his work, he left without his fee, valuing the satisfaction over money.",
-   "topic": ""
-  },
-  {
-   "id": 71,
-   "question": "Patol Babu had worked for nine years at:",
-   "options": [
-    "a railway factory",
-    "Hudson and Kimberley in Calcutta",
-    "a variety store",
-    "an insurance firm"
-   ],
-   "correct_index": 1,
-   "explanation": "He was a clerk at Hudson and Kimberley for nine years before the war brought retrenchment.",
-   "topic": ""
-  },
-  {
-   "id": 72,
-   "question": "Why did Patol Babu lose his job at Hudson and Kimberley?",
-   "options": [
-    "he was lazy",
-    "the war brought retrenchment in 1943",
-    "he resigned",
-    "the company closed"
-   ],
-   "correct_index": 1,
-   "explanation": "The Second World War led to retrenchment and he lost his post.",
-   "topic": ""
+   "explanation": "His choice reflects the story's theme that genuine fulfilment in one's craft can outweigh the importance of financial compensation.",
+   "topic": "theme"
   }
  ]
 }

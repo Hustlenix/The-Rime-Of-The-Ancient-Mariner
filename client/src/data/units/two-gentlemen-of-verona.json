@@ -9,378 +9,408 @@
  },
  "content": [
   {
-   "id": 317,
+   "id": 362,
    "category": "summary",
-   "prompt": "Part 1 — The meeting on the roadside",
-   "answer": "The narrator and his companion were driving through the foothills of the Alps when they saw a ruined farmhouse and, beside it, two boys selling wild strawberries. The boys were shabby and sunburnt, with dark, earnest faces. The narrator bought the biggest basket they had, partly to help them, and was struck by their courtesy and eagerness. They were brothers — Nicola, the elder, thirteen years old, and Jacopo, who barely came up to the door handle of the car, nearly twelve.",
-   "notes": null,
+   "prompt": "Part 1 — The narrator meets the boys",
+   "answer": "While driving through the foothills of the Alps toward Verona, the narrator is stopped on the road by two young boys selling wild strawberries in cone-shaped leaf packets. They are Nicola, aged thirteen, and Jacopo, aged twelve. Both are shabbily dressed in clothes too large for them, dark-skinned, thin, with tangled hair, but their eyes carry an unusually serious, almost anxious expression for children so young. The narrator's driver tries to wave them off, but the narrator insists on buying the fruit, moved by something dignified in their manner despite their poverty. He notices that although they are clearly poor, they are polite and businesslike rather than pleading. This chance roadside meeting is the beginning of the narrator's quiet fascination with the two brothers, whom he encounters again the next day inside the town of Verona itself, now working as shoeshine boys.",
+   "notes": "Establishes setting: post-war Italy, foothills of the Alps, road to Verona.",
    "sortOrder": 1
   },
   {
-   "id": 318,
+   "id": 363,
    "category": "summary",
-   "prompt": "Part 2 — Watching the boys in Verona",
-   "answer": "In Verona the narrator met the boys again and again: shining shoes, selling newspapers at night by the last bus, guiding tourists and running errands. They were childish and artless — Jacopo lively as a squirrel, Nicola with a steady, engaging smile — yet there was a seriousness in their faces far beyond their years. They worked constantly, ate very little and never seemed to spend money on themselves, and they answered questions about their life with quiet evasion.",
-   "notes": null,
+   "prompt": "Part 2 — What the war took from them",
+   "answer": "Through a nurse the narrator later meets, and through his own observation, the boys' history emerges. Their mother had died some years earlier. Their father was a well-known singer, a hard and respected worker, who was killed during the Second World War. Soon after his death a bomb destroyed the family home, leaving Nicola, Jacopo and their sister Lucia homeless and destitute overnight. Children who had known a comfortable, cultured life were reduced to building a crude shelter for themselves among the rubble and living through months of hunger and bitter cold. For three years their city lay under German occupation, and the boys grew to hate the occupiers so deeply that when the underground resistance movement began, they were among its earliest and youngest members, risking themselves for a cause they barely understood except as revenge and survival.",
+   "notes": "War, occupation, and resistance-movement involvement.",
    "sortOrder": 2
   },
   {
-   "id": 319,
+   "id": 364,
    "category": "summary",
-   "prompt": "Part 3 — The ride to Poleta",
-   "answer": "One night, as they were selling papers by the last bus, the narrator offered to help them. Nicola refused at once, but Jacopo, blushing, asked whether the narrator could drive them to Poleta, a village thirty kilometres away, where they went every Sunday. The narrator agreed and drove them out the next afternoon. They asked him to wait at a cafe while they visited a large red-roofed villa. Curious, the narrator followed and discovered the villa was a hospital.",
-   "notes": null,
+   "prompt": "Part 3 — Life after the war: the boys at work",
+   "answer": "When peace finally returns, Nicola and Jacopo go back to find their beloved sister Lucia, who had once been training to become a singer like their father. Instead they discover she has fallen seriously ill with tuberculosis of the spine, brought on by the years of poverty, starvation and exposure. From this point the brothers dedicate themselves entirely to earning money for her treatment. They take on every odd job the town offers: selling wild strawberries and other fruit to travellers, polishing shoes in the town square, selling newspapers, and guiding tourists around Verona's historic streets. The narrator sees them constantly at work, tirelessly and without complaint, and one night even glimpses the two boys resting on a bare stone pavement rather than spending money on themselves, having chosen to save every coin for their sister instead.",
+   "notes": "Sequence of jobs and the sleeping-on-pavement detail.",
    "sortOrder": 3
   },
   {
-   "id": 320,
+   "id": 365,
    "category": "summary",
-   "prompt": "Part 4 — The truth about the two gentlemen",
-   "answer": "Through the glass partition the narrator saw the two boys seated at the bedside of a girl of about twenty, listening to her chatter. A nurse told him their story: they were quite alone in the world except for this sister, Lucia. Their father, a widower and a well-known singer, had been killed early in the war; a bomb had destroyed their home, and the three children had suffered near-starvation and cold. The boys had joined the Resistance as secret messengers. Now Lucia lay ill with tuberculosis of the spine, and they worked day and night to pay for her treatment. The narrator understood then that these two boys were the true gentlemen of the story — noble in heart, not in station.",
-   "notes": null,
+   "prompt": "Part 4 — The secret is discovered",
+   "answer": "The narrator grows curious about where the boys' earnings actually go and offers, the next afternoon, to drive them wherever they need. They direct him to a large building on the outskirts of the village and ask him to wait while they go inside. A nurse tells the waiting narrator that the building is a hospital, and that the boys' sister Lucia is a patient there, being treated for spinal tuberculosis, with her brothers' visits and earnings sustaining her care and her hope. On the drive back to Verona, the narrator says nothing about what he has learned; he deliberately does not let the boys know that he now understands their secret, respecting the quiet dignity with which they have carried this burden entirely on their own.",
+   "notes": "The hospital visit and the narrator's decision to stay silent.",
    "sortOrder": 4
   },
   {
-   "id": 321,
+   "id": 366,
    "category": "theme",
-   "prompt": "True gentility lies in character",
-   "answer": "The story's central theme is that gentility has nothing to do with wealth, rank or fine clothes. Nicola and Jacopo are poor, shabby boys doing menial jobs, yet the title \"Two Gentlemen of Verona\" belongs to them in the truest sense because of their honesty, courage, courtesy and selfless love. The narrator, who at first regards them with kindly condescension, learns that the noblest qualities can shine in the humblest lives. The title is the story's thesis: a gentleman is made by character, not class.",
-   "notes": null,
+   "prompt": "Selfless love and sacrifice",
+   "answer": "The central theme of the story is the boys' complete, uncomplaining sacrifice of their own childhood for their sister's survival. Instead of spending their small earnings on themselves — even sleeping on a stone pavement rather than paying for shelter — Nicola and Jacopo channel everything toward Lucia's hospital treatment. Their sacrifice is never presented as a burden they resent; it is simply what love for family demands of them. Cronin uses their example to suggest that true selflessness is quiet and unglamorous, expressed through years of ordinary labour rather than a single dramatic act, and that it can flourish even in children who have themselves lost almost everything.",
+   "notes": "",
    "sortOrder": 5
   },
   {
-   "id": 322,
+   "id": 367,
    "category": "theme",
-   "prompt": "Sacrifice and selfless love",
-   "answer": "The theme of sacrifice runs through the story. The two boys give up their childhood — play, comfort and rest — to earn money for their sister's treatment. They endure cold, hunger and hardship without a word of complaint, spending every coin they earn on Lucia's cure rather than on themselves. Their love is entirely selfless: they work like men while still boys, and their quiet devotion, kept secret even from the narrator, is the story's greatest proof that love ennobles the giver.",
-   "notes": null,
+   "prompt": "Appearances are deceptive",
+   "answer": "The title itself is ironic: \"gentlemen\" usually suggests wealth, refinement and ease, yet Nicola and Jacopo are ragged, sunburnt fruit-sellers and shoeshine boys. Cronin deliberately builds this contrast so that the reader, like the narrator, first sees only poverty and dishonours it with the low expectations poverty invites, then gradually discovers the boys' inner nobility, maturity and honour. The lesson is that true gentility lies in a person's conduct and character — devotion, honesty, self-discipline — and not in clothing, wealth or manners. The boys' shabby exteriors conceal a nobility of spirit that outshines conventional gentlemanliness.",
+   "notes": "",
    "sortOrder": 6
   },
   {
-   "id": 323,
+   "id": 368,
    "category": "theme",
-   "prompt": "The scars of war and the strength to rebuild",
-   "answer": "The story is set in Italy just after the Second World War. The boys have lost their mother early in life, their father in the war, their home to a bomb, and their sister's illness is itself a legacy of hardship. Yet they never beg or complain; they rebuild their lives with dignity, even serving the Resistance as boys. The theme shows that war destroys, but the human spirit — courage, hope and love — can survive even its ruins, and that hope for humanity lives in such humble, unbroken hearts.",
-   "notes": null,
+   "prompt": "The devastation of war on ordinary lives",
+   "answer": "The story quietly indicts the human cost of the Second World War by showing its effect on one ordinary family: a father killed, a home destroyed by a single bomb, three children left homeless in the cold, and years lost to occupation. None of these losses are described through battle scenes; they are told through their lasting consequences on children who should have been in school and instead were rebuilding a shelter out of rubble. This theme grounds the story's emotional impact — Lucia's illness itself is a delayed casualty of the war, caused by the starvation and exposure the family endured.",
+   "notes": "",
    "sortOrder": 7
   },
   {
-   "id": 324,
-   "category": "character",
-   "prompt": "Nicola",
-   "answer": "Nicola, the elder brother, is thirteen years old. He is the steady, responsible one — mature beyond his years, doing the hardest work (shining shoes, selling papers, running errands) and guarding the family's secret. He is polite and composed; when the narrator offers help, Nicola politely refuses, insisting they need nothing. His quiet dignity, his endurance and his devotion to his sister make him one of the story's two \"gentlemen\".",
-   "notes": null,
+   "id": 369,
+   "category": "theme",
+   "prompt": "Hope, resilience, and human dignity in poverty",
+   "answer": "Despite losing their parents, their home and their security, the two boys never surrender to despair. Their resilience is shown in the way they methodically rebuild their lives through work rather than complaint, and in Lucia's own hopeful spirit despite her illness. Cronin suggests that dignity does not depend on material comfort; it survives in the discipline, hope and quiet courage with which people respond to hardship. The narrator's own restraint — choosing not to expose their secret — mirrors and honours this same dignity.",
+   "notes": "",
    "sortOrder": 8
   },
   {
-   "id": 325,
+   "id": 370,
    "category": "character",
-   "prompt": "Jacopo",
-   "answer": "Jacopo, the younger brother, is nearly twelve. He is more boyish than Nicola — lively as a squirrel, artless and cheerful — yet he shares his brother's industry and devotion. It is Jacopo who, blushing with embarrassment, asks the narrator for the ride to Poleta, revealing their secret errand. His youthful spirit, preserved even under hardship, makes his sacrifice all the more moving: a child who still smiles while working like a man.",
-   "notes": null,
+   "prompt": "Nicola",
+   "answer": "Nicola, aged thirteen, is the elder of the two brothers and the more serious, mature figure of the pair. He takes the lead in dealing with the narrator, speaking for both boys and managing their small transactions with quiet composure. His seriousness is not natural childhood solemnity but a maturity forced on him early by loss and responsibility; he has effectively become the head of his small family in his father's absence. He is protective of Jacopo, sometimes visibly displeased when his younger brother risks troubling the narrator or says too much. Nicola's steady, businesslike dignity in the face of extreme poverty is central to the story's theme that true nobility lies in character rather than circumstance.",
+   "notes": "",
    "sortOrder": 9
   },
   {
-   "id": 326,
+   "id": 371,
    "category": "character",
-   "prompt": "Lucia",
-   "answer": "Lucia is the boys' sister, a girl of about twenty who lies in a hospital at Poleta with tuberculosis of the spine. She never appears directly in the action — we know her only through her brothers' devotion. She had been training as a singer before the war destroyed their lives, and her cure is the object of all their labour. She is the invisible centre of the story: the living reason for the boys' sacrifice, and the symbol of everything worth working for.",
-   "notes": null,
+   "prompt": "Jacopo",
+   "answer": "Jacopo, aged twelve, is the younger brother, and his temperament is livelier and more childlike than Nicola's, providing a touch of contrast and warmth against his brother's gravity. He is more talkative and less guarded around the narrator, at one point causing his brother some visible discomfort by seeming to trouble the stranger. Yet Jacopo shares fully in the family's sacrifice, working just as hard as Nicola at every odd job available and sleeping rough alongside him to save money for Lucia. His character shows that even a naturally playful, still-childish boy can carry adult burdens with courage when love for family demands it.",
+   "notes": "",
    "sortOrder": 10
   },
   {
-   "id": 327,
+   "id": 372,
    "category": "character",
-   "prompt": "The narrator",
-   "answer": "The narrator is a writer touring Italy after the war, a man of means who at first regards the boys with amused kindness — he feels he is doing them a favour by buying their strawberries. His discovery of the truth transforms him: he realises that the boys he pitied were far nobler than he, and his condescension was misplaced. He represents the reader, learning that true gentility is measured by the heart. His final vision of the two brothers \"whole and healed\" in the future gives the story its hope.",
-   "notes": null,
+   "prompt": "Lucia",
+   "answer": "Lucia is Nicola and Jacopo's elder sister, who had once been training to become a singer, following in the footsteps of their musically gifted father. The hardships of wartime — homelessness, starvation and cold — left her afflicted with tuberculosis of the spine, and she is being treated at a hospital outside Verona. Although she never speaks directly in the narrated scenes the reader witnesses, she exists as the emotional centre of the story: the reason for her brothers' every sacrifice. Her illness represents the lingering, delayed cost of war on the innocent, and her brothers' devotion to her recovery embodies the story's theme of selfless family love.",
+   "notes": "",
    "sortOrder": 11
   },
   {
-   "id": 328,
-   "category": "value",
-   "prompt": "Hard work and self-respect",
-   "answer": "The story teaches the dignity of honest labour. The two boys work at a dozen humble jobs — shining shoes, selling fruits and newspapers, running errands — and never complain or beg. They accept help only on their own terms and preserve their self-respect even in poverty. The value lesson: honest work, however small, is noble, and poverty is no shame; laziness and self-pity are.",
-   "notes": null,
+   "id": 373,
+   "category": "character",
+   "prompt": "The narrator",
+   "answer": "The unnamed narrator is a foreign traveller motoring through Italy who is first stopped by the boys on the road and later encounters them again in Verona. He is observant, compassionate and unobtrusive, gradually piecing together the boys' secret without prying directly. Rather than confronting them or offering charity that might embarrass them, he quietly arranges to drive them to the hospital and, once he learns the truth from a nurse, chooses never to reveal that he knows. His restraint functions as a moral commentary in the story: true respect for the boys' dignity means not exposing or pitying them, but simply bearing witness to their nobility.",
+   "notes": "",
    "sortOrder": 12
   },
   {
-   "id": 329,
-   "category": "value",
-   "prompt": "Love and sacrifice for family",
-   "answer": "The boys' devotion to their sister is the story's great value lesson. They sacrifice their own childhood and comfort so that Lucia can be cured, and they do it secretly, without seeking praise or pity. The lesson: family love is a duty and a joy, and sacrifice for those we love ennobles the giver. True gentility, the story insists, is measured by what we give, not what we have.",
-   "notes": null,
+   "id": 374,
+   "category": "character",
+   "prompt": "The boys' father",
+   "answer": "Though he never appears directly in the story, the boys' father shapes it profoundly. He had been a well-known and hard-working singer, a source of pride and comfortable, cultured living for the family, until he was killed in the Second World War. His death, followed swiftly by the bombing of the family home, is the event that plunges Nicola, Jacopo and Lucia into poverty. His memory as a dedicated professional arguably lives on in his sons' own tireless, disciplined work ethic as they labour to save their sister.",
+   "notes": "",
    "sortOrder": 13
   },
   {
-   "id": 330,
-   "category": "short",
-   "prompt": "Where did the narrator first meet the two boys?",
-   "answer": "He met them on the roadside in the foothills of the Alps, where they were selling wild strawberries by a ruined farmhouse.",
-   "notes": null,
+   "id": 375,
+   "category": "value",
+   "prompt": "What moral lesson does the story teach about family responsibility?",
+   "answer": "The story teaches that genuine love for family expresses itself through sustained, practical sacrifice rather than words. Nicola and Jacopo do not simply feel sorrow for Lucia's illness; they reorganise their entire young lives — every job, every coin, every night's rest — around securing her treatment. Evidence: they take on shoeshine work, fruit-selling and newspaper-selling simultaneously, and are seen sleeping on a stone pavement to avoid spending money on themselves. The lesson for readers is that responsibility toward family, especially the vulnerable, is proven through consistent action and self-denial, not occasional gestures.",
+   "notes": "",
    "sortOrder": 14
   },
   {
-   "id": 331,
-   "category": "short",
-   "prompt": "What were the names and ages of the two boys?",
-   "answer": "Nicola, the elder, was thirteen, and Jacopo was nearly twelve.",
-   "notes": null,
+   "id": 376,
+   "category": "value",
+   "prompt": "What does the story teach about judging others by appearances?",
+   "answer": "The story cautions against judging character by outward poverty or shabbiness. Evidence: the narrator's driver initially tries to dismiss the ragged boys, and the reader's own first impression, guided by the title's irony, is of ordinary street urchins. Only through patient observation does the narrator — and the reader — discover the extraordinary devotion beneath their tattered clothes. The lesson is that dignity, honour and nobility of spirit are internal qualities that have no necessary connection to wealth or appearance, and should never be assumed absent simply because someone is poor.",
+   "notes": "",
    "sortOrder": 15
   },
   {
-   "id": 332,
-   "category": "short",
-   "prompt": "What jobs did the boys do in Verona?",
-   "answer": "They shone shoes, sold newspapers and fruits, guided tourists and ran errands for tourists.",
-   "notes": null,
+   "id": 377,
+   "category": "value",
+   "prompt": "What does the story teach about hope and resilience after loss?",
+   "answer": "Despite losing their parents, home and security to war, the boys respond not with despair but with disciplined effort and enduring hope for Lucia's recovery. Evidence: even while homeless and starving, the family survives by building their own shelter and eventually re-establishing a working life; the boys never give up on saving enough for Lucia's treatment. The lesson is that resilience — the capacity to keep working purposefully toward a goal despite repeated hardship — can sustain both the body and the spirit through even catastrophic loss.",
+   "notes": "",
    "sortOrder": 16
   },
   {
-   "id": 333,
+   "id": 378,
    "category": "short",
-   "prompt": "Why did the boys want a ride to Poleta?",
-   "answer": "They visited Poleta every Sunday to see their sister Lucia, who was in hospital there.",
+   "prompt": "Where and how did the narrator first meet Nicola and Jacopo?",
+   "answer": "The narrator first met them on a mountain road in the foothills of the Alps, where they stopped his car to sell him wild strawberries wrapped in leaves.",
    "notes": null,
    "sortOrder": 17
   },
   {
-   "id": 334,
+   "id": 379,
    "category": "short",
-   "prompt": "How far was Poleta from Verona?",
-   "answer": "Poleta was a village thirty kilometres from Verona; the boys usually went there on hired bicycles.",
+   "prompt": "How old were Nicola and Jacopo, and how is their appearance described?",
+   "answer": "Nicola was thirteen and Jacopo twelve; both were shabbily dressed in oversized old clothes, dark-skinned and thin, with tangled hair and unusually serious eyes.",
    "notes": null,
    "sortOrder": 18
   },
   {
-   "id": 335,
+   "id": 380,
    "category": "short",
-   "prompt": "Who was Lucia and what was her illness?",
-   "answer": "Lucia was the boys' sister, a girl of about twenty, who was suffering from tuberculosis of the spine.",
+   "prompt": "What happened to the boys' parents?",
+   "answer": "Their mother died some years earlier, and their father, a well-known singer, was killed during the Second World War.",
    "notes": null,
    "sortOrder": 19
   },
   {
-   "id": 336,
+   "id": 381,
    "category": "short",
-   "prompt": "How did the boys' family suffer in the war?",
-   "answer": "Their father, a well-known singer, was killed early in the war; a bomb destroyed their home and they suffered near-starvation and cold.",
+   "prompt": "What happened to the family's home, and what was its effect?",
+   "answer": "Their home was destroyed by a bomb soon after their father's death, leaving the three children homeless and forced to build a makeshift shelter amid the rubble.",
    "notes": null,
    "sortOrder": 20
   },
   {
-   "id": 337,
+   "id": 382,
    "category": "short",
-   "prompt": "What part did the boys play in the war?",
-   "answer": "They joined the Resistance movement as secret agents and carried messages about the movement of German troops.",
+   "prompt": "How did the boys respond to the German occupation of their city?",
+   "answer": "They came to hate the occupying forces, and when the underground resistance movement began, the two boys were among its first and youngest members.",
    "notes": null,
    "sortOrder": 21
   },
   {
-   "id": 338,
+   "id": 383,
    "category": "short",
-   "prompt": "Why are the boys called \"gentlemen\"?",
-   "answer": "Because of their courage, honesty, courtesy and selfless love for their sister — true gentility lies in character, not class.",
+   "prompt": "Name the various jobs Nicola and Jacopo did to earn money.",
+   "answer": "They sold wild strawberries and other fruit, polished shoes, sold newspapers, and guided tourists around Verona.",
    "notes": null,
    "sortOrder": 22
   },
   {
-   "id": 339,
-   "category": "long",
-   "prompt": "Describe the character of Nicola and Jacopo. What makes them \"gentlemen\"?",
-   "answer": "Nicola and Jacopo are brothers, thirteen and nearly twelve, who have lost their mother early in life, their father (a well-known singer killed early in the war) and their home to a bomb. Nicola is the responsible elder — composed, steady and mature, doing the hardest work; Jacopo is the younger, lively as a squirrel, artless and cheerful, yet equally industrious. Together they do a dozen humble jobs — shining shoes, selling newspapers and fruit, guiding tourists — always polite, never complaining. What makes them \"gentlemen\" is not their clothes or station but their character: their honesty (they refuse charity and pay their own way), their courage (they bore orphanhood, poverty and even service in the Resistance with dignity), and above all their selfless love for their sister Lucia, for whose cure they sacrifice their own childhood, working like men while still boys. The narrator learns that gentility is a quality of the heart.",
+   "id": 384,
+   "category": "short",
+   "prompt": "What illness did Lucia suffer from, and why?",
+   "answer": "Lucia suffered from tuberculosis of the spine, brought on by the poverty, starvation and cold exposure the family endured during and after the war.",
    "notes": null,
    "sortOrder": 23
   },
   {
-   "id": 340,
-   "category": "long",
-   "prompt": "What did the narrator discover on the day he drove the boys to Poleta?",
-   "answer": "The boys had asked the narrator to drive them to Poleta, a village thirty kilometres away, where they went every Sunday. When they arrived, they asked him to wait at a cafe while they visited a large red-roofed villa. The narrator, curious, followed them and found that the villa had been converted into a hospital. Through a glass partition he saw the two boys seated at the bedside of a girl of about twenty, who resembled them. A nurse explained: the boys were quite alone in the world except for their sister Lucia, who was suffering from tuberculosis of the spine and had been in the hospital for over a year, and whose treatment they paid for regularly. She told him their whole history — the father killed in the war, the home destroyed by a bomb, the children's suffering, their service in the Resistance — and the narrator understood at last the meaning of their ceaseless labour and their secrecy. He realised he had been \"fooled\" by two heroes: the boys he pitied were nobler than he had ever imagined.",
+   "id": 385,
+   "category": "short",
+   "prompt": "What had Lucia been training to become before she fell ill?",
+   "answer": "Lucia had been training to become a singer, like her late father.",
    "notes": null,
    "sortOrder": 24
   },
   {
-   "id": 341,
-   "category": "long",
-   "prompt": "Value question: What does the story teach us about the meaning of true nobility?",
-   "answer": "The story teaches that true nobility lies in character, not in birth, wealth or status. The two boys are poor, shabby and orphaned; their jobs are the humblest in the town. Yet they possess the qualities we call noble: honesty (they refuse the narrator's help with quiet dignity), industry (they work at a dozen trades without complaint), courage (they face war, poverty and illness with unbroken spirits) and above all selfless love — they give up their childhood so that their sister may live. The narrator, a man of means who at first patronises them, is the story's lesson in humility: he learns that he, not the boys, was the poorer one in spirit. The value we take away is that gentility is earned by the heart — by how much we give, how hard we work and how loyally we love — and that the humblest person can be the greatest gentleman.",
+   "id": 386,
+   "category": "short",
+   "prompt": "Where was Lucia being treated, and how did the boys reach the hospital?",
+   "answer": "She was being treated at the hospital at Poleta, thirty kilometres away, and the boys cycled there every Sunday to visit her.",
    "notes": null,
    "sortOrder": 25
   },
   {
-   "id": 342,
-   "category": "long",
-   "prompt": "How does the story use its setting to deepen its themes?",
-   "answer": "The story is set in Italy just after the Second World War, and its setting is not decoration but meaning. The ruined farmhouse by the roadside, the shabby clothes of the boys, the market work of Verona — all speak of a country and a people scarred by war. The boys are themselves victims of the war: their father was killed, their home was destroyed by a bomb, they suffered near-starvation, and their sister's illness is part of the suffering the war left behind. Yet the setting also shows resilience: life goes on — strawberries are sold, shoes are polished, papers are hawked, and two boys rebuild a future out of ruins. The contrast between the ruined landscape and the boys' unbroken hope deepens the theme of human courage, and the hospital at Poleta, where Lucia lies, gives the setting its centre: a place of suffering that the boys' love is fighting to transform into healing.",
+   "id": 387,
+   "category": "short",
+   "prompt": "How did the narrator discover the boys' secret?",
+   "answer": "He offered to drive them wherever they needed to go; they directed him to a hospital, and a nurse there told him it was where their sister Lucia was being treated.",
    "notes": null,
    "sortOrder": 26
   },
   {
-   "id": 343,
-   "category": "long",
-   "prompt": "Why does the narrator say he had been \"fooled\" by the boys? What does this reveal?",
-   "answer": "The narrator says he had been fooled because he had believed Nicola and Jacopo were simply cheerful, hardworking boys who enjoyed their independence — perhaps saving money for some boyish dream. He had no idea that they were working day and night to pay for their sister's treatment, or that their weekly journey to Poleta took them to her hospital bedside. His discovery reveals two things. First, it shows the boys' nobility: they carried their burden in total secrecy, never asking for pity or help, and their cheerfulness was a brave disguise. Second, it reveals the narrator's own growth: he had looked at the boys with kindly condescension, and now he understands that they were never his dependents — he misjudged them because he measured their worth by their shabby clothes and humble work. His being \"fooled\" teaches him, and us, to look past appearances to the true measure of a person.",
+   "id": 388,
+   "category": "short",
+   "prompt": "Why did the narrator choose not to tell the boys he knew their secret?",
+   "answer": "He respected the quiet dignity with which they carried their burden and did not want to embarrass them or intrude on something they had chosen to keep private.",
    "notes": null,
    "sortOrder": 27
+  },
+  {
+   "id": 389,
+   "category": "short",
+   "prompt": "What evidence shows that the boys denied themselves comfort for Lucia's sake?",
+   "answer": "The narrator once saw the two boys resting on a bare stone pavement at night rather than spending money on a place to sleep.",
+   "notes": null,
+   "sortOrder": 28
+  },
+  {
+   "id": 390,
+   "category": "short",
+   "prompt": "Why is the title \"Two Gentlemen of Verona\" considered ironic?",
+   "answer": "The title recalls Shakespeare's play of the same name and suggests refined, wealthy men, yet the boys it describes are poor, shabbily dressed street workers whose true \"gentlemanliness\" lies in character, not appearance or class.",
+   "notes": null,
+   "sortOrder": 29
+  },
+  {
+   "id": 391,
+   "category": "long",
+   "prompt": "Describe how the war affected the lives of Nicola, Jacopo and Lucia.",
+   "answer": "Structured answer:\n\nIntroduction: The Second World War devastated the family's comfortable, cultured life within a short span, turning three children into homeless, starving survivors.\n\nEvidence: Their father, a respected singer, was killed in the war. A bomb soon after destroyed their home, leaving Nicola, Jacopo and Lucia without shelter. They built a crude refuge among the rubble and endured months of hunger and cold. Their city then suffered three years of German occupation, during which the boys joined the underground resistance out of hatred for the occupiers. Lucia, previously training as a singer, developed spinal tuberculosis as a delayed consequence of this deprivation.\n\nConclusion: The war's destruction was not confined to the battlefield; it permanently altered the children's childhoods, forcing them into premature responsibility and leaving Lucia with a lasting illness — making the family's later devotion and sacrifice all the more poignant.",
+   "notes": null,
+   "sortOrder": 30
+  },
+  {
+   "id": 392,
+   "category": "long",
+   "prompt": "Bring out the theme of self-sacrifice as depicted through the characters of Nicola and Jacopo.",
+   "answer": "Structured answer:\n\nIntroduction: Nicola and Jacopo's entire existence after the war is organised around one goal — funding their sister Lucia's medical treatment — making self-sacrifice the story's defining theme.\n\nEvidence: They take on every available job simultaneously — selling fruit, shining shoes, selling newspapers, guiding tourists — despite being only twelve and thirteen years old. They deny themselves basic comforts, at one point sleeping on a stone pavement rather than spending money on lodging. They visit Lucia regularly at the hospital, sustaining both her treatment and her morale, while never revealing their struggle to outsiders, including the sympathetic narrator.\n\nConclusion: Their sacrifice is total, silent and sustained rather than a single dramatic gesture, which is precisely what makes it, in Cronin's telling, a genuinely noble and \"gentlemanly\" act.",
+   "notes": null,
+   "sortOrder": 31
+  },
+  {
+   "id": 393,
+   "category": "long",
+   "prompt": "Discuss the significance of the narrator's role in the story.",
+   "answer": "Structured answer:\n\nIntroduction: Although the narrator never intervenes directly in the boys' lives, his perspective shapes the entire story and carries its central moral lesson about dignity and restraint.\n\nEvidence: He first notices the boys as ordinary poor fruit-sellers on the road, then observes them again working in Verona, gradually growing curious about their purpose. He offers, seemingly casually, to drive them anywhere, which leads him to the hospital where a nurse reveals Lucia's illness. Crucially, once he understands the boys' secret, he deliberately says nothing to them about it on the drive home.\n\nConclusion: The narrator's discretion demonstrates that true compassion sometimes means simply bearing witness to another's dignity without exposing or pitying them, reinforcing the story's theme that respect, not charity or curiosity, is the proper response to quiet nobility.",
+   "notes": null,
+   "sortOrder": 32
+  },
+  {
+   "id": 394,
+   "category": "long",
+   "prompt": "Explain how the title of the story is appropriate, using the irony Cronin builds into it.",
+   "answer": "Structured answer:\n\nIntroduction: The title \"Two Gentlemen of Verona\" borrows the name of a Shakespeare comedy about aristocratic young men, and Cronin applies it, with deliberate irony, to two poor working boys.\n\nEvidence: Nicola and Jacopo are introduced as shabbily dressed strawberry-sellers with tangled hair and worn, oversized clothes — the opposite of conventional \"gentlemen.\" Yet through the story their conduct reveals maturity, honesty, selflessness and quiet dignity — qualities traditionally associated with true gentlemanliness — as they work tirelessly and without complaint to save their sister.\n\nConclusion: By the story's end, the title's irony resolves into sincerity: the boys earn the title of \"gentlemen\" not through birth or wealth but through the nobility of their actions, which is precisely Cronin's point about where real gentility resides.",
+   "notes": null,
+   "sortOrder": 33
+  },
+  {
+   "id": 395,
+   "category": "long",
+   "prompt": "What impression do you form of Lucia's character even though she does not appear directly in the narrated events?",
+   "answer": "Structured answer:\n\nIntroduction: Though Lucia never speaks or acts on the page, she is the emotional and moral centre around which the entire story revolves.\n\nEvidence: We learn she had been training as a singer, like her father, before illness struck — suggesting talent and promise cut short by hardship. Her tuberculosis of the spine is the direct, delayed consequence of wartime poverty and exposure, making her a symbol of the war's lingering toll on the innocent. Her brothers' complete devotion — their unending work and hospital visits — implies she is deeply loved and, by extension, likely a source of warmth and hope for them in return.\n\nConclusion: Lucia's character is drawn almost entirely through the actions of others around her, and this indirect portrayal makes her both a real individual and a symbol of resilience and the cost of war.",
+   "notes": null,
+   "sortOrder": 34
   }
  ],
  "quizQuestions": [
   {
-   "id": 141,
-   "question": "Who wrote \"Two Gentlemen of Verona\"?",
+   "id": 123,
+   "question": "Where did the narrator first meet Nicola and Jacopo?",
    "options": [
-    "Saki",
-    "A.J. Cronin",
-    "Dhumketu",
-    "Satyajit Ray"
+    "In the town square of Verona",
+    "On a mountain road in the foothills of the Alps",
+    "At a hospital",
+    "At a railway station"
    ],
    "correct_index": 1,
-   "explanation": "The story is written by A.J. Cronin, the Scottish novelist and doctor.",
-   "topic": ""
+   "explanation": "The boys stopped the narrator's car on a road in the Alpine foothills to sell him wild strawberries, marking their first encounter.",
+   "topic": "plot"
   },
   {
-   "id": 142,
-   "question": "The narrator first met the two boys while they were:",
+   "id": 124,
+   "question": "What were the respective ages of Nicola and Jacopo?",
    "options": [
-    "fishing",
-    "selling wild strawberries",
-    "shining shoes",
-    "driving a taxi"
-   ],
-   "correct_index": 1,
-   "explanation": "He met them on the roadside in the foothills of the Alps, selling wild strawberries.",
-   "topic": ""
-  },
-  {
-   "id": 143,
-   "question": "The two brothers were named:",
-   "options": [
-    "Nicola and Jacopo",
-    "Marco and Luca",
-    "Giovanni and Paolo",
-    "Carlo and Bruno"
+    "Twelve and thirteen",
+    "Ten and eleven",
+    "Fourteen and fifteen",
+    "Eleven and twelve"
    ],
    "correct_index": 0,
-   "explanation": "Nicola, the elder, was thirteen, and Jacopo was nearly twelve.",
-   "topic": ""
+   "explanation": "Nicola was thirteen, the elder, and Jacopo was twelve, the younger of the two brothers.",
+   "topic": "character"
   },
   {
-   "id": 144,
-   "question": "Lucia, the boys' sister, was suffering from:",
+   "id": 125,
+   "question": "What was the profession of the boys' father?",
    "options": [
-    "fever",
-    "tuberculosis of the spine",
-    "a broken leg",
-    "malaria"
+    "A doctor",
+    "A farmer",
+    "A well-known singer",
+    "A schoolteacher"
+   ],
+   "correct_index": 2,
+   "explanation": "The boys' father was a well-known, hard-working singer who was killed during the Second World War.",
+   "topic": "plot"
+  },
+  {
+   "id": 126,
+   "question": "What destroyed the family's home?",
+   "options": [
+    "A fire",
+    "A flood",
+    "A bomb",
+    "An earthquake"
+   ],
+   "correct_index": 2,
+   "explanation": "Soon after their father's death, a bomb destroyed their home, leaving the three children homeless.",
+   "topic": "plot"
+  },
+  {
+   "id": 127,
+   "question": "What illness did Lucia suffer from?",
+   "options": [
+    "Typhoid",
+    "Tuberculosis of the spine",
+    "Pneumonia",
+    "Malaria"
    ],
    "correct_index": 1,
-   "explanation": "She had tuberculosis of the spine and lay in a hospital at Poleta.",
-   "topic": ""
+   "explanation": "Lucia suffered from tuberculosis of the spine, caused by the starvation and exposure the family endured during the war.",
+   "topic": "plot"
   },
   {
-   "id": 145,
-   "question": "The village where Lucia's hospital stood was called:",
+   "id": 128,
+   "question": "What had Lucia been training to become before she fell ill?",
    "options": [
-    "Padua",
-    "Poleta",
-    "Venice",
-    "Milan"
+    "A dancer",
+    "A nurse",
+    "A singer",
+    "A teacher"
+   ],
+   "correct_index": 2,
+   "explanation": "Like her father, Lucia had been training to become a singer before illness interrupted her ambitions.",
+   "topic": "character"
+  },
+  {
+   "id": 129,
+   "question": "Which of these was NOT one of the jobs done by Nicola and Jacopo?",
+   "options": [
+    "Selling newspapers",
+    "Guiding tourists",
+    "Polishing shoes",
+    "Working as waiters"
+   ],
+   "correct_index": 3,
+   "explanation": "The boys sold fruit and newspapers, polished shoes, and guided tourists, but the text does not mention them working as waiters.",
+   "topic": "plot"
+  },
+  {
+   "id": 130,
+   "question": "How did the narrator discover the boys' secret?",
+   "options": [
+    "The boys told him directly",
+    "He followed them secretly",
+    "He drove them to a hospital and a nurse explained",
+    "He read about it in a newspaper"
+   ],
+   "correct_index": 2,
+   "explanation": "The narrator offered to drive the boys somewhere; they led him to a hospital, where a nurse revealed that their sister Lucia was a patient there.",
+   "topic": "plot"
+  },
+  {
+   "id": 131,
+   "question": "How does the narrator behave after learning the boys' secret?",
+   "options": [
+    "He confronts them about it",
+    "He offers them money openly",
+    "He says nothing and lets them keep their secret",
+    "He reports it to the authorities"
+   ],
+   "correct_index": 2,
+   "explanation": "Respecting their dignity, the narrator deliberately does not reveal to the boys that he now knows about Lucia's illness.",
+   "topic": "character"
+  },
+  {
+   "id": 132,
+   "question": "Why is the title \"Two Gentlemen of Verona\" considered ironic, with reference to the story's central idea?",
+   "options": [
+    "Because the boys are actually from Rome, not Verona",
+    "Because it borrows a Shakespeare title for two poor working boys whose nobility lies in character, not appearance",
+    "Because there are actually three siblings, not two",
+    "Because the boys dislike being called gentlemen"
    ],
    "correct_index": 1,
-   "explanation": "Poleta was a village thirty kilometres from Verona, where the boys went every Sunday.",
-   "topic": ""
-  },
-  {
-   "id": 146,
-   "question": "The boys' father had been:",
-   "options": [
-    "a farmer",
-    "a well-known singer",
-    "a soldier",
-    "a shopkeeper"
-   ],
-   "correct_index": 1,
-   "explanation": "Their father, a widower, was a well-known singer who was killed early in the war.",
-   "topic": ""
-  },
-  {
-   "id": 147,
-   "question": "During the war the boys served the Resistance by:",
-   "options": [
-    "fighting in the army",
-    "carrying messages about German troop movements",
-    "spying for the Germans",
-    "hiding food"
-   ],
-   "correct_index": 1,
-   "explanation": "They were among the first to join the Resistance and carried messages as secret agents.",
-   "topic": ""
-  },
-  {
-   "id": 148,
-   "question": "How often did the boys visit their sister in Poleta?",
-   "options": [
-    "once a month",
-    "every Sunday",
-    "once a year",
-    "every day"
-   ],
-   "correct_index": 1,
-   "explanation": "They made the journey to Poleta every Sunday, usually on hired bicycles.",
-   "topic": ""
-  },
-  {
-   "id": 149,
-   "question": "The story is set in:",
-   "options": [
-    "England during peace",
-    "Italy just after the Second World War",
-    "France before the war",
-    "America"
-   ],
-   "correct_index": 1,
-   "explanation": "It is set in Verona and the Italian countryside just after the Second World War.",
-   "topic": ""
-  },
-  {
-   "id": 150,
-   "question": "The title \"Two Gentlemen of Verona\" suggests that gentility means:",
-   "options": [
-    "wealth",
-    "nobility of character and selfless love",
-    "fine clothes",
-    "good education"
-   ],
-   "correct_index": 1,
-   "explanation": "The poor, hardworking boys are the true gentlemen — noble in heart, not in station.",
-   "topic": ""
-  },
-  {
-   "id": 151,
-   "question": "What had Lucia been training to be before the war?",
-   "options": [
-    "a nurse",
-    "a singer",
-    "a teacher",
-    "a painter"
-   ],
-   "correct_index": 1,
-   "explanation": "Lucia had been training as a singer, like her father, before the war destroyed their lives.",
-   "topic": ""
-  },
-  {
-   "id": 152,
-   "question": "What did the boys do at night in Verona?",
-   "options": [
-    "sold newspapers waiting for the last bus",
-    "danced at the theatre",
-    "mended shoes",
-    "cleaned cars"
-   ],
-   "correct_index": 0,
-   "explanation": "They sold newspapers at night, waiting for the arrival of the last bus to sell their copies.",
-   "topic": ""
+   "explanation": "The title ironically applies an aristocratic Shakespearean phrase to two shabbily dressed working boys, whose true gentlemanliness is shown through sacrifice and dignity rather than wealth or appearance.",
+   "topic": "theme"
   }
  ]
 }

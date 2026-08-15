@@ -9,378 +9,416 @@
  },
  "content": [
   {
-   "id": 205,
+   "id": 227,
    "category": "summary",
-   "prompt": "Part 1 — The snake at the water-trough",
-   "answer": "On a hot July morning in Sicily, the poet went to the water-trough to fetch a pitcher of water. A snake had come before him, drinking from the trough. The snake was golden-brown — golden on the belly, yellowish-brown on the back — and its mouth rested on the edge of the trough with its tongue flickering. The poet stood in the shade of a carob tree, waiting with his pitcher, watching it drink. Etna smoked in the distance. He saw the snake as a king, a lord, and was afraid of its venom; the \"voice of my education\" told him to kill it.",
-   "notes": null,
+   "prompt": "Opening movement — The encounter at the water-trough",
+   "answer": "On a scorchingly hot July day in Sicily, the speaker, dressed in light pyjamas to cope with the heat, comes down some steps carrying a pitcher, intending to draw water from his stone water-trough beneath the shade of a great dark carob tree. He finds that a snake has arrived there before him, reaching down from a crack in the earthen wall to drink slowly and silently from the trough. The speaker describes the snake's appearance in vivid, almost reverent detail — its soft, slack, yellow-brown body, and its earthy, golden colouring, as though it had emerged from the burning depths of the earth itself, with the volcano Etna visibly smoking in the distance. Rather than interrupting, the speaker waits patiently, comparing himself to a \"second-comer\" who has arrived after someone already present.",
+   "notes": "Establishes setting, imagery, and the speaker's initial patient, respectful stance.",
    "sortOrder": 1
   },
   {
-   "id": 206,
+   "id": 228,
    "category": "summary",
-   "prompt": "Part 2 — The conflict in the poet's mind",
-   "answer": "A terrible conflict rose in the poet. The voice of education said the snake was venomous and must be killed, for a man's instinct is to destroy what is dangerous. But another voice told him to be glad — to feel honoured that such a creature had come to drink at his trough, to let it be. He watched the snake drink, likening it to cattle drinking, and felt that he was the second comer at the trough. He reflected on the albatross: if he were a snake, an albatross would be glad of him. He felt the snake was like a god, and he knew that he ought to be a thousand times better for having watched it.",
-   "notes": null,
+   "prompt": "Second movement — Admiration and inner conflict",
+   "answer": "As the snake continues drinking unhurriedly, lifting its head occasionally in the manner of drinking cattle, the speaker feels a growing sense of privilege and honour at being visited by this striking creature, comparing the moment to receiving a guest. However, this feeling is immediately challenged by \"the voice of his education,\" an internalised social and cultural warning reminding him that in Sicily, golden snakes are considered venomous and dangerous, unlike the harmless black snakes, and that he ought to kill it. A second set of inner voices goes further, suggesting that a \"real man\" would not hesitate to pick up a stick and strike the creature dead, framing his hesitation as weakness or cowardice.",
+   "notes": "The central psychological conflict between instinct/awe and internalised social conditioning.",
    "sortOrder": 2
   },
   {
-   "id": 207,
+   "id": 229,
    "category": "summary",
-   "prompt": "Part 3 — The throwing of the log and the regret",
-   "answer": "As the snake turned to climb back into the dark hole in the earth-wall, a \"sort of horror\" overcame the poet, and a sense of protest: the snake's departure felt like a violation. With clumsy haste he threw a log at the water-trough; the snake, \"writhed like lightning,\" disappeared into the hole, vanishing into the black depths. At once the poet was struck with regret — he despised himself and his \"paltry, vulgar, mean act\" of throwing the log. He thought how absurd and petty he had been to try to kill the snake, and he felt the snake's dignity in going. The poem ends with the poet despising the voices of his \"accursed human education,\" and honouring the snake as a king in exile, uncrowned in the underworld.",
-   "notes": null,
+   "prompt": "Third movement — Struggling with these competing voices",
+   "answer": "The speaker openly confesses his confusion and inner turmoil: despite the warnings, he genuinely likes the snake and feels glad it has come, peacefully, to drink at his water-trough before departing again into the earth without causing him any harm. He questions whether his reluctance to kill it stems from cowardice, or from something more complex — a sense of humility, wonder, and even something like reverence toward a creature that seems to him almost regal, as though visiting from the mysterious, ancient underworld of the earth. As the snake finishes drinking and begins slowly to withdraw back toward the crack in the wall, the internalised social voices grow louder and more insistent, accusing him again of fear-driven weakness for failing to act.",
+   "notes": "The moral and emotional wrestling before the fateful action.",
    "sortOrder": 3
   },
   {
-   "id": 208,
-   "category": "theme",
-   "prompt": "The conflict between instinct and education",
-   "answer": "The central theme of the poem is the battle inside the poet between natural feeling and trained convention. The \"voice of my education\" tells him the snake is venomous and must be killed; his instinct tells him to honour the beautiful creature. The poem laments that education — \"the voices of my accursed human education\" — teaches us to destroy what is noble and mysterious. In the end the poet regrets listening to that voice, and the snake, a \"king in exile,\" carries the dignity that the man, in his paltry violence, has lost.",
-   "notes": null,
+   "id": 230,
+   "category": "summary",
+   "prompt": "Final movement — The thrown log, regret, and longing",
+   "answer": "Overcome at last by these pressuring voices, the speaker picks up a clumsy, roughly-shaped log and throws it at the water-trough just as the snake is withdrawing into the crack in the wall. Though the log does not appear to strike the snake directly, the creature convulses in sudden, undignified haste and disappears rapidly into the dark hole in the earth. The moment the act is done, the speaker is overwhelmed with immediate, intense regret, condemning his own action as petty, vulgar and mean-spirited, and despising both himself and the ingrained cultural education that had pushed him to it. He compares his guilt to that of the ancient mariner who senselessly killed an albatross, and the poem closes with the speaker's longing wish for the snake's return, reflecting that he has missed a rare chance to honour something like visiting royalty, and that he must now atone for what he sees as a petty, unworthy act.",
+   "notes": "Climax: the impulsive act, immediate remorse, the albatross allusion, and the poem's closing regret.",
    "sortOrder": 4
   },
   {
-   "id": 209,
+   "id": 231,
    "category": "theme",
-   "prompt": "Wonder and reverence for nature",
-   "answer": "The poet approaches the snake with wonder, not merely fear. He sees it as a lord, a king, even a god — a creature to be honoured. He likens it to cattle drinking from the trough, a natural, innocent act, and he feels privileged that such a creature has come to his trough. The theme is reverence: nature is not something to be conquered or killed but something to be observed with humility. When the poet throws the log, he violates that reverence, and his regret shows how precious it was.",
-   "notes": null,
+   "prompt": "The conflict between instinct and social conditioning",
+   "answer": "The poem's central tension lies between the speaker's genuine, instinctive admiration for the snake and the internalised voice of his upbringing and culture — described literally as \"the voice of my education\" — which insists the creature must be killed out of fear and convention. Lawrence dramatises how deeply social conditioning can override a person's authentic emotional and moral responses, ultimately driving the speaker to commit an act he immediately recognises as wrong, purely because he has been taught to associate the snake with danger and to equate violence toward it with manliness.",
+   "notes": "",
    "sortOrder": 5
   },
   {
-   "id": 210,
+   "id": 232,
    "category": "theme",
-   "prompt": "Guilt and the missed opportunity of grace",
-   "answer": "The poem is also about guilt. The poet has a chance to honour a noble creature and instead, out of \"accursed\" habit, throws a log at it. His immediate regret — despising his \"paltry, vulgar, mean act\" — shows that he recognises what he has lost: the grace of having shared a moment with the snake, \"a king in exile.\" He cannot undo the act; he can only honour the snake in memory and despise the education that made him violent. The theme teaches that cruelty born of convention leaves lasting guilt.",
-   "notes": null,
+   "prompt": "Guilt, regret, and moral self-awakening",
+   "answer": "The poem's emotional climax comes not with the snake's appearance but with the speaker's intense guilt and self-recrimination immediately after throwing the log. Lawrence uses this moment of sudden regret to explore how a single impulsive action, driven by irrational, socially instilled fear, can produce lasting moral discomfort and self-examination. The speaker's explicit self-condemnation — calling his own act petty and mean — reflects a broader process of moral awakening, in which he comes to recognise and reject the very conditioning that had governed his instinctive reaction.",
+   "notes": "",
    "sortOrder": 6
   },
   {
-   "id": 211,
-   "category": "device",
-   "prompt": "Personification",
-   "answer": "The snake is personified throughout the poem — it is a \"king,\" a \"lord,\" a \"god\" whose departure is like that of a king going \"uncrowned in the underworld.\" The poet even imagines the snake's perspective: \"if I were a snake, an albatross would be glad of me.\" This gives the snake dignity and nobility, making the poet's violence against it seem all the more mean. The personification raises a mere creature to the level of royalty, and the poet's act becomes an offence against majesty.",
-   "notes": null,
+   "id": 233,
+   "category": "theme",
+   "prompt": "Reverence for nature and the natural world",
+   "answer": "Throughout much of the poem, before the final act of violence, the speaker treats the snake with something close to reverence, describing it in richly sensory, almost sacred imagery and comparing its visit to receiving an honoured guest or even a king. This theme reflects Lawrence's broader poetic concern with humanity's alienation from the natural world, suggesting that authentic human experience involves recognising the dignity and mystery of other living creatures rather than reflexively viewing them through fear or utility.",
+   "notes": "",
    "sortOrder": 7
   },
   {
-   "id": 212,
+   "id": 234,
    "category": "device",
-   "prompt": "Simile",
-   "answer": "Lawrence uses similes to make the snake's naturalness vivid. The snake drinks \"as drinking cattle do,\" making its act simple and innocent, like a farm creature at a trough. When it is attacked, it \"writhed like lightning\" into the hole — a simile of speed and suddenness that shows how violent and swift the snake's escape is, and how pointless the poet's clumsy act was. The cattle simile makes us sympathise with the snake; the lightning simile makes us feel the poet's regret.",
-   "notes": null,
+   "prompt": "Imagery",
+   "answer": "Lawrence uses rich, sensory imagery throughout to describe the snake's golden-brown, earthy colouring and slow, deliberate movements, as well as the surrounding scene of deep carob-tree shade and smoking Etna in the distance. Effect: this vivid, almost hypnotic imagery immerses the reader in the speaker's heightened, reverent perception of the moment before it is disrupted by violence.",
+   "notes": "",
    "sortOrder": 8
   },
   {
-   "id": 213,
+   "id": 235,
    "category": "device",
-   "prompt": "Allusion to the albatross",
-   "answer": "The poet alludes to Coleridge's \"The Rime of the Ancient Mariner,\" in which the mariner kills an albatross and is condemned to carry its guilt: \"If I were a snake, an albatross would be glad of me.\" The allusion is a warning: the mariner suffered because he killed a harmless creature, and the poet fears he is repeating that crime by striking the snake. In the ancient mariner's tale, the killing of the bird brought doom; here, the throwing of the log brings guilt. The allusion deepens the poem's sense of dread and self-reproach.",
-   "notes": null,
+   "prompt": "Simile",
+   "answer": "The snake is compared to drinking cattle at more than one point, as it lifts its head from the water in the same unhurried, placid manner. Effect: this comparison lends the snake an unexpectedly gentle, domestic quality, undermining the cultural assumption that it is purely a fearsome, venomous threat.",
+   "notes": "",
    "sortOrder": 9
   },
   {
-   "id": 214,
+   "id": 236,
    "category": "device",
-   "prompt": "Free verse",
-   "answer": "The poem is written in free verse — no fixed rhyme scheme or regular metre. Lines of varying length follow the movement of the poem's thought and of the snake itself: long, gliding lines for the snake's slow drinking, and short, sharp phrases for the moment of violence and regret (\"How paltry, how vulgar, what a mean act!\"). The form imitates the theme: unconstrained nature versus the cramped conventions of education. The free verse gives the poem the feeling of a confession, unpolished and honest.",
-   "notes": null,
+   "prompt": "Symbolism",
+   "answer": "The snake functions symbolically throughout the poem as a stand-in for the natural world itself, and specifically for a kind of ancient, regal dignity — the speaker repeatedly likens it to visiting royalty or a \"king in exile,\" uncrowned. Effect: this symbolism elevates the poem beyond a simple nature description into a meditation on humanity's fraught, fearful relationship with the wider natural and mythic order.",
+   "notes": "",
    "sortOrder": 10
   },
   {
-   "id": 215,
+   "id": 237,
    "category": "device",
-   "prompt": "Imagery",
-   "answer": "The poem is rich in sensory imagery. We see the hot July Sicilian morning, the smoking of Mount Etna, the carob tree's shade, the snake's golden-brown body and flickering tongue. We feel the contrast of the \"dreadful hole\" in the earth-wall — dark, black, secret — into which the snake descends. The images of light and dark, above and below, are powerful: the poet stands in the light of honour and descends into the shame of his act, while the snake goes down into the darkness of the underworld like an exiled king.",
-   "notes": null,
+   "prompt": "Repetition",
+   "answer": "Lawrence repeats certain phrases and structures for emphasis, such as the doubled insistence on waiting near the poem's opening, mirroring the speaker's hesitant, suspended state as he watches the snake drink. Effect: this repetition slows the poem's pace, drawing out the moment of quiet observation before the sudden, disruptive act of violence.",
+   "notes": "",
    "sortOrder": 11
   },
   {
-   "id": 216,
-   "category": "analysis",
-   "prompt": "Why does the poet call the snake \"a king in exile, uncrowned in the underworld\"?",
-   "answer": "The snake's home is the dark hole in the earth — the underworld — and in that darkness it is a king, though no crown is visible. The poet honours it with this title at the very end of the poem, after his mean act of throwing the log. The phrase suggests that the snake's domain is the deep, mysterious world below, a realm of ancient dignity that human beings cannot enter. The poet, who has driven the king from his trough, now acknowledges its royalty — and admits, by contrast, his own paltry pettiness. The \"exile\" is the snake's departure from the poet's world of light; the poet is left in the shallower world of human guilt.",
-   "notes": null,
+   "id": 238,
+   "category": "device",
+   "prompt": "Personification and internal voices",
+   "answer": "The poem personifies the speaker's internalised social conditioning as literal speaking \"voices\" — \"the voice of my education\" and other urging inner voices — as though they were separate characters arguing with him. Effect: this device makes the poem's central psychological conflict vivid and dramatic, externalising an internal moral struggle as something close to dialogue.",
+   "notes": "",
    "sortOrder": 12
   },
   {
-   "id": 217,
-   "category": "analysis",
-   "prompt": "The poem's reflection on the mariner's crime",
-   "answer": "Lawrence's allusion to \"The Rime of the Ancient Mariner\" is central to the poem's meaning. The mariner shot the albatross, a harmless bird, and was made to carry the guilt of his deed; the poet throws a log at the snake and immediately feels the same kind of remorse. In both poems, the sin is cruelty to a creature that has done no harm — indeed, a creature of grace. The allusion warns that such acts carry consequences beyond the moment: the mariner is haunted for life, and the poet, in his own way, is haunted by the memory of the snake's \"dreadful\" look. It is the education of guilt, the poem suggests, that men would do well to unlearn.",
-   "notes": null,
+   "id": 239,
+   "category": "device",
+   "prompt": "Allusion",
+   "answer": "Near the poem's close, the speaker compares his guilt over the thrown log to the guilt of the ancient mariner in Coleridge's famous poem, who senselessly kills an albatross and is haunted by the act afterward. Effect: this literary allusion deepens the sense of the speaker's remorse, framing his small, impulsive act of violence against nature within a much larger literary tradition of guilt over harming the natural world.",
+   "notes": "",
    "sortOrder": 13
   },
   {
-   "id": 218,
-   "category": "value",
-   "prompt": "Respect all creatures",
-   "answer": "The poem teaches us to respect and honour all living creatures, however different or strange. The poet's first, natural feeling is wonder — the snake is a king, a lord, a guest at his trough; it is education and convention that turn wonder into violence. When the poet throws the log, he loses something precious and feels the meanness of his act. The value lesson: the moment of reverence for another creature, freely given, is worth more than any victory over it; and a heart that honours nature is richer than one that conquers it.",
-   "notes": null,
+   "id": 240,
+   "category": "device",
+   "prompt": "Free verse and enjambment",
+   "answer": "The poem is written in free verse without a fixed rhyme scheme or regular metre, and its long, flowing, often enjambed lines mirror the winding, unhurried movement of the snake itself as well as the speaker's continuous, unfolding train of thought. Effect: this loose, organic structure reinforces the poem's meditative, confessional tone, allowing the speaker's shifting emotions to unfold naturally across the poem's nineteen irregular stanzas.",
+   "notes": "",
    "sortOrder": 14
   },
   {
-   "id": 219,
-   "category": "value",
-   "prompt": "Regret and the lesson of humility",
-   "answer": "The poem also teaches humility. The poet, armed with the voice of education, believes he is superior to the snake — and acts on that belief with a log. His immediate regret shows how mistaken he was: the snake left with dignity, and the poet was left with shame. The lesson: we should not assume that we have the right to destroy what we do not understand. True worth lies in humility — in standing aside, as the poet did at first, and letting the snake drink.",
-   "notes": null,
+   "id": 241,
+   "category": "analysis",
+   "prompt": "Tone",
+   "answer": "The poem's tone moves from quiet, reverent fascination and admiration in its opening and middle sections to sudden guilt, self-disgust and longing regret following the thrown log, before settling into a wistful, mournful tone in the closing lines as the speaker wishes for the snake's return. This emotional arc mirrors the poem's deeper argument about the destructive consequences of acting on irrational, socially conditioned fear.",
+   "notes": "",
    "sortOrder": 15
   },
   {
-   "id": 220,
-   "category": "short",
-   "prompt": "What did the poet go to fetch at the water-trough?",
-   "answer": "A pitcher of water, on a hot July morning in Sicily.",
-   "notes": null,
+   "id": 242,
+   "category": "analysis",
+   "prompt": "Structure and form",
+   "answer": "Written as a single, continuous free-verse meditation divided into nineteen stanzas of varying, irregular length, the poem's loose structure allows it to move fluidly between vivid physical description, internal debate between competing \"voices,\" and final confessional reflection, without being constrained by a fixed rhyme or metrical pattern.",
+   "notes": "",
    "sortOrder": 16
   },
   {
-   "id": 221,
-   "category": "short",
-   "prompt": "Where did the poet stand while the snake drank?",
-   "answer": "In the shade of the carob tree, waiting with his pitcher.",
-   "notes": null,
+   "id": 243,
+   "category": "analysis",
+   "prompt": "Message and speaker",
+   "answer": "Narrated in the first person by a speaker widely understood to represent Lawrence himself, drawing on his real experience living in Taormina, Sicily, the poem ultimately delivers a message about the danger of allowing inherited social fear and convention to override genuine reverence for the natural world. Its final image of longing for the snake's return suggests that authentic human connection with nature requires resisting, rather than obeying, such deeply ingrained but ultimately destructive conditioning.",
+   "notes": "",
    "sortOrder": 17
   },
   {
-   "id": 222,
-   "category": "short",
-   "prompt": "What \"voice\" urged the poet to kill the snake?",
-   "answer": "The voice of his education, which taught that the snake was venomous and must be killed.",
+   "id": 244,
+   "category": "value",
+   "prompt": "What does the poem teach about questioning inherited fears and prejudices?",
+   "answer": "The poem shows the danger of acting on fear or prejudice absorbed from one's upbringing without genuinely examining it. Evidence: the speaker's instinctive admiration for the snake is overridden by \"the voice of my education\" insisting it must be killed, leading him to an act he instantly and deeply regrets. The lesson is to critically examine inherited social attitudes rather than allowing them to override one's own genuine, considered judgement.",
    "notes": null,
    "sortOrder": 18
   },
   {
-   "id": 223,
-   "category": "short",
-   "prompt": "How does the poet say the snake drank?",
-   "answer": "As drinking cattle do — naturally and innocently.",
+   "id": 245,
+   "category": "value",
+   "prompt": "What does the poem suggest about respect and humility toward the natural world?",
+   "answer": "The poem suggests that approaching nature with humility and reverence, rather than fear or a need to dominate it, allows for a richer, more honest human experience. Evidence: the speaker's most vivid, positive language in the poem describes the snake with wonder and respect, likening it to visiting royalty, and his single act of aggression toward it is precisely what he comes to regret most bitterly. The lesson is to value and respect the natural world rather than react to it purely out of instilled fear.",
    "notes": null,
    "sortOrder": 19
   },
   {
-   "id": 224,
+   "id": 246,
    "category": "short",
-   "prompt": "What did the poet recall about the albatross?",
-   "answer": "That if he were a snake, an albatross would be glad of him — a memory of the mariner's guilt.",
+   "prompt": "Where and when is the poem set?",
+   "answer": "The poem is set in Sicily, on a very hot July day, at the speaker's own water-trough beneath a carob tree, with the volcano Etna visible smoking in the background.",
    "notes": null,
    "sortOrder": 20
   },
   {
-   "id": 225,
+   "id": 247,
    "category": "short",
-   "prompt": "Where did the snake go when it left the trough?",
-   "answer": "Into the dark, dreadful hole in the earth-wall — the \"underworld\".",
+   "prompt": "Why had the speaker come to the water-trough, and what did he find there?",
+   "answer": "He had come down the steps with a pitcher to draw water, and found that a snake had already arrived and was drinking at the trough before him.",
    "notes": null,
    "sortOrder": 21
   },
   {
-   "id": 226,
+   "id": 248,
    "category": "short",
-   "prompt": "What did the poet throw at the snake?",
-   "answer": "A log, in a moment of horror and protest — but he missed, and the snake escaped.",
+   "prompt": "How does the speaker describe the snake's colour and manner of drinking?",
+   "answer": "He describes it as yellow-brown and earth-golden, drinking slowly and silently, lifting its head occasionally in the unhurried manner of drinking cattle.",
    "notes": null,
    "sortOrder": 22
   },
   {
-   "id": 227,
+   "id": 249,
    "category": "short",
-   "prompt": "How does the poet describe his act of throwing the log?",
-   "answer": "As a paltry, vulgar, mean act — and he despises himself and his \"accursed human education\" for it.",
+   "prompt": "What does \"the voice of my education\" tell the speaker to do?",
+   "answer": "It tells him that golden snakes in Sicily are venomous, unlike the harmless black snakes, and that he must kill it.",
    "notes": null,
    "sortOrder": 23
   },
   {
-   "id": 228,
-   "category": "long",
-   "prompt": "Describe the conflict within the poet as the snake drank.",
-   "answer": "The poet stands at the trough torn in two. The voice of his education speaks plainly: the snake is venomous, and a man's duty is to kill what is dangerous and ugly. But another voice, deeper and older, speaks against it: the poet finds himself honoured — this is a guest at his trough, a lord of the earth, a creature to be glad of. He watches the snake drink as drinking cattle do, and wonders at its golden colour, its grace, its quiet possession of the moment. He reflects that if he were a snake, an albatross would be glad of him — he would be cherished, not struck. The education he carries tells him to destroy what he cannot understand; the instinct he feels tells him to honour it. The poem's drama is this civil war inside the man: he is afraid of the snake's venom and ashamed of his fear; he wants to strike and wants to worship; and when the snake turns to leave, the conflict spills into action — and he throws the log. The man is defeated by his education, and knows it the instant the log leaves his hand.",
+   "id": 250,
+   "category": "short",
+   "prompt": "What do the other inner voices accuse the speaker of, when he hesitates to kill the snake?",
+   "answer": "They accuse him of cowardice, suggesting that a true man would immediately take a stick and strike the snake dead.",
    "notes": null,
    "sortOrder": 24
   },
   {
-   "id": 229,
-   "category": "long",
-   "prompt": "How does the poet honour the snake at the end of the poem?",
-   "answer": "The poem closes by crowning the snake. The poet's final words are not about himself but about the snake: \"And I have something to expiate; / A pettiness.\" He acknowledges his offence and asks how he may make amends for the meanness of his act. And then he gives the snake its due — he calls it \"a king in exile, uncrowned in the underworld\", honouring the creature that descended into the dark hole, its true kingdom. The honour is double: the snake is a king, whose exile was interrupted by a man's petty violence; and the underworld, the realm of darkness below the earth, is its crown and its palace, where it is not uncrowned at all. The poet, left above in the sun, is the one who has lost his crown — the crown of dignity that his act has forfeited. The tribute is the poem's last stanza of repentance: the man bows to the snake, and the snake, in its darkness, is the true king.",
+   "id": 251,
+   "category": "short",
+   "prompt": "How does the speaker actually feel about the snake's visit, despite these warning voices?",
+   "answer": "He feels honoured and glad that the snake has come peacefully to drink at his water-trough, comparing it to receiving a welcome guest.",
    "notes": null,
    "sortOrder": 25
   },
   {
-   "id": 230,
-   "category": "long",
-   "prompt": "Value question: What does the poem teach us about our treatment of nature?",
-   "answer": "The poem is a fable of the human relationship with nature, and its lesson is reverence. The poet's first impulse is wonder — the snake is beautiful, golden, a lord of the earth, and to see it drink is a privilege. The corruption enters from outside: \"the voice of my education\", the human convention that the venomous must be destroyed, the instinct of fear dressed up as wisdom. The poem teaches that humility is the first duty of the human towards nature: we are guests, not masters, of the world we share; the creatures around us have kingdoms we cannot enter and rights we do not grant. The tragedy of the poem is the failure of that humility — the log thrown at a king, the moment of reverence turned to violence, and the guilt that remains. The lesson for us is simple and vast: look at what you are, the poem says, before you strike at what you do not understand. The snake drinks; the man destroys; and the desert of that act remains.",
+   "id": 252,
+   "category": "short",
+   "prompt": "What action does the speaker eventually take against the snake?",
+   "answer": "Overcome by the pressuring inner voices, he picks up a clumsy log and throws it at the water-trough as the snake is withdrawing.",
    "notes": null,
    "sortOrder": 26
   },
   {
-   "id": 231,
-   "category": "long",
-   "prompt": "How does the poem finally judge the speaker?",
-   "answer": "The poem judges the speaker with a stern and loving exactness. It does not condemn him as evil; it sees him as small. He is the man who let education conquer instinct, who threw a log out of pettiness and fear, and who knew at once what he had done — a \"paltry, vulgar, mean act\". The judgment is also a self-judgment: the poet despises himself and the \"voices of my accursed human education\" that taught him to despise the snake. But the poem does not end in self-hatred; it ends in tribute — the snake is \"a king in exile\", and the poet's pettiness stands ashamed beside it. The final judgment is a proportion: against the greatness of the natural world — the snake, the mountain, the dark underworld — the man's violence is a pettiness, at once comic and tragic. The poem asks us to measure ourselves by what we honour; and on that measure, the speaker, who honoured the snake at last, is left with his expiation.",
+   "id": 253,
+   "category": "short",
+   "prompt": "How does the snake react to the thrown log?",
+   "answer": "Though the log does not appear to hit it directly, the snake convulses in sudden, undignified haste and quickly disappears into the dark hole in the earth-wall.",
    "notes": null,
    "sortOrder": 27
+  },
+  {
+   "id": 254,
+   "category": "short",
+   "prompt": "How does the speaker feel immediately after throwing the log?",
+   "answer": "He feels immediate, intense regret, calling his own action petty, vulgar and mean, and despising both himself and his ingrained cultural conditioning.",
+   "notes": null,
+   "sortOrder": 28
+  },
+  {
+   "id": 255,
+   "category": "short",
+   "prompt": "Which famous literary figure does the speaker compare himself to in his guilt?",
+   "answer": "He compares himself to the ancient mariner from Coleridge's poem, who is haunted by guilt after senselessly killing an albatross.",
+   "notes": null,
+   "sortOrder": 29
+  },
+  {
+   "id": 256,
+   "category": "short",
+   "prompt": "How does the speaker describe the snake in the poem's closing reflection?",
+   "answer": "He describes it almost as visiting royalty, a king now uncrowned, whom he had failed to honour properly.",
+   "notes": null,
+   "sortOrder": 30
+  },
+  {
+   "id": 257,
+   "category": "short",
+   "prompt": "What is the poem's overall message about human beings' relationship with nature?",
+   "answer": "It suggests that inherited social fear and conditioning can lead people to act destructively against nature, against their own genuine instincts of respect and wonder, resulting in lasting regret.",
+   "notes": null,
+   "sortOrder": 31
+  },
+  {
+   "id": 258,
+   "category": "long",
+   "prompt": "Discuss the inner conflict experienced by the speaker in \"Snake\" and how Lawrence dramatises it.",
+   "answer": "Structured answer:\n\nIntroduction: The poem's central drama is an internal psychological conflict between the speaker's genuine admiration for the snake and the social conditioning urging him to kill it.\n\nEvidence: Lawrence personifies this conflict as literal competing \"voices\" — \"the voice of my education\" warning that golden snakes are venomous, and further voices accusing him of cowardice for hesitating. Despite this pressure, the speaker openly confesses that he likes the snake and feels honoured by its visit, creating a sustained tension that builds until he finally, almost involuntarily, throws the log.\n\nConclusion: By dramatising this conflict as an argument between inner voices, Lawrence vividly captures how deeply social conditioning can war against, and ultimately override, a person's authentic instincts.",
+   "notes": null,
+   "sortOrder": 32
+  },
+  {
+   "id": 259,
+   "category": "long",
+   "prompt": "Explain the significance of the speaker's regret after throwing the log at the snake.",
+   "answer": "Structured answer:\n\nIntroduction: The speaker's immediate, intense regret following his impulsive act of violence forms the poem's emotional and moral climax.\n\nEvidence: As soon as the snake disappears into the earth, the speaker condemns his own action as petty, vulgar and mean, explicitly blaming his \"accursed human education\" for pushing him to it. He goes further, comparing his guilt to the mariner's guilt over killing the albatross, and closes the poem wishing for the snake's return, describing it as a king he failed to properly honour.\n\nConclusion: This regret transforms the poem from a simple nature encounter into a broader meditation on moral self-awareness, showing how recognising and rejecting one's own conditioned prejudice can only come after having already acted on it.",
+   "notes": null,
+   "sortOrder": 33
+  },
+  {
+   "id": 260,
+   "category": "long",
+   "prompt": "Analyse how Lawrence uses imagery and symbolism to elevate the snake beyond a simple animal in the poem.",
+   "answer": "Structured answer:\n\nIntroduction: Throughout the poem, Lawrence uses rich imagery and deliberate symbolism to present the snake as something far more significant than an ordinary creature.\n\nEvidence: Its golden-brown colouring is repeatedly linked to the \"burning bowels of the earth,\" suggesting an almost mythic, ancient origin, while the speaker directly compares it to visiting royalty and a king now uncrowned. This symbolic elevation contrasts sharply with the fearful, purely practical view urged by \"the voice of my education.\"\n\nConclusion: By building the snake into a symbol of dignity, mystery and the wider natural order, Lawrence deepens the poem's central theme: that fear-driven human conditioning can blind people to the genuine wonder present in the natural world.",
+   "notes": null,
+   "sortOrder": 34
+  },
+  {
+   "id": 261,
+   "category": "long",
+   "prompt": "What does \"Snake\" suggest about the relationship between social conditioning and authentic human experience?",
+   "answer": "Structured answer:\n\nIntroduction: At its core, \"Snake\" explores how deeply ingrained social conditioning can distort and override a person's authentic emotional responses to the world.\n\nEvidence: The speaker's genuine, spontaneous admiration for the snake is real and clearly described, yet it is ultimately overpowered by internalised cultural warnings and accusations of cowardice, leading him to commit an act he instantly recognises as false to his true feelings. His subsequent, lasting regret suggests that his authentic response — reverence, not violence — was the truer one all along.\n\nConclusion: Lawrence's poem thus argues that genuine human experience requires questioning and resisting inherited social conditioning, especially when it conflicts with more honest, direct engagement with the natural world.",
+   "notes": null,
+   "sortOrder": 35
   }
  ],
  "quizQuestions": [
   {
-   "id": 93,
-   "question": "Who wrote the poem \"Snake\"?",
+   "id": 83,
+   "question": "Where is the poem \"Snake\" set?",
    "options": [
-    "William Wordsworth",
-    "D.H. Lawrence",
-    "Samuel Taylor Coleridge",
-    "P.B. Shelley"
+    "A forest in England",
+    "Sicily, near a water-trough under a carob tree",
+    "A desert in Egypt",
+    "A riverbank in India"
    ],
    "correct_index": 1,
-   "explanation": "The poem \"Snake\" is by D.H. Lawrence.",
-   "topic": ""
+   "explanation": "The poem is set in Sicily, at the speaker's water-trough beneath a carob tree, with Mount Etna smoking in the background.",
+   "topic": "plot"
   },
   {
-   "id": 94,
-   "question": "Where does the poem take place?",
+   "id": 84,
+   "question": "What is the speaker doing when he first encounters the snake?",
    "options": [
-    "in England",
-    "in Sicily",
-    "in Greece",
-    "in Spain"
+    "Watering his garden",
+    "Coming to draw water with a pitcher",
+    "Chopping wood",
+    "Reading a book outdoors"
    ],
    "correct_index": 1,
-   "explanation": "The poet is in Sicily, on a hot July morning, with Etna smoking in the distance.",
-   "topic": ""
+   "explanation": "The speaker comes down the steps with a pitcher intending to draw water, and finds the snake already drinking at the trough.",
+   "topic": "plot"
   },
   {
-   "id": 95,
-   "question": "The poet went to the water-trough to:",
+   "id": 85,
+   "question": "What does \"the voice of my education\" tell the speaker about the snake?",
    "options": [
-    "swim",
-    "fetch water in a pitcher",
-    "plant trees",
-    "look at the mountain"
+    "That it is a sacred creature",
+    "That golden snakes in Sicily are venomous and must be killed",
+    "That it should be captured and sold",
+    "That it is harmless and should be fed"
    ],
    "correct_index": 1,
-   "explanation": "He went with his pitcher to fetch water, and found the snake drinking there.",
-   "topic": ""
+   "explanation": "This internalised voice warns him that, unlike harmless black snakes, golden snakes in Sicily are venomous and should be killed.",
+   "topic": "theme"
   },
   {
-   "id": 96,
-   "question": "How does the poet describe the snake's colour?",
+   "id": 86,
+   "question": "How does the speaker actually feel about the snake's visit, before he acts against it?",
    "options": [
-    "black as coal",
-    "golden on the belly and yellowish-brown on the back",
-    "silver-grey",
-    "bright green"
+    "Terrified",
+    "Honoured and glad, as though receiving a guest",
+    "Angry and disgusted",
+    "Completely indifferent"
    ],
    "correct_index": 1,
-   "explanation": "The snake is golden-brown — golden on its belly, yellowish-brown on its back.",
-   "topic": ""
+   "explanation": "Despite the warning voices, the speaker genuinely feels honoured and glad that the snake has come peacefully to his water-trough.",
+   "topic": "character"
   },
   {
-   "id": 97,
-   "question": "What does \"the voice of my education\" tell the poet to do?",
+   "id": 87,
+   "question": "What does the speaker eventually do to the snake?",
    "options": [
-    "run away",
-    "kill the snake",
-    "take a photograph",
-    "wake the household"
+    "He captures it in a jar",
+    "He throws a log at the water-trough",
+    "He calls for help to kill it",
+    "He feeds it milk"
    ],
    "correct_index": 1,
-   "explanation": "The voice of education says the snake is venomous and a man should kill it.",
-   "topic": ""
+   "explanation": "Overcome by the pressuring inner voices, the speaker picks up a clumsy log and throws it at the water-trough as the snake retreats.",
+   "topic": "plot"
   },
   {
-   "id": 98,
-   "question": "The snake drank from the trough as naturally as:",
+   "id": 88,
+   "question": "How does the snake react to the thrown log?",
    "options": [
-    "a fish",
-    "drinking cattle",
-    "a bird bathing",
-    "a dog lapping"
+    "It attacks the speaker",
+    "It convulses and quickly disappears into the earth-wall",
+    "It dies instantly",
+    "It ignores the log completely"
    ],
    "correct_index": 1,
-   "explanation": "The simile \"as drinking cattle do\" makes the snake's act innocent and natural.",
-   "topic": ""
+   "explanation": "Though the log does not appear to strike it, the snake convulses in undignified haste and rapidly vanishes into the hole in the wall.",
+   "topic": "plot"
   },
   {
-   "id": 99,
-   "question": "Which poem is alluded to through the albatross?",
+   "id": 89,
+   "question": "How does the speaker feel immediately after throwing the log?",
    "options": [
-    "\"Ozymandias\"",
-    "\"The Rime of the Ancient Mariner\"",
-    "\"The Frog and the Nightingale\"",
-    "\"Not Marble nor the Gilded Monuments\""
+    "Proud and relieved",
+    "Immediate, intense regret and self-disgust",
+    "Completely indifferent",
+    "Amused"
    ],
    "correct_index": 1,
-   "explanation": "The poet recalls the mariner who killed an albatross: \"If I were a snake, an albatross would be glad of me.\"",
-   "topic": ""
+   "explanation": "He is overwhelmed with regret, calling his action petty and mean, and despising himself and his ingrained cultural conditioning.",
+   "topic": "theme"
   },
   {
-   "id": 100,
-   "question": "The poet finally threw at the snake:",
+   "id": 90,
+   "question": "Which literary figure does the speaker compare his guilt to, with reference to a famous poem about a bird?",
    "options": [
-    "a stone",
-    "a log",
-    "his pitcher",
-    "a stick of firewood"
+    "Icarus",
+    "The ancient mariner who killed an albatross",
+    "Prometheus",
+    "Odysseus"
    ],
    "correct_index": 1,
-   "explanation": "In a moment of horror and protest, he threw a log — but the snake escaped unhurt.",
-   "topic": ""
+   "explanation": "The speaker compares his guilt over the thrown log to the guilt of the mariner in Coleridge's poem, who senselessly killed an albatross.",
+   "topic": "device"
   },
   {
-   "id": 101,
-   "question": "How did the snake escape?",
+   "id": 91,
+   "question": "How does the speaker describe the snake in his closing reflection?",
    "options": [
-    "it hissed at the poet",
-    "it writhed like lightning into the hole",
-    "it slid down the wall",
-    "it swam across the garden"
+    "As a lowly pest",
+    "As a kind of visiting king, now uncrowned",
+    "As a harmless pet",
+    "As a symbol of evil"
    ],
    "correct_index": 1,
-   "explanation": "The snake writhed like lightning and disappeared into the dark hole in the earth-wall.",
-   "topic": ""
+   "explanation": "In his closing regret, the speaker describes the snake almost as visiting royalty, a king he failed to properly honour.",
+   "topic": "device"
   },
   {
-   "id": 102,
-   "question": "How does the poet feel about his act of throwing the log?",
+   "id": 92,
+   "question": "What central theme does the poem's conflict between admiration and violence best illustrate?",
    "options": [
-    "proud",
-    "regretful — he despises it as paltry and vulgar",
-    "amused",
-    "indifferent"
+    "The beauty of Sicilian landscapes",
+    "The danger of letting inherited social conditioning override genuine instinct",
+    "The importance of self-defence",
+    "The value of scientific classification"
    ],
    "correct_index": 1,
-   "explanation": "He despises his \"paltry, vulgar, mean act\" and honours the snake instead.",
-   "topic": ""
-  },
-  {
-   "id": 103,
-   "question": "The poet calls the snake:",
-   "options": [
-    "\"a thief\"",
-    "\"a king in exile, uncrowned in the underworld\"",
-    "\"a monster\"",
-    "\"a plaything\""
-   ],
-   "correct_index": 1,
-   "explanation": "At the end of the poem he honours the snake as a king in exile, uncrowned in the underworld.",
-   "topic": ""
-  },
-  {
-   "id": 104,
-   "question": "What does the poet finally despise?",
-   "options": [
-    "the heat of July",
-    "the voices of his accursed human education",
-    "the carob tree",
-    "his own garden"
-   ],
-   "correct_index": 1,
-   "explanation": "He despises the voices of his accursed human education that taught him to strike at the snake.",
-   "topic": ""
+   "explanation": "The poem's core theme is how deeply ingrained social conditioning can override authentic reverence and lead to actions later regretted.",
+   "topic": "theme"
   }
  ]
 }

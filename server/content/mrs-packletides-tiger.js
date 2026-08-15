@@ -3,224 +3,145 @@ module.exports = {
     id: 'mrs-packletides-tiger',
     book: 'literature-reader',
     type: 'prose',
-    title: 'Mrs Packletide\'s Tiger',
+    title: "Mrs Packletide's Tiger",
     author: 'Saki (H.H. Munro)',
     order: 2
   },
   content: [
+    // ---------- SUMMARY ----------
     {
       category: 'summary',
-      prompt: 'Part 1 — The rival and the plan',
-      answer: 'Mrs Packletide longed to shoot a tiger — not out of love of hunting, but because Loona Bimberton, her rival, had recently been carried eleven miles in an aeroplane by an Algerian aviator. Only a personally procured tiger-skin and a heavy harvest of press photographs, Mrs Packletide felt, could counter that. She offered a thousand rupees to the villagers if they could arrange a tiger hunt in which she could shoot the tiger without much risk or exertion.'
+      prompt: 'Part 1 — The motive: rivalry with Loona Bimberton',
+      answer: 'Mrs Packletide decides she must shoot a tiger, but her motive has nothing to do with courage or sport. It is driven almost entirely by her intense dislike of a fellow socialite, Loona Bimberton, who has recently been flown eleven miles by an Algerian aviator and has been dining out on the story ever since. Mrs Packletide reasons that only a personally procured tiger-skin, backed by a heavy harvest of press photographs, can successfully outshine that feat and restore her social standing. She has already mentally planned a lunch party at her house on Curzon Street, ostensibly in Loona\'s honour, with the tiger-skin as the centrepiece of conversation, and has designed in her mind the tiger-claw brooch she intends to gift Loona on her birthday. To make the hunt as safe and certain as possible, she offers one thousand rupees to any village that can arrange for her to shoot a tiger without much risk or exertion.',
+      notes: 'Establishes the satirical premise: vanity, not sportsmanship, drives the plot.'
     },
     {
       category: 'summary',
-      prompt: 'Part 2 — The night of the shoot',
-      answer: 'The villagers found an old tiger that had taken to the village outskirts, and they tied up a goat as bait at the best distance for an easy shot. On a moonlit, cloudless night, Mrs Packletide and her paid companion Louisa Mebbin waited on a comfortable platform in a tree with an accurately sighted rifle. Miss Mebbin, ever mindful of money, complained the thousand rupees was too much for a public service. When the tiger came and the rifle flashed out, the beast sprang to one side and rolled over dead.'
+      prompt: 'Part 2 — The staged hunt',
+      answer: 'A neighbouring village obliges, offering the opportunity of an old, infirm tiger that has given up hunting large game and taken to killing the villagers\' domestic animals instead. Mrs Packletide arrives with her paid companion, Louisa Mebbin, to witness and validate her triumph. A goat with a particularly persistent bleat is tethered as bait at a safe distance from Mrs Packletide\'s hiding place. When the tiger appears, Mrs Packletide fires — but it is Miss Mebbin who quietly points out that the bullet has actually struck the goat, not the tiger, and that the tiger itself appears to have collapsed and died, apparently of heart failure brought on by the shock of the gunshot noise, hastened by its own old age. Mrs Packletide is briefly annoyed at this discovery, but since she is nonetheless in possession of a dead tiger, and the villagers are eager for their promised thousand rupees, everyone quietly agrees to the fiction that she shot the beast herself.',
+      notes: 'The central comic irony: the "hunt" is entirely fraudulent.'
     },
     {
       category: 'summary',
-      prompt: 'Part 3 — The truth about the tiger',
-      answer: 'It was Louisa Mebbin who pointed out the embarrassing truth: the goat was in its death-throes from the bullet, while the tiger showed no wound at all. The old tiger had died of heart failure — frightened to death by the sudden report of the rifle, its shock accelerated by old age. The villagers, anxious for their thousand rupees, happily connived at the fiction that Mrs Packletide had shot the beast, and Miss Mebbin, being a paid companion, went along with it. Mrs Packletide\'s picture appeared in papers from the Texas Weekly Snapshot to the Novoe Vremya, and Loona Bimberton, green with envy, refused to look at illustrated papers for weeks.'
+      prompt: 'Part 3 — Manufactured fame',
+      answer: 'With the villagers complicit in the deception, Mrs Packletide faces the cameras with an easy conscience, and her photographs travel astonishingly far, appearing in newspapers as distant as an American paper and a Russian illustrated supplement. She hosts her planned lunch party in Loona Bimberton\'s honour with the tiger-skin displayed prominently, and follows through on gifting Loona the tiger-claw brooch, whose thank-you note Loona sends back in a tone of carefully repressed emotion — she pointedly declines the luncheon invitation itself. Mrs Packletide extends her triumph further by attending a fancy-dress ball dressed as Diana, the Greek goddess of the hunt, and the tiger-skin rug travels between London houses to be admired by county society. She only draws the line at Clovis\'s mischievous suggestion that she host a "primeval dance party" in which guests would wear the skins of animals they had personally slain.',
+      notes: 'Satirises high-society obsession with appearances and status.'
     },
     {
       category: 'summary',
-      prompt: 'Part 4 — The blackmail and the lesson',
-      answer: 'A few days after a ball in honour of her triumph, Louisa Mebbin remarked that it would amuse everyone if they knew what had really happened — that Mrs Packletide had "shot the goat and frightened the tiger to death". When Mrs Packletide protested that no one would believe it, Miss Mebbin observed that Loona Bimberton would. The price of silence was a week-end cottage near Dorking, six hundred and eighty pounds freehold. Mrs Packletide paid, and Miss Mebbin\'s cottage, christened "Les Fauves" and gay with tiger-lilies, became the wonder of her friends. As for Mrs Packletide, she gave up big-game shooting for good: "The incidental expenses are so heavy," she confided.'
+      prompt: 'Part 4 — Blackmail and the price of the fraud',
+      answer: 'Some days later, Louisa Mebbin, the only witness to the truth of the hunt, quietly threatens to reveal that it was a goat, not Mrs Packletide\'s marksmanship, that was actually shot, and that the tiger had simply died of fright. To secure Miss Mebbin\'s permanent silence, Mrs Packletide is blackmailed into buying her a weekend cottage near Dorking for six hundred and eighty pounds. Miss Mebbin christens the cottage "Les Fauves" and plants its garden borders with tiger lilies, to the admiration of her friends, who wonder how she manages such a purchase on her modest means. Mrs Packletide, meanwhile, never again indulges in big-game shooting, remarking to curious friends only that "the incidental expenses are so heavy."',
+      notes: 'The story\'s final irony: the fraud costs Mrs Packletide far more than an honest hunt would have.'
+    },
+    // ---------- THEME ----------
+    {
+      category: 'theme',
+      prompt: 'Vanity and social one-upmanship',
+      answer: 'The entire plot is driven not by any genuine interest in hunting but by Mrs Packletide\'s desperate need to outdo her rival, Loona Bimberton, in the eyes of London society. Every action — offering rupees for a risk-free tiger, staging photographs, hosting a lunch party, gifting a brooch, attending a costume ball as Diana — is calculated purely for social effect rather than for any authentic achievement. Saki satirises a social world in which reputation is built entirely on appearances and performance rather than substance, showing how far a wealthy woman will go, and how much she will spend and risk being exposed, merely to seem impressive to a rival she dislikes.',
+      notes: ''
     },
     {
       category: 'theme',
-      prompt: 'Vanity, jealousy and rivalry',
-      answer: 'The story\'s central theme is the absurdity of social rivalry. Mrs Packletide decides to shoot a tiger purely to outshine Loona Bimberton\'s aeroplane flight — a dangerous, expensive act undertaken out of vanity, not need. The whole enterprise is a hollow pretence: she does not even kill the tiger herself, yet claims the glory. The theme exposes how jealousy drives people to ridiculous lengths, and how the pursuit of status can cost far more than it is worth.'
+      prompt: 'Irony and the gap between appearance and reality',
+      answer: 'Saki constructs the story around a series of ironies: the "brave huntress" actually shoots a goat by mistake; the tiger dies of fright rather than any bullet; the villagers who should be honest instead collude in a lie for money; and Mrs Packletide\'s triumphant public image is entirely built on a private falsehood only she and Miss Mebbin know. The persistent gap between how things appear (a triumphant hunt) and how they actually are (a farce) is the story\'s comic engine, and it exposes the emptiness of the fame and admiration Mrs Packletide receives.',
+      notes: ''
     },
     {
       category: 'theme',
-      prompt: 'Satire on upper-class pretension',
-      answer: 'Saki satirises the Edwardian upper classes, who treat a tiger hunt as a social occasion and a tiger-skin as a status symbol. The villagers connive for money, Miss Mebbin blackmails for a cottage, and the "heroine" accepts a glory she never earned. The satire is gentle but sharp: in a society obsessed with appearances, no one — from the sportswoman to the paid companion — is truly honest, and everyone is complicit in the great fiction of Mrs Packletide\'s tiger.'
+      prompt: 'The corrupting power of money and the vulnerability it creates',
+      answer: 'Money drives every relationship in the story: Mrs Packletide uses it to buy a "safe" tiger hunt from the village, and the villagers accept it readily enough to lie on her behalf. But money also becomes the very thing that traps her, since her wealth and desire to protect her reputation make her permanently vulnerable to blackmail once Miss Mebbin discovers the truth. Saki suggests that a fortune spent buying a false reputation ultimately buys very little real security, since the truth remains in someone else\'s hands, ready to be leveraged at any time.',
+      notes: ''
     },
     {
       category: 'theme',
-      prompt: 'Greed and exploitation',
-      answer: 'The theme of greed runs through the story. The villagers accept a thousand rupees to stage a fiction; Miss Mebbin, with her "protective elder-sister attitude towards money", turns her knowledge of the truth into a cottage worth six hundred and eighty pounds. Everyone in the story is willing to sell the truth for a price. The final irony is that Mrs Packletide\'s triumph leaves her poorer in every sense — she has paid far more, in blackmail and shame, than the tiger was ever worth.'
+      prompt: 'Blackmail and quiet exploitation between social unequals',
+      answer: 'Louisa Mebbin, though nominally Mrs Packletide\'s "paid companion" and social inferior, ends the story in the stronger position, extracting a substantial cottage from her employer simply by holding the truth over her. This role reversal satirises how dependence on appearances can invert real power: the person with the most damaging information, however socially modest, can dominate the person with the most wealth and status. Miss Mebbin\'s calm, businesslike manner in delivering her threat — never raising her voice, simply mentioning the cottage "with seeming irrelevance" — makes the exploitation all the more pointed and comic.',
+      notes: ''
     },
+    // ---------- CHARACTER ----------
     {
       category: 'character',
       prompt: 'Mrs Packletide',
-      answer: 'Mrs Packletide is a rich Englishwoman driven by vanity and rivalry with Loona Bimberton. She wants the glory of killing a tiger without any of the danger, so she hires villagers to arrange a safe shot at an old, feeble tiger. She is proud, short-sighted and self-centred, yet she is also rather pathetic: her great triumph is a fraud, and she ends the story having paid dearly for a glory she never earned, giving up big-game shooting because "the incidental expenses are so heavy".'
-    },
-    {
-      category: 'character',
-      prompt: 'Louisa Mebbin',
-      answer: 'Louisa Mebbin is Mrs Packletide\'s paid companion, and the story\'s real victor. She has a "morbid dread" of performing more service than she is paid for and a protective, almost elder-sisterly attitude towards money. She is the only one who notices the truth about the tiger\'s death, and she calmly turns that knowledge into blackmail: a week-end cottage near Dorking, which she christens "Les Fauves". Quiet, clever and mercenary, she outwits her employer completely while remaining perfectly pleasant.'
+      answer: 'Mrs Packletide is a wealthy, socially ambitious Englishwoman whose actions throughout the story are governed almost entirely by her rivalry with Loona Bimberton rather than by any genuine love of adventure or hunting. She is willing to spend a thousand rupees to guarantee a risk-free tiger kill purely for the social capital it will bring her, and she happily accepts the villagers\' fiction that she shot the tiger once she realises the truth is embarrassing. Her vanity is further shown in her elaborate plans for a lunch party, a gifted brooch, and a costume-ball appearance as the huntress-goddess Diana. Ultimately she is revealed as shallow and easily manipulated, paying a huge price in blackmail to protect an image built on nothing.',
+      notes: ''
     },
     {
       category: 'character',
       prompt: 'Loona Bimberton',
-      answer: 'Loona Bimberton is Mrs Packletide\'s social rival, the woman who had been carried eleven miles in an aeroplane by an Algerian aviator. She never appears directly in the action — we know her only by her effect on Mrs Packletide. After the tiger triumph she refuses to look at illustrated papers for weeks, and when forced to acknowledge the tiger-claw brooch Mrs Packletide sends her, she replies with a cold letter of thanks and declines the luncheon party. She represents the society Mrs Packletide is trying so hard to impress.'
+      answer: 'Loona Bimberton never appears in a hunting scene herself, but her recent flight of eleven miles with an Algerian aviator is the spark that sets the entire plot in motion, since Mrs Packletide cannot bear to be socially outdone by her. Loona\'s reaction to Mrs Packletide\'s manufactured triumph — refusing to look at illustrated papers for weeks, sending an icily restrained thank-you note for the tiger-claw brooch, and declining the luncheon invitation outright — reveals that she recognises she has been beaten in their unspoken rivalry and resents it deeply, even while maintaining polite appearances herself.',
+      notes: ''
     },
     {
       category: 'character',
-      prompt: 'The tiger',
-      answer: 'The tiger is the story\'s comic victim. It is an old, feeble animal that has been living in the jungle near the village, and the villagers consider it almost a public service to arrange its death. It ambles towards the tethered goat, springs aside at the rifle\'s report — and dies of heart failure, frightened to death by the noise, its demise accelerated by old age. It never receives a bullet, yet it becomes the centre of a great social triumph: proof that in this story, everything is pretence except the tiger\'s innocent death.'
+      prompt: 'Louisa Mebbin',
+      answer: 'Louisa Mebbin is Mrs Packletide\'s paid companion, present at the hunt ostensibly to serve as a witness to her employer\'s bravery. She is the only person who realises, and states plainly, that Mrs Packletide actually shot the goat and that the tiger died of fright — a moment of blunt honesty that briefly threatens the entire fiction. Later, however, Miss Mebbin proves herself calculating and quietly ruthless, using her knowledge of the truth to blackmail Mrs Packletide into buying her an expensive weekend cottage. Her cool, understated manner of extracting this reward, and her decision to decorate the cottage garden with tiger lilies, gives the story much of its dry comic irony.',
+      notes: ''
+    },
+    {
+      category: 'character',
+      prompt: 'Clovis',
+      answer: 'Clovis is a minor character who appears briefly during Mrs Packletide\'s social triumph, suggesting — half in jest — that she should host a "primeval dance party" in which every guest wears the skin of an animal they have personally killed. Mrs Packletide, despite embracing every other opportunity to display her supposed hunting feat, draws the line at this suggestion, which highlights the limits of even her vanity and adds a further touch of Saki\'s characteristic satirical wit to the story\'s high-society setting.',
+      notes: ''
+    },
+    // ---------- VALUE ----------
+    {
+      category: 'value',
+      prompt: 'What does the story teach about the dangers of vanity and jealousy?',
+      answer: 'The story shows that allowing jealousy and the desire to impress others to govern one\'s decisions can lead a person into deception, expense and eventual humiliation. Evidence: Mrs Packletide\'s entire elaborate scheme — offering a thousand rupees, staging photographs, hosting parties — exists solely to outdo Loona Bimberton, and it ultimately costs her far more, in money and vulnerability to blackmail, than any honest pursuit would have. The lesson is that chasing status through appearances rather than genuine achievement leaves a person exposed and dependent on others\' silence.',
+      notes: ''
     },
     {
       category: 'value',
-      prompt: 'Contentment is better than rivalry',
-      answer: 'The story teaches the folly of living for rivalry and show. Mrs Packletide spends a thousand rupees, stages a fraudulent hunt and ends up paying six hundred and eighty pounds in blackmail — all to outshine Loona Bimberton, who refuses to be impressed anyway. The value lesson: envy makes us pay heavily for what we do not truly need; contentment with one\'s own life is far cheaper and wiser than competing for the applause of others.'
+      prompt: 'What does the story teach about honesty and the consequences of deception?',
+      answer: 'Saki demonstrates that a lie, however successfully it is initially covered up, tends to leave the liar permanently vulnerable to whoever else knows the truth. Evidence: Mrs Packletide\'s fabricated hunting triumph is safe from public exposure only as long as Louisa Mebbin chooses to stay silent, and Miss Mebbin eventually exploits that silence for a costly cottage. The lesson is that dishonesty, even when it appears to succeed, creates lasting risk rather than genuine security.',
+      notes: ''
     },
+    // ---------- SHORT ----------
+    { category: 'short', prompt: 'Why did Mrs Packletide want to shoot a tiger?', answer: 'She wanted to outdo her rival Loona Bimberton, who had recently been flown eleven miles by an Algerian aviator and had been enjoying the resulting attention.' },
+    { category: 'short', prompt: 'How much did Mrs Packletide offer, and for what?', answer: 'She offered one thousand rupees for the opportunity to shoot a tiger without much risk or exertion.' },
+    { category: 'short', prompt: 'What kind of tiger did the village provide for the hunt?', answer: 'An old, infirm tiger that had given up hunting large game because of its age and had taken to killing villagers\' domestic animals instead.' },
+    { category: 'short', prompt: 'What was actually shot when Mrs Packletide fired her rifle?', answer: 'She actually shot the goat that had been tethered as bait; the tiger itself died separately, apparently of heart failure from the noise.' },
+    { category: 'short', prompt: 'Who was Louisa Mebbin, and what role did she play at the hunt?', answer: 'Louisa Mebbin was Mrs Packletide\'s paid companion, present as a witness to the hunt; she was the one who pointed out that the goat, not the tiger, had actually been shot.' },
+    { category: 'short', prompt: 'Why did the villagers agree to support Mrs Packletide\'s false claim?', answer: 'They were anxious to receive their promised one thousand rupees, so they gladly went along with the fiction that she had shot the tiger herself.' },
+    { category: 'short', prompt: 'How did Mrs Packletide celebrate her supposed triumph?', answer: 'She hosted a lunch party in Loona Bimberton\'s honour with the tiger-skin on display, gifted Loona a tiger-claw brooch, and attended a fancy-dress ball dressed as Diana, goddess of the hunt.' },
+    { category: 'short', prompt: 'How did Loona Bimberton react to the gift of the tiger-claw brooch?', answer: 'She sent a thank-you letter written in a tone of carefully repressed emotion and declined the luncheon invitation altogether.' },
+    { category: 'short', prompt: 'What suggestion did Clovis make, and how did Mrs Packletide respond?', answer: 'Clovis suggested she host a "primeval dance party" where guests wore skins of animals they had killed; Mrs Packletide refused, drawing the line at this idea.' },
+    { category: 'short', prompt: 'How did Louisa Mebbin blackmail Mrs Packletide?', answer: 'She threatened to reveal the truth about the goat and the tiger\'s death unless Mrs Packletide bought her a weekend cottage near Dorking.' },
+    { category: 'short', prompt: 'What name did Miss Mebbin give her cottage, and what did she plant in its garden?', answer: 'She named the cottage "Les Fauves" and planted its garden borders with tiger lilies.' },
+    { category: 'short', prompt: 'What does Mrs Packletide say when friends ask why she has given up big-game shooting?', answer: 'She tells them only that "the incidental expenses are so heavy," concealing the real reason, which is the cost of Miss Mebbin\'s silence.' },
+    // ---------- LONG ----------
     {
-      category: 'value',
-      prompt: 'Honesty costs less than pretence',
-      answer: 'The story shows that maintaining a lie is far more expensive than telling the truth. Mrs Packletide\'s tiny fraud — letting the world believe she shot the tiger — costs her a small fortune in blackmail and leaves her with a permanent fear of exposure. The lesson: pretence multiplies; every lie needs another lie and another payment to support it, while honesty, however humiliating in the moment, leaves nothing hanging over one\'s head.'
-    },
-    {
-      category: 'short',
-      prompt: 'Why did Mrs Packletide want to shoot a tiger?',
-      answer: 'To outshine Loona Bimberton, who had recently been carried eleven miles in an aeroplane by an Algerian aviator.'
-    },
-    {
-      category: 'short',
-      prompt: 'How much did Mrs Packletide offer the villagers?',
-      answer: 'A thousand rupees, to arrange a tiger hunt in which she could shoot the tiger without much risk.'
-    },
-    {
-      category: 'short',
-      prompt: 'Who was Louisa Mebbin?',
-      answer: 'Mrs Packletide\'s paid companion, who was obsessed with money and performed only the service she was paid for.'
-    },
-    {
-      category: 'short',
-      prompt: 'What was the bait for the tiger?',
-      answer: 'A goat, chosen because it bleated so persistently that even a partially deaf tiger might hear it on a still night.'
-    },
-    {
-      category: 'short',
-      prompt: 'How did the tiger actually die?',
-      answer: 'It died of heart failure, frightened to death by the loud report of the rifle; the bullet had killed the goat, not the tiger.'
-    },
-    {
-      category: 'short',
-      prompt: 'Why did the villagers support Mrs Packletide\'s story?',
-      answer: 'They were anxious for their thousand rupees and gladly connived at the fiction that she had shot the beast.'
-    },
-    {
-      category: 'short',
-      prompt: 'What did Mrs Packletide send Loona Bimberton?',
-      answer: 'A tiger-claw brooch, which Loona acknowledged with a cold letter of thanks, refusing to attend the luncheon party.'
-    },
-    {
-      category: 'short',
-      prompt: 'What was the price of Louisa Mebbin\'s silence?',
-      answer: 'A week-end cottage near Dorking, six hundred and eighty pounds freehold.'
-    },
-    {
-      category: 'short',
-      prompt: 'What did Miss Mebbin name her cottage?',
-      answer: '"Les Fauves" — French for "the wild beasts" — and its garden was gay with tiger-lilies in summer.'
-    },
-    {
-      category: 'short',
-      prompt: 'Why did Mrs Packletide give up big-game shooting?',
-      answer: 'Because, as she confided, "the incidental expenses are so heavy".'
+      category: 'long',
+      prompt: 'Discuss how Saki uses irony to satirise Mrs Packletide\'s hunting expedition.',
+      answer: 'Structured answer:\n\nIntroduction: Saki builds "Mrs Packletide\'s Tiger" almost entirely on irony, using the gap between Mrs Packletide\'s public image and the private truth to satirise vanity and social pretension.\n\nEvidence: The supposedly brave huntress actually shoots a goat, not the tiger; the tiger dies of fright rather than any bullet; the villagers, who should expose the fraud, instead protect it for money; and Mrs Packletide\'s eventual "triumph" — press photographs, a lunch party, a costume-ball appearance as Diana — is built on a lie only she and Miss Mebbin know.\n\nConclusion: Through these layered ironies, Saki mocks a society that prizes appearance and reputation over truth, and shows that a triumph built on deception ultimately proves fragile and costly rather than glorious.'
     },
     {
       category: 'long',
-      prompt: 'Describe the night of the tiger hunt. What really happened?',
-      answer: 'On a moonlit, cloudless night, Mrs Packletide and Louisa Mebbin took their places on a comfortable platform in a tree, with an accurately sighted rifle and a thumbnail pack of patience cards to pass the time. The villagers had tethered a persistently bleating goat at the best distance for an easy shot. Miss Mebbin, who had a morbid dread of doing more service than she was paid for, complained that the tiger was too old and a thousand rupees too much for what was, after all, a public service. When the tiger at last ambled towards the goat, the rifle flashed out with a loud report. The great tawny beast sprang to one side and then rolled over — dead. The villagers swarmed to the scene, rejoicing and beating tom-toms. But Louisa Mebbin drew attention to the awkward truth: the goat was in its death-throes from a mortal bullet-wound, while no trace of the rifle\'s work could be found on the tiger. The old tiger had died of heart failure, caused by the sudden report and accelerated by senile decay. The villagers, anxious for their thousand rupees, agreed to keep the secret, and Mrs Packletide faced the cameras with a light heart.'
+      prompt: 'Analyse the character of Louisa Mebbin and her significance to the story\'s outcome.',
+      answer: 'Structured answer:\n\nIntroduction: Louisa Mebbin begins the story as a socially minor figure — Mrs Packletide\'s paid companion — but becomes the character who ultimately controls the story\'s outcome.\n\nEvidence: She is the only person to notice and state plainly that Mrs Packletide shot the goat, not the tiger. Rather than exposing this immediately, she waits and later uses her knowledge to blackmail Mrs Packletide into buying her an expensive weekend cottage, delivering her demand with calm, almost casual understatement.\n\nConclusion: Miss Mebbin\'s quiet, calculating manipulation of the situation reverses the expected power dynamic between employer and companion, and provides the story\'s final, sharpest irony: Mrs Packletide\'s vanity ends up enriching the one person who knows the truth about her.'
     },
     {
       category: 'long',
-      prompt: 'How did Louisa Mebbin blackmail Mrs Packletide?',
-      answer: 'A few days after the ball Mrs Packletide gave in honour of her tiger triumph, Louisa Mebbin observed that "how amused every one would be if they knew what really happened". Asked what she meant, she reminded Mrs Packletide of the truth — that she had shot the goat and frightened the tiger to death. Mrs Packletide protested that no one would believe it, but Miss Mebbin calmly noted that Loona Bimberton would. Mrs Packletide\'s face settled on an unbecoming shade of greenish white as she asked, "You surely wouldn\'t give me away?" Miss Mebbin, with seeming irrelevance, remarked that she had seen a week-end cottage near Dorking she would like to buy — six hundred and eighty pounds, freehold — only she happened not to have the money. The bargain was struck, and in time Miss Mebbin\'s pretty cottage, christened "Les Fauves" and gay with tiger-lilies, became the wonder and admiration of her friends, who marvelled at how she managed it. Mrs Packletide never shot again.'
+      prompt: 'Explain the significance of the rivalry between Mrs Packletide and Loona Bimberton to the plot.',
+      answer: 'Structured answer:\n\nIntroduction: The rivalry between Mrs Packletide and Loona Bimberton is the engine that drives every event in the story, from the decision to hunt a tiger to the final blackmail.\n\nEvidence: Mrs Packletide\'s tiger hunt is motivated entirely by her wish to outshine Loona\'s recent flight with an Algerian aviator; she plans a lunch party and a brooch gift specifically to humiliate Loona with her supposed achievement; and Loona\'s cold, restrained reaction — declining the party, sending a stiff thank-you note — confirms that she recognises and resents having been outdone.\n\nConclusion: The rivalry reveals how much of high-society behaviour in Saki\'s satirical world is governed by petty one-upmanship rather than genuine achievement or friendship, making the entire elaborate hunting episode ultimately a hollow performance for an audience of one envied rival.'
     },
     {
       category: 'long',
-      prompt: 'Value question: What does the story teach us about vanity and jealousy?',
-      answer: 'The story is a fable about the cost of vanity. Mrs Packletide does not need a tiger-skin; she needs to be seen to have one, because Loona Bimberton has had a moment of glory in an aeroplane. Jealousy persuades her to spend a thousand rupees, to accept a fake triumph, and then to pay six hundred and eighty pounds of blackmail to keep the fraud secret. In the end she has less than she began with: her purse is lighter, her honour is mortgaged to her paid companion, and her "triumph" is hollow. The lesson is that jealousy makes us pay for things we do not need, that rivals are seldom as impressed as we fear, and that the person who lives for the approval of others will never be satisfied. Contentment, the story suggests, is the only real economy.'
-    },
-    {
-      category: 'long',
-      prompt: 'How does Saki use irony and satire in the story?',
-      answer: 'Saki builds the story on dramatic irony: the reader knows the tiger died of fright while the world believes Mrs Packletide shot it. Every part of the "triumph" is false — the shot missed, the glory is unearned, the photographs are lies — and yet the fiction succeeds completely, because everyone involved has a price. The satire is aimed at Edwardian high society, which treats a dangerous hunt as a fashion accessory and measures people by their press photographs; at the villagers, who gladly sell the truth for a thousand rupees; and at Louisa Mebbin, the "paid companion" who quietly outbids everyone and ends up the real victor. The final irony is delicious: Mrs Packletide, who risked everything to impress her rival, ends the story no longer hunting, with nothing to show but the heavy "incidental expenses" — while Miss Mebbin, the least glamorous person in the tale, walks away with the cottage of her dreams.'
-    },
-    {
-      category: 'long',
-      prompt: 'Why can Louisa Mebbin be called the real winner of the story?',
-      answer: 'Louisa Mebbin wins because she understands the game everyone else is playing without knowing it. Mrs Packletide hunts for glory; Loona Bimberton glories in her flight; the villagers hunt for money. Miss Mebbin, by contrast, hunts for nothing but a fair price — she is the story\'s only practical person, with a "protective elder-sister attitude towards money". She notices what nobody else does (that the tiger has no bullet wound), she assesses the value of her silence correctly (a cottage, six hundred and eighty pounds), and she conducts her blackmail so pleasantly that her friends can only wonder "how Louisa manages to do it". In a story where everyone trades the truth for something, she trades it for the best price and keeps her hands clean. The others end poorer or humiliated; Miss Mebbin ends with a beautiful cottage — proof that in this society, the person who understands money best walks away with everything.'
+      prompt: 'What is the central message of "Mrs Packletide\'s Tiger" about status and appearances in society?',
+      answer: 'Structured answer:\n\nIntroduction: At its core, the story is a satire on a society where social status depends more on appearances and performance than on genuine merit or honesty.\n\nEvidence: Mrs Packletide goes to extraordinary lengths — paying a thousand rupees, staging a fraudulent hunt, buying press coverage through appearances, hosting parties — purely to construct an image of bravery she does not possess. The villagers willingly falsify the story for money, and even Mrs Packletide\'s ultimate downfall, the blackmail, arises purely from her fear of losing face rather than any moral reckoning.\n\nConclusion: Saki\'s message is that a society obsessed with appearances rewards performance over substance, but that such performances remain permanently fragile, since they depend entirely on the silence of anyone who knows the truth.'
     }
   ],
   quizQuestions: [
-    {
-      question: 'Who wrote "Mrs Packletide\'s Tiger"?',
-      options: ['O. Henry', 'Saki (H.H. Munro)', 'Ruskin Bond', 'A.J. Cronin'],
-      correct_index: 1,
-      explanation: 'The story is by Saki, the pen name of Hector Hugh Munro.'
-    },
-    {
-      question: 'Mrs Packletide wanted to shoot a tiger to:',
-      options: ['protect the villagers', 'outshine Loona Bimberton', 'sell the skin', 'please her husband'],
-      correct_index: 1,
-      explanation: 'She wanted to counter Loona Bimberton\'s recent aeroplane flight with an Algerian aviator.'
-    },
-    {
-      question: 'How much did Mrs Packletide offer the villagers for the hunt?',
-      options: ['a hundred rupees', 'five hundred rupees', 'a thousand rupees', 'ten thousand rupees'],
-      correct_index: 2,
-      explanation: 'She offered a thousand rupees to arrange a safe tiger hunt.'
-    },
-    {
-      question: 'Who was Louisa Mebbin?',
-      options: ['Mrs Packletide\'s rival', 'Mrs Packletide\'s paid companion', 'the village headman\'s wife', 'a hunter'],
-      correct_index: 1,
-      explanation: 'Louisa Mebbin was Mrs Packletide\'s paid companion, obsessed with money.'
-    },
-    {
-      question: 'The tiger died because:',
-      options: ['of a bullet wound', 'of heart failure caused by the rifle\'s report', 'of old age alone', 'the goat attacked it'],
-      correct_index: 1,
-      explanation: 'The bullet killed the goat; the tiger died of heart failure, frightened by the loud report.'
-    },
-    {
-      question: 'What did Miss Mebbin demand to keep the secret?',
-      options: ['a thousand rupees', 'a week-end cottage near Dorking', 'a tiger-claw brooch', 'a luncheon party'],
-      correct_index: 1,
-      explanation: 'She wanted a week-end cottage near Dorking, six hundred and eighty pounds freehold.'
-    },
-    {
-      question: 'Miss Mebbin named her cottage:',
-      options: ['"Les Fleurs"', '"Les Fauves"', '"The Wild Beasts"', '"Tiger Lodge"'],
-      correct_index: 1,
-      explanation: 'The cottage was christened "Les Fauves" and was gay with tiger-lilies in summer.'
-    },
-    {
-      question: 'What did Loona Bimberton refuse to look at for weeks?',
-      options: ['her garden', 'illustrated papers', 'her mirror', 'Mrs Packletide\'s house'],
-      correct_index: 1,
-      explanation: 'Jealous of Mrs Packletide\'s fame, Loona refused to look at illustrated papers for weeks.'
-    },
-    {
-      question: 'Why did the villagers support Mrs Packletide\'s claim of shooting the tiger?',
-      options: ['they loved her', 'they were anxious for their thousand rupees', 'they feared her', 'they did not see the tiger'],
-      correct_index: 1,
-      explanation: 'The villagers gladly connived at the fiction because they were anxious for their thousand rupees.'
-    },
-    {
-      question: 'Mrs Packletide gave up big-game shooting because:',
-      options: ['she was afraid of tigers', '"the incidental expenses are so heavy"', 'she was too old', 'Loona advised her'],
-      correct_index: 1,
-      explanation: 'The blackmail cost her a fortune, so she confided that the incidental expenses were too heavy.'
-    },
-    {
-      question: 'Where did Mrs Packletide\'s photograph appear?',
-      options: ['in a hunting journal only', 'from the Texas Weekly Snapshot to the Novoe Vremya', 'in no paper at all', 'in school magazines'],
-      correct_index: 1,
-      explanation: 'Her pictured fame reached from the Texas Weekly Snapshot to the illustrated Monday supplement of the Novoe Vremya.'
-    },
-    {
-      question: 'What did Mrs Packletide send Loona Bimberton as a gift?',
-      options: ['a tiger-skin', 'a tiger-claw brooch', 'a week-end cottage', 'an aeroplane ticket'],
-      correct_index: 1,
-      explanation: 'She sent Loona a tiger-claw brooch, which Loona acknowledged with a cold letter of thanks.'
-    }
+    { unit_id: 'mrs-packletides-tiger', question: 'Why did Mrs Packletide want to shoot a tiger?', options: ['She loved hunting as a sport', 'She wanted to outdo her rival Loona Bimberton', 'She needed money from the skin', 'The government asked her to'], correct_index: 1, explanation: 'Her motive was purely social rivalry — she wanted to outshine Loona Bimberton\'s recent flight with an Algerian aviator.', topic: 'plot' },
+    { unit_id: 'mrs-packletides-tiger', question: 'How much did Mrs Packletide offer for a risk-free tiger hunt?', options: ['Five hundred rupees', 'One thousand rupees', 'Two thousand rupees', 'Six hundred and eighty rupees'], correct_index: 1, explanation: 'She offered one thousand rupees for the opportunity to shoot a tiger without much risk or exertion.', topic: 'plot' },
+    { unit_id: 'mrs-packletides-tiger', question: 'What did Mrs Packletide\'s bullet actually strike during the hunt?', options: ['The tiger\'s leg', 'A tree', 'The goat tethered as bait', 'Nothing at all'], correct_index: 2, explanation: 'Louisa Mebbin points out that the bullet actually struck the goat, not the tiger, which had died separately of fright.', topic: 'plot' },
+    { unit_id: 'mrs-packletides-tiger', question: 'What was the real cause of the tiger\'s death?', options: ['It was poisoned', 'It died of heart failure from the gunshot noise, hastened by old age', 'It was killed by villagers earlier', 'It drowned in a river'], correct_index: 1, explanation: 'The narrative reveals the elderly tiger died of heart failure brought on by the shock of the gunshot, accelerated by senile decay.', topic: 'plot' },
+    { unit_id: 'mrs-packletides-tiger', question: 'Who was Louisa Mebbin in relation to Mrs Packletide?', options: ['Her sister', 'Her paid companion', 'Her daughter', 'A village guide'], correct_index: 1, explanation: 'Louisa Mebbin was Mrs Packletide\'s paid companion, present at the hunt as a witness.', topic: 'character' },
+    { unit_id: 'mrs-packletides-tiger', question: 'What gift did Mrs Packletide give Loona Bimberton?', options: ['A silver necklace', 'A tiger-claw brooch', 'A photograph album', 'A pair of gloves'], correct_index: 1, explanation: 'Mrs Packletide gave Loona a tiger-claw brooch, part of her plan to flaunt her supposed hunting triumph.', topic: 'plot' },
+    { unit_id: 'mrs-packletides-tiger', question: 'What costume did Mrs Packletide wear to a fancy-dress ball to celebrate her triumph?', options: ['A tiger costume', 'Diana, goddess of the hunt', 'A soldier\'s uniform', 'An Egyptian queen'], correct_index: 1, explanation: 'She attended the ball dressed as Diana, the Greek goddess associated with hunting, extending her performance of triumphant huntress.', topic: 'plot' },
+    { unit_id: 'mrs-packletides-tiger', question: 'What suggestion did Clovis make that Mrs Packletide refused to follow?', options: ['Publishing a hunting memoir', 'A "primeval dance party" where guests wore skins of animals they had killed', 'Hunting a lion next', 'Selling the tiger skin'], correct_index: 1, explanation: 'Clovis jokingly proposed a "primeval dance party," and Mrs Packletide, despite embracing other displays, drew the line at this idea.', topic: 'plot' },
+    { unit_id: 'mrs-packletides-tiger', question: 'How did Louisa Mebbin blackmail Mrs Packletide?', options: ['By threatening to sell the tiger skin herself', 'By threatening to reveal that the goat, not the tiger, had been shot', 'By demanding a share of the newspaper money', 'By threatening to tell the villagers'], correct_index: 1, explanation: 'Miss Mebbin threatened to expose that Mrs Packletide had actually shot the goat, forcing her to buy Miss Mebbin a cottage for silence.', topic: 'plot' },
+    { unit_id: 'mrs-packletides-tiger', question: 'What did Miss Mebbin name her new weekend cottage, and what did she plant in its garden?', options: ['"Les Fauves," with tiger lilies', '"Le Bijou," with roses', '"The Den," with ferns', '"Packletide House," with sunflowers'], correct_index: 0, explanation: 'She named the cottage "Les Fauves" and planted tiger lilies in its garden borders, a wry, ironic touch given the story behind her windfall.', topic: 'plot' },
+    { unit_id: 'mrs-packletides-tiger', question: 'What reason does Mrs Packletide give friends for giving up big-game shooting, with reference to the story\'s irony?', options: ['She says hunting is cruel', 'She says the incidental expenses are too heavy — a veiled reference to the blackmail cost', 'She says she prefers photography now', 'She says tigers are now protected by law'], correct_index: 1, explanation: 'Her remark about "heavy incidental expenses" is deeply ironic, concealing the true reason: the huge cost of Miss Mebbin\'s continued silence.', topic: 'theme' }
   ]
 };

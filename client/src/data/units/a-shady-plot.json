@@ -11,384 +11,374 @@
   {
    "id": 1,
    "category": "summary",
-   "prompt": "Part 1 — The writer in trouble",
-   "answer": "John Hallock is a writer who earns his living by writing ghost stories for Jenkin's magazine — though he dislikes the task and finds it hard to invent plots. His publisher, Jenkins, is pressing him for a new story, and John sits at his desk, unable to think of anything. Suddenly a ghost materialises before him — an owl-eyed, unattractive female spirit. She is part of \"The Writer's Inspiration Bureau\": ghosts like her have been supplying writers with their plots, sitting on their shoulders and whispering ideas.",
-   "notes": null,
+   "prompt": "Part 1 — A writer in need of a plot",
+   "answer": "John Hallock is a writer under pressure from his editor, Jenkins, to produce another ghost story for the magazine, since ghost stories are what readers currently want and Hallock has a reputation for writing convincing supernatural fiction. The trouble is that Hallock has no idea what to write about; he has no plot in mind at all, yet he cannot refuse, since this magazine is the only one that regularly publishes his work. Sitting alone in his study trying to force inspiration, he begins talking to himself out loud in frustration — and is startled when a voice actually answers him. Gradually, an entire figure takes shape before him: a tall, angular woman with prominent, fish-like eyes behind heavy spectacles, her hair pulled into a tight knot, who introduces herself as a ghost named Helen.",
+   "notes": "Sets up the premise: writer's block leading to a supernatural visitor.",
    "sortOrder": 1
   },
   {
    "id": 2,
    "category": "summary",
-   "prompt": "Part 2 — The ghost on strike",
-   "answer": "The ghost, Helen, tells John that the ghosts are on strike. Too many people have taken to using Ouija boards, summoning spirits for silly questions, and the ghosts are exhausted and resent being treated as entertainers. Until people give up their Ouija boards, the Inspiration Bureau will supply no more plots. Helen asks John to use his influence to stop his friends from using Ouija boards. John is horrified, therefore, when his wife Lavinia comes home and proudly announces that she has bought an Ouija board.",
-   "notes": null,
+   "prompt": "Part 2 — Helen explains the Writers' Inspiration Bureau and the ghosts' strike",
+   "answer": "Helen explains that she was once a writer herself, in her earthly life, before becoming what she now is; in the world of spirits, she and others like her formed an organisation called the \"Writers' Inspiration Bureau,\" whose purpose is to visit struggling writers like Hallock and help shape their ideas into workable stories. However, Helen tells him about a growing problem: the ghosts have become fed up with being constantly and carelessly summoned at all hours by people playing with Ouija boards, and as a result, the ghosts of the Bureau are threatening to go on strike, refusing to help any writer, unless the practice of using Ouija boards is stopped. Helen asks Hallock to use his influence to persuade his friends and acquaintances to give up their Ouija boards, promising to help him with his story if he succeeds.",
+   "notes": "Introduces the Ouija-board strike as the central complication.",
    "sortOrder": 2
   },
   {
    "id": 3,
    "category": "summary",
-   "prompt": "Part 3 — The Ouija board party",
-   "answer": "Lavinia, who loves new fashions and fads, invites her friends to a Ouija board party at their house. John is forced to take part, dreading what the ghost had warned him about. During the séance the board spells out strange words — and to John's horror, the name \"Helen\" appears, along with words that make him seem a traitor to his wife. Lavinia, already suspicious, now believes her husband is having an affair with a woman named Helen. She decides to leave him.",
-   "notes": null,
+   "prompt": "Part 3 — The Ouija board party and Lavinia's suspicion",
+   "answer": "Unfortunately for Hallock, his own wife Lavinia has recently purchased an Ouija board and has organised a party specifically to use it, dragging her reluctant husband along to take part. During the session, the board repeatedly spells out the name \"Helen,\" and other guests begin reporting that the board keeps calling for \"Hallock.\" Miss Hinkle, one of the guests, learns from the board that Hallock is apparently a \"traitor,\" being called for by a woman named Helen — information that immediately makes Lavinia and the other women present suspicious that Hallock is secretly involved with another woman. Hallock, who cannot explain the situation without revealing his supernatural encounter and sounding insane, is left humiliated and unable to defend himself as his wife grows increasingly cold and accusing toward him throughout the evening.",
+   "notes": "Comic complication: the ghost's name creates a misunderstanding about infidelity.",
    "sortOrder": 3
   },
   {
    "id": 4,
    "category": "summary",
-   "prompt": "Part 4 — The misunderstanding cleared",
-   "answer": "As Lavinia packs to leave, Helen appears to her. The ghost explains who she really is — the spirit who had been helping John with his stories — and tells her that the name on the Ouija board was hers, not the name of any earthly rival. Lavinia's misunderstanding is cleared, and she and John are reconciled. Gladolia, the terrified maid, declares the Ouija board a \"hoodoo\" and refuses to stay. The board is thrown into the fire, and John, delighted at the turn of events, at last has the plot for his new ghost story.",
-   "notes": null,
+   "prompt": "Part 4 — Resolution and the completed story",
+   "answer": "The next morning, Hallock finds his wife gone and a note slipped under his door: Lavinia has left him, declaring she is returning to her grandmother's house and that her lawyer will be in touch. Devastated, Hallock wishes himself dead, at which point Helen reappears and reveals that she had, in fact, been sent to ensure that Lavinia would give up the Ouija board for good — the entire misunderstanding at the party had been engineered as part of that plan. When Lavinia herself later returns and finally sees Helen standing behind her husband, Helen boldly confirms her own identity and explains the truth to Lavinia, who is left mortified at having wrongly accused her husband. With the Ouija board discarded for good and peace restored between the couple, Helen's mission is complete, and the ghosts of the Writers' Inspiration Bureau call off their strike. Hallock, meanwhile, finally has the vivid, first-hand ghost story he needed all along — the very events he has just lived through become his next assignment.",
+   "notes": "Ties together the strike plot and the marital misunderstanding; ironic ending.",
    "sortOrder": 4
   },
   {
    "id": 5,
    "category": "theme",
-   "prompt": "Superstition and the craze for the supernatural",
-   "answer": "The story satirises the fashion for spiritualism and Ouija boards. Lavinia buys a board because it is the latest trend, her friends gather for séances as a party game, and the ghosts themselves go on strike because they are tired of being summoned for trivial questions. The theme mocks blind credulity: people who play with forces they do not understand — and the Ouija board, meant to be harmless fun, nearly destroys John's marriage through a mere misunderstanding.",
-   "notes": null,
+   "prompt": "Humour through the supernatural and the everyday",
+   "answer": "Elsie Brown builds the story's comedy by placing a whimsical supernatural premise — a ghost organisation threatening a labour \"strike\" against being summoned — directly into the mundane domestic world of a writer and his wife's social gatherings. The ghost Helen behaves less like a frightening spectre and more like an exasperated professional colleague with grievances about working conditions, while the human characters react to supernatural events with very ordinary emotions like jealousy and suspicion. This blending of the fantastic and the domestic is the source of the story's light, satirical humour.",
+   "notes": "",
    "sortOrder": 5
   },
   {
    "id": 6,
    "category": "theme",
-   "prompt": "Trust and misunderstanding in marriage",
-   "answer": "The story turns on a domestic misunderstanding. Lavinia's suspicion that John is involved with a woman named Helen is built entirely on the words spelled out by the Ouija board — a few letters that are, in truth, the name of a ghost. Because she trusts the board more than her husband, the misunderstanding grows until she packs to leave. The theme teaches the value of trust and communication: had Lavinia asked John directly, the whole storm could have been avoided. Superstition, the story suggests, feeds on mistrust.",
-   "notes": null,
+   "prompt": "Misunderstanding and miscommunication in marriage",
+   "answer": "The central conflict of the story's middle section arises purely from misunderstanding: Lavinia and her friends interpret the Ouija board's references to \"Helen\" as evidence of Hallock's infidelity, when the truth is entirely supernatural and, ultimately, innocent. Hallock's inability to explain the real situation without sounding delusional traps him in silence, allowing the misunderstanding to escalate unnecessarily. The story gently satirises how quickly trust can be shaken by circumstantial, incomplete information, and how communication breakdowns — rather than any real wrongdoing — can threaten a marriage.",
+   "notes": "",
    "sortOrder": 6
   },
   {
    "id": 7,
    "category": "theme",
-   "prompt": "The writer's struggle for inspiration",
-   "answer": "John Hallock is a reluctant writer whose inspiration literally comes from ghosts — the members of the \"Writer's Inspiration Bureau\" who whisper plots into writers' ears. When the ghosts go on strike, John is helpless before his blank page. The theme satirises the writing life: inspiration is mysterious, unreliable, and often felt to come from outside oneself. The story's joke is that John's supernatural helpers are as real to him as his publisher's demands — and that his best story arrives precisely when he stops trying to force it.",
-   "notes": null,
+   "prompt": "Satire of fads and the supernatural craze",
+   "answer": "The story pokes gentle fun at the real-world popularity of Ouija boards and séances as a fashionable social pastime, portraying Lavinia's enthusiasm for the board as a shallow social fad rather than genuine spiritual interest. By imagining the perspective of the \"ghosts\" themselves, who are simply annoyed at being disturbed for entertainment, Elsie Brown inverts the usual horror-story relationship between the living and the dead, using it to mock the casual, thoughtless way such supernatural practices were treated as parlour amusement.",
+   "notes": "",
    "sortOrder": 7
   },
   {
    "id": 8,
-   "category": "character",
-   "prompt": "John Hallock",
-   "answer": "John Hallock is the narrator, a writer of ghost stories for Jenkin's magazine, though he has little love for the genre and struggles for plots. He is a mild, hen-pecked husband, afraid of his fashionable wife, and dependent for his inspiration on the ghost Helen, who supplies him with plots. He is honest and good-natured — caught between his publisher's demands, his wife's suspicions and the demands of the striking ghosts. His great moment comes when he simply tells Lavinia the truth, and the misunderstanding dissolves.",
-   "notes": null,
+   "category": "theme",
+   "prompt": "Creative inspiration born from lived experience",
+   "answer": "The story ends with a neat, ironic twist: Hallock, who spent the entire story unable to invent a ghost story, discovers that the very supernatural chaos he has just personally lived through — Helen's visit, the Ouija board party, his wife's near-departure — is itself the perfect ghost story. Elsie Brown suggests that genuine, vivid inspiration often comes not from forced invention but from real, lived (however extraordinary) experience, closing the story with a satisfying sense of narrative completeness.",
+   "notes": "",
    "sortOrder": 8
   },
   {
    "id": 9,
    "category": "character",
-   "prompt": "Lavinia",
-   "answer": "Lavinia is John's wife — pretty, fashionable and given to the latest fads, with an alarming tendency to spend money on new trends. It is she who buys the Ouija board and organises the séance party, and it is her ready suspicion, fed by the board's messages, that nearly breaks the marriage. Yet she is not unkind: her jealousy springs from love, and once Helen explains the truth, she is reconciled at once, and the board goes into the fire. She represents the human weakness for superstition and the strength of a loving heart that can forgive.",
-   "notes": null,
+   "prompt": "John Hallock",
+   "answer": "John Hallock is a professional writer struggling under pressure from his editor to produce a new ghost story despite having no plot in mind. He is generally passive and easily overwhelmed by the situations around him — unable to refuse Jenkins's demand, unable to explain the truth to his suspicious wife, and largely reactive to Helen's instructions throughout the story. His helplessness in the face of both the ghostly \"strike\" crisis and his own crumbling marriage provides much of the story's comedy, and his eventual \"reward\" — gaining a true story to write from his own chaotic experience — resolves his professional dilemma in an ironic, satisfying way.",
+   "notes": "",
    "sortOrder": 9
   },
   {
    "id": 10,
    "category": "character",
-   "prompt": "Helen, the ghost",
-   "answer": "Helen is an owl-eyed, unattractive ghost, a member of \"The Writer's Inspiration Bureau\" who supplies plots to writers. She appears to John when he is stuck, materialising in parts — a hand, then a face — like a moving-picture cartoon. She is sharp-tongued and fed up: the ghosts have gone on strike because people abuse Ouija boards. Yet she is friendly to John and finally saves his marriage by revealing herself to Lavinia. She is a comic figure — a ghost who is more like a harassed office worker than a spirit of terror.",
-   "notes": null,
+   "prompt": "Helen (the ghost)",
+   "answer": "Helen is a ghost who appears to Hallock in his study, describing herself as a former writer now working for the \"Writers' Inspiration Bureau,\" an organisation of spirits who help living writers develop their stories. She is depicted with a distinctive, slightly comic physical description — tall, angular, with prominent eyes behind heavy spectacles and hair in a tight knot — and speaks with businesslike, matter-of-fact authority rather than menace. Helen is ultimately revealed to be working deliberately, using the misunderstanding at the Ouija board party as a calculated strategy to force Lavinia to give up the board for good, showing her to be resourceful and purposeful rather than simply a passive supernatural visitor.",
+   "notes": "",
    "sortOrder": 10
   },
   {
    "id": 11,
    "category": "character",
-   "prompt": "Gladolia",
-   "answer": "Gladolia is the Hallocks' maid, a minor but memorable figure. She is terrified of the Ouija board and its works, declaring it a \"hoodoo\" and refusing to stay in the house while it is used. Her simple, fearful faith serves as comic contrast to the fashionable credulity of Lavinia and her friends — and as the story's sly comment: the least educated person in the tale is the one who most sensibly refuses to play with the supernatural.",
-   "notes": null,
+   "prompt": "Lavinia (Hallock's wife)",
+   "answer": "Lavinia is Hallock's wife, whose enthusiasm for her newly purchased Ouija board sets the story's central complication in motion. She organises a party specifically to use the board and drags her reluctant husband into participating. When the board repeatedly summons the name \"Helen\" in connection with her husband, Lavinia grows suspicious and hurt, ultimately leaving him a note announcing she is returning to her grandmother's house. Her willingness to believe the worst based on incomplete, supernatural \"evidence\" reflects the story's gentle satire of jealousy and miscommunication, though she is ultimately reconciled with Hallock once Helen reveals the truth directly to her.",
+   "notes": "",
    "sortOrder": 11
   },
   {
    "id": 12,
-   "category": "value",
-   "prompt": "Trust your loved ones before hearsay",
-   "answer": "The story teaches the value of trust in relationships. Lavinia believes the letters on a Ouija board over the word of her own husband, and her misplaced suspicion nearly ends the marriage. The lesson: doubt based on superstition or gossip is destructive; love is built on faith in one another. Ask, speak and listen — the truth, as the story shows, is usually far simpler and more innocent than suspicion imagines.",
-   "notes": null,
+   "category": "character",
+   "prompt": "Jenkins",
+   "answer": "Jenkins is Hallock's editor, who demands another ghost story from him for the magazine, insisting it must be something genuinely frightening because that is what readers currently want. Jenkins believes Hallock is particularly suited to writing convincing ghost stories, ironically remarking that his ghosts feel like \"live propositions.\" Though a relatively minor character who appears mainly at the story's opening, Jenkins's demand is the initial pressure that sets the entire plot in motion, since without it Hallock would never have been desperately seeking inspiration in the first place.",
+   "notes": "",
    "sortOrder": 12
   },
   {
    "id": 13,
    "category": "value",
-   "prompt": "Do not dabble in what you do not understand",
-   "answer": "The story cautions against playing with forces one does not control. The Ouija board is taken up as a party amusement, yet it disrupts a household, terrifies the maid, and nearly ruins a marriage — all on the strength of letters that mean nothing. The value lesson: superstition and credulity make us fools; reason, patience and honest conversation solve what magic cannot. The ghosts, after all, were on strike against being summoned by the credulous.",
-   "notes": null,
+   "prompt": "What does the story teach about jumping to conclusions based on incomplete information?",
+   "answer": "The story shows how quickly trust and harmony can be disrupted when people act on partial or misleading evidence rather than seeking the full truth. Evidence: Lavinia and her friends immediately assume Hallock's infidelity purely because the Ouija board repeats the name \"Helen,\" without any other supporting evidence, nearly ending the marriage over a misunderstanding. The lesson is to seek clarity and communication before allowing suspicion to escalate into serious consequences.",
+   "notes": "",
    "sortOrder": 13
   },
   {
    "id": 14,
-   "category": "short",
-   "prompt": "What did John Hallock write for a living?",
-   "answer": "He wrote ghost stories for Jenkin's magazine, though he did not enjoy writing them and struggled for plots.",
-   "notes": null,
+   "category": "value",
+   "prompt": "What does the story suggest about respecting others' boundaries and requests, even in unfamiliar or unconventional circumstances?",
+   "answer": "The ghosts' grievance in the story — being disturbed constantly and carelessly by Ouija board users without regard for their own \"wishes\" — is treated humorously but carries a real point about respecting the boundaries of others, even when their perspective is unfamiliar or their objections seem strange. Evidence: the ghosts organise a strike specifically because their repeated pleas to stop being casually summoned go unheeded until direct, decisive action is taken. The lesson, gently delivered through comedy, is that persistent disregard for others' expressed discomfort eventually provokes real consequences.",
+   "notes": "",
    "sortOrder": 14
   },
   {
    "id": 15,
    "category": "short",
-   "prompt": "Why were the ghosts on strike?",
-   "answer": "Because too many people were using Ouija boards, summoning spirits for trivial questions, and the ghosts were exhausted and fed up.",
+   "prompt": "Why was John Hallock under pressure at the beginning of the story?",
+   "answer": "His editor, Jenkins, demanded a new ghost story for the magazine, but Hallock had no plot in mind and could not think of anything to write.",
    "notes": null,
    "sortOrder": 15
   },
   {
    "id": 16,
    "category": "short",
-   "prompt": "How did Helen appear to John?",
-   "answer": "She materialised in parts — first a hand, then other body parts — like a moving-picture cartoon, and was owl-eyed and unattractive.",
+   "prompt": "How did Helen the ghost first appear to Hallock?",
+   "answer": "While Hallock was talking to himself aloud in frustration, a voice answered him, and gradually the figure of a tall, angular woman with prominent spectacled eyes took shape before him.",
    "notes": null,
    "sortOrder": 16
   },
   {
    "id": 17,
    "category": "short",
-   "prompt": "What was \"The Writer's Inspiration Bureau\"?",
-   "answer": "The ghosts' organisation that supplied writers with their plots, sitting on their shoulders and whispering ideas.",
+   "prompt": "What organisation did Helen say she belonged to, and what was its purpose?",
+   "answer": "She belonged to the \"Writers' Inspiration Bureau,\" a group of ghosts who help writers who lack ideas by giving shape to their stories.",
    "notes": null,
    "sortOrder": 17
   },
   {
    "id": 18,
    "category": "short",
-   "prompt": "Who bought the Ouija board?",
-   "answer": "Lavinia, John's wife, who loved new fashions and fads, bought it and organised a séance party with her friends.",
+   "prompt": "Why were the ghosts threatening to go on strike?",
+   "answer": "They were tired of being constantly and carelessly summoned at all hours by people playing with Ouija boards, and wanted the practice stopped.",
    "notes": null,
    "sortOrder": 18
   },
   {
    "id": 19,
    "category": "short",
-   "prompt": "What did the Ouija board spell out at the party?",
-   "answer": "The name \"Helen\" and words that made John seem a traitor, leading Lavinia to suspect him of an affair.",
+   "prompt": "What did Helen ask Hallock to do, and what did she promise in return?",
+   "answer": "She asked him to use his influence to get his friends to stop using Ouija boards, promising to help him with his ghost story if he succeeded.",
    "notes": null,
    "sortOrder": 19
   },
   {
    "id": 20,
    "category": "short",
-   "prompt": "Why did Lavinia decide to leave John?",
-   "answer": "She believed the board's messages meant her husband was unfaithful to her with a woman named Helen.",
+   "prompt": "What happened at the Ouija board party that Lavinia organised?",
+   "answer": "The board repeatedly spelled out the name \"Helen,\" and told Miss Hinkle that Hallock was a \"traitor\" being called for by this woman, arousing suspicion among the guests.",
    "notes": null,
    "sortOrder": 20
   },
   {
    "id": 21,
    "category": "short",
-   "prompt": "How was the misunderstanding cleared?",
-   "answer": "Helen the ghost appeared to Lavinia and explained that she was the spirit who helped John with his stories, not an earthly rival.",
+   "prompt": "How did Lavinia and the other women react to what the board revealed?",
+   "answer": "They suspected Hallock of secretly being involved with another woman named Helen, and Lavinia grew cold and accusing toward her husband.",
    "notes": null,
    "sortOrder": 21
   },
   {
    "id": 22,
    "category": "short",
-   "prompt": "What did Gladolia call the Ouija board?",
-   "answer": "A \"hoodoo\" — she was terrified of it and refused to stay in the house while it was used.",
+   "prompt": "Why could Hallock not simply explain the truth to Lavinia at the party?",
+   "answer": "He could not explain that Helen was a ghost from the Writers' Inspiration Bureau without sounding delusional, so he remained silent and unable to defend himself.",
    "notes": null,
    "sortOrder": 22
   },
   {
    "id": 23,
    "category": "short",
-   "prompt": "How did the story end?",
-   "answer": "Lavinia and John were reconciled, the Ouija board was thrown into the fire, and John at last had the plot for his new ghost story.",
+   "prompt": "What did the note Hallock found the next morning say?",
+   "answer": "It said that Lavinia was leaving him to go back to her grandmother's house and that her lawyer would communicate with him.",
    "notes": null,
    "sortOrder": 23
   },
   {
    "id": 24,
-   "category": "long",
-   "prompt": "Describe John Hallock's encounter with the ghost Helen.",
-   "answer": "John was stuck for a plot, as usual, when the ghost appeared in his study. She took shape slowly and comically — a hand materialising first, then other parts, like the frames of a moving-picture cartoon — until a whole woman stood before him: owl-eyed and far from beautiful, the last thing one would expect of a spirit. She announced that she was part of \"The Writer's Inspiration Bureau\", the organisation through which ghosts supplied writers with their plots by sitting on their shoulders and whispering ideas. Then she made her astonishing complaint: the ghosts were on strike. Modern people had taken up Ouija boards in droves, summoning spirits to answer silly questions, and the ghosts were sick of being treated as entertainers. Until the world gave up its Ouija boards, she warned, no more inspiration would flow. She asked John to discourage his friends from using the boards — a request that filled him with dread, for at that very moment his wife Lavinia was arriving home with a brand-new Ouija board she had bought.",
+   "category": "short",
+   "prompt": "What did Helen reveal when she reappeared after Lavinia left?",
+   "answer": "She revealed that she had been sent to make sure Lavinia gave up the Ouija board for good, and that the misunderstanding at the party had been part of achieving that goal.",
    "notes": null,
    "sortOrder": 24
   },
   {
    "id": 25,
-   "category": "long",
-   "prompt": "How did the Ouija board party nearly wreck John's marriage?",
-   "answer": "Lavinia, delighted with her fashionable new possession, invited her friends for a Ouija board séance. John, remembering the ghost's warning, was forced to join in, hoping nothing would go wrong. But as the friends sat round the board, it began to spell out words — and to John's horror, they were about him: the name \"Helen\" appeared, together with messages that branded him a traitor. To Lavinia, the meaning was plain: her husband was involved with a woman named Helen. In an instant the harmless party game turned into a domestic crisis. Lavinia, convinced of his guilt, packed her things and prepared to leave him. John, who could hardly explain that Helen was a ghost who supplied him with plots, stood helpless as the séance's idle letters did what no enemy could have done — they set his own wife against him, all on the strength of superstition.",
+   "category": "short",
+   "prompt": "How was the misunderstanding between Hallock and Lavinia finally resolved?",
+   "answer": "Lavinia returned, saw Helen standing behind Hallock, and Helen openly confirmed her own identity and explained the truth, clearing up the suspicion.",
    "notes": null,
    "sortOrder": 25
   },
   {
    "id": 26,
-   "category": "long",
-   "prompt": "Describe the ending of the story. How is the misunderstanding resolved?",
-   "answer": "As Lavinia stood ready to leave, the ghost Helen appeared before her. In that moment the truth came out: Helen explained that she was the spirit of the \"Writer's Inspiration Bureau\" who had been helping John with his ghost stories, and that the name spelled out by the Ouija board was hers — a name from the world of spirits, not the name of any woman in John's life. Lavinia's jealousy, built on a few letters of a party game, collapsed before the absurd, wonderful truth. She and John were reconciled; the misunderstanding that superstition had built, honesty destroyed. Gladolia, the terrified maid, would have nothing more to do with the house's \"hoodoo\" and left her service. The Ouija board was thrown into the fire, and John — delighted to have his wife back, his ghost's strike and his troubles all resolved at once — realised that he had at last found the perfect plot for the ghost story Jenkins had been demanding. The story ends in laughter: the supernatural, treated seriously, had nearly ruined him; treated as the joke it is, it had saved his marriage and his career.",
+   "category": "short",
+   "prompt": "How does the story end for Hallock as a writer?",
+   "answer": "Having lived through the entire strange episode with Helen and the Ouija board, Hallock finally has a vivid, genuine ghost story to write for his editor.",
    "notes": null,
    "sortOrder": 26
   },
   {
    "id": 27,
    "category": "long",
-   "prompt": "Value question: What does the story teach us about superstition and trust?",
-   "answer": "The story teaches two related lessons. First, superstition is dangerous because it substitutes noise for sense: the Ouija board spells random letters, yet grown women build a domestic catastrophe on them, and a marriage nearly ends because of a ghost's name. The credulous pay for their credulity, while the sensible maid Gladolia — who simply calls the thing a \"hoodoo\" and keeps away — suffers nothing. Second, the story teaches the value of trust in marriage: Lavinia trusted a board more than her husband, and her suspicion did the work of any enemy. The remedy, as the ending shows, is honesty — the moment John tells the truth and Helen shows herself, every misunderstanding evaporates. The values the story presses on us are these: reason over superstition, trust over suspicion, and plain speech over the whispers of boards and mediums. Play with the supernatural, it warns, and you may find your own plot turned against you.",
+   "prompt": "Describe the character of Helen the ghost and explain her significance to the plot.",
+   "answer": "Structured answer:\n\nIntroduction: Helen is both the story's comic supernatural centrepiece and the character whose actions ultimately resolve its central conflict.\n\nEvidence: She appears to Hallock as a tall, angular figure with prominent spectacled eyes, explaining she belongs to the \"Writers' Inspiration Bureau\" and warning him of a ghosts' strike over Ouija-board misuse. Rather than being a passive visitor, she deliberately allows — or arranges — the misunderstanding at Lavinia's Ouija board party, which frightens Lavinia into abandoning the board permanently. Once this goal is achieved, Helen openly reveals herself to Lavinia and clears Hallock's name.\n\nConclusion: Helen functions less as a conventional horror-story ghost and more as a resourceful, purposeful problem-solver, and her actions drive both the story's comic misunderstanding and its neat resolution.",
    "notes": null,
    "sortOrder": 27
   },
   {
    "id": 28,
    "category": "long",
-   "prompt": "Why can \"A Shady Plot\" be called a humorous ghost story?",
-   "answer": "Most ghost stories aim to frighten; this one aims to amuse, and it does so by turning every convention of the genre upside down. The ghost is not a horror but a harassed worker: Helen is owl-eyed, unattractive, sharp-tongued, and her great news is that the spirits have formed a union and gone on strike against overwork. The hero is not a brave investigator but a hen-pecked writer terrified of his wife. The great mystery is not a curse but a misread Ouija board, and the climax is not a haunting but a marital tiff. Even the ghost's appearance is comic — she materialises bit by bit, \"like watching a moving-picture cartoon\". And the resolution is pure farce: the ghost saves the marriage, the maid resigns over the \"hoodoo\", the board is burned, and the writer gets his plot. The humour lies in the contrast between the grand supernatural machinery — ghosts, séances, inspiration from beyond — and the homely domestic muddle it produces. Elsie Brown proves that the supernatural, treated lightly, is one of the best comic materials in literature.",
+   "prompt": "Discuss how misunderstanding and miscommunication create the central conflict of the story.",
+   "answer": "Structured answer:\n\nIntroduction: \"A Shady Plot\" derives its comic tension almost entirely from a misunderstanding rooted in incomplete information rather than any real wrongdoing.\n\nEvidence: When the Ouija board repeatedly calls the name \"Helen\" in connection with Hallock, Lavinia and her friends immediately assume he is secretly involved with another woman, without seeking any other explanation. Hallock, unable to reveal the true, supernatural cause without appearing insane, remains silent, allowing suspicion to grow until Lavinia leaves him entirely.\n\nConclusion: The story resolves only once Helen directly clarifies the truth to Lavinia, demonstrating how easily unexamined assumptions can escalate into serious consequences, and how open communication — however strange the truth may be — is necessary to prevent lasting harm.",
    "notes": null,
    "sortOrder": 28
+  },
+  {
+   "id": 29,
+   "category": "long",
+   "prompt": "Explain the humour in \"A Shady Plot\" and how Elsie Brown creates it.",
+   "answer": "Structured answer:\n\nIntroduction: Elsie Brown's humour in the story comes from blending an absurd supernatural premise with recognisably human, domestic concerns.\n\nEvidence: The idea of ghosts organising a labour \"strike\" over being disturbed by Ouija boards treats the supernatural with comic, bureaucratic ordinariness rather than horror. Meanwhile, the very human jealousy and suspicion that erupt at Lavinia's party — triggered by nothing more sinister than a ghost's name — show how mundane emotional reactions collide humorously with an extraordinary cause.\n\nConclusion: This contrast between the fantastical and the everyday, combined with the story's neat, self-referential ending in which Hallock's real-life chaos becomes his ghost story, gives \"A Shady Plot\" its light, satirical charm.",
+   "notes": null,
+   "sortOrder": 29
+  },
+  {
+   "id": 30,
+   "category": "long",
+   "prompt": "How does the story's ending resolve both the professional and personal problems that Hallock faces?",
+   "answer": "Structured answer:\n\nIntroduction: The story is carefully constructed so that its two parallel problems — Hallock's need for a ghost story and the threat to his marriage — are resolved simultaneously through the same sequence of events.\n\nEvidence: Helen's intervention, though it temporarily worsens Hallock's domestic situation by causing Lavinia to leave, ultimately achieves its goal of ending the Ouija board practice and, once revealed, restores trust between husband and wife. At the very same time, the extraordinary, first-hand experience Hallock has lived through — a ghost, a strike, a marital crisis, and a supernatural resolution — becomes the very ghost story he had been unable to invent.\n\nConclusion: The story's neat double resolution reflects its central ironic idea that genuine inspiration and personal reconciliation can arise from the same unexpected, chaotic experience.",
+   "notes": null,
+   "sortOrder": 30
   }
  ],
  "quizQuestions": [
   {
    "id": 1,
-   "question": "Who wrote \"A Shady Plot\"?",
+   "question": "What was John Hallock struggling with at the start of the story?",
    "options": [
-    "Elsie Brown",
-    "Saki",
-    "Satyajit Ray",
-    "Paul Stewart"
+    "A financial crisis",
+    "Finding a plot for a ghost story his editor demanded",
+    "A quarrel with Jenkins",
+    "Learning to use a typewriter"
    ],
-   "correct_index": 0,
-   "explanation": "The story is by the American writer Elsie Brown.",
-   "topic": ""
+   "correct_index": 1,
+   "explanation": "Hallock's editor Jenkins demanded a new ghost story, but Hallock had no plot in mind, leaving him stuck for inspiration.",
+   "topic": "plot"
   },
   {
    "id": 2,
-   "question": "John Hallock wrote ghost stories for:",
+   "question": "What organisation did the ghost Helen say she belonged to?",
    "options": [
-    "a school magazine",
-    "Jenkin's magazine",
-    "a newspaper",
-    "a publishing house he owned"
+    "The Spirit Writers' Union",
+    "The Writers' Inspiration Bureau",
+    "The Ghostly Authors' Guild",
+    "The Spectral Story Society"
    ],
    "correct_index": 1,
-   "explanation": "He wrote supernatural stories for Jenkin's magazine, urged on by his publisher Jenkins.",
-   "topic": ""
+   "explanation": "Helen explained she belonged to the \"Writers' Inspiration Bureau,\" a group of ghosts that helps writers develop their stories.",
+   "topic": "plot"
   },
   {
    "id": 3,
-   "question": "The ghost who visited John was named:",
+   "question": "Why were the ghosts threatening to go on strike?",
    "options": [
-    "Lavinia",
-    "Helen",
-    "Gladolia",
-    "Jenkins"
+    "They wanted higher recognition",
+    "They were tired of being carelessly summoned by Ouija board users",
+    "They disliked Hallock's writing",
+    "They wanted better working hours"
    ],
    "correct_index": 1,
-   "explanation": "Helen, an owl-eyed, unattractive ghost, was part of \"The Writer's Inspiration Bureau\".",
-   "topic": ""
+   "explanation": "The ghosts were fed up with being disturbed at all hours by people using Ouija boards for entertainment, prompting the threatened strike.",
+   "topic": "plot"
   },
   {
    "id": 4,
-   "question": "The ghosts went on strike because:",
+   "question": "What did Helen ask Hallock to do to prevent the strike?",
    "options": [
-    "writers paid them too little",
-    "too many people were using Ouija boards",
-    "they were afraid of the dark",
-    "John refused to write"
+    "Write a book about ghosts",
+    "Persuade his friends to stop using Ouija boards",
+    "Destroy his wife's Ouija board immediately",
+    "Publicly announce he had seen a ghost"
    ],
    "correct_index": 1,
-   "explanation": "They were exhausted by being summoned through Ouija boards for trivial questions.",
-   "topic": ""
+   "explanation": "Helen asked Hallock to use his influence to convince people, including his own household, to stop using Ouija boards.",
+   "topic": "plot"
   },
   {
    "id": 5,
-   "question": "Who bought the Ouija board?",
+   "question": "What happened at the Ouija board party that Lavinia organised?",
    "options": [
-    "John Hallock",
-    "Lavinia",
-    "Gladolia",
-    "Jenkins"
+    "The board predicted a lottery win",
+    "The board repeatedly named \"Helen\" and called Hallock a \"traitor\"",
+    "The board revealed a hidden treasure",
+    "Nothing unusual happened"
    ],
    "correct_index": 1,
-   "explanation": "Lavinia, John's wife, bought it because she loved the latest fads.",
-   "topic": ""
+   "explanation": "The board kept spelling out \"Helen\" and told Miss Hinkle that Hallock was a \"traitor,\" sparking suspicion among the guests.",
+   "topic": "plot"
   },
   {
    "id": 6,
-   "question": "At the Ouija board party, the board spelled out the name:",
+   "question": "Why did the party guests suspect Hallock?",
    "options": [
-    "Lavinia",
-    "Helen",
-    "Gladolia",
-    "Jenkins"
+    "He was rude to them",
+    "They thought he was secretly involved with a woman named Helen",
+    "He refused to play the board game",
+    "He confessed to a crime"
    ],
    "correct_index": 1,
-   "explanation": "The name Helen appeared, making John seem a traitor to his suspicious wife.",
-   "topic": ""
+   "explanation": "The repeated appearance of \"Helen\" on the board led Lavinia and the guests to suspect Hallock of infidelity.",
+   "topic": "plot"
   },
   {
    "id": 7,
-   "question": "Lavinia suspected John of:",
+   "question": "What did Lavinia's note say the morning after the party?",
    "options": [
-    "stealing money",
-    "an affair with a woman named Helen",
-    "gambling",
-    "writing lies"
+    "She was joining a theatre group",
+    "She was leaving him and going to her grandmother's, with her lawyer to follow up",
+    "She had gone shopping",
+    "She wanted a divorce lawyer to visit them"
    ],
    "correct_index": 1,
-   "explanation": "The board's messages led her to believe her husband was unfaithful with a woman named Helen.",
-   "topic": ""
+   "explanation": "The note announced that Lavinia was going back to her grandmother's house and that her lawyer would communicate with Hallock.",
+   "topic": "plot"
   },
   {
    "id": 8,
-   "question": "How was the misunderstanding cleared?",
+   "question": "What did Helen reveal when she reappeared after Lavinia left?",
    "options": [
-    "John bought Lavinia a new board",
-    "Helen appeared to Lavinia and explained the truth",
-    "the police intervened",
-    "Gladolia confessed"
+    "That she was actually Lavinia's sister",
+    "That she had been sent to make Lavinia give up the Ouija board for good",
+    "That Jenkins had orchestrated everything",
+    "That the strike had already ended"
    ],
    "correct_index": 1,
-   "explanation": "The ghost revealed herself to Lavinia, clearing John of all suspicion.",
-   "topic": ""
+   "explanation": "Helen explained that her intervention, including the misunderstanding at the party, was meant to ensure Lavinia abandoned the Ouija board permanently.",
+   "topic": "plot"
   },
   {
    "id": 9,
-   "question": "What did Gladolia call the Ouija board?",
+   "question": "How was the misunderstanding between Hallock and Lavinia finally cleared up?",
    "options": [
-    "a blessing",
-    "a hoodoo",
-    "a toy",
-    "a trap"
+    "Hallock wrote her a long letter",
+    "Jenkins explained everything to her",
+    "Helen appeared to Lavinia directly and confirmed her own identity",
+    "Lavinia simply stopped caring"
    ],
-   "correct_index": 1,
-   "explanation": "The terrified maid called it a \"hoodoo\" and refused to stay in the house while it was used.",
-   "topic": ""
+   "correct_index": 2,
+   "explanation": "When Lavinia returned, Helen appeared visibly to her and openly confirmed who she was, clearing up the suspicion of infidelity.",
+   "topic": "plot"
   },
   {
    "id": 10,
-   "question": "At the end of the story, the Ouija board was:",
+   "question": "What is ironic about how the story ends for Hallock as a writer?",
    "options": [
-    "kept in the attic",
-    "thrown into the fire",
-    "returned to the shop",
-    "buried in the garden"
+    "He gives up writing entirely",
+    "The very supernatural chaos he lived through becomes the ghost story he needed to write",
+    "He is fired by Jenkins",
+    "He writes a story about Lavinia's grandmother instead"
    ],
    "correct_index": 1,
-   "explanation": "After the reconciliation, the board was thrown into the fire.",
-   "topic": ""
-  },
-  {
-   "id": 11,
-   "question": "The \"Writer's Inspiration Bureau\" was:",
-   "options": [
-    "a publishing company",
-    "the ghosts' organisation that supplied writers with plots",
-    "a school for writers",
-    "a newspaper office"
-   ],
-   "correct_index": 1,
-   "explanation": "It was the ghosts' organisation that whispered story ideas into writers' ears.",
-   "topic": ""
-  },
-  {
-   "id": 12,
-   "question": "How did Helen appear before John?",
-   "options": [
-    "in a flash of light",
-    "bit by bit, like a moving-picture cartoon",
-    "through the Ouija board",
-    "in a dream"
-   ],
-   "correct_index": 1,
-   "explanation": "Her body took shape in parts — a hand first, then other parts — like the frames of a cartoon.",
-   "topic": ""
+   "explanation": "Having personally experienced the whole episode with Helen, Hallock finally has vivid, first-hand material for the ghost story he had been unable to invent.",
+   "topic": "theme"
   }
  ]
 }

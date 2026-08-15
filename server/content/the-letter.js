@@ -4,223 +4,143 @@ module.exports = {
     book: 'literature-reader',
     type: 'prose',
     title: 'The Letter',
-    author: 'Dhumaketu',
+    author: 'Dhumketu',
     order: 3
   },
   content: [
+    // ---------- SUMMARY ----------
     {
       category: 'summary',
-      prompt: 'Part 1 — The lonely old man',
-      answer: 'Coachman Ali, once a famous shikari and a crackshot, is now an old man alone in the world. His only child, his daughter Miriam, married a soldier and settled far away in Punjab. When Ali realised the pain of separation, he gave up hunting and began to wait for a letter from his daughter. For five years he went to the post office every day, sitting in his corner and watching the clerks sort the letters, hoping for one that would bear Miriam\'s name. The clerks made fun of him, calling out names in mischief and laughing when he hurried to the window.'
+      prompt: 'Part 1 — Coachman Ali and his daily vigil',
+      answer: 'Ali, once a well-known and skilful coachman and a celebrated shikari (hunter) in his younger days, has for five long years walked to the post office every single morning, arriving at dawn before it even opens and staying until the very end of the working day. He is waiting for a letter from his only child, his daughter Miriam, who married a soldier and moved far away, and who has never once written to him since. Ali is the first to arrive each day and the last to leave, going home empty-handed every time, yet his hope never dims. The post office staff, from the postmaster down to the clerks, know him well by sight and consider him mildly mad for his stubborn, unrewarded routine; they frequently mock him, sometimes calling out his name as a joke even when no letter has come.',
+      notes: 'Establishes Ali\'s five-year wait and the staff\'s mockery of him.'
     },
     {
       category: 'summary',
-      prompt: 'Part 2 — The five gold guineas',
-      answer: 'Ali\'s health failed with the passing years, and at last he could no longer walk to the post office. On his final visit, he met the haughty postmaster, who mocked him — "Do you think we\'re going to eat your letter when it comes?" — and called him a pest. Humiliated but still full of faith, Ali gave five gold guineas to the clerk Lakshmi Das and made him promise that if a letter came from Miriam, it should be forwarded to his grave. Then he left, and was never seen again.'
+      prompt: 'Part 2 — Why Ali waits, and the man he used to be',
+      answer: 'The narrator reveals that Ali gave up his old passion for hunting entirely once Miriam left him; the pain of separation from his daughter made him unable to find pleasure any longer in causing suffering to other living creatures. This transformation shows how deeply Miriam\'s absence has changed him — from a sharp, active hunter to a patient, grieving old man whose entire remaining purpose in life is reduced to the daily hope of hearing from her. Despite his advancing age, failing health and the discouragement of the post office staff, neither poor weather nor his own weakening body ever stops him from making the journey to the post office each morning.',
+      notes: 'Ali\'s backstory as a hunter and the effect of separation on his character.'
     },
     {
       category: 'summary',
-      prompt: 'Part 3 — The postmaster learns to feel',
-      answer: 'Time passed. One day the postmaster\'s own daughter fell ill in another town, and he waited anxiously for news of her. As the letters were piled on his table, he snatched up an envelope of the colour and shape he expected — and found it was addressed to Coachman Ali. The letter was from Miriam. For the first time the postmaster understood Ali\'s agony: the haughty temper of the official had left him, laying bare his human heart. He decided to carry the letter to Ali himself.'
+      prompt: 'Part 3 — Ali\'s final visit and his request to Lakshmi Das',
+      answer: 'For several days Ali does not appear at the post office at all, having fallen seriously ill. When he finally does return, he is so weak that he can barely breathe, and the signs of his approaching death are clear to everyone who sees him. He makes his way, with great effort, to ask the postmaster directly for Miriam\'s letter. The postmaster, who is busy and in a hurry, loses his patience and rudely calls Ali "a pest." Wounded but not entirely without hope, Ali does not argue; instead he approaches a clerk, Lakshmi Das, gives him five golden coins, and asks him for one last favour: to deliver Miriam\'s letter, whenever it finally arrives, to his grave. Lakshmi Das agrees. Ali then leaves the post office slowly, turning back repeatedly to gaze at it, his eyes filled with tears of helplessness even though his faith in the letter\'s eventual arrival has still not entirely broken. He is not seen at the post office again.',
+      notes: 'The climactic exchange with the postmaster and the request to Lakshmi Das.'
     },
     {
       category: 'summary',
-      prompt: 'Part 4 — The letter at the grave',
-      answer: 'At five the next morning the postmaster heard a knock at his door and opened it to find Ali — bent on a stick, tears in his eyes, and a light in his eyes so unearthly that the postmaster shrank back in fear. Ali took the letter and disappeared; only the letter lay near the door. Lakshmi Das, arriving, told the postmaster that Ali had died three months ago. That evening the postmaster and Lakshmi Das walked slowly to Ali\'s grave and laid Miriam\'s letter upon it. The postmaster, sitting alone by his charcoal sigri, at last understood that letters carry the essential human worth of life — not mere envelopes and postcards.'
+      prompt: 'Part 4 — The postmaster\'s change of heart and the letter\'s delivery',
+      answer: 'Some time later, the postmaster himself is thrown into the same anguish of separation and waiting when his own daughter falls seriously ill in a distant town, and he becomes desperate for news of her condition. Sorting through the day\'s post in search of his own daughter\'s letter, he happens to come across a letter addressed to Ali from Miriam. Now personally understanding, for the first time, the unbearable pain of waiting for word from a beloved child, the postmaster is overwhelmed with shame and remorse for his past cruelty toward Ali. He learns that Ali has since died. Keeping his promise on Ali\'s behalf, the postmaster personally collects Miriam\'s letter and, together with Lakshmi Das, carries it to Ali\'s grave to lay it there, fulfilling the old man\'s final, humble wish.',
+      notes: 'Resolution: the postmaster\'s transformation and the fulfilment of Ali\'s dying request.'
+    },
+    // ---------- THEME ----------
+    {
+      category: 'theme',
+      prompt: 'The enduring power of a parent\'s love and hope',
+      answer: 'The story\'s central theme is the unbreakable devotion of a parent for a child, sustained across years of silence and disappointment. Ali\'s daily five-year vigil, undertaken despite illness, ridicule and repeated failure, demonstrates a hope that outlives all reasonable expectation, rooted purely in love for his absent daughter Miriam. Even on his deathbed, his final act is not to abandon this hope but to arrange, through Lakshmi Das, for the letter to still reach him symbolically after death. Dhumketu presents this devotion as almost sacred, elevating an ordinary old coachman\'s private grief into something universal and deeply moving.',
+      notes: ''
     },
     {
       category: 'theme',
-      prompt: 'Love and the pain of separation',
-      answer: 'The story\'s central theme is the anguish of separation between parent and child. Coachman Ali, parted from his only daughter Miriam, waits five years for a letter that never comes, and dies still waiting. His love is shown in his daily pilgrimage to the post office and in the five gold guineas he pays to have the letter sent to his grave. The theme teaches that love makes us patient beyond hope — Ali still has faith even when his patience is exhausted.'
+      prompt: 'Empathy born from shared suffering',
+      answer: 'The postmaster\'s transformation from an indifferent, even cruel official into a remorseful man capable of deep compassion occurs only once he is forced to personally experience the same anxious separation that Ali endured for years. Dhumketu suggests that genuine empathy often requires this kind of direct, painful identification with another\'s suffering; abstract sympathy alone was not enough to move the postmaster while he watched Ali\'s daily ritual from a position of professional detachment. His change of heart, though it comes too late for Ali himself, ultimately leads him to fulfil Ali\'s dying wish out of authentic understanding rather than obligation.',
+      notes: ''
     },
     {
       category: 'theme',
-      prompt: 'Empathy — feeling another\'s pain',
-      answer: 'The story turns on the postmaster\'s transformation. He mocks Ali\'s daily visits and calls him a pest, treating letters as mere paper. But when his own daughter falls ill and he waits for news of her, he suddenly understands what Ali suffered. The theme is empathy: we do not understand another\'s grief until we feel a like grief ourselves. The postmaster\'s change — from cold official to warm human being — shows that compassion is the true measure of a person.'
+      prompt: 'Loneliness, ridicule, and quiet dignity',
+      answer: 'Throughout the story Ali is treated by almost everyone around him as an object of mockery — a "mad" old man whose persistence is a source of amusement rather than concern. Dhumketu contrasts this casual cruelty with Ali\'s own quiet dignity: he never lashes out, argues loudly, or abandons his routine in anger, even when directly insulted and called "a pest." His steady, uncomplaining endurance in the face of loneliness and ridicule underscores the story\'s deeper sympathy for the overlooked suffering of the old and forgotten.',
+      notes: ''
     },
     {
       category: 'theme',
-      prompt: 'The human worth of a letter',
-      answer: 'The story celebrates what a letter means to those who love. To Ali, Miriam\'s letter is not paper but his daughter\'s heart; to the postmaster, after his own anguish, every letter contains "a warm, beating heart". The postmaster\'s realisation — that he no longer thinks of letters in terms of envelopes and postcards but sees their essential human worth — is the story\'s climax of feeling. A letter is a lifeline between separated hearts, and those who handle them should do so with reverence.'
+      prompt: 'The irony and tragedy of timing',
+      answer: 'A powerful irony runs through the story: Miriam\'s letter does eventually arrive, proving that Ali\'s five years of faith were not misplaced, but it comes only after his death, making its arrival tragically useless to the man who waited for it his whole remaining life. This cruel timing highlights the fragile, uncertain nature of hope and the way life\'s eventual answers can arrive too late to comfort those who needed them most, while also giving the postmaster\'s final act of delivering the letter to the grave a bittersweet, redemptive quality.',
+      notes: ''
+    },
+    // ---------- CHARACTER ----------
+    {
+      category: 'character',
+      prompt: 'Ali (Coachman Ali)',
+      answer: 'Ali is an old man who, in his younger years, was a renowned and skilful coachman and shikari (hunter). Since his only daughter, Miriam, married a soldier and moved away without writing to him, Ali has abandoned hunting altogether, unable to bear inflicting suffering on other creatures once he has felt the pain of separation himself. For five years he visits the post office every single morning without fail, enduring both illness and public ridicule, sustained purely by hope of a letter from Miriam. His character embodies patient, unconditional parental love; even as death approaches, his final concern is still to somehow receive his daughter\'s letter, arranging with the clerk Lakshmi Das to have it delivered to his grave.',
+      notes: ''
     },
     {
       category: 'character',
-      prompt: 'Coachman Ali',
-      answer: 'Coachman Ali is an old man, once a famous shikari who enjoyed hunting, now broken by loneliness and age. His only child, Miriam, married a soldier and settled in Punjab, and Ali waits five years for a letter from her, visiting the post office every day in all weathers. He endures mockery with dignity, keeps his faith even when his patience is exhausted, and in his last act gives five gold guineas to Lakshmi Das to have Miriam\'s letter sent to his grave. He is a figure of patient, enduring love.'
-    },
-    {
-      category: 'character',
-      prompt: 'The postmaster',
-      answer: 'The postmaster begins as a haughty, impatient official who mocks Ali and calls him a pest, treating letters as mere routine. His transformation comes when his own daughter falls ill in another town and he waits anxiously for her letter. He discovers Miriam\'s letter to Ali, understands at last the old man\'s agony, and decides to deliver it himself. He sees Ali\'s ghost at his door, learns of his death, and in the end lays the letter on Ali\'s grave. He represents the human heart awakened by shared suffering.'
+      prompt: 'The Postmaster',
+      answer: 'The postmaster is a busy, practical official who, for most of the story, shows little sympathy for Ali, dismissing him as a pest and losing his temper when Ali persists in asking about a letter. He represents ordinary human indifference to a suffering that has become routine and, therefore, invisible. The turning point in his character comes only when his own daughter falls seriously ill far away, and he experiences for himself the same anguish of waiting for news that Ali endured for years. This shared suffering transforms him into a figure of remorse and compassion, and he personally carries out Ali\'s final wish by delivering Miriam\'s letter to his grave. Notably, the text never gives him a personal name — he is known throughout only by his official title.',
+      notes: 'VERIFY-consistent: the postmaster is deliberately left unnamed in the text.'
     },
     {
       category: 'character',
       prompt: 'Miriam',
-      answer: 'Miriam is Ali\'s only child, who married a soldier and settled far away in Punjab. She never appears directly — we know her only through her father\'s love and her letter. Her silence for five years is the source of Ali\'s agony, and her letter, arriving only after his death, is the story\'s bittersweet symbol: the love that came too late. She represents all the absent children of the world whose letters mean more than they know.'
+      answer: 'Miriam is Ali\'s only daughter, whose marriage to a soldier and subsequent move away from home sets the entire story in motion. She never appears directly in the narrated present, and for most of the story she exists only as an absence — the reason for her father\'s daily wait and quiet grief. Her long silence causes Ali immense suffering, yet the story\'s final development reveals she did, eventually, write to her father, which suggests her silence may have been circumstantial rather than a sign of true neglect. Her letter, arriving too late for Ali to receive it in life, becomes the emotional and symbolic centre of the story\'s conclusion.',
+      notes: ''
     },
     {
       category: 'character',
       prompt: 'Lakshmi Das',
-      answer: 'Lakshmi Das is the clerk at the post office to whom Ali gives his five gold guineas, with the request that Miriam\'s letter be forwarded to his grave. He is kind-hearted: he listens to Ali\'s plea and accepts the promise. It is he who tells the postmaster that Ali has been dead for three months, and he who accompanies the postmaster in the evening to lay Miriam\'s letter on Ali\'s grave. He is the witness of the story\'s two great moments — the promise and the penance.'
+      answer: 'Lakshmi Das is a clerk at the post office to whom Ali, on what turns out to be his final visit, gives five golden coins along with an unusual, deeply poignant request: to deliver Miriam\'s letter to his grave whenever it finally arrives. Lakshmi Das agrees to this request, and later accompanies the postmaster to carry it out after Ali\'s death, functioning as the quiet, faithful intermediary who ensures Ali\'s last wish is honoured even though Ali himself cannot witness it.',
+      notes: ''
+    },
+    // ---------- VALUE ----------
+    {
+      category: 'value',
+      prompt: 'What does the story teach about compassion for the elderly and the lonely?',
+      answer: 'The story teaches that the elderly and lonely, who may appear merely eccentric or troublesome from the outside, often carry deep, invisible suffering that deserves patience and kindness rather than mockery. Evidence: the post office staff repeatedly ridicule Ali as "mad" for his daily visits without ever pausing to understand the depth of his grief, and it takes the postmaster\'s own personal crisis before he finally extends genuine sympathy — too late for Ali. The lesson is to extend understanding to others\' hidden pain before being forced into it by one\'s own similar experience.',
+      notes: ''
     },
     {
       category: 'value',
-      prompt: 'Compassion and kindness',
-      answer: 'The story teaches that we must never mock or dismiss another\'s pain. The post office clerks laugh at Ali\'s daily visits and the postmaster calls him a pest — but when the postmaster himself suffers a like anxiety, he understands how cruel his mockery was. The value lesson: every person carries a hidden grief; compassion requires us to feel another\'s waiting as our own, for a letter is never just paper but a heart reaching across the distance.'
+      prompt: 'What does the story teach about the value of keeping one\'s word?',
+      answer: 'Despite Ali\'s death, both Lakshmi Das and the postmaster honour the promise made to him, ensuring Miriam\'s letter reaches his grave as he requested. Evidence: Lakshmi Das accepts Ali\'s five golden coins and his unusual request without hesitation, and the postmaster, once transformed by his own experience, personally follows through on delivering the letter even though it can bring Ali no comfort. The lesson is that fulfilling a promise made to someone vulnerable, even after they are gone, is a matter of basic human integrity and respect.',
+      notes: ''
     },
+    // ---------- SHORT ----------
+    { category: 'short', prompt: 'What had Ali been in his younger days, before he became a familiar figure at the post office?', answer: 'Ali had been a skilful, well-known coachman and a celebrated shikari (hunter) in his younger years.' },
+    { category: 'short', prompt: 'Why did Ali visit the post office every day, and for how long had he done so?', answer: 'He visited every day for five years hoping to receive a letter from his daughter Miriam, who had married a soldier and moved away without writing to him.' },
+    { category: 'short', prompt: 'Why did Ali give up hunting?', answer: 'After experiencing the pain of separation from his daughter, he could no longer take pleasure in causing suffering to other creatures, so he gave up his lifelong passion for hunting.' },
+    { category: 'short', prompt: 'How did the post office staff generally treat Ali?', answer: 'They generally mocked him, considering him half-mad for his persistent daily visits, and sometimes jokingly called out his name even when no letter had arrived for him.' },
+    { category: 'short', prompt: 'What happened on Ali\'s last visit to the post office?', answer: 'He arrived after several days of illness, so weak he could barely breathe; when the postmaster, in a hurry, called him "a pest," Ali did not argue but quietly made his final request to a clerk instead.' },
+    { category: 'short', prompt: 'What request did Ali make of Lakshmi Das, and what did he give him for it?', answer: 'He gave Lakshmi Das five golden coins and asked him to deliver Miriam\'s letter, whenever it arrived, to his grave.' },
+    { category: 'short', prompt: 'What happens to the postmaster that changes his understanding of Ali\'s suffering?', answer: 'His own daughter falls seriously ill in a distant town, and he becomes desperately anxious for news of her, finally understanding the pain of waiting that Ali had endured for years.' },
+    { category: 'short', prompt: 'How does the postmaster discover Miriam\'s letter?', answer: 'While searching through the day\'s post for a letter from his own daughter, he comes across a letter addressed to Ali from Miriam.' },
+    { category: 'short', prompt: 'How does the postmaster respond emotionally once he realises what he has found?', answer: 'He is overwhelmed with shame, guilt and remorse for his past cruelty and indifference toward Ali.' },
+    { category: 'short', prompt: 'What does the postmaster do with Miriam\'s letter after learning of Ali\'s death?', answer: 'He personally carries the letter, together with Lakshmi Das, to Ali\'s grave and lays it there, fulfilling Ali\'s final wish.' },
+    { category: 'short', prompt: 'What irony lies at the heart of the story\'s ending?', answer: 'Miriam\'s letter finally arrives, proving Ali\'s years of hope justified, but it comes only after his death, so he never learns his daughter did write to him.' },
+    { category: 'short', prompt: 'What atmosphere does Dhumketu build around Ali through the story\'s descriptions?', answer: 'An atmosphere of loneliness and quiet grief, shown through the empty, silent streets Ali walks through before dawn and the persistent, uncomplaining patience of his daily wait.' },
+    // ---------- LONG ----------
     {
-      category: 'value',
-      prompt: 'Patience, faith and hope',
-      answer: 'Ali teaches the value of unbroken hope. For five years he waits, mocked and humiliated, yet he never stops believing that Miriam will write. His patience is exhausted, but his faith remains: "still he had faith". Even in his last act — paying a clerk to forward the letter to his grave — he shows that love does not surrender, even to death. The lesson: hope, held patiently, dignifies even the longest waiting; and those who love never truly give up.'
-    },
-    {
-      category: 'short',
-      prompt: 'Who was Coachman Ali?',
-      answer: 'An old coachman, once a famous shikari, who waited five years for a letter from his daughter Miriam.'
-    },
-    {
-      category: 'short',
-      prompt: 'Why had Ali given up hunting?',
-      answer: 'When Miriam left him, he realised the pain of suffering and separation, so he gave up hunting altogether.'
-    },
-    {
-      category: 'short',
-      prompt: 'Where had Miriam gone?',
-      answer: 'She had married a soldier and settled far away in Punjab.'
-    },
-    {
-      category: 'short',
-      prompt: 'For how long did Ali visit the post office?',
-      answer: 'For five years, every day, hoping for a letter from Miriam.'
-    },
-    {
-      category: 'short',
-      prompt: 'What did Ali give Lakshmi Das?',
-      answer: 'Five gold guineas, with the promise that Miriam\'s letter should be forwarded to his grave.'
-    },
-    {
-      category: 'short',
-      prompt: 'Why did the postmaster\'s heart soften?',
-      answer: 'His own daughter fell ill in another town, and waiting anxiously for her letter, he understood Ali\'s agony.'
-    },
-    {
-      category: 'short',
-      prompt: 'When did Ali appear at the postmaster\'s door?',
-      answer: 'At five o\'clock one morning, bent on a stick with tears in his eyes and an unearthly light in them.'
-    },
-    {
-      category: 'short',
-      prompt: 'How long had Ali been dead when his letter arrived?',
-      answer: 'Three months — Lakshmi Das told the postmaster that Ali had died three months ago.'
-    },
-    {
-      category: 'short',
-      prompt: 'What did the postmaster and Lakshmi Das do that evening?',
-      answer: 'They walked to Ali\'s grave and laid Miriam\'s letter upon it.'
-    },
-    {
-      category: 'short',
-      prompt: 'What did the postmaster realise about letters?',
-      answer: 'That they are not mere envelopes and postcards but carry the essential human worth of life.'
+      category: 'long',
+      prompt: 'Describe the character of Ali and the qualities that make his wait for Miriam\'s letter so moving.',
+      answer: 'Structured answer:\n\nIntroduction: Ali\'s five-year wait for a letter from his daughter Miriam is the emotional core of the story, and his character combines patience, quiet dignity and unconditional love.\n\nEvidence: Once a respected coachman and skilled hunter, Ali abandons hunting entirely after feeling the pain of Miriam\'s absence, showing how deeply love can transform a person. He walks to the post office before dawn every single day for five years, enduring illness, poor weather and open ridicule from the staff, never once losing hope. Even on his final visit, weak and dying, his only concern remains Miriam\'s letter, leading him to arrange with Lakshmi Das for it to be delivered to his grave.\n\nConclusion: Ali\'s unwavering devotion, expressed through humble, repeated action rather than words, makes him a deeply sympathetic figure whose quiet suffering carries the story\'s central emotional weight.'
     },
     {
       category: 'long',
-      prompt: 'Describe Ali\'s final visit to the post office.',
-      answer: 'Ali\'s health had failed and he could no longer breathe properly or walk the distance easily, but his faith in Miriam remained. On his final visit he found the postmaster, who was busy and irritated. When Ali asked whether any letter had come, the postmaster lost his temper and cried, "Get away! Do you think we\'re going to eat your letter when it comes?" Ali came out very slowly, turning after every few steps to gaze at the post office, his eyes filled with tears of helplessness. Yet even then he had one last act of faith: he called the clerk Lakshmi Das and gave him five gold guineas, asking him to deliver Miriam\'s letter to his grave if it should come. Then he left slowly, and was never seen again. The post office was the only place on earth where Ali\'s heart lived, and he bought a little of its hope even for after his death.'
+      prompt: 'Trace the transformation of the postmaster\'s character over the course of the story.',
+      answer: 'Structured answer:\n\nIntroduction: The postmaster undergoes a significant emotional transformation, moving from indifference and cruelty toward Ali to deep remorse and compassionate action.\n\nEvidence: Early in the story, he treats Ali\'s persistent visits as an irritation, going so far as to call him "a pest" on what turns out to be Ali\'s last visit. This changes only when the postmaster\'s own daughter falls seriously ill far away, and he is forced to feel the same anxious helplessness Ali had endured for years. Discovering Miriam\'s letter while searching for his own daughter\'s news, he is overcome with guilt, and, learning of Ali\'s death, personally delivers the letter to Ali\'s grave.\n\nConclusion: The postmaster\'s arc illustrates how personal suffering can awaken genuine empathy where abstract awareness of another\'s pain had failed to, giving the story its central message about compassion.'
     },
     {
       category: 'long',
-      prompt: 'How did the postmaster come to understand Ali\'s suffering?',
-      answer: 'The postmaster\'s own daughter lay ill in another town, and he was anxiously waiting for news of her. When the post was brought in and the letters piled on the table, he saw an envelope of the colour and shape he expected and eagerly snatched it up — only to find it was addressed to Coachman Ali. It was Miriam\'s letter. In that moment the postmaster understood everything: the five years of daily waiting, the mockery he had heaped on the old man, the agony of a heart parted from its child. The text says his haughty temper had quite left him in his sorrow and anxiety, and had laid bare his human heart. He resolved to carry the letter to Ali himself and asked Lakshmi Das where the old man lived. He had learned the story\'s great lesson: we can never understand another\'s pain until we suffer a like pain ourselves — and by then, it is often too late.'
+      prompt: 'Discuss the theme of loneliness and the lack of understanding shown to Ali by those around him.',
+      answer: 'Structured answer:\n\nIntroduction: Dhumketu builds a powerful picture of loneliness through the way almost everyone at the post office treats Ali\'s genuine grief as a source of amusement rather than concern.\n\nEvidence: The clerks and postmaster alike consider Ali mildly mad for his unbroken five-year routine, sometimes mockingly calling his name even when no letter has come; the postmaster himself dismisses him as "a pest" during their final exchange. Ali, in turn, never responds with anger, absorbing this treatment with quiet, dignified sorrow, his eyes filled with tears of helplessness as he leaves the post office for the last time.\n\nConclusion: This contrast between casual public mockery and Ali\'s private, dignified suffering underlines the story\'s deeper concern with how easily society overlooks the emotional pain of the old and the isolated.'
     },
     {
       category: 'long',
-      prompt: 'Describe the postmaster\'s strange experience at five in the morning.',
-      answer: 'That night the postmaster could not sleep; he sat by his charcoal sigri, torturing himself with doubt and remorse. At five o\'clock he heard a soft knock at the door. He opened it and saw Ali — bent on a stick, tears flowing from his eyes — looking exactly as Lakshmi Das had described him. But his features, once hard, were softened by lines of kindliness, and in his eyes was a light so unearthly that the postmaster shrank back in fear and astonishment. The postmaster asked whether it was Ali, gave him the letter, and begged his forgiveness. Ali took the letter and vanished; only Miriam\'s letter lay near the door. When Lakshmi Das arrived and told him Ali had been dead for three months, the postmaster was bewildered — had his imagination deceived him, or had he truly seen the old man\'s soul, still waiting for its letter? That evening, he and Lakshmi Das walked to Ali\'s grave and laid the letter there, and the postmaster understood at last the human worth of every letter that passes through a post office.'
-    },
-    {
-      category: 'long',
-      prompt: 'Value question: What does the story teach us about treating others with kindness?',
-      answer: 'The story teaches that we can never know the weight of another person\'s waiting, and that mockery of another\'s pain is a cruelty we will one day regret. The clerks laugh at Ali; the postmaster calls him a pest — yet all Ali wanted was a word from his daughter, a letter that meant to him what the postmaster\'s daughter\'s letter later means to the postmaster. The lesson unfolds in reverse: the postmaster is made to feel Ali\'s exact agony before he understands it, and his remorse comes too late to help the old man. The story\'s value is empathy — to honour every person\'s private grief, to treat every letter as a beating heart, and to be kind now, because the letter we delay may reach its grave before its owner. Ali\'s patience, faith and dignity teach us that love is measured not by what we receive but by how long and how faithfully we are willing to wait.'
-    },
-    {
-      category: 'long',
-      prompt: 'Why does the story end with the letter being placed on Ali\'s grave? What does this symbolise?',
-      answer: 'The final scene — the postmaster and Lakshmi Das walking with slow steps to Ali\'s grave and laying Miriam\'s letter upon it — is the story\'s heart. The letter symbolises the love that arrived too late: Ali waited five years, paid his last guineas for the promise of it, and died before it came. Placing it on the grave is an act of atonement: the post office, which mocked the old man, finally honours him; and the father\'s love, which could not be delivered in life, is delivered in death. The scene also symbolises the story\'s theme of human connection — the letter, carried through the whole tale as a promise, a hope and a sorrow, ends as a wreath on a grave. And for the postmaster, the grave becomes his teacher: standing by it, he understands what a letter really is, and he returns to his sigri to wait, himself, through a night of restless anxiety — the pupil of the very man he once scorned.'
+      prompt: 'Explain the significance of the letter itself as a symbol in the story.',
+      answer: 'Structured answer:\n\nIntroduction: The letter that gives the story its title functions as far more than a simple plot device; it symbolises hope, connection and the pain of separation.\n\nEvidence: For five years, the letter\'s absence represents Ali\'s unhealed wound of separation from Miriam, while his daily walk to the post office embodies hope that refuses to die despite constant disappointment. When the letter finally arrives, it validates that hope, proving Miriam had not forgotten her father, yet its late arrival — after Ali\'s death — transforms it into a symbol of tragic timing and unfulfilled longing.\n\nConclusion: The letter thus carries the story\'s full emotional arc: from unbearable absence to hope, and finally to bittersweet fulfilment, delivered not to a living father but to his grave.'
     }
   ],
   quizQuestions: [
-    {
-      question: 'Who wrote "The Letter"?',
-      options: ['Saki', 'Dhumaketu', 'A.J. Cronin', 'Elsie Brown'],
-      correct_index: 1,
-      explanation: 'The story is by Dhumaketu, the pen name of Gaurishankar Govardhandas Josh.'
-    },
-    {
-      question: 'Who was Miriam?',
-      options: ['Ali\'s wife', 'Ali\'s daughter', 'the postmaster\'s daughter', 'a clerk'],
-      correct_index: 1,
-      explanation: 'Miriam was Ali\'s only child, who married a soldier and settled in Punjab.'
-    },
-    {
-      question: 'For how many years did Ali wait for Miriam\'s letter?',
-      options: ['one year', 'three years', 'five years', 'ten years'],
-      correct_index: 2,
-      explanation: 'Ali visited the post office every day for five years, hoping for a letter from Miriam.'
-    },
-    {
-      question: 'What did Ali give Lakshmi Das?',
-      options: ['a hundred rupees', 'five gold guineas', 'his watch', 'a horse'],
-      correct_index: 1,
-      explanation: 'Ali gave Lakshmi Das five gold guineas to forward Miriam\'s letter to his grave.'
-    },
-    {
-      question: 'Why did the postmaster suddenly understand Ali\'s agony?',
-      options: ['Ali explained it to him', 'his own daughter fell ill and he waited for her letter', 'he lost his job', 'Miriam wrote to him'],
-      correct_index: 1,
-      explanation: 'When his daughter fell ill in another town, his anxious waiting taught him what Ali had suffered.'
-    },
-    {
-      question: 'When Ali appeared at the postmaster\'s door, his eyes had:',
-      options: ['a fearful anger', 'a light so unearthly that the postmaster shrank back', 'no expression', 'tears of joy'],
-      correct_index: 1,
-      explanation: 'The unearthly light suggests it was Ali\'s soul, still waiting for its letter.'
-    },
-    {
-      question: 'How long had Ali been dead when his letter arrived?',
-      options: ['a week', 'a month', 'three months', 'a year'],
-      correct_index: 2,
-      explanation: 'Lakshmi Das told the postmaster that Ali had died three months ago.'
-    },
-    {
-      question: 'The letter from Miriam was addressed to:',
-      options: ['the postmaster', 'Coachman Ali', 'Lakshmi Das', 'the postman'],
-      correct_index: 1,
-      explanation: 'The envelope the postmaster snatched up was addressed to Coachman Ali.'
-    },
-    {
-      question: 'At the end of the story, the postmaster and Lakshmi Das:',
-      options: ['burned the letter', 'placed the letter on Ali\'s grave', 'returned it to Punjab', 'kept it in the office'],
-      correct_index: 1,
-      explanation: 'That evening they walked to Ali\'s grave and laid Miriam\'s letter upon it.'
-    },
-    {
-      question: 'The postmaster finally realised that letters:',
-      options: ['are just paper', 'have essential human worth', 'are only for business', 'should be taxed'],
-      correct_index: 1,
-      explanation: 'He saw the essential human worth of a letter — a warm, beating heart, not mere paper.'
-    },
-    {
-      question: 'What did the postmaster call Ali on the old man\'s last visit?',
-      options: ['a friend', 'a pest', 'a gentleman', 'a liar'],
-      correct_index: 1,
-      explanation: 'Losing his temper, the postmaster cried, "Get away! Do you think we\'re going to eat your letter when it comes?" and treated Ali as a pest.'
-    },
-    {
-      question: 'Ali\'s faith is best shown by his:',
-      options: ['giving up hunting', 'paying five gold guineas to have his letter sent to his grave', 'moving to Punjab', 'writing to Miriam'],
-      correct_index: 1,
-      explanation: 'Even in death he arranged for the letter — his hope survived his patience.'
-    }
+    { unit_id: 'the-letter', question: 'What was Ali\'s profession in his younger days, besides being a hunter?', options: ['A postmaster', 'A coachman', 'A clerk', 'A soldier'], correct_index: 1, explanation: 'Ali had been a skilful, well-known coachman as well as a celebrated shikari (hunter) in his youth.', topic: 'character' },
+    { unit_id: 'the-letter', question: 'For how many years had Ali been visiting the post office when the story opens?', options: ['Two years', 'Three years', 'Five years', 'Ten years'], correct_index: 2, explanation: 'Ali had been visiting the post office daily for five long years, hoping for a letter from his daughter Miriam.', topic: 'plot' },
+    { unit_id: 'the-letter', question: 'Why did Ali give up hunting?', options: ['He grew too weak to hunt', 'The pain of separation from Miriam made him unable to cause suffering to other creatures', 'The government banned hunting', 'He lost his hunting equipment'], correct_index: 1, explanation: 'Once he felt the pain of losing his daughter\'s presence, Ali could no longer take pleasure in inflicting suffering on other creatures.', topic: 'theme' },
+    { unit_id: 'the-letter', question: 'What did the postmaster call Ali during their final meeting?', options: ['"A fool"', '"A pest"', '"A liar"', '"A beggar"'], correct_index: 1, explanation: 'In his hurry and irritation, the postmaster rudely called Ali "a pest" during what turned out to be their last exchange.', topic: 'plot' },
+    { unit_id: 'the-letter', question: 'What did Ali give Lakshmi Das, and what did he ask him to do?', options: ['A letter, to post to Miriam', 'Five golden coins, to deliver Miriam\'s letter to his grave', 'His coach, to sell for money', 'A ring, to give to the postmaster'], correct_index: 1, explanation: 'Ali gave Lakshmi Das five golden coins and asked him to deliver Miriam\'s letter, whenever it came, to his grave.', topic: 'plot' },
+    { unit_id: 'the-letter', question: 'What is the postmaster\'s personal name in the story?', options: ['Lakshmi Das', 'Ali', 'He is never named', 'Ahmed'], correct_index: 2, explanation: 'The text deliberately leaves the postmaster unnamed throughout; he is referred to only by his official title.', topic: 'character' },
+    { unit_id: 'the-letter', question: 'What event finally makes the postmaster understand Ali\'s suffering?', options: ['He reads Ali\'s diary', 'His own daughter falls seriously ill far away', 'He is scolded by his superior', 'He meets Miriam in person'], correct_index: 1, explanation: 'The postmaster\'s own daughter falling ill in a distant town gives him firsthand experience of the anxious wait Ali endured for years.', topic: 'plot' },
+    { unit_id: 'the-letter', question: 'How does the postmaster come across Miriam\'s letter?', options: ['Ali hands it to him directly', 'He finds it while searching for his own daughter\'s letter', 'Lakshmi Das brings it to him', 'It is delivered by mistake to his home'], correct_index: 1, explanation: 'While searching through the day\'s post for news of his own daughter, the postmaster comes across the letter addressed to Ali from Miriam.', topic: 'plot' },
+    { unit_id: 'the-letter', question: 'What does the postmaster ultimately do with Miriam\'s letter?', options: ['He burns it', 'He keeps it as a souvenir', 'He delivers it to Ali\'s grave', 'He sends it back to Miriam'], correct_index: 2, explanation: 'Learning that Ali has died, the postmaster personally carries the letter to Ali\'s grave to fulfil his final wish.', topic: 'plot' },
+    { unit_id: 'the-letter', question: 'With reference to the story\'s central irony, why is the timing of Miriam\'s letter tragic?', options: ['Because the letter was addressed to the wrong person', 'Because it arrives only after Ali\'s death, too late for him to receive it', 'Because Miriam never actually wrote it herself', 'Because it arrives during a festival'], correct_index: 1, explanation: 'Ali\'s years of faithful waiting are proven justified, but only after his death, making the letter\'s arrival bittersweet rather than joyful.', topic: 'theme' }
   ]
 };

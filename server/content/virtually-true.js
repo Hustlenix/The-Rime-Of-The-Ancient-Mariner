@@ -8,214 +8,134 @@ module.exports = {
     order: 6
   },
   content: [
+    // ---------- SUMMARY ----------
     {
       category: 'summary',
-      prompt: 'Part 1 — The computer fair',
-      answer: 'Michael, the narrator, is a boy whose father is crazy about computers and buys every new gadget on the market. Together they went to a computer fair and bought a virtual reality visor and glove, along with a handful of the latest interactive psycho-drive games — games driven by mental power, which let the player not only see but control the action with his thoughts. Among them were Wildwest, Dragonquest, Jailbreak and Warzone, each a different genre of game waiting to be played.'
+      prompt: 'Part 1 — A newspaper article and a mysterious connection',
+      answer: 'The story opens with its narrator, a boy named Michael, reading a newspaper article headlined "Miracle Recovery," reporting that a fourteen-year-old schoolboy named Sebastian Shultz, whose condition had been critical after a car accident and a resulting coma, has unexpectedly recovered. Michael is startled because he realises this is the very same Sebastian Shultz he had "met," in a strange and indirect way, weeks earlier while playing a series of computer games. The article prompts Michael to look back and piece together exactly what had happened to connect him to a boy he had never met in person.',
+      notes: 'Frame narrative: the newspaper article as the trigger for Michael\'s recollection.'
     },
     {
       category: 'summary',
-      prompt: 'Part 2 — The strange meetings in the games',
-      answer: 'In Wildwest, Michael found himself a sheriff in a dusty town, and met a second sheriff who needed help to escape — but the man was shot and the game ended. To Michael\'s astonishment, the printer then produced a message: "I\'m stuck. Please help to retrieve me. Try DRAGONQUEST. Sebastian Shultz." In Dragonquest, Sebastian appeared as a second knight (Sir Sebastian) and was carried off by the dragon; in Jailbreak, they escaped the prison cell and dodge the guards and vicious dogs, but Sebastian fell before the helicopter could take him. Each time, the same plea: try again, save me.'
+      prompt: 'Part 2 — The Computer Fair and the first strange message',
+      answer: 'Michael recalls that, a month earlier, he and his technology-obsessed father, who could never resist buying the latest computer gadgets and gizmos, had spent an entire Saturday afternoon at a computer fair, where his father bought him a virtual reality visor and glove along with a handful of the latest interactive psycho-drive games. Playing the 3D game "Wildwest," Michael takes on the role of a sheriff and is drawn into a duel-and-chase sequence with a mysterious second sheriff who never answers when questioned about his identity; after gunfire and the game abruptly ending with a score of 21095, Michael\'s printer produces an unexpected printout showing the figure of the sheriff and a message: the player is stuck inside the game and needs help to be retrieved, signed "Sebastian Shultz," who suggests Michael try the game "Dragon Quest" next.',
+      notes: 'Establishes the fantastical premise: a real boy\'s memory trapped inside game software.'
     },
     {
       category: 'summary',
-      prompt: 'Part 3 — The news about Sebastian Shultz',
-      answer: 'Michael read in the newspaper an article headed "Miracle Recovery": Sebastian Shultz, a fourteen-year-old boy, had been in a coma after a car crash in which his head was injured, and the doctors had given up hope. Michael realised with a shock that this was the same Sebastian Shultz who was trapped inside his computer games. The boy\'s memory had been saved in the computer at the time of the accident; the games, stolen from the hospital, had reached the computer fair where Michael\'s father bought them. Sebastian was alive — and Michael was the only person who could rescue him.'
+      prompt: 'Part 3 — Further games and growing understanding',
+      answer: 'Following the instructions in each successive printed message, Michael plays through further games — including "Dragon Quest," in which his task is to rescue Princess Aurora from a wicked dragon and gather its treasure, and later "Jailbreak" — always encountering the same trapped companion, Sebastian, who urges him onward and hints at his predicament. Michael gradually works out, partly with his father\'s help understanding how computers store data, that Sebastian\'s actual memory had somehow become saved onto the game disks themselves at the moment of his real-world accident, when he had been playing one of these very games and struck his head, falling into a coma. The disks, stolen from the Shultz household after the accident, had eventually made their way, through unknown hands, to the computer fair where Michael\'s father purchased them.',
+      notes: 'Explains the mechanism: Sebastian\'s memory recorded onto the disks during his accident.'
     },
     {
       category: 'summary',
-      prompt: 'Part 4 — The final rescue in Warzone',
-      answer: 'Michael played Warzone with all his skill and courage: guns boomed, bombs exploded, and he flew the helicopter through sniper fire and falling buildings. This time he reached Sebastian in time, pulled him aboard, and the screen flashed the jackpot score of 40,000,000. When the game was over, Michael knew he had won — and on the news the next day came the wonderful report that Sebastian Shultz had woken from his coma, fully recovered. In an e-mail, the real Sebastian thanked Michael for saving his life, told him he had earned the games, and said he hoped they would meet soon. What had been virtually true had become really true.'
+      prompt: 'Part 4 — The rescue in Warzone and the miracle recovery',
+      answer: 'In the final game, "Warzone," Michael and Sebastian devise a plan together — using a helicopter to pull Sebastian to safety as a tank crashes into a jeep — and this time, at last, Michael successfully retrieves Sebastian from the trapped state within the game. At the very same moment in the real world, doctors are astonished to find that Sebastian, previously in a critical coma, suddenly and inexplicably begins to recover — the "miracle" reported in the newspaper article Michael reads at the story\'s opening. The story closes with Michael reflecting on how strange and yet undeniably real this virtual connection has proven to be, leaving him — and the reader — to wonder just how "virtually true" the boundary between the game world and reality really is.',
+      notes: 'Climax and resolution: the in-game rescue coincides with Sebastian\'s real recovery.'
+    },
+    // ---------- THEME ----------
+    {
+      category: 'theme',
+      prompt: 'The blurred boundary between virtual reality and the real world',
+      answer: 'The story\'s central and title-defining idea is that the line between a virtual, simulated experience and genuine reality may be far less solid than it appears. Sebastian\'s memory, physically recorded onto game software during his accident, is not merely symbolic but has a real, tangible effect on his actual medical recovery once Michael manages to "rescue" him within the game world. Paul Stewart uses this science-fiction premise to invite readers to consider how deeply technology might one day intertwine with human consciousness and experience, well beyond simple entertainment.',
+      notes: ''
     },
     {
       category: 'theme',
-      prompt: 'Virtual reality and the power of technology',
-      answer: 'The story explores the astonishing possibilities of virtual reality. In psycho-drive games, the player\'s mind controls the action; and in this tale, a boy\'s consciousness, trapped at the moment of an accident, survives inside the computer games, waiting to be rescued by another player. The theme suggests that technology can do more than entertain — it can blur the line between the virtual and the real, and even save a life. With power, the story implies, comes responsibility: the same games that trapped Sebastian also freed him.'
+      prompt: 'Empathy, help, and connection across distance',
+      answer: 'Despite never meeting in person and having no ordinary means of communication, Michael persists across several separate games, guided only by cryptic printed messages, to help a boy he does not know. His willingness to keep playing, puzzle through clues, and ultimately devise a rescue plan for Sebastian reflects a theme of compassion and cooperative problem-solving extended toward a stranger in genuine need, even when the situation defies rational explanation.',
+      notes: ''
     },
     {
       category: 'theme',
-      prompt: 'Courage and persistence in the face of failure',
-      answer: 'Michael fails to rescue Sebastian three times — in Wildwest, Dragonquest and Jailbreak — and each failure could have discouraged him. But he keeps trying, finally succeeding in Warzone. The theme celebrates perseverance: every failure teaches something, and the one who refuses to give up wins in the end. Sebastian, too, never loses hope: even in his coma he sends the same plea — "please help me" — and keeps the faith that someone will come.'
+      prompt: 'Curiosity and the wonder (and danger) of new technology',
+      answer: 'Michael\'s father\'s enthusiasm for the latest computer gadgets sets the entire plot in motion, reflecting society\'s fascination with rapidly advancing technology. The story simultaneously celebrates this curiosity — it is precisely this fascination that allows Michael to help Sebastian — and hints at technology\'s unpredictable, even dangerous potential, since it was an accident involving deep immersion in a "psycho-drive" style game that caused Sebastian\'s coma in the first place. This dual perspective encourages readers to consider both the possibilities and the risks of ever more immersive computer technology.',
+      notes: ''
     },
-    {
-      category: 'theme',
-      prompt: 'The blurring of reality and illusion',
-      answer: 'The story\'s title — "Virtually True" — points to its central idea: the boundary between the real world and the virtual world dissolves. Sebastian is both a character in the games and a real boy in a hospital bed; the "game over" that Michael reads has the power to decide life and death in the real world. The ending — the e-mail from the recovered Sebastian — makes the fantastic believable: what happens in the virtual world can come true in the real one. The theme asks us to wonder how far the human mind can reach through technology.'
-    },
+    // ---------- CHARACTER ----------
     {
       category: 'character',
       prompt: 'Michael',
-      answer: 'Michael is the narrator, a boy who loves the psycho-drive games his father brings home. He is brave and determined: though he fails three times to save Sebastian, he keeps playing — through Wildwest, Dragonquest and Jailbreak — until in Warzone he finally succeeds, flying the helicopter through gunfire to pull Sebastian aboard. He is also kind and responsible: he realises that Sebastian is a real boy in a coma, and takes the rescue as a duty, not a game. His persistence and courage save a life.'
+      answer: 'Michael is the story\'s young narrator, an enthusiastic player of computer games who becomes unexpectedly and inexplicably drawn into a real rescue mission through a series of virtual game worlds. Curious, persistent and ultimately compassionate, he does not give up on the mysterious companion who keeps appearing in his games, working with increasing understanding to figure out what is happening and how to help. His role in Sebastian\'s eventual, "miraculous" recovery gives him — and the reader — a lasting sense of wonder about how real virtual experiences can actually be.',
+      notes: ''
     },
     {
       category: 'character',
       prompt: 'Sebastian Shultz',
-      answer: 'Sebastian Shultz is a fourteen-year-old boy who was badly injured in a car crash and lay in a coma, with no hope of recovery. At the moment of the accident his mind was connected to the computer, and his memory was saved in its games. Inside the virtual world he appears as the second sheriff, Sir Sebastian, a prisoner and a victim in the war zone, always in danger — yet always resourceful and full of hope, sending his plea for help through the printer. When Michael finally rescues him in Warzone, Sebastian wakes from his coma, recovers miraculously and writes to thank the boy who saved his life.'
+      answer: 'Sebastian Shultz is a fourteen-year-old schoolboy from South London whose real-world car accident, occurring while he was playing one of the very computer games later purchased by Michael\'s father, leaves him in a critical coma. Remarkably, his memory becomes saved within the game software itself at the moment of the accident, trapping a version of his consciousness inside successive games, from which he repeatedly and politely requests Michael\'s help through printed messages. His patient, hopeful persistence across multiple failed attempts, and his relief and gratitude once finally rescued, make him a sympathetic figure whose real-world recovery is directly tied to events inside the virtual games.',
+      notes: ''
     },
     {
       category: 'character',
-      prompt: 'Michael\'s father',
-      answer: 'Michael\'s father is crazy about computers and buys the latest gadgets that come on the market. It is he who takes Michael to the computer fair and buys the virtual reality visor and glove and the psycho-drive games — including, unknowingly, the very games in which Sebastian Shultz\'s memory is trapped. He is the story\'s quiet enabler: without his passion for new technology, Michael would never have owned the games, and Sebastian could never have been rescued. He represents the ordinary human love of gadgetry through which the extraordinary becomes possible.'
+      prompt: "Michael's father",
+      answer: 'Michael\'s father is depicted as thoroughly enthusiastic about computers and new technology, unable to resist buying the latest gadgets and gizmos whenever he encounters them, which is precisely how the crucial game disks first enter the household during their visit to the computer fair. Beyond providing the games that set the plot in motion, he also offers Michael some technical understanding of how computers store and retain data, which helps Michael begin to make sense of Sebastian\'s strange, persistent presence within the games.',
+      notes: ''
+    },
+    {
+      category: 'character',
+      prompt: 'Mr Shultz (Sebastian\'s father)',
+      answer: 'Mr Shultz appears only briefly, in a press conference reported after Sebastian\'s accident, where he is asked by a reporter what the family intends to do next regarding the stolen computer games; he replies simply that they will buy new ones, showing little interest in tracing the missing disks. This small detail turns out to be significant, since it is precisely because the stolen disks are never recovered that they are free to circulate onward and eventually reach the computer fair where Michael\'s father buys them, unknowingly setting the story\'s central rescue in motion.',
+      notes: ''
+    },
+    // ---------- VALUE ----------
+    {
+      category: 'value',
+      prompt: 'What does the story teach about persistence and helping others in difficulty?',
+      answer: 'The story shows that persistence, even when a situation seems strange or difficult to understand, can make a genuine difference to someone in need. Evidence: Michael does not give up on Sebastian despite repeated failed attempts across different games, eventually working out, with his father\'s help, a successful plan in "Warzone" that finally rescues him. The lesson is that patient, sustained effort to help someone, even a stranger encountered under unusual circumstances, can lead to a meaningful, life-changing outcome.',
+      notes: ''
     },
     {
       category: 'value',
-      prompt: 'Persistence pays in the end',
-      answer: 'The story teaches the value of never giving up. Michael fails in Wildwest, Dragonquest and Jailbreak — three defeats — yet he keeps his promise and tries again, and in Warzone his persistence saves a boy\'s life. The lesson: failure is not the end; it is a step. Those who try again after every defeat carry the day in the end. Sebastian\'s faith — pleading for help game after game — matches Michael\'s courage, and together they prove that hope plus effort equals victory.'
+      prompt: 'What does the story suggest about approaching new technology with both curiosity and caution?',
+      answer: 'The story presents technology as a source of both wonder and unpredictable risk. Evidence: Michael\'s father\'s enthusiastic collection of the latest gadgets ultimately enables Sebastian\'s rescue, yet it was Sebastian\'s own deep immersion in a similar game that led to the accident and coma in the first place. The lesson is to appreciate the possibilities technology offers while remaining mindful that it can also carry real, sometimes serious, consequences.',
+      notes: ''
     },
+    // ---------- SHORT ----------
+    { category: 'short', prompt: 'What newspaper article does Michael read at the beginning of the story, and about whom?', answer: 'He reads an article headlined "Miracle Recovery" about a schoolboy named Sebastian Shultz, who had unexpectedly recovered from a critical coma.' },
+    { category: 'short', prompt: 'Where did Michael and his father get the computer and games that begin the story\'s events?', answer: 'They bought them during a Saturday afternoon spent at a computer fair, which Michael\'s technology-obsessed father was eager to visit.' },
+    { category: 'short', prompt: 'What happened when Michael played the game "Wildwest"?', answer: 'He became a sheriff in a 3D duel-and-chase sequence with a mysterious second sheriff, and after the game ended he received a printout signed by Sebastian Shultz asking for help.' },
+    { category: 'short', prompt: 'What was Sebastian\'s first request to Michael, as shown in the printout?', answer: 'He said he was stuck and asked Michael to help retrieve him, suggesting he try playing "Dragon Quest" next.' },
+    { category: 'short', prompt: 'What was Michael\'s task in the game "Dragon Quest"?', answer: 'He had to rescue Princess Aurora from a wicked dragon and collect the creature\'s treasure along the way.' },
+    { category: 'short', prompt: 'How, according to Michael\'s theory, had Sebastian\'s memory come to be stored in the game disks?', answer: 'Sebastian\'s memory had been saved onto the disks during his accident, while he was playing the same game and struck his head, falling into a coma.' },
+    { category: 'short', prompt: 'How did the game disks end up in Michael\'s possession?', answer: 'The disks had been stolen from the Shultz household after Sebastian\'s accident and eventually found their way to the computer fair, where Michael\'s father purchased them.' },
+    { category: 'short', prompt: 'What was Sebastian\'s idea in the game "Jailbreak"?', answer: 'His idea was to use a helicopter to rescue himself, hoping it could move faster to escape the danger in the game.' },
+    { category: 'short', prompt: 'How was Sebastian finally rescued, and in which game did this happen?', answer: 'In the game "Warzone," Sebastian tumbled into a helicopter when a tank crashed into a jeep, and Michael pulled him to safety, finally freeing him.' },
+    { category: 'short', prompt: 'What happened in the real world at the same moment Sebastian was rescued in the game?', answer: 'Sebastian, who had been in a critical coma, suddenly and inexplicably began his "miracle" recovery, as reported in the newspaper article.' },
+    { category: 'short', prompt: 'What had Sebastian\'s father, Mr Shultz, said in a press conference about the stolen games?', answer: 'He said he had not bothered tracing the stolen games and that he intended to simply buy new ones.' },
+    { category: 'short', prompt: 'What central question does the story\'s title, "Virtually True," raise for the reader?', answer: 'It raises the question of how far a virtual, simulated experience can have genuinely real consequences, blurring the line between the game world and reality.' },
+    { category: 'short', prompt: 'How does the story end, after Michael\'s final rescue of Sebastian in "Warzone"?', answer: 'It ends with Michael checking his e-mail later and finding a message from Sebastian thanking him and telling him to keep the games — he had earned them.' },
+    // ---------- LONG ----------
     {
-      category: 'value',
-      prompt: 'Use technology responsibly',
-      answer: 'The story reminds us that technology is a tool that can save or destroy. The same psycho-drive games that could have been mere entertainment became a lifeline because Michael used his skill and his heart. The value lesson: every gift of science carries a responsibility — to use it for good, to help others with what we have, and to remember that behind every screen there may be a real human being in need.'
-    },
-    {
-      category: 'short',
-      prompt: 'What did Michael and his father buy at the computer fair?',
-      answer: 'A virtual reality visor and glove, and a handful of the latest interactive psycho-drive games.'
-    },
-    {
-      category: 'short',
-      prompt: 'What are psycho-drive games?',
-      answer: 'Interactive games driven by mental power, which let the player control the action with his thoughts.'
-    },
-    {
-      category: 'short',
-      prompt: 'Name the four games Michael played.',
-      answer: 'Wildwest, Dragonquest, Jailbreak and Warzone.'
-    },
-    {
-      category: 'short',
-      prompt: 'Who did Michael meet in the game Wildwest?',
-      answer: 'A second sheriff who was shot and killed trying to escape — the character of Sebastian Shultz.'
-    },
-    {
-      category: 'short',
-      prompt: 'How did Sebastian send his message to Michael?',
-      answer: 'Through the printer — the printout carried the message "I\'m stuck. Please help to retrieve me. Try DRAGONQUEST. Sebastian Shultz."'
-    },
-    {
-      category: 'short',
-      prompt: 'What happened to Sebastian Shultz in real life?',
-      answer: 'He had been in a car crash in which his head was injured, and lay in a coma; his memory was saved in the computer games.'
-    },
-    {
-      category: 'short',
-      prompt: 'Why did Michael succeed in Warzone?',
-      answer: 'He flew the helicopter through sniper fire and falling buildings, reached Sebastian in time and pulled him aboard, hitting the jackpot score of 40,000,000.'
-    },
-    {
-      category: 'short',
-      prompt: 'What was the headline of the news article about Sebastian?',
-      answer: '"Miracle Recovery" — Sebastian Shultz woke from his coma and recovered fully.'
-    },
-    {
-      category: 'short',
-      prompt: 'How did the real Sebastian thank Michael?',
-      answer: 'He sent an e-mail thanking him for saving his life, saying he had earned the games and hoping they would meet soon.'
-    },
-    {
-      category: 'short',
-      prompt: 'What does the title "Virtually True" mean?',
-      answer: 'It means that something experienced in the virtual world turns out to be true in the real world — the games were real for Sebastian.'
+      category: 'long',
+      prompt: 'Trace how Michael comes to understand what is happening to Sebastian across the course of the story.',
+      answer: 'Structured answer:\n\nIntroduction: Michael\'s understanding of Sebastian\'s strange predicament develops gradually, built up through a series of odd encounters within different computer games.\n\nEvidence: He first receives a puzzling printed message signed by "Sebastian Shultz" after playing "Wildwest," asking for help and directing him to another game. Through subsequent games such as "Dragon Quest" and "Jailbreak," Michael keeps encountering the same trapped companion, and with his father\'s help understanding how computers store data, he theorises that Sebastian\'s memory had become saved onto the disks during his real accident.\n\nConclusion: This step-by-step piecing together of clues across multiple games mirrors a detective-style unfolding of the mystery, culminating in Michael\'s successful rescue of Sebastian in "Warzone."'
     },
     {
       category: 'long',
-      prompt: 'Describe Michael\'s first three attempts to rescue Sebastian.',
-      answer: 'In Wildwest, Michael played the part of a sheriff in a dusty, unfamiliar town and met a second sheriff who was trying to escape from the men around him. Michael tried to help him, but the second sheriff was shot, the game ended, and Michael found himself back in his room. A moment later the printer began to work by itself and produced the message: "I\'m stuck. Please help to retrieve me. Try DRAGONQUEST. Sebastian Shultz." In Dragonquest, Michael\'s aim was to rescue the fair princess Aurora from a fire-breathing dragon, but a second knight — Sir Sebastian — cried out for help too, and while Michael hesitated, the dragon carried Sebastian off. In Jailbreak, Michael and Sebastian escaped their prison cell with a swipe-card, ran from twelve guards and vicious dogs across the roof, and reached the helicopter at last — but Sebastian slipped and fell before he could be pulled aboard. Three games, three failures — yet each time Sebastian sent the same plea: try once more, save me.'
+      prompt: 'Discuss the theme of the blurred boundary between virtual reality and the real world in "Virtually True."',
+      answer: 'Structured answer:\n\nIntroduction: The story\'s title itself signals its central theme — that events inside a virtual, simulated game world can have genuinely real, even life-altering consequences.\n\nEvidence: Sebastian\'s consciousness becomes physically trapped within the game software following his real-world accident, and his fate within the games — being rescued or remaining stuck — directly mirrors his actual medical condition, culminating in his real recovery at the exact moment Michael frees him in "Warzone."\n\nConclusion: By making the virtual and the real worlds causally connected rather than separate, Paul Stewart invites readers to question how solid the boundary between simulated experience and genuine reality truly is, especially as technology grows more immersive.'
     },
     {
       category: 'long',
-      prompt: 'What did Michael learn about Sebastian Shultz from the newspaper?',
-      answer: 'The newspaper carried an article headed "Miracle Recovery", reporting that Sebastian Shultz, a fourteen-year-old boy, had been seriously injured in a car crash. He had been in a coma, the doctors had given up all hope of his recovery, and then — miraculously — he had regained consciousness and was expected to recover fully. Michael read it with growing astonishment, for the name was familiar: Sebastian Shultz was the character inside his computer games. Piecing together what he knew, Michael understood what had happened: at the time of the accident, Sebastian had been plugged into a computer, and his memory had been saved in the games he was playing. Those games had been stolen and had found their way to the computer fair where Michael\'s father had bought them. So the boy trapped in the virtual world was a real boy in a hospital bed — and Michael, the only player who had met him, was the only one who could set him free. The article ended with the hope that Sebastian might soon be well enough to be told about his rescue.'
+      prompt: 'Explain the role that Michael\'s father plays in the events of the story.',
+      answer: 'Structured answer:\n\nIntroduction: Although Michael\'s father never directly interacts with Sebastian, his enthusiasm for technology is the essential catalyst that sets the entire plot in motion.\n\nEvidence: It is his eagerness to buy the latest computer gadgets at the fair that brings the crucial, stolen game disks into their household in the first place. He later also provides Michael with basic technical understanding of how computers retain data, which helps Michael begin to make sense of Sebastian\'s otherwise inexplicable presence within the games.\n\nConclusion: Michael\'s father thus functions as both the unintentional cause of Michael\'s involvement and an indirect source of the knowledge that ultimately allows Michael to help resolve Sebastian\'s crisis.'
     },
     {
       category: 'long',
-      prompt: 'Describe the final rescue in Warzone.',
-      answer: 'Warzone was the last and most dangerous of the games — a war simulation in which guns boomed, bombs exploded, tanks moved across the landscape and sniper fire rained down. Sebastian sent his final plea: "Try WARZONE. Save me." Michael launched himself into the game. He found himself in the middle of a battlefield; a helicopter was sent to pick him up, and he flew it low through the gunfire, with shells falling and buildings collapsing around him. At last he spotted Sebastian, thrown into the air when a soldier\'s attack hit his jeep. Michael pulled the helicopter close, reached out, and dragged Sebastian aboard. The screen flashed the jackpot score of 40,000,000, and the game was over — won. Michael had rescued Sebastian where three previous attempts had failed, and he knew, with a pounding heart, that the rescue was real: in the hospital, the boy was waking from his coma. The next day\'s paper confirmed the miracle, and an e-mail from the real Sebastian Shultz thanked Michael for saving his life.'
-    },
-    {
-      category: 'long',
-      prompt: 'Value question: What does the story teach us about perseverance and hope?',
-      answer: 'The story is a lesson in perseverance and hope, told through a computer game. Michael fails three times — in Wildwest the second sheriff is shot, in Dragonquest Sir Sebastian is carried off by the dragon, in Jailbreak Sebastian falls before the helicopter can take him. Any one of those failures would have been reason enough to stop; instead, each defeat renews his determination, and Sebastian\'s printer-messages — "please help me, try again" — keep the hope alive between them. The story teaches that victory belongs to those who refuse to surrender: Michael\'s fourth attempt, in Warzone, succeeds precisely because he kept the promise made in the first. It also teaches the worth of helping others: Michael\'s motive is never glory but rescue — he treats Sebastian as a real person in need, and his kindness is rewarded in the real world when Sebastian wakes from his coma and writes to thank him. Hope and persistence, the story says, can make the virtual true.'
-    },
-    {
-      category: 'long',
-      prompt: 'How does the story blur the line between the virtual and the real?',
-      answer: 'The story\'s central wonder is the dissolving of the boundary between the world of the computer and the world of the hospital. Sebastian Shultz exists in both at once: in the games he is a sheriff, a knight, a prisoner and a victim, always in peril; in the real world he is a boy in a coma whose memory has been saved in the machine. The games themselves are "psycho-drive" — driven by mental power — so the thoughts of the players are literally part of the game, and the game, in turn, reaches into the real world through the printer and the news. When Michael wins Warzone, the effect is felt in the hospital: Sebastian wakes, recovers, and writes an e-mail that Michael reads in his own room. The title "Virtually True" names this paradox: what was experienced as a game proved to be real — the most virtual of experiences turned out to be the most true of events. The story invites us to wonder what other boundaries technology may one day dissolve.'
+      prompt: 'What message does the story convey about persistence and compassion, illustrated through Michael\'s actions?',
+      answer: 'Structured answer:\n\nIntroduction: Michael\'s repeated efforts across several different, unrelated games to help a stranger he has never physically met demonstrate the story\'s underlying message about persistence and compassion.\n\nEvidence: Despite the strangeness of the situation and several unsuccessful attempts, Michael continues following Sebastian\'s clues from game to game, eventually devising, together with Sebastian, a successful helicopter rescue plan in "Warzone." His willingness to keep trying, without any guarantee of success or personal benefit, ultimately contributes directly to Sebastian\'s real recovery.\n\nConclusion: The story suggests that genuine compassion and sustained effort to help others, even under bizarre or seemingly impossible circumstances, can produce meaningful, real-world good.'
     }
   ],
   quizQuestions: [
-    {
-      question: 'Who wrote "Virtually True"?',
-      options: ['Paul Stewart', 'Satyajit Ray', 'Elsie Brown', 'A.J. Cronin'],
-      correct_index: 0,
-      explanation: 'The story is by Paul Stewart.'
-    },
-    {
-      question: 'Michael and his father bought the games at:',
-      options: ['a shopping mall', 'a computer fair', 'an auction', 'a toy shop'],
-      correct_index: 1,
-      explanation: 'They bought a visor, a glove and psycho-drive games at a computer fair.'
-    },
-    {
-      question: 'Psycho-drive games are controlled by:',
-      options: ['a keyboard', 'mental power', 'a joystick', 'remote control'],
-      correct_index: 1,
-      explanation: 'They are driven by the power of the mind — the player controls the action by thinking.'
-    },
-    {
-      question: 'Which game did Michael play first?',
-      options: ['Warzone', 'Wildwest', 'Dragonquest', 'Jailbreak'],
-      correct_index: 1,
-      explanation: 'His first game was Wildwest, in which he was a sheriff in a dusty town.'
-    },
-    {
-      question: 'How did Sebastian send his message to Michael?',
-      options: ['by phone', 'through the printer', 'by e-mail', 'through a friend'],
-      correct_index: 1,
-      explanation: 'The printer produced the message "I\'m stuck. Please help to retrieve me. Try DRAGONQUEST. Sebastian Shultz."'
-    },
-    {
-      question: 'In Dragonquest, Sebastian appeared as:',
-      options: ['the dragon', 'a second knight (Sir Sebastian)', 'a prisoner', 'a sheriff'],
-      correct_index: 1,
-      explanation: 'He was the second knight, Sir Sebastian, who was carried off by the dragon.'
-    },
-    {
-      question: 'Why was Sebastian Shultz in a coma?',
-      options: ['he had a fever', 'he was hurt in a car crash', 'he fell from a roof', 'he was poisoned'],
-      correct_index: 1,
-      explanation: 'He was seriously injured in a car crash, with an injury to his head.'
-    },
-    {
-      question: 'How did Sebastian\'s memory get into the computer games?',
-      options: ['he downloaded it', 'he was plugged into the computer at the time of the accident, and his memory was saved', 'his father uploaded it', 'the doctors saved it'],
-      correct_index: 1,
-      explanation: 'At the time of the accident he was plugged in, and the computer saved his memory in the games.'
-    },
-    {
-      question: 'Michael finally rescued Sebastian in the game:',
-      options: ['Wildwest', 'Dragonquest', 'Jailbreak', 'Warzone'],
-      correct_index: 3,
-      explanation: 'In Warzone, he flew the helicopter through gunfire and pulled Sebastian aboard, hitting the 40,000,000 jackpot.'
-    },
-    {
-      question: 'The score Michael hit at the end of Warzone was:',
-      options: ['21,095', '40,000,000', '100,000', '5,000,000'],
-      correct_index: 1,
-      explanation: 'When Sebastian was pulled into the helicopter, the screen flashed 40,000,000.'
-    },
-    {
-      question: 'What was the headline of the article about Sebastian\'s recovery?',
-      options: ['"Boy Wakes Up"', '"Miracle Recovery"', '"Coma Victim Saved"', '"Virtual Hero"'],
-      correct_index: 1,
-      explanation: 'The paper reported Sebastian\'s recovery under the headline "Miracle Recovery".'
-    },
-    {
-      question: 'At the end of the story, Sebastian wrote to Michael:',
-      options: ['asking for the games back', 'thanking him for saving his life', 'warning him off the computer', 'inviting him to the hospital'],
-      correct_index: 1,
-      explanation: 'He e-mailed Michael, thanking him for saving his life, and hoped they would meet soon.'
-    }
+    { unit_id: 'virtually-true', question: 'What newspaper headline does Michael read at the start of the story?', options: ['"Local Boy Wins Award"', '"Miracle Recovery"', '"Computer Fair Opens"', '"Coma Patient Passes Away"'], correct_index: 1, explanation: 'Michael reads an article headlined "Miracle Recovery," reporting Sebastian Shultz\'s unexpected recovery from a coma.', topic: 'plot' },
+    { unit_id: 'virtually-true', question: 'Where did Michael and his father get the computer games that begin the story\'s events?', options: ['A friend\'s house', 'A computer fair', 'An online store', 'A school fundraiser'], correct_index: 1, explanation: 'Michael\'s technology-obsessed father bought the virtual reality visor, glove and games during a visit to a computer fair.', topic: 'plot' },
+    { unit_id: 'virtually-true', question: 'In which game did Michael first receive a message from Sebastian Shultz?', options: ['Dragon Quest', 'Jailbreak', 'Wildwest', 'Warzone'], correct_index: 2, explanation: 'After playing "Wildwest," Michael\'s printer produced a message signed by Sebastian Shultz, asking for help.', topic: 'plot' },
+    { unit_id: 'virtually-true', question: 'What was Michael\'s task in the game "Dragon Quest"?', options: ['To defeat a rival sheriff', 'To rescue Princess Aurora from a wicked dragon', 'To escape from prison', 'To pilot a helicopter'], correct_index: 1, explanation: 'In "Dragon Quest," Michael had to rescue the fair Princess Aurora from a wicked dragon and gather its treasure.', topic: 'plot' },
+    { unit_id: 'virtually-true', question: 'How, according to Michael\'s theory, did Sebastian\'s memory come to be inside the game disks?', options: ['He recorded himself on purpose', 'It was saved onto the disks during his real accident while playing the game', 'A wizard cast a spell', 'His father programmed it as a prank'], correct_index: 1, explanation: 'Michael theorises that Sebastian\'s memory was saved onto the disk at the exact moment of his accident, while he was playing the game.', topic: 'plot' },
+    { unit_id: 'virtually-true', question: 'How did the game disks end up in Michael\'s possession?', options: ['Sebastian mailed them to Michael', 'They were stolen from the Shultz household and later sold at the computer fair', 'Michael\'s father worked with Mr Shultz', 'They were bundled free with a new games console'], correct_index: 1, explanation: 'The disks were stolen from Sebastian\'s home after his accident and eventually reached the computer fair, where Michael\'s father bought them.', topic: 'plot' },
+    { unit_id: 'virtually-true', question: 'What idea did Sebastian propose in the game "Jailbreak"?', options: ['Digging a tunnel', 'Using a helicopter to escape', 'Bribing a guard', 'Calling for backup'], correct_index: 1, explanation: 'Sebastian suggested using a helicopter to rescue himself, an idea they later successfully used in "Warzone."', topic: 'plot' },
+    { unit_id: 'virtually-true', question: 'In which game was Sebastian finally rescued?', options: ['Wildwest', 'Dragon Quest', 'Jailbreak', 'Warzone'], correct_index: 3, explanation: 'Sebastian was finally rescued in "Warzone," when he tumbled into a helicopter as a tank crashed into a jeep, and Michael pulled him to safety.', topic: 'plot' },
+    { unit_id: 'virtually-true', question: 'What happened in the real world at the exact moment Sebastian was rescued in the game?', options: ['Michael\'s computer crashed', 'Sebastian began his sudden, unexplained recovery from his coma', 'Sebastian\'s father found the stolen disks', 'The newspaper published its article'], correct_index: 1, explanation: 'At the same moment Michael rescues Sebastian within "Warzone," Sebastian inexplicably begins to recover from his real-world coma.', topic: 'theme' },
+    { unit_id: 'virtually-true', question: 'What central idea does the story\'s title, "Virtually True," most directly point to, with reference to its plot?', options: ['That computer games are always fictional', 'That events within a virtual game world can have real, tangible consequences', 'That newspapers cannot be trusted', 'That Michael\'s father is untrustworthy'], correct_index: 1, explanation: 'The title reflects the story\'s central theme: the blurred boundary between virtual, simulated experience and real-world consequence, shown by Sebastian\'s recovery coinciding with his in-game rescue.', topic: 'theme' }
   ]
 };
