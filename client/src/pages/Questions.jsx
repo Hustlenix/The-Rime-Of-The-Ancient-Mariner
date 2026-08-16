@@ -5,6 +5,7 @@ import QuestionCard from '../components/QuestionCard';
 import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
 import UnitSwitcher from '../components/UnitSwitcher';
+import Breadcrumbs from '../components/Breadcrumbs';
 import { img } from '../asset';
 
 export default function Questions() {
@@ -43,6 +44,7 @@ export default function Questions() {
         sub="Short and long answer questions with model answers. Click a question to reveal its answer."
         image={img('ice.jpg')}
       />
+      <Breadcrumbs unitTitle={meta.title} />
       <UnitSwitcher currentId={meta.id} page="questions" />
       <MotivationBar />
 

@@ -123,7 +123,17 @@ export default function QuizRunner({ unitId, onFinish }) {
           return (
             <button key={i} className={cls} onClick={() => pick(i)} disabled={answered}>
               <span className="option-letter">{String.fromCharCode(65 + i)}</span>
-              {opt}
+              <span className="option-text">{opt}</span>
+              {answered && i === question.correct_index && (
+                <span className="option-mark mark-good" aria-label="Correct answer">
+                  ✓ Correct
+                </span>
+              )}
+              {answered && i === picked && i !== question.correct_index && (
+                <span className="option-mark mark-bad" aria-label="Your answer was wrong">
+                  ✗
+                </span>
+              )}
             </button>
           );
         })}

@@ -26,7 +26,6 @@ export default function UnitSwitcher({ currentId, page = 'study' }) {
               return (
                 <option key={id} value={id}>
                   {u.title}
-                  {u.legacy ? ' (legacy)' : ''}
                 </option>
               );
             })}

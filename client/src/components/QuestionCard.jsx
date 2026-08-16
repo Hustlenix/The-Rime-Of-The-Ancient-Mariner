@@ -6,7 +6,11 @@ export default function QuestionCard({ question }) {
   return (
     <article className="q-card card">
       <p className="q-prompt">{question.prompt}</p>
-      <button className="btn btn-outline btn-small" onClick={() => setShow((s) => !s)}>
+      <button
+        className="btn btn-outline btn-small"
+        onClick={() => setShow((s) => !s)}
+        aria-expanded={show}
+      >
         {show ? 'Hide answer' : 'Show answer'}
       </button>
       {show && <p className="q-answer">{question.answer}</p>}

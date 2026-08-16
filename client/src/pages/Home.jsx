@@ -33,7 +33,7 @@ export default function Home() {
               Search the portal
             </Link>
             <Link to="/unit/rime-of-the-ancient-mariner/study" className="btn btn-outline">
-              Legacy unit: Ancient Mariner
+              The Ancient Mariner — a classic
             </Link>
           </div>
         </div>
@@ -58,19 +58,15 @@ export default function Home() {
                       {u.id === 'rime-of-the-ancient-mariner' && <span className="type-badge type-legacy">CLASSIC</span>}
                     </div>
                     <h3 className="unit-card-title">{u.title}</h3>
-                    <p className="unit-card-author">{u.author}</p>
+                    <p className="unit-card-author">By {u.author}</p>
                     {u.stats && (
-                      <p className="unit-card-stats">
-                        {u.stats.summaries > 0 && `${u.stats.summaries} summaries`}
-                        {u.stats.summaries > 0 && u.stats.themes > 0 && ' · '}
-                        {u.stats.themes > 0 && `${u.stats.themes} themes`}
-                        {u.stats.devices > 0 && ' · '}
-                        {u.stats.devices > 0 && `${u.stats.devices} poetic devices`}
-                        {u.stats.questions > 0 && ' · '}
-                        {u.stats.questions > 0 && `${u.stats.questions} Q&A`}
-                        {u.stats.quiz > 0 && ' · '}
-                        {u.stats.quiz > 0 && `${u.stats.quiz} quiz questions`}
-                      </p>
+                      <ul className="unit-card-stats">
+                        {u.stats.summaries > 0 && <li>{u.stats.summaries} summaries</li>}
+                        {u.stats.themes > 0 && <li>{u.stats.themes} themes</li>}
+                        {u.stats.devices > 0 && <li>{u.stats.devices} poetic devices</li>}
+                        {u.stats.questions > 0 && <li>{u.stats.questions} Q&A</li>}
+                        {u.stats.quiz > 0 && <li>{u.stats.quiz} quiz questions</li>}
+                      </ul>
                     )}
                     <span className="unit-card-go">Open unit →</span>
                   </Link>
@@ -81,42 +77,42 @@ export default function Home() {
         </div>
       )}
 
-      <section className="journey">
-        <h2>How to use the portal</h2>
+      <section className="journey" aria-labelledby="journey-heading">
+        <h2 id="journey-heading">How to use the portal</h2>
         <p className="journey-sub">
           One unit at a time — read, practise, then prove yourself.
         </p>
-        <div className="journey-grid">
-          <article className="journey-step card">
-            <span className="step-num">1</span>
+        <ol className="journey-grid">
+          <li className="journey-step card">
+            <span className="step-num" aria-hidden="true">1</span>
             <h3 className="step-title">Study</h3>
             <p className="step-text">
               Read the summaries, themes, character sketches and poetic devices for your unit.
             </p>
-          </article>
-          <article className="journey-step card">
-            <span className="step-num">2</span>
+          </li>
+          <li className="journey-step card">
+            <span className="step-num" aria-hidden="true">2</span>
             <h3 className="step-title">Questions</h3>
             <p className="step-text">
               Practise the short and long answers with model answers — reveal them only after you
               have tried yourself.
             </p>
-          </article>
-          <article className="journey-step card">
-            <span className="step-num">3</span>
+          </li>
+          <li className="journey-step card">
+            <span className="step-num" aria-hidden="true">3</span>
             <h3 className="step-title">Flashcards</h3>
             <p className="step-text">
-              Flip through the question bank and mark what you have truly mastered.
+              Flip through the question bank and track your progress as you master it.
             </p>
-          </article>
-          <article className="journey-step card">
-            <span className="step-num">4</span>
+          </li>
+          <li className="journey-step card">
+            <span className="step-num" aria-hidden="true">4</span>
             <h3 className="step-title">Quiz</h3>
             <p className="step-text">
               Take the unit quiz again and again until every question feels familiar.
             </p>
-          </article>
-        </div>
+          </li>
+        </ol>
       </section>
     </div>
   );

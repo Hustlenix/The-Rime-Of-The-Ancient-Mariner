@@ -33,6 +33,9 @@ npm start        # listens on http://localhost:5000
 cd client
 npm install
 npm run dev      # opens http://localhost:5173
+
+# Tests (Vitest + Testing Library, jsdom)
+npm test
 ```
 
 The SQLite database (`server/data.db`) is created automatically on first server start and seeded with the full question bank plus two demo accounts. Delete `server/data.db` at any time to reset to a fresh state (it will be recreated and re-seeded on next start).

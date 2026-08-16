@@ -4,6 +4,7 @@ import { api } from '../api';
 import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
 import UnitSwitcher from '../components/UnitSwitcher';
+import Breadcrumbs from '../components/Breadcrumbs';
 import { img } from '../asset';
 
 const TYPE_LABELS = { prose: 'Prose', poem: 'Poem', play: 'Play' };
@@ -135,6 +136,7 @@ export default function Study() {
         sub={`${meta.author ? `By ${meta.author} · ` : ''}Summaries, themes${meta.type === 'poem' ? ', poetic devices' : ', character sketches'} and model analysis for the exam.`}
         image={img(meta.type === 'poem' ? 'lonely.jpg' : 'ice.jpg')}
       />
+      <Breadcrumbs unitTitle={meta.title} />
       <UnitSwitcher currentId={meta.id} page="study" />
       <MotivationBar />
       {tabs.length === 0 && <p className="empty-note">Study content for this unit is being prepared.</p>}

@@ -1,7 +1,12 @@
 export default function Flashcard({ card, flipped, onFlip }) {
   return (
     <div className={`flip-card ${flipped ? 'flipped' : ''}`} onClick={onFlip} role="button" tabIndex={0}
-      onKeyDown={(e) => e.key === 'Enter' && onFlip()}>
+      onKeyDown={(e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          onFlip();
+        }
+      }}>
       <div className="flip-inner">
         <div className="flip-face flip-front">
           <p className="flip-label">Question</p>

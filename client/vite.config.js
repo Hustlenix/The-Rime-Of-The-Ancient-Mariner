@@ -12,5 +12,18 @@ export default defineConfig({
         changeOrigin: true
       }
     }
+  },
+  test: {
+    environment: 'jsdom',
+    setupFiles: './test/setup.js',
+    css: false,
+    // Pre-bundling of react/react-dom in the test environment can produce a
+    // second module instance (jsx-runtime split from react-dom's copy),
+    // which react-dom rejects as "element from an older version of React".
+    deps: {
+      optimizer: {
+        web: { enabled: false }
+      }
+    }
   }
 });

@@ -6,6 +6,7 @@ import QuizRunner from '../components/QuizRunner';
 import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
 import UnitSwitcher from '../components/UnitSwitcher';
+import Breadcrumbs from '../components/Breadcrumbs';
 import { img } from '../asset';
 
 export default function Quiz() {
@@ -60,6 +61,7 @@ export default function Quiz() {
         sub="Ten random multiple-choice questions, one at a time — with instant feedback and an explanation after every answer."
         image={img('lonely.jpg')}
       />
+      <Breadcrumbs unitTitle={meta.title} />
       <UnitSwitcher currentId={meta.id} page="quiz" />
       <MotivationBar />
 

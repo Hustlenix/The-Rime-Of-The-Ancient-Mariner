@@ -13,13 +13,26 @@ const DEFAULT_UNIT = 'rime-of-the-ancient-mariner';
 let staticMode = false;
 let searchIndexPromise = null;
 
+// In-memory cache for the read endpoints: navigating back and forth between
+// unit pages re-issues the same GETs, and a session-scoped cache removes that
+// churn. Mutations (admin edits, quiz attempts, flashcard marks, logout)
+// invalidate the cache so nothing served is stale.
+const GET_CACHE = new Map();
+
+function clearGetCache() {
+  GET_CACHE.clear();
+}
+
 function getToken() {
   return localStorage.getItem('token');
 }
 
 function setToken(token) {
   if (token) localStorage.setItem('token', token);
-  else localStorage.removeItem('token');
+  else {
+    localStorage.removeItem('token');
+    clearGetCache();
+  }
 }
 
 export function isStatic() {
@@ -74,8 +87,19 @@ async function request(path, options = {}) {
 }
 
 // Try the live API first; when it is unreachable (static hosting), serve the
-// embedded unit data so every study page keeps working.
-async function withFallback(path, options, makeFallback) {
+// embedded unit data so every study page keeps working. Read calls are cached
+// in memory for the session; pass options.noCache to always go to the network
+// (quiz questions reshuffle server-side on purpose).
+function withFallback(path, options = {}, makeFallback) {
+  if (options.noCache) return fallbackOrRequest(path, options, makeFallback);
+  const key = `${path}|${options.body || ''}`;
+  if (!GET_CACHE.has(key)) {
+    GET_CACHE.set(key, fallbackOrRequest(path, options, makeFallback));
+  }
+  return GET_CACHE.get(key);
+}
+
+async function fallbackOrRequest(path, options, makeFallback) {
   if (staticMode) return makeFallback();
   try {
     return await request(path, options);
@@ -209,30 +233,52 @@ export const api = {
 
   getQuizQuestions: (unitId, limit = 10) => {
     const id = unitId || DEFAULT_UNIT;
-    return withFallback(`/quiz/questions?unit_id=${encodeURIComponent(id)}&limit=${limit}`, {}, async () => {
+    return withFallback(`/quiz/questions?unit_id=${encodeURIComponent(id)}&limit=${limit}`, { noCache: true }, async () => {
       const data = await loadUnitData(id);
       const shuffled = [...data.quizQuestions].sort(() => Math.random() - 0.5);
       return { questions: shuffled.slice(0, limit) };
     });
   },
 
-  submitAttempt: (score, total) =>
-    request('/quiz/attempts', { method: 'POST', body: JSON.stringify({ score, total }) }),
+  submitAttempt: (score, total) => {
+    clearGetCache();
+    return request('/quiz/attempts', { method: 'POST', body: JSON.stringify({ score, total }) });
+  },
   getAttempts: () => request('/quiz/attempts'),
 
-  markKnown: (questionId, known) =>
-    request(`/flashcards/${questionId}/known`, { method: 'POST', body: JSON.stringify({ known }) }),
+  markKnown: (questionId, known) => {
+    clearGetCache();
+    return request(`/flashcards/${questionId}/known`, { method: 'POST', body: JSON.stringify({ known }) });
+  },
   getFlashcardProgress: () => request('/flashcards/progress'),
 
-  createQuestion: (data) => request('/admin/questions', { method: 'POST', body: JSON.stringify(data) }),
-  updateQuestion: (id, data) => request(`/admin/questions/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
-  deleteQuestion: (id) => request(`/admin/questions/${id}`, { method: 'DELETE' }),
+  createQuestion: (data) => {
+    clearGetCache();
+    return request('/admin/questions', { method: 'POST', body: JSON.stringify(data) });
+  },
+  updateQuestion: (id, data) => {
+    clearGetCache();
+    return request(`/admin/questions/${id}`, { method: 'PUT', body: JSON.stringify(data) });
+  },
+  deleteQuestion: (id) => {
+    clearGetCache();
+    return request(`/admin/questions/${id}`, { method: 'DELETE' });
+  },
   getQuestionsAdmin: (unitId) =>
     request(`/admin/questions${unitId ? `?unit_id=${encodeURIComponent(unitId)}` : ''}`),
 
   getQuizQuestionsAdmin: (unitId) =>
     request(`/admin/quiz-questions${unitId ? `?unit_id=${encodeURIComponent(unitId)}` : ''}`),
-  createQuizQuestion: (data) => request('/admin/quiz-questions', { method: 'POST', body: JSON.stringify(data) }),
-  updateQuizQuestion: (id, data) => request(`/admin/quiz-questions/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
-  deleteQuizQuestion: (id) => request(`/admin/quiz-questions/${id}`, { method: 'DELETE' })
+  createQuizQuestion: (data) => {
+    clearGetCache();
+    return request('/admin/quiz-questions', { method: 'POST', body: JSON.stringify(data) });
+  },
+  updateQuizQuestion: (id, data) => {
+    clearGetCache();
+    return request(`/admin/quiz-questions/${id}`, { method: 'PUT', body: JSON.stringify(data) });
+  },
+  deleteQuizQuestion: (id) => {
+    clearGetCache();
+    return request(`/admin/quiz-questions/${id}`, { method: 'DELETE' });
+  }
 };

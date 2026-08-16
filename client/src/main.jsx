@@ -14,3 +14,15 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     </HashRouter>
   </React.StrictMode>
 );
+
+// Offline caching for the static (GitHub Pages) copy — production only, and
+// only when the browser supports service workers.
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker
+      .register(`${import.meta.env.BASE_URL}sw.js`)
+      .catch(() => {
+        /* offline caching is progressive enhancement */
+      });
+  });
+}

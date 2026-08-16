@@ -24,7 +24,7 @@ export default function Navbar() {
 
   return (
     <header className="navbar">
-      <Link to="/" className="brand">
+      <Link to="/" className="brand" aria-label="Class X English Study Portal — Home">
         <svg className="brand-mark" viewBox="0 0 24 24" fill="none" aria-hidden="true">
           <path
             d="M12 2C7 6 3 10 3 14a9 9 0 0 0 18 0c0-4-4-8-9-12Z"
@@ -39,10 +39,7 @@ export default function Navbar() {
         </span>
       </Link>
 
-      <nav className="nav-links">
-        <NavLink to="/" end className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
-          Home
-        </NavLink>
+      <nav className="nav-links" aria-label="Primary">
         <NavLink to="/study" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
           Study
         </NavLink>
@@ -60,8 +57,9 @@ export default function Navbar() {
         </NavLink>
       </nav>
 
+      <ThemeToggle />
+
       <div className="nav-auth">
-        <ThemeToggle />
         {loading ? null : user ? (
           <>
             <NavLink to="/profile" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
@@ -78,12 +76,12 @@ export default function Navbar() {
           </>
         ) : (
           <>
-            <NavLink to="/login" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+            <Link to="/login" className="btn btn-outline btn-small">
               Login
-            </NavLink>
-            <NavLink to="/register" className="btn btn-primary btn-small">
+            </Link>
+            <Link to="/register" className="btn btn-primary btn-small">
               Register
-            </NavLink>
+            </Link>
           </>
         )}
       </div>

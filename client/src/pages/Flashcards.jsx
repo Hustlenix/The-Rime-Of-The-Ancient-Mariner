@@ -6,6 +6,7 @@ import FlashcardDeck from '../components/FlashcardDeck';
 import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
 import UnitSwitcher from '../components/UnitSwitcher';
+import Breadcrumbs from '../components/Breadcrumbs';
 import { img } from '../asset';
 
 export default function Flashcards() {
@@ -74,6 +75,7 @@ export default function Flashcards() {
         sub="Built from the unit's short and long answer questions. Click a card to flip it, then mark it Known or Still learning."
         image={img('snakes.jpg')}
       />
+      <Breadcrumbs unitTitle={meta.title} />
       <UnitSwitcher currentId={meta.id} page="flashcards" />
       <MotivationBar />
 
