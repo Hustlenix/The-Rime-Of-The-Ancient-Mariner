@@ -1,9 +1,14 @@
 // Shared route helpers for unit-aware endpoints.
 const db = require('../db');
+const { units } = require('../seedCatalog');
 
-// The legacy single-unit default: any endpoint called without a unit_id keeps
-// behaving as the original Mariner portal.
-const DEFAULT_UNIT_ID = 'rime-of-the-ancient-mariner';
+// Unit-less requests resolve to the first unit of the Literature Reader
+// (book order), never to a hard-coded chapter, so the API's default matches
+// the lesson students actually see first.
+const DEFAULT_UNIT_ID =
+  units
+    .filter((u) => u.book === 'literature-reader')
+    .sort((a, b) => (a.order || 0) - (b.order || 0))[0]?.id || 'two-gentlemen-of-verona';
 
 function unitExists(unitId) {
   return !!db.prepare('SELECT id FROM units WHERE id = ?').get(unitId);

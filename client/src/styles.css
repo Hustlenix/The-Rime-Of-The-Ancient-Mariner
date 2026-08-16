@@ -1,6 +1,6 @@
 /* ============================================================
-   The Rime of the Ancient Mariner — Study Portal
-   Nautical / Romantic-era theme
+   Class X English Study Portal
+   Neo-brutalist / literature theme
    ============================================================ */
 
 :root {
@@ -1561,12 +1561,6 @@ textarea:focus {
   border-color: rgba(61, 156, 116, 0.4);
 }
 
-.type-legacy {
-  background: rgba(176, 80, 67, 0.18);
-  color: #e6a99f;
-  border-color: rgba(176, 80, 67, 0.45);
-}
-
 .unit-card-title {
   margin: 0;
   font-size: 1.15rem;
@@ -2044,11 +2038,6 @@ select:focus {
   color: var(--abyss);
 }
 
-.type-legacy {
-  background: var(--gold);
-  color: var(--abyss);
-}
-
 .unit-card-author {
   color: var(--storm-light);
   font-style: normal;
@@ -2081,21 +2070,53 @@ select:focus {
   color: var(--ice);
 }
 
-.heritage-stamp {
-  display: inline-block;
+/* ---------- continue studying card ---------- */
+
+.continue-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1.25rem 1.5rem;
+  background: var(--sea);
+  color: var(--ice);
+  border: 2px solid var(--border-ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.continue-copy {
+  min-width: 0;
+}
+
+.continue-label {
+  margin: 0 0 0.25rem;
   font-family: var(--serif);
-  font-size: 0.7rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.14em;
   text-transform: uppercase;
-  color: var(--abyss);
-  background: var(--gold);
-  border: 2px solid var(--border-ink);
-  border-radius: 3px;
-  padding: 0.2rem 0.6rem;
-  box-shadow: 2px 2px 0 var(--shadow-ink);
-  transform: rotate(-2deg);
-  margin-top: 0.5rem;
+  color: var(--storm-light);
+}
+
+.continue-title {
+  margin: 0 0 0.2rem;
+  font-size: 1.25rem;
+}
+
+.continue-author {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--storm-light);
+}
+
+@media (max-width: 640px) {
+  .continue-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 /* ---------- page banner ---------- */

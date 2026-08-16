@@ -49,8 +49,8 @@ async function main() {
   }
 
   const contentDefault = await get('/api/content');
-  check('GET /api/content (no unit) defaults to Mariner', contentDefault.status === 200 && contentDefault.body.unitId === 'rime-of-the-ancient-mariner'
-    && contentDefault.body.summaries.length >= 2 && contentDefault.body.devices.length >= 10,
+  check('GET /api/content (no unit) defaults to first unit', contentDefault.status === 200 && contentDefault.body.unitId === 'two-gentlemen-of-verona'
+    && contentDefault.body.summaries.length >= 2,
     `unitId=${contentDefault.body.unitId}`);
 
   const contentAlias = await get('/api/content?unit=the-letter');

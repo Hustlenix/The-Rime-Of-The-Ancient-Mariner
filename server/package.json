@@ -2,7 +2,7 @@
   "name": "rime-server",
   "version": "1.0.0",
   "private": true,
-  "description": "API server for The Rime of the Ancient Mariner study portal (TALS)",
+  "description": "API server for the Class X English Study Portal (TALS)",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"

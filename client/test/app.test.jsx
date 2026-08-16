@@ -57,4 +57,12 @@ describe('App shell', () => {
     expect(await screen.findByText(/Preview mode\./)).toBeInTheDocument();
     expect(screen.getByRole('button', { name: 'Dismiss' })).toBeInTheDocument();
   });
+
+  it('shows a "Continue studying" card for the last opened lesson', async () => {
+    localStorage.setItem('tals-last-unit', 'ozymandias');
+    renderApp();
+    expect(await screen.findByText('Pick up where you left off')).toBeInTheDocument();
+    const link = screen.getByRole('link', { name: 'Continue studying' });
+    expect(link).toHaveAttribute('href', '#/unit/ozymandias/study');
+  });
 });

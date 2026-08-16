@@ -1,12 +1,13 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { api } from '../api';
+import { api, getLastUnit } from '../api';
 
 const TYPE_LABELS = { prose: 'Prose', poem: 'Poem', play: 'Play' };
 
 export default function Home() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
+  const lastUnit = getLastUnit();
 
   useEffect(() => {
     api
@@ -32,18 +33,38 @@ export default function Home() {
             <Link to="/search" className="btn btn-primary">
               Search the portal
             </Link>
-            <Link to="/unit/rime-of-the-ancient-mariner/study" className="btn btn-outline">
-              The Ancient Mariner — a classic
-            </Link>
+            <button
+              type="button"
+              className="btn btn-outline"
+              onClick={() => {
+                const shelf = document.getElementById('book-shelf');
+                if (shelf) shelf.scrollIntoView();
+              }}
+            >
+              Browse the shelf
+            </button>
           </div>
         </div>
       </section>
+
+      {lastUnit && (
+        <section className="continue-card" aria-label="Continue studying">
+          <div className="continue-copy">
+            <p className="continue-label">Pick up where you left off</p>
+            <h2 className="continue-title">{lastUnit.title}</h2>
+            <p className="continue-author">By {lastUnit.author}</p>
+          </div>
+          <Link className="btn btn-primary" to={`/unit/${lastUnit.id}/study`}>
+            Continue studying
+          </Link>
+        </section>
+      )}
 
       {error && <p className="error-text">Failed to load units: {error}</p>}
       {!data && !error && <p className="page-loader">Loading the book shelf…</p>}
 
       {data && (
-        <div className="book-shelf">
+        <div className="book-shelf" id="book-shelf">
           {data.books.map((book) => (
             <section key={book.id} className="book-section">
               <div className="book-section-head">
@@ -55,7 +76,6 @@ export default function Home() {
                   <Link key={u.id} to={`/unit/${u.id}/study`} className={`unit-card card book-${book.id}`}>
                     <div className="unit-card-top">
                       <span className={`type-badge type-${u.type}`}>{TYPE_LABELS[u.type] || u.type}</span>
-                      {u.id === 'rime-of-the-ancient-mariner' && <span className="type-badge type-legacy">CLASSIC</span>}
                     </div>
                     <h3 className="unit-card-title">{u.title}</h3>
                     <p className="unit-card-author">By {u.author}</p>

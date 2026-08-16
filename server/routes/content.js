@@ -8,8 +8,8 @@ const questionsRouter = express.Router();
 const VALID_CATEGORIES = ['summary', 'theme', 'device', 'character', 'value', 'analysis', 'short', 'long'];
 
 function pickUnit(req, res) {
-  // unit_id optional — defaults to the legacy Mariner unit so existing
-  // clients keep working unchanged. unit= is accepted as an alias.
+  // unit_id optional — defaults to the first unit of the Literature Reader;
+  // unit= is accepted as an alias.
   const raw = req.query.unit_id || req.query.unit || null;
   if (raw == null) return DEFAULT_UNIT_ID;
   const resolved = resolveUnitFilter(req, res);

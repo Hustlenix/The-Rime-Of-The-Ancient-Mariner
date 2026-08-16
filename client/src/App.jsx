@@ -3,7 +3,7 @@ import { Routes, Route, Navigate, Link, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import ProtectedRoute from './components/ProtectedRoute';
 import BackToTop from './components/BackToTop';
-import { isStatic } from './api';
+import { isStatic, getLastUnit, rememberLastUnit } from './api';
 
 // Pages are code-split so the initial bundle stays small; each route chunk
 // loads only when first visited.
@@ -18,7 +18,6 @@ const Register = lazy(() => import('./pages/Register'));
 const Profile = lazy(() => import('./pages/Profile'));
 const Admin = lazy(() => import('./pages/Admin'));
 
-const LEGACY_UNIT = 'rime-of-the-ancient-mariner';
 const PREVIEW_DISMISS_KEY = 'tals-preview-dismissed';
 const SITE_NAME = 'Class X English Study Portal';
 
@@ -74,6 +73,18 @@ function ScrollToTop() {
   const { pathname } = useLocation();
   useEffect(() => {
     window.scrollTo(0, 0);
+  }, [pathname]);
+  return null;
+}
+
+// Visiting any unit page makes that lesson the app's "current" one, so the
+// top-nav Study/Questions/Quiz/Flashcards links and the Home resume card
+// always point at the lesson the student is actually working on.
+function RememberLastUnit() {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    const match = pathname.match(/^\/unit\/([^/]+)\//);
+    if (match) rememberLastUnit(match[1]);
   }, [pathname]);
   return null;
 }
@@ -158,6 +169,7 @@ const loading = (
 
 export default function App() {
   usePageTracking();
+  const lastUnit = getLastUnit();
   return (
     <>
       <a className="skip-link" href="#main-content">
@@ -167,6 +179,7 @@ export default function App() {
       <StaticModeNote />
       <main className="page" id="main-content">
         <ScrollToTop />
+        <RememberLastUnit />
         <ErrorBoundary>
           <Suspense fallback={loading}>
             <Routes>
@@ -175,10 +188,10 @@ export default function App() {
               <Route path="/unit/:unitId/questions" element={<Questions />} />
               <Route path="/unit/:unitId/quiz" element={<Quiz />} />
               <Route path="/unit/:unitId/flashcards" element={<Flashcards />} />
-              <Route path="/study" element={<Navigate to={`/unit/${LEGACY_UNIT}/study`} replace />} />
-              <Route path="/questions" element={<Navigate to={`/unit/${LEGACY_UNIT}/questions`} replace />} />
-              <Route path="/quiz" element={<Navigate to={`/unit/${LEGACY_UNIT}/quiz`} replace />} />
-              <Route path="/flashcards" element={<Navigate to={`/unit/${LEGACY_UNIT}/flashcards`} replace />} />
+              <Route path="/study" element={<Navigate to={`/unit/${lastUnit.id}/study`} replace />} />
+              <Route path="/questions" element={<Navigate to={`/unit/${lastUnit.id}/questions`} replace />} />
+              <Route path="/quiz" element={<Navigate to={`/unit/${lastUnit.id}/quiz`} replace />} />
+              <Route path="/flashcards" element={<Navigate to={`/unit/${lastUnit.id}/flashcards`} replace />} />
               <Route path="/search" element={<Search />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
@@ -213,11 +226,10 @@ export default function App() {
         </div>
         <p>Class X English Study Portal — The Ashok Leyland School</p>
         <p>
-          Covers the full CBSE Class X English Literature Reader (Interact in English): prose,
-          poems &amp; plays — including the school&rsquo;s legacy unit The Rime of the Ancient
-          Mariner.
+          Covers every lesson of the CBSE Class X English Literature Reader (Interact in English):
+          prose, poems &amp; plays — with summaries, themes, character sketches, poetic devices,
+          model answers, quizzes and flashcards for each unit.
         </p>
-        <p className="heritage-stamp">Est. 1798 · The Rime of the Ancient Mariner</p>
       </footer>
     </>
   );

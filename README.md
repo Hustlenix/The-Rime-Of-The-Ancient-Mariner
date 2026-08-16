@@ -1,6 +1,6 @@
-# The Rime of the Ancient Mariner — Study Portal
+# Class X English Study Portal
 
-A full-stack study portal for Samuel Taylor Coleridge's *The Rime of the Ancient Mariner*, built for **The Ashok Leyland School (TALS)** question bank.
+A full-stack study portal for the CBSE Class X English Literature Reader (Interact in English), built for **The Ashok Leyland School (TALS)**. Thirteen lessons — prose, poems and plays — each with summaries, themes, character sketches, poetic devices, model answers, quizzes and flashcards.
 
 ## Features
 

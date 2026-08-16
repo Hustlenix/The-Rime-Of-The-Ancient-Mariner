@@ -8,7 +8,8 @@ import unitsIndex from './data/units.json';
 
 const BASE = '/api';
 const STATIC_EVENT = 'api:static-mode';
-const DEFAULT_UNIT = 'rime-of-the-ancient-mariner';
+const DEFAULT_UNIT = unitsIndex.units[0]?.id || 'two-gentlemen-of-verona';
+const LAST_UNIT_KEY = 'tals-last-unit';
 
 let staticMode = false;
 let searchIndexPromise = null;
@@ -43,6 +44,30 @@ export function isStatic() {
 // content stays lazily loaded per unit).
 export function getUnitCatalog() {
   return unitsIndex;
+}
+
+// The lesson a student was last working on. Falls back to the catalog's
+// default (first unit of the book) when nothing was stored or the stored id
+// is stale, so unit-less entry points always resolve to a real lesson —
+// never to a hard-coded chapter.
+export function getLastUnit() {
+  const all = unitsIndex.units;
+  let id = DEFAULT_UNIT;
+  try {
+    const stored = localStorage.getItem(LAST_UNIT_KEY);
+    if (stored && all.some((u) => u.id === stored)) id = stored;
+  } catch {
+    /* storage unavailable — use the default */
+  }
+  return all.find((u) => u.id === id) || all[0] || null;
+}
+
+export function rememberLastUnit(unitId) {
+  try {
+    localStorage.setItem(LAST_UNIT_KEY, unitId);
+  } catch {
+    /* storage unavailable — last-unit memory is best-effort */
+  }
 }
 
 function enterStaticMode() {
