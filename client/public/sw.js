@@ -5,7 +5,7 @@
  * (students on the bus). Never intercept cross-origin requests (Google Fonts,
  * GA, the API server) — those pass straight through.
  */
-const CACHE = 'tals-cache-v1';
+const CACHE = 'tals-cache-v2';
 
 self.addEventListener('install', () => {
   self.skipWaiting();
