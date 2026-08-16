@@ -66,9 +66,20 @@ export default function Navbar() {
               {user.name}
             </NavLink>
             {user.role === 'teacher' && (
-              <NavLink to="/admin" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
-                Admin
-              </NavLink>
+              <>
+                <NavLink to="/teacher/bank" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+                  Bank
+                </NavLink>
+                <NavLink to="/teacher/build" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+                  Build
+                </NavLink>
+                <NavLink to="/teacher/library" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+                  Papers
+                </NavLink>
+                <NavLink to="/admin" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+                  Admin
+                </NavLink>
+              </>
             )}
             <button className="btn btn-ghost btn-small" onClick={logout}>
               Logout

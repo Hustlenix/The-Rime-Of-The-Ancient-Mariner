@@ -10,6 +10,7 @@ const unitsRoutes = require('./routes/units');
 const quizRoutes = require('./routes/quiz');
 const flashcardRoutes = require('./routes/flashcards');
 const adminRoutes = require('./routes/admin');
+const teacherRoutes = require('./routes/teacher');
 
 const app = express();
 
@@ -23,6 +24,7 @@ app.use('/api/questions', questionsRouter);
 app.use('/api/quiz', quizRoutes);
 app.use('/api/flashcards', flashcardRoutes);
 app.use('/api/admin', adminRoutes);
+app.use('/api/teacher', teacherRoutes);
 
 app.use('/api', (req, res) => {
   res.status(404).json({ error: 'Not found' });

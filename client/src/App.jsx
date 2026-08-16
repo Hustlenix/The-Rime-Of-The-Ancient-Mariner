@@ -17,6 +17,10 @@ const Login = lazy(() => import('./pages/Login'));
 const Register = lazy(() => import('./pages/Register'));
 const Profile = lazy(() => import('./pages/Profile'));
 const Admin = lazy(() => import('./pages/Admin'));
+const TeacherBank = lazy(() => import('./pages/teacher/TeacherBank'));
+const PaperBuilder = lazy(() => import('./pages/teacher/PaperBuilder'));
+const PaperLibrary = lazy(() => import('./pages/teacher/PaperLibrary'));
+const PaperView = lazy(() => import('./pages/teacher/PaperView'));
 
 const PREVIEW_DISMISS_KEY = 'tals-preview-dismissed';
 const SITE_NAME = 'Class X English Study Portal';
@@ -34,6 +38,10 @@ const pageTitleFor = (pathname) => {
   if (pathname.startsWith('/register')) return 'Register';
   if (pathname.startsWith('/profile')) return 'Profile';
   if (pathname.startsWith('/admin')) return 'Admin';
+  if (pathname.startsWith('/teacher/bank')) return 'Question Bank';
+  if (pathname.startsWith('/teacher/build')) return 'Paper Builder';
+  if (pathname.startsWith('/teacher/library')) return 'Paper Library';
+  if (pathname.startsWith('/teacher/paper/')) return 'Paper';
   return 'Page not found';
 };
 
@@ -208,6 +216,46 @@ export default function App() {
                 element={
                   <ProtectedRoute requireTeacher>
                     <Admin />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/teacher/bank"
+                element={
+                  <ProtectedRoute requireTeacher>
+                    <TeacherBank />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/teacher/build"
+                element={
+                  <ProtectedRoute requireTeacher>
+                    <PaperBuilder />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/teacher/build/:paperId"
+                element={
+                  <ProtectedRoute requireTeacher>
+                    <PaperBuilder />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/teacher/library"
+                element={
+                  <ProtectedRoute requireTeacher>
+                    <PaperLibrary />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="/teacher/paper/:paperId"
+                element={
+                  <ProtectedRoute requireTeacher>
+                    <PaperView />
                   </ProtectedRoute>
                 }
               />

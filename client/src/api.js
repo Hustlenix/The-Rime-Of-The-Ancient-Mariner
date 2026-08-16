@@ -305,5 +305,128 @@ export const api = {
   deleteQuizQuestion: (id) => {
     clearGetCache();
     return request(`/admin/quiz-questions/${id}`, { method: 'DELETE' });
+  },
+
+  // ---- Teacher tools: question paper builder (live server only) ----
+
+  teacherStaticError: () => {
+    throw new Error('Teacher tools need the school server. They are not available in this hosted preview.');
+  },
+
+  getBankResources: () => {
+    if (staticMode) return api.teacherStaticError();
+    return request('/teacher/bank/resources');
+  },
+  createBankResource: (data) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request('/teacher/bank/resources', { method: 'POST', body: JSON.stringify(data) });
+  },
+  updateBankResource: (id, data) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/bank/resources/${id}`, { method: 'PUT', body: JSON.stringify(data) });
+  },
+  deleteBankResource: (id) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/bank/resources/${id}`, { method: 'DELETE' });
+  },
+
+  getBankQuestions: (params = {}) => {
+    if (staticMode) return api.teacherStaticError();
+    const qs = new URLSearchParams();
+    Object.entries(params).forEach(([k, v]) => {
+      if (v !== undefined && v !== null && v !== '') qs.set(k, String(v));
+    });
+    return request(`/teacher/bank/questions?${qs.toString()}`);
+  },
+  createBankQuestion: (data) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request('/teacher/bank/questions', { method: 'POST', body: JSON.stringify(data) });
+  },
+  updateBankQuestion: (id, data) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/bank/questions/${id}`, { method: 'PUT', body: JSON.stringify(data) });
+  },
+  deleteBankQuestion: (id) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/bank/questions/${id}`, { method: 'DELETE' });
+  },
+  importBankCsv: (resourceId, csv) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request('/teacher/bank/import', { method: 'POST', body: JSON.stringify({ resource_id: resourceId, csv }) });
+  },
+
+  autoFillSections: (sections, excludeIds = []) => {
+    if (staticMode) return api.teacherStaticError();
+    return request('/teacher/bank/autofill', { method: 'POST', body: JSON.stringify({ sections, excludeIds }) });
+  },
+
+  getTemplates: () => {
+    if (staticMode) return api.teacherStaticError();
+    return request('/teacher/templates');
+  },
+  createTemplate: (data) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request('/teacher/templates', { method: 'POST', body: JSON.stringify(data) });
+  },
+  updateTemplate: (id, data) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/templates/${id}`, { method: 'PUT', body: JSON.stringify(data) });
+  },
+  deleteTemplate: (id) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/templates/${id}`, { method: 'DELETE' });
+  },
+
+  getPapers: (params = {}) => {
+    if (staticMode) return api.teacherStaticError();
+    const qs = new URLSearchParams();
+    Object.entries(params).forEach(([k, v]) => {
+      if (v !== undefined && v !== null && v !== '') qs.set(k, String(v));
+    });
+    return request(`/teacher/papers?${qs.toString()}`);
+  },
+  getPaper: (id) => {
+    if (staticMode) return api.teacherStaticError();
+    return request(`/teacher/papers/${id}`);
+  },
+  createPaper: (data) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request('/teacher/papers', { method: 'POST', body: JSON.stringify(data) });
+  },
+  updatePaper: (id, data) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/papers/${id}`, { method: 'PUT', body: JSON.stringify(data) });
+  },
+  deletePaper: (id) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/papers/${id}`, { method: 'DELETE' });
+  },
+  duplicatePaper: (id) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/papers/${id}/duplicate`, { method: 'POST' });
+  },
+  submitPaper: (id) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/papers/${id}/submit`, { method: 'POST' });
+  },
+  setPaperStatus: (id, status) => {
+    if (staticMode) return api.teacherStaticError();
+    clearGetCache();
+    return request(`/teacher/papers/${id}/status`, { method: 'POST', body: JSON.stringify({ status }) });
   }
 };
