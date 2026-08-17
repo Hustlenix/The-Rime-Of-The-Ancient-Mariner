@@ -52,6 +52,9 @@ export default function Navbar() {
         <NavLink to="/flashcards" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
           Flashcards
         </NavLink>
+        <NavLink to="/games" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
+          Games
+        </NavLink>
         <NavLink to="/search" className={({ isActive }) => (isActive ? 'nav-link active' : 'nav-link')}>
           Search
         </NavLink>

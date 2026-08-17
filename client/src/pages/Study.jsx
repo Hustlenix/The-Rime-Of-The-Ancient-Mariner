@@ -5,7 +5,9 @@ import PageBanner from '../components/PageBanner';
 import MotivationBar from '../components/MotivationBar';
 import UnitSwitcher from '../components/UnitSwitcher';
 import Breadcrumbs from '../components/Breadcrumbs';
+import DeviceMarginalia from '../components/DeviceMarginalia';
 import { img } from '../asset';
+import { logSummaryReview } from '../games/progress';
 
 const TYPE_LABELS = { prose: 'Prose', poem: 'Poem', play: 'Play' };
 
@@ -23,6 +25,7 @@ export default function Study() {
       .getContent(unitId)
       .then((c) => {
         setContent(c);
+        logSummaryReview();
         const first = TABS(c).find((t) => (t.count || 0) > 0);
         setTab((prev) => (first ? first.key : null));
       })
@@ -105,16 +108,14 @@ export default function Study() {
       );
     }
     if (active === 'device') {
-      return (
-        <div className="device-list">
-          {content.devices.map((d) => (
-            <article key={d.id} className="device-card card">
-              <h3 className="device-name">{d.prompt}</h3>
-              <p className="device-definition">{d.answer}</p>
-            </article>
-          ))}
-        </div>
-      );
+      const allRows = [
+        ...content.summaries,
+        ...content.themes,
+        ...content.characters,
+        ...content.analysis,
+        ...content.values
+      ];
+      return <DeviceMarginalia devices={content.devices} rows={allRows} />;
     }
     return (
       <div className="study-list">

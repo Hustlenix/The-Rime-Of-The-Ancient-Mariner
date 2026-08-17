@@ -8,6 +8,7 @@ import MotivationBar from '../components/MotivationBar';
 import UnitSwitcher from '../components/UnitSwitcher';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { img } from '../asset';
+import { recordQuizResult } from '../games/progress';
 
 export default function Quiz() {
   const { unitId } = useParams();
@@ -28,6 +29,7 @@ export default function Quiz() {
   }, [loadAttempts]);
 
   const handleFinish = async (score, total) => {
+    recordQuizResult(unitId, Math.round((score / total) * 100));
     if (!user) return;
     try {
       await api.submitAttempt(score, total);

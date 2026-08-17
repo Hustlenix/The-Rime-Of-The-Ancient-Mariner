@@ -2374,7 +2374,7 @@ select:focus {
 }
 
 /* ============================================================
-   Teacher tools ó question paper builder
+   Teacher tools ÔøΩ question paper builder
    ============================================================ */
 
 .page-head {
@@ -2978,15 +2978,15 @@ select:focus {
 }
 
 /* ============================================================
-   ANTHROPIC-STYLE PARCHMENT ó soft restyle (final layer)
+   ANTHROPIC-STYLE PARCHMENT ÔøΩ soft restyle (final layer)
    Warm ivory canvas, flat 24px cards, hairline stone borders,
    editorial serif body + sans UI chrome, yellow kept as the
    single chromatic accent on stamps and primary CTAs.
    ============================================================ */
 
 :root {
-  --deep-sea: #f0ece2; /* canvas ó warm ivory */
-  --sea: #faf9f3; /* cards ó ivory light, never pure white */
+  --deep-sea: #f0ece2; /* canvas ÔøΩ warm ivory */
+  --sea: #faf9f3; /* cards ÔøΩ ivory light, never pure white */
   --sea-mid: #ffd633; /* yellow accent (kept) */
   --abyss: #141413; /* warm near-black */
   --ice: #141413;
@@ -3321,4 +3321,1121 @@ select:focus {
 .marquee-item {
   color: var(--ice-dim);
   font-family: var(--sans);
+}
+/* ============================================================
+   VOYAGE EDITION (final layer)
+   Nautical charts, wax seals, manuscript marginalia, woodcut
+   mascot and printing-press parlor games √¢‚Ç¨‚Äù layered over the
+   parchment restyle without breaking it.
+   ============================================================ */
+
+:root {
+  --seal-gold: #c9a227;
+  --seal-gold-deep: #8a6d10;
+  --seal-copper: #b87333;
+  --seal-copper-deep: #7a4a1e;
+  --seal-brass: #8a7a3c;
+  --chart-paper: #f6efdf;
+  --marginalia-ink: rgba(201, 162, 39, 0.55);
+}
+
+[data-theme='dark'] {
+  --seal-gold: #d9b94a;
+  --seal-gold-deep: #b9962a;
+  --seal-copper: #cf925c;
+  --seal-copper-deep: #a06a38;
+  --seal-brass: #a89a5e;
+  --chart-paper: #221e16;
+}
+
+/* ---------- store accents: subtle shifts of the primary accent ---------- */
+
+html[data-accent='gold'] {
+  --yellow: #d9a800;
+  --sea-mid: #d9a800;
+}
+
+html[data-accent='copper'] {
+  --yellow: #d08a4e;
+  --sea-mid: #d08a4e;
+}
+
+html[data-accent='brass'] {
+  --yellow: #b59a3a;
+  --sea-mid: #b59a3a;
+}
+
+/* ---------- streak bar: ship's logbook across the top ---------- */
+
+.streak-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 8px 24px;
+  background: var(--sea);
+  border-bottom: 1px solid var(--border-ink);
+  font-family: var(--sans);
+}
+
+.streak-left {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.streak-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--ice-dim);
+  font-size: 13px;
+}
+
+.streak-glyph {
+  width: 18px;
+  height: 18px;
+  color: var(--gold);
+}
+
+.coin-glyph {
+  color: var(--seal-gold);
+}
+
+.streak-value {
+  color: var(--ice);
+  font-size: 15px;
+}
+
+.stores-trigger {
+  white-space: nowrap;
+}
+
+/* ---------- Ship's Stores modal ---------- */
+
+.stores-modal {
+  max-width: 460px;
+}
+
+.store-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.store-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--border-ink);
+  border-radius: var(--radius);
+  background: var(--sea);
+}
+
+.store-item.owned {
+  border-color: var(--seal-gold);
+}
+
+.store-item.active {
+  background: rgba(255, 214, 51, 0.16);
+}
+
+.store-item-copy {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.store-item-name {
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--ice);
+}
+
+.store-item-kind {
+  font-size: 12px;
+  color: var(--ice-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.store-item-price {
+  font-size: 13px;
+  color: var(--seal-gold-deep);
+  white-space: nowrap;
+}
+
+/* ---------- voyage chart: the nautical map ---------- */
+
+.voyage-chart {
+  position: relative;
+  overflow: hidden;
+  padding: 28px 24px 32px;
+  background: var(--chart-paper);
+  border: 1px solid var(--border-ink);
+  border-radius: 24px;
+  margin-bottom: 40px;
+  scroll-margin-top: 24px;
+}
+
+.chart-compass {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 64px;
+  height: 64px;
+  opacity: 0.5;
+}
+
+.chart-head {
+  max-width: 640px;
+}
+
+.chart-kicker {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--seal-gold-deep);
+  margin: 0 0 6px;
+}
+
+.chart-head h2 {
+  font-family: var(--serif);
+  font-size: 26px;
+  margin: 0 0 8px;
+  color: var(--ice);
+}
+
+.chart-sub {
+  margin: 0 0 20px;
+  color: var(--ice-dim);
+  font-size: 15px;
+}
+
+.readiness {
+  margin-bottom: 18px;
+  max-width: 560px;
+}
+
+.readiness-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 6px;
+}
+
+.readiness-label {
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ice);
+}
+
+.readiness-pct {
+  font-family: var(--serif);
+  font-weight: 700;
+  color: var(--seal-gold-deep);
+}
+
+.readiness-track {
+  height: 10px;
+  border: 1px solid var(--border-ink);
+  border-radius: 999px;
+  background: rgba(20, 20, 19, 0.06);
+  overflow: hidden;
+}
+
+.readiness-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--seal-brass), var(--seal-gold));
+  transition: width 0.4s ease;
+}
+
+.readiness-sub {
+  margin: 6px 0 0;
+  font-size: 13px;
+  color: var(--ice-dim);
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-bottom: 24px;
+  font-size: 12px;
+  color: var(--ice-dim);
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.legend-swatch {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid var(--border-ink);
+}
+
+.seal-gold-swatch {
+  background: radial-gradient(circle at 35% 30%, #f4d166, var(--seal-gold));
+}
+
+.seal-copper-swatch {
+  background: var(--seal-copper);
+}
+
+.seal-open-swatch {
+  border-style: dashed;
+}
+
+.seal-lock-swatch {
+  opacity: 0.4;
+}
+
+.chart-leg {
+  margin-bottom: 26px;
+}
+
+.leg-head {
+  margin-bottom: 12px;
+}
+
+.leg-label {
+  font-family: var(--serif);
+  font-size: 18px;
+  margin: 0;
+  color: var(--ice);
+}
+
+.leg-sub {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--ice-dim);
+  font-style: italic;
+}
+
+.chart-leg-nodes {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.leg-path {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.waypoint {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  min-width: 150px;
+  padding: 12px 14px;
+  background: var(--sea);
+  border: 1px solid var(--border-ink);
+  border-radius: 24px;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.waypoint:hover {
+  transform: translateY(-2px);
+  border-color: var(--seal-gold);
+  box-shadow: 0 6px 18px rgba(20, 20, 19, 0.1);
+}
+
+.waypoint:focus-visible {
+  outline: 3px solid var(--seal-gold);
+  outline-offset: 2px;
+}
+
+.waypoint-seal svg {
+  display: block;
+}
+
+.seal {
+  width: 52px;
+  height: 52px;
+}
+
+.waypoint-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2px;
+}
+
+.waypoint-title {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--ice);
+}
+
+.waypoint-author {
+  font-family: var(--sans);
+  font-size: 12px;
+  color: var(--ice-dim);
+}
+
+.waypoint-status {
+  font-family: var(--sans);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--seal-gold-deep);
+}
+
+.waypoint-locked {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.waypoint-locked:hover {
+  transform: none;
+  border-color: var(--border-ink);
+  box-shadow: none;
+}
+
+.waypoint-locked .waypoint-status {
+  color: var(--ice-dim);
+}
+
+/* ---------- manuscript marginalia ---------- */
+
+.marginalia-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.marginalia-chip {
+  min-height: 48px;
+  font-family: var(--serif);
+  font-size: 15px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+.marginalia-chip.active {
+  background: var(--yellow);
+}
+
+.marginalia-hint {
+  font-size: 13px;
+  color: var(--ice-dim);
+  font-style: italic;
+  margin: 0 0 20px;
+}
+
+.marginalia-drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: min(420px, 92vw);
+  background: var(--sea);
+  border-left: 2.5px solid var(--border-ink);
+  padding: 24px;
+  overflow-y: auto;
+  z-index: 1300;
+  box-shadow: -12px 0 32px rgba(20, 20, 19, 0.18);
+  animation: drawer-slide 0.2s ease;
+}
+
+@keyframes drawer-slide {
+  from {
+    transform: translateX(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.drawer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-bottom: 1px solid var(--border-ink);
+  padding-bottom: 12px;
+  margin-bottom: 16px;
+}
+
+.drawer-head h3 {
+  font-family: var(--serif);
+  font-size: 22px;
+  margin: 0;
+  color: var(--ice);
+}
+
+.drawer-definition {
+  font-family: var(--reading);
+  font-size: 16px;
+  line-height: 1.65;
+  color: var(--ice);
+}
+
+.pen-term {
+  background: none;
+  color: inherit;
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-color: var(--marginalia-ink);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.gloss-block {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--border-ink);
+}
+
+.gloss-block h4 {
+  font-family: var(--sans);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--seal-gold-deep);
+  margin: 0 0 8px;
+}
+
+.gloss-note {
+  font-family: var(--reading);
+  font-size: 15px;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--ice-dim);
+  margin: 0;
+}
+
+.gloss-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.gloss-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.gloss-word {
+  font-family: var(--serif);
+  font-weight: 600;
+  color: var(--ice);
+}
+
+.drawer-sign {
+  margin: 20px 0 0;
+  text-align: right;
+  font-family: var(--reading);
+  font-style: italic;
+  font-size: 13px;
+  color: var(--ice-dim);
+}
+
+/* ---------- woodcut albatross mascot ---------- */
+
+.mascot {
+  position: fixed;
+  left: 16px;
+  bottom: 16px;
+  z-index: 1100;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.mascot-trigger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.albatross-art {
+  width: 88px;
+  height: auto;
+  filter: drop-shadow(0 3px 6px rgba(20, 20, 19, 0.18));
+  transition: transform 0.15s ease;
+}
+
+.mascot-trigger:hover .albatross-art {
+  transform: rotate(-3deg) scale(1.04);
+}
+
+.mascot-hint {
+  font-family: var(--sans);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ice-dim);
+  background: var(--sea);
+  border: 1px solid var(--border-ink);
+  border-radius: 999px;
+  padding: 3px 10px;
+  white-space: nowrap;
+}
+
+.mascot-bubble {
+  position: relative;
+  max-width: 300px;
+  background: var(--sea);
+  border: 2px solid var(--border-ink);
+  border-radius: 24px;
+  padding: 16px 18px;
+  box-shadow: 4px 4px 0 rgba(20, 20, 19, 0.14);
+  animation: bubble-in 0.2s ease;
+}
+
+@keyframes bubble-in {
+  from {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.mascot-bubble::before {
+  content: '';
+  position: absolute;
+  left: 24px;
+  bottom: -12px;
+  width: 16px;
+  height: 16px;
+  background: var(--sea);
+  border-right: 2px solid var(--border-ink);
+  border-bottom: 2px solid var(--border-ink);
+  transform: rotate(45deg);
+}
+
+.mascot-dismiss {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--ice-dim);
+  cursor: pointer;
+  min-width: 32px;
+  min-height: 32px;
+}
+
+.mascot-kind {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink);
+  padding: 3px 8px;
+  border-radius: 999px;
+  margin-bottom: 8px;
+}
+
+.kind-exam {
+  background: var(--yellow);
+}
+
+.kind-mistake {
+  background: var(--seal-copper);
+}
+
+.kind-quote {
+  background: var(--seal-brass);
+}
+
+.kind-streak {
+  background: var(--green);
+}
+
+.kind-celebration {
+  background: var(--seal-gold);
+}
+
+.mascot-text {
+  font-family: var(--reading);
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--ice);
+  margin: 0 0 10px;
+  padding-right: 20px;
+}
+
+.mascot-shuffle {
+  background: none;
+  border: none;
+  padding: 0;
+  font-family: var(--sans);
+  font-size: 12px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  color: var(--ice-dim);
+  cursor: pointer;
+}
+
+/* mascot frames from the Ship's Stores */
+
+html[data-frame='compass'] .mascot-bubble {
+  border-color: var(--seal-gold);
+}
+
+html[data-frame='compass'] .albatross-art {
+  filter: drop-shadow(0 3px 6px rgba(20, 20, 19, 0.18)) drop-shadow(0 0 0 3px rgba(201, 162, 39, 0.35));
+}
+
+html[data-frame='waves'] .mascot-bubble {
+  border-style: double;
+  border-width: 4px;
+}
+
+/* ---------- printing press parlor games ---------- */
+
+.games-head {
+  margin-bottom: 24px;
+}
+
+.game-mode-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 16px;
+  max-width: 720px;
+}
+
+.game-mode {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  text-align: left;
+  padding: 24px;
+  cursor: pointer;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+}
+
+.game-mode:hover {
+  transform: translateY(-2px);
+  border-color: var(--seal-gold);
+}
+
+.game-mode:focus-visible {
+  outline: 3px solid var(--seal-gold);
+  outline-offset: 2px;
+}
+
+.game-mode-icon {
+  font-family: var(--serif);
+  font-size: 34px;
+  line-height: 1;
+  color: var(--seal-gold-deep);
+}
+
+.game-mode h2 {
+  font-family: var(--serif);
+  font-size: 20px;
+  margin: 0;
+  color: var(--ice);
+}
+
+.game-mode p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--ice-dim);
+}
+
+.game-board {
+  max-width: 720px;
+  margin: 0 auto 16px;
+}
+
+.game-rules {
+  font-size: 14px;
+  color: var(--ice-dim);
+  font-style: italic;
+  margin: 0 0 18px;
+}
+
+.match-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.match-col {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.match-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-height: 56px;
+  padding: 12px 14px;
+  text-align: left;
+  background: var(--sea);
+  border: 1px solid var(--border-ink);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: transform 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+}
+
+.match-card:hover:not(:disabled) {
+  border-color: var(--seal-gold);
+  transform: translateY(-1px);
+}
+
+.match-card:focus-visible {
+  outline: 3px solid var(--seal-gold);
+  outline-offset: 2px;
+}
+
+.match-card.picked {
+  background: var(--yellow);
+}
+
+.match-card.wrong {
+  border-color: var(--bad);
+  animation: wrong-shake 0.25s ease;
+}
+
+@keyframes wrong-shake {
+  0%, 100% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(-4px);
+  }
+  60% {
+    transform: translateX(4px);
+  }
+}
+
+.match-card-note {
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--bad);
+}
+
+.match-card.locked {
+  opacity: 0.55;
+  cursor: default;
+  border-color: var(--seal-gold);
+}
+
+.match-card-label {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--ice-dim);
+}
+
+.match-card-text {
+  font-family: var(--reading);
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--ice);
+}
+
+.match-progress {
+  text-align: center;
+  font-size: 13px;
+  color: var(--ice-dim);
+  margin: 14px 0 0;
+}
+
+.speedrun-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.timer {
+  font-family: var(--serif);
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--ice);
+}
+
+.streak-meter,
+.score-meter {
+  font-family: var(--sans);
+  font-size: 13px;
+  color: var(--ice-dim);
+}
+
+.extract-card {
+  padding: 22px 24px;
+  margin-bottom: 16px;
+}
+
+.extract-text {
+  font-family: var(--reading);
+  font-size: 19px;
+  font-style: italic;
+  line-height: 1.6;
+  margin: 0 0 6px;
+  color: var(--ice);
+}
+
+.extract-source {
+  font-family: var(--sans);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ice-dim);
+  margin: 0;
+}
+
+.feedback {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0 0 14px;
+}
+
+.feedback.good {
+  color: var(--good);
+}
+
+.feedback.bad {
+  color: var(--bad);
+}
+
+.device-options {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.device-option {
+  min-height: 52px;
+  padding: 12px;
+  font-family: var(--serif);
+  font-size: 16px;
+  color: var(--ice);
+  background: var(--sea);
+  border: 1px solid var(--border-ink);
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background 0.12s ease, border-color 0.12s ease;
+}
+
+.device-option:hover {
+  background: var(--yellow);
+  border-color: var(--border-ink);
+}
+
+.device-option:focus-visible {
+  outline: 3px solid var(--seal-gold);
+  outline-offset: 2px;
+}
+
+.game-score {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 32px 24px;
+  text-align: center;
+}
+
+.game-seal {
+  width: 72px;
+  height: 72px;
+  margin-bottom: 12px;
+}
+
+.game-score-title {
+  font-family: var(--serif);
+  font-size: 24px;
+  margin: 0 0 8px;
+  color: var(--ice);
+}
+
+.game-score-line {
+  font-size: 16px;
+  color: var(--ice-dim);
+  margin: 0 0 6px;
+}
+
+.game-score-rank {
+  display: inline-block;
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--seal-gold-deep);
+  border: 2px solid var(--seal-gold);
+  border-radius: 999px;
+  padding: 6px 14px;
+  margin-bottom: 18px;
+}
+
+.game-score-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.back-to-games {
+  display: block;
+  margin: 0 auto;
+}
+
+/* ---------- voyage edition mobile ---------- */
+
+@media (max-width: 640px) {
+  .streak-bar {
+    flex-wrap: wrap;
+    padding: 8px 14px;
+  }
+
+  .voyage-chart {
+    padding: 22px 16px 24px;
+  }
+
+  .chart-compass {
+    display: none;
+  }
+
+  .chart-head h2 {
+    font-size: 22px;
+  }
+
+  .chart-leg-nodes {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .leg-path {
+    display: none;
+  }
+
+  .waypoint {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    min-width: 0;
+    min-height: 48px;
+    padding: 10px 12px;
+  }
+
+  .waypoint-text {
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .seal {
+    width: 44px;
+    height: 44px;
+  }
+
+  .waypoint-author,
+  .waypoint-status {
+    font-size: 11px;
+  }
+
+  .match-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .match-card {
+    min-height: 48px;
+  }
+
+  .device-options {
+    grid-template-columns: 1fr;
+  }
+
+  .mascot {
+    left: 10px;
+    bottom: 10px;
+  }
+
+  .albatross-art {
+    width: 72px;
+  }
+
+  .mascot-bubble {
+    max-width: calc(100vw - 24px);
+  }
+}
+
+/* ---------- motion & print hygiene ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .marginalia-drawer,
+  .mascot-bubble,
+  .waypoint,
+  .match-card,
+  .device-option,
+  .game-mode,
+  .readiness-fill {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+@media print {
+  .streak-bar,
+  .mascot,
+  .marginalia-drawer,
+  .voyage-chart,
+  .game-board,
+  .game-mode-grid {
+    display: none !important;
+  }
 }

@@ -8,6 +8,7 @@ import MotivationBar from '../components/MotivationBar';
 import UnitSwitcher from '../components/UnitSwitcher';
 import Breadcrumbs from '../components/Breadcrumbs';
 import { img } from '../asset';
+import { logFlashcardsAnswered } from '../games/progress';
 
 export default function Flashcards() {
   const { unitId } = useParams();
@@ -38,6 +39,7 @@ export default function Flashcards() {
   }, [loadProgress]);
 
   const handleMark = async (questionId, known) => {
+    logFlashcardsAnswered(1);
     if (!user) return;
     try {
       await api.markKnown(questionId, known);

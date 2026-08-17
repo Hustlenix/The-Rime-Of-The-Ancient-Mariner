@@ -1,6 +1,8 @@
 import { Component, Suspense, lazy, useEffect, useState } from 'react';
 import { Routes, Route, Navigate, Link, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import StreakCoins from './components/StreakCoins';
+import AlbatrossMascot from './components/AlbatrossMascot';
 import ProtectedRoute from './components/ProtectedRoute';
 import BackToTop from './components/BackToTop';
 import { isStatic, getLastUnit, rememberLastUnit } from './api';
@@ -13,6 +15,7 @@ const Questions = lazy(() => import('./pages/Questions'));
 const Quiz = lazy(() => import('./pages/Quiz'));
 const Flashcards = lazy(() => import('./pages/Flashcards'));
 const Search = lazy(() => import('./pages/Search'));
+const Games = lazy(() => import('./pages/Games'));
 const Login = lazy(() => import('./pages/Login'));
 const Register = lazy(() => import('./pages/Register'));
 const Profile = lazy(() => import('./pages/Profile'));
@@ -34,6 +37,7 @@ const pageTitleFor = (pathname) => {
   if (pathname.startsWith('/unit/') && pathname.endsWith('/quiz')) return 'Quiz';
   if (pathname.startsWith('/unit/') && pathname.endsWith('/flashcards')) return 'Flashcards';
   if (pathname.startsWith('/search')) return 'Search';
+  if (pathname.startsWith('/games')) return 'Games';
   if (pathname.startsWith('/login')) return 'Login';
   if (pathname.startsWith('/register')) return 'Register';
   if (pathname.startsWith('/profile')) return 'Profile';
@@ -184,6 +188,7 @@ export default function App() {
         Skip to content
       </a>
       <Navbar />
+      <StreakCoins />
       <StaticModeNote />
       <main className="page" id="main-content">
         <ScrollToTop />
@@ -201,6 +206,7 @@ export default function App() {
               <Route path="/quiz" element={<Navigate to={`/unit/${lastUnit.id}/quiz`} replace />} />
               <Route path="/flashcards" element={<Navigate to={`/unit/${lastUnit.id}/flashcards`} replace />} />
               <Route path="/search" element={<Search />} />
+              <Route path="/games" element={<Games />} />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<Register />} />
               <Route
@@ -265,6 +271,7 @@ export default function App() {
         </ErrorBoundary>
       </main>
       <BackToTop />
+      <AlbatrossMascot />
       <footer className="site-footer">
         <div className="ornament" aria-hidden="true">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" strokeWidth="1.8">

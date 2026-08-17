@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api, getLastUnit } from '../api';
-
-const TYPE_LABELS = { prose: 'Prose', poem: 'Poem', play: 'Play' };
+import VoyageChart from '../components/VoyageChart';
 
 export default function Home() {
   const [data, setData] = useState(null);
@@ -64,37 +63,7 @@ export default function Home() {
       {!data && !error && <p className="page-loader">Loading the book shelf…</p>}
 
       {data && (
-        <div className="book-shelf" id="book-shelf">
-          {data.books.map((book) => (
-            <section key={book.id} className="book-section">
-              <div className="book-section-head">
-                <h2>{book.name}</h2>
-                <p>{book.tagline}</p>
-              </div>
-              <div className="unit-grid">
-                {book.units.map((u) => (
-                  <Link key={u.id} to={`/unit/${u.id}/study`} className={`unit-card card book-${book.id}`}>
-                    <div className="unit-card-top">
-                      <span className={`type-badge type-${u.type}`}>{TYPE_LABELS[u.type] || u.type}</span>
-                    </div>
-                    <h3 className="unit-card-title">{u.title}</h3>
-                    <p className="unit-card-author">By {u.author}</p>
-                    {u.stats && (
-                      <ul className="unit-card-stats">
-                        {u.stats.summaries > 0 && <li>{u.stats.summaries} summaries</li>}
-                        {u.stats.themes > 0 && <li>{u.stats.themes} themes</li>}
-                        {u.stats.devices > 0 && <li>{u.stats.devices} poetic devices</li>}
-                        {u.stats.questions > 0 && <li>{u.stats.questions} Q&A</li>}
-                        {u.stats.quiz > 0 && <li>{u.stats.quiz} quiz questions</li>}
-                      </ul>
-                    )}
-                    <span className="unit-card-go">Open unit →</span>
-                  </Link>
-                ))}
-              </div>
-            </section>
-          ))}
-        </div>
+        <VoyageChart units={data.books.flatMap((b) => b.units.map((u) => ({ ...u, book: b.name })))} />
       )}
 
       <section className="journey" aria-labelledby="journey-heading">
