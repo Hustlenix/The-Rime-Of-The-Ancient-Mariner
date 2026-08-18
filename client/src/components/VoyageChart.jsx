@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import { unlockOrder, readinessPct, getSeals, PROGRESS_EVENT } from '../games/progress';
 
 const LEGS = [
-  { kind: 'prose', label: 'Prose Cove', sub: 'stories of the shore' },
-  { kind: 'poem', label: 'Poetry Isles', sub: 'verses on the tide' },
-  { kind: 'play', label: 'Drama Strait', sub: 'the staged crossing' }
+  { kind: 'prose', label: 'Prose Cove', sub: 'stories of the shore', icon: '📜', color: '#b87333' },
+  { kind: 'poem', label: 'Poetry Isles', sub: 'verses on the tide', icon: '🪶', color: '#1d4ed8' },
+  { kind: 'play', label: 'Drama Strait', sub: 'the staged crossing', icon: '🎭', color: '#dc2727' }
 ];
 
 function SealMark({ state }) {
@@ -19,7 +19,7 @@ function SealMark({ state }) {
           </radialGradient>
         </defs>
         <circle cx="24" cy="24" r="21" fill="url(#seal-gold-g)" stroke="#8a6d10" strokeWidth="2" />
-        <circle cx="24" cy="24" r="16.5" fill="none" stroke="#8a6d10" strokeWidth="1" opacity="0.6" />
+        <circle cx="24" cy="24" r="16.5" fill="none" stroke="#8a6d10" strokeWidth="1.4" opacity="0.6" />
         <path d="M24 10l3.2 9.4 9.8.3-7.7 6.1 2.7 9.4-8-5.5-8 5.5 2.7-9.4-7.7-6.1 9.8-.3z" fill="#8a6d10" />
       </svg>
     );
@@ -28,7 +28,7 @@ function SealMark({ state }) {
     return (
       <svg className="seal seal-copper" viewBox="0 0 48 48" aria-hidden="true">
         <circle cx="24" cy="24" r="21" fill="#b87333" stroke="#7a4a1e" strokeWidth="2" />
-        <circle cx="24" cy="24" r="16.5" fill="none" stroke="#7a4a1e" strokeWidth="1" opacity="0.6" />
+        <circle cx="24" cy="24" r="16.5" fill="none" stroke="#7a4a1e" strokeWidth="1.4" opacity="0.6" />
         <path d="M24 13l2.4 7 7.4.2-5.8 4.6 2 7.1-6-4.2-6 4.2 2-7.1-5.8-4.6 7.4-.2z" fill="#7a4a1e" />
       </svg>
     );
@@ -81,13 +81,45 @@ function Waypoint({ unit, state, kind }) {
   );
 }
 
+// Helper: compute division totals and charted counts
+function useDivisionInfo(units) {
+  const totals = useMemo(() => {
+    const counts = { prose: 0, poem: 0, play: 0 };
+    units.forEach((u) => {
+      const kind = u.type || 'prose';
+      if (kind === 'prose') counts.prose++;
+      else if (kind === 'poem') counts.poem++;
+      else if (kind === 'play') counts.play++;
+    });
+    return counts;
+  }, [units]);
+
+  const charted = useMemo(() => {
+    const seals = getSeals();
+    const charted = { prose: 0, poem: 0, play: 0 };
+    units.forEach((u) => {
+      const kind = u.type || 'prose';
+      if (seals[u.id]) {
+        if (kind === 'prose') charted.prose++;
+        else if (kind === 'poem') charted.poem++;
+        else if (kind === 'play') charted.play++;
+      }
+    });
+    return charted;
+  }, [units]);
+
+  return { totals, charted };
+}
+
 export default function VoyageChart({ units }) {
   const [seals, setSeals] = useState(() => getSeals());
+  const [filterByDivision, setFilterByDivision] = useState('all');
   const orders = useMemo(() => {
     const states = unlockOrder(units, seals);
     return Object.fromEntries(states.map((s) => [s.id, s.state]));
   }, [units, seals]);
   const pct = readinessPct(units, seals);
+  const { totals, charted } = useDivisionInfo(units);
 
   useEffect(() => {
     const refresh = () => setSeals(getSeals());
@@ -110,9 +142,39 @@ export default function VoyageChart({ units }) {
         <p className="chart-kicker">The Voyage Chart</p>
         <h2 id="chart-heading">Chart your course through the Literature Reader</h2>
         <p className="chart-sub">
-          Complete a unit’s quiz to seal it — every seal draws the path onward. Gold seals (90%+) mark
-          exam-ready units.
+          Complete a unit's quiz to seal it — every seal draws the path onward. Gold seals (90%+) mark exam-ready units.
         </p>
+      </div>
+
+      <div className="division-tabs">
+        <button
+          className={`division-tab ${filterByDivision === 'all' && 'active'}`}
+          onClick={() => setFilterByDivision('all')}
+          aria-pressed={filterByDivision === 'all'}
+        >
+          All (13)
+        </button>
+        <button
+          className={`division-tab ${filterByDivision === 'prose' && 'active'}`}
+          onClick={() => setFilterByDivision('prose')}
+          aria-pressed={filterByDivision === 'prose'}
+        >
+          Prose ({totals.prose})
+        </button>
+        <button
+          className={`division-tab ${filterByDivision === 'poem' && 'active'}`}
+          onClick={() => setFilterByDivision('poem')}
+          aria-pressed={filterByDivision === 'poem'}
+        >
+          Poetry ({totals.poem})
+        </button>
+        <button
+          className={`division-tab ${filterByDivision === 'play' && 'active'}`}
+          onClick={() => setFilterByDivision('play')}
+          aria-pressed={filterByDivision === 'play'}
+        >
+          Drama ({totals.play})
+        </button>
       </div>
 
       <div className="readiness">
@@ -126,7 +188,7 @@ export default function VoyageChart({ units }) {
         <p className="readiness-sub">
           {pct === 100
             ? 'Every unit sealed — the whole voyage is charted. Well sailed, Mariner.'
-            : `${units.filter((u) => seals[u.id]).length} of ${units.length} units sealed so far.`}
+            : `${charted.prose + charted.poem + charted.play} of ${totals.prose + totals.poem + totals.play} units sealed so far.`}
         </p>
       </div>
 
