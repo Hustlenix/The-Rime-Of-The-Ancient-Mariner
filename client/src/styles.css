@@ -35,10 +35,23 @@
   --green: #3ddc84;
   --red: #ff5a5f;
   --gold: #e8b04b;
+  /* Genre division color tokens (Prose / Poetry / Drama) */
+  --genre-prose-primary: #b87333;
+  --genre-prose-bg: #faf4e8;
+  --genre-poem-primary: #2a7b88;
+  --genre-poem-bg: #eaf4f6;
+  --genre-drama-primary: #7a2850;
+  --genre-drama-bg: #f8eaee;
 }
 
 [data-theme='dark'] {
   --deep-sea: #141414;
+  --genre-prose-primary: #cf925c;
+  --genre-prose-bg: #32271f;
+  --genre-poem-primary: #b9962a;
+  --genre-poem-bg: #243b43;
+  --genre-drama-primary: #a06a38;
+  --genre-drama-bg: #48313b;
   --abyss: #0e0e0e;
   --sea: #1e1e1e;
   --sea-mid: #ffd633;
@@ -3660,6 +3673,10 @@ html[data-accent='brass'] {
   text-decoration: none;
   transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
 }
+
+.kind-prose { color: var(--genre-prose-primary); border-color: var(--genre-prose-primary); }
+.kind-poem { color: var(--genre-poem-primary); border-color: var(--genre-poem-primary); }
+.kind-play { color: var(--genre-drama-primary); border-color: var(--genre-drama-primary); }
 
 .waypoint:hover {
   transform: translateY(-2px);
