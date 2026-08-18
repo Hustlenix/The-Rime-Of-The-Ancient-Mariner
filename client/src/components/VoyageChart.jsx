@@ -51,8 +51,7 @@ function SealMark({ state }) {
 }
 
 function Waypoint({ unit, state, kind }) {
-  const locked = state === 'locked';
-  const label = state === 'sealed-gold' ? 'Exam-ready — gold seal' : state === 'sealed' ? 'Completed — copper seal' : locked ? 'Chart locked — complete the previous unit' : 'Unlocked';
+  const label = state === 'sealed-gold' ? 'Exam-ready — gold seal' : state === 'sealed' ? 'Completed — copper seal' : 'Unlocked';
   const inner = (
     <>
       <span className="waypoint-seal">
@@ -63,17 +62,9 @@ function Waypoint({ unit, state, kind }) {
         <span className="waypoint-author">By {unit.author}</span>
         {state === 'sealed-gold' && <span className="waypoint-status">Gold seal · exam-ready</span>}
         {state === 'sealed' && <span className="waypoint-status">Copper seal · completed</span>}
-        {locked && <span className="waypoint-status">Chart not yet drawn</span>}
       </span>
     </>
   );
-  if (locked) {
-    return (
-      <span className={`waypoint waypoint-locked kind-${kind}`} aria-disabled="true" title={label}>
-        {inner}
-      </span>
-    );
-  }
   return (
     <Link className={`waypoint kind-${kind}`} to={`/unit/${unit.id}/study`} title={label} aria-label={`${unit.title} — ${label}`}>
       {inner}
@@ -214,7 +205,7 @@ export default function VoyageChart({ units }) {
               </svg>
               <div className="chart-leg-nodes">
                 {legUnits.map((u) => (
-                  <Waypoint key={u.id} unit={u} state={orders[u.id] || 'locked'} kind={leg.kind} />
+                  <Waypoint key={u.id} unit={u} state={orders[u.id]} kind={leg.kind} />
                 ))}
               </div>
             </div>
