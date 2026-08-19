@@ -3350,6 +3350,14 @@ select:focus {
   --seal-brass: #8a7a3c;
   --chart-paper: #f6efdf;
   --marginalia-ink: rgba(201, 162, 39, 0.55);
+
+  /* Genre division color system (WCAG AA Contrast in Light & Dark Mode) */
+  --genre-prose-primary: #a65d1d;
+  --genre-prose-bg: #f5eada;
+  --genre-poem-primary: #176570;
+  --genre-poem-bg: #e2f1f3;
+  --genre-drama-primary: #7a1d37;
+  --genre-drama-bg: #f6e6ec;
 }
 
 [data-theme='dark'] {
@@ -3359,6 +3367,13 @@ select:focus {
   --seal-copper-deep: #a06a38;
   --seal-brass: #a89a5e;
   --chart-paper: #221e16;
+
+  --genre-prose-primary: #e09953;
+  --genre-prose-bg: #382a1d;
+  --genre-poem-primary: #4db8c4;
+  --genre-poem-bg: #1c3338;
+  --genre-drama-primary: #d96b86;
+  --genre-drama-bg: #3b1e28;
 }
 
 /* ---------- store accents: subtle shifts of the primary accent ---------- */
@@ -3619,26 +3634,194 @@ html[data-accent='brass'] {
   opacity: 0.4;
 }
 
+/* ---------- division filter tabs ---------- */
+
+.division-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+.division-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  font-family: var(--sans);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--ice-dim);
+  background: var(--sea);
+  border: 1px solid var(--border-ink);
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.division-tab:hover {
+  color: var(--ice);
+  border-color: var(--ink-strong);
+  transform: translateY(-1px);
+}
+
+.division-tab.active {
+  background: var(--yellow);
+  color: var(--abyss);
+  border-color: var(--ink-strong);
+  box-shadow: 0 2px 0 var(--ink-strong);
+}
+
+.division-tab-count {
+  font-size: 12px;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: rgba(20, 20, 19, 0.08);
+  font-weight: 700;
+}
+
+[data-theme='dark'] .division-tab-count {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.division-tab.active .division-tab-count {
+  background: rgba(0, 0, 0, 0.18);
+}
+
+/* ---------- chart legs & section headers ---------- */
+
 .chart-leg {
-  margin-bottom: 26px;
+  margin-bottom: 28px;
 }
 
 .leg-head {
-  margin-bottom: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 16px 20px;
+  background: var(--sea);
+  border: 1px solid var(--border-ink);
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+
+.leg-meta {
+  flex: 1;
+  min-width: 220px;
+}
+
+.leg-genre-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 3px 10px;
+  border-radius: 999px;
+  margin-bottom: 6px;
+}
+
+.leg-badge-prose {
+  background: var(--genre-prose-bg);
+  color: var(--genre-prose-primary);
+  border: 1px solid var(--genre-prose-primary);
+}
+
+.leg-badge-poem {
+  background: var(--genre-poem-bg);
+  color: var(--genre-poem-primary);
+  border: 1px solid var(--genre-poem-primary);
+}
+
+.leg-badge-play {
+  background: var(--genre-drama-bg);
+  color: var(--genre-drama-primary);
+  border: 1px solid var(--genre-drama-primary);
 }
 
 .leg-label {
   font-family: var(--serif);
-  font-size: 18px;
-  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 2px;
   color: var(--ice);
 }
 
 .leg-sub {
-  margin: 2px 0 0;
+  margin: 0;
   font-size: 13px;
   color: var(--ice-dim);
   font-style: italic;
+}
+
+.leg-progress-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
+.leg-progress-text {
+  font-family: var(--sans);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--ice);
+}
+
+.leg-progress-track {
+  width: 140px;
+  height: 8px;
+  background: rgba(20, 20, 19, 0.08);
+  border: 1px solid var(--border-ink);
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+[data-theme='dark'] .leg-progress-track {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.leg-progress-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 0.3s ease;
+}
+
+.fill-prose { background: var(--genre-prose-primary); }
+.fill-poem { background: var(--genre-poem-primary); }
+.fill-play { background: var(--genre-drama-primary); }
+
+.waypoint-genre-tag {
+  font-family: var(--sans);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.tag-prose {
+  background: var(--genre-prose-bg);
+  color: var(--genre-prose-primary);
+  border: 1px solid var(--genre-prose-primary);
+}
+
+.tag-poem {
+  background: var(--genre-poem-bg);
+  color: var(--genre-poem-primary);
+  border: 1px solid var(--genre-poem-primary);
+}
+
+.tag-play {
+  background: var(--genre-drama-bg);
+  color: var(--genre-drama-primary);
+  border: 1px solid var(--genre-drama-primary);
 }
 
 .chart-leg-nodes {

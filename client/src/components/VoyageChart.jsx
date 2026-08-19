@@ -3,9 +3,30 @@ import { Link } from 'react-router-dom';
 import { unlockOrder, readinessPct, getSeals, PROGRESS_EVENT } from '../games/progress';
 
 const LEGS = [
-  { kind: 'prose', label: 'Prose Cove', sub: 'stories of the shore', icon: '📜', color: '#b87333' },
-  { kind: 'poem', label: 'Poetry Isles', sub: 'verses on the tide', icon: '🪶', color: '#1d4ed8' },
-  { kind: 'play', label: 'Drama Strait', sub: 'the staged crossing', icon: '🎭', color: '#dc2727' }
+  {
+    kind: 'prose',
+    chapter: 'Chapter I',
+    label: 'Prose Cove',
+    sub: 'Short stories, narrative essays & prose lessons',
+    icon: '📜',
+    badgeText: 'Prose • 6 Lessons'
+  },
+  {
+    kind: 'poem',
+    chapter: 'Chapter II',
+    label: 'Poetry Isles',
+    sub: 'Lyrical verse, sonnets, ballads & poetic devices',
+    icon: '🪶',
+    badgeText: 'Poetry • 5 Poems'
+  },
+  {
+    kind: 'play',
+    chapter: 'Chapter III',
+    label: 'Drama Strait',
+    sub: 'Theatrical plays, dialogues & stage performances',
+    icon: '🎭',
+    badgeText: 'Drama • 2 Plays'
+  }
 ];
 
 function SealMark({ state }) {
@@ -33,27 +54,33 @@ function SealMark({ state }) {
       </svg>
     );
   }
-  if (state === 'unlocked') {
-    return (
-      <svg className="seal seal-open" viewBox="0 0 48 48" aria-hidden="true">
-        <circle cx="24" cy="24" r="21" fill="none" stroke="#141413" strokeWidth="1.6" strokeDasharray="4 3" />
-        <circle cx="24" cy="24" r="15" fill="none" stroke="#ffd633" strokeWidth="1.2" />
-        <path d="M24 17v7l5 3" fill="none" stroke="#141413" strokeWidth="2" strokeLinecap="round" />
-      </svg>
-    );
-  }
   return (
-    <svg className="seal seal-locked" viewBox="0 0 48 48" aria-hidden="true">
-      <circle cx="24" cy="24" r="21" fill="none" stroke="#141413" strokeWidth="1.6" strokeDasharray="4 3" opacity="0.35" />
-      <path d="M18 23v-4a6 6 0 0 1 12 0v4h-12zm0 0h12v8H18z" fill="#141413" opacity="0.35" />
+    <svg className="seal seal-open" viewBox="0 0 48 48" aria-hidden="true">
+      <circle cx="24" cy="24" r="21" fill="none" stroke="currentColor" strokeWidth="1.6" strokeDasharray="4 3" opacity="0.6" />
+      <circle cx="24" cy="24" r="15" fill="none" stroke="currentColor" strokeWidth="1.2" opacity="0.4" />
+      <path d="M24 17v7l5 3" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" opacity="0.7" />
     </svg>
   );
 }
 
-function Waypoint({ unit, state, kind }) {
-  const label = state === 'sealed-gold' ? 'Exam-ready — gold seal' : state === 'sealed' ? 'Completed — copper seal' : 'Unlocked';
-  const inner = (
-    <>
+function Waypoint({ unit, state, kind, icon }) {
+  const statusLabel =
+    state === 'sealed-gold'
+      ? 'Gold seal — exam-ready'
+      : state === 'sealed'
+      ? 'Copper seal — completed'
+      : 'Unlocked';
+
+  return (
+    <Link
+      className="waypoint"
+      to={`/unit/${unit.id}/study`}
+      title={`${unit.title} — ${statusLabel}`}
+      aria-label={`${unit.title} by ${unit.author} — ${statusLabel}`}
+    >
+      <span className={`waypoint-genre-tag tag-${kind}`}>
+        {icon} {kind.toUpperCase()}
+      </span>
       <span className="waypoint-seal">
         <SealMark state={state} />
       </span>
@@ -63,16 +90,10 @@ function Waypoint({ unit, state, kind }) {
         {state === 'sealed-gold' && <span className="waypoint-status">Gold seal · exam-ready</span>}
         {state === 'sealed' && <span className="waypoint-status">Copper seal · completed</span>}
       </span>
-    </>
-  );
-  return (
-    <Link className={`waypoint kind-${kind}`} to={`/unit/${unit.id}/study`} title={label} aria-label={`${unit.title} — ${label}`}>
-      {inner}
     </Link>
   );
 }
 
-// Helper: compute division totals and charted counts
 function useDivisionInfo(units) {
   const totals = useMemo(() => {
     const counts = { prose: 0, poem: 0, play: 0 };
@@ -118,53 +139,62 @@ export default function VoyageChart({ units }) {
     return () => window.removeEventListener(PROGRESS_EVENT, refresh);
   }, []);
 
+  const visibleLegs = LEGS.filter(
+    (leg) => filterByDivision === 'all' || filterByDivision === leg.kind
+  );
+
   return (
     <section className="voyage-chart card" id="book-shelf" aria-labelledby="chart-heading">
       <div className="chart-compass" aria-hidden="true">
-        <svg viewBox="0 0 64 64" fill="none" stroke="#141413" strokeWidth="1.4">
-          <circle cx="32" cy="32" r="26" strokeDasharray="3 3" opacity="0.5" />
-          <path d="M32 6l4 22h-8z" fill="#ffd633" stroke="#141413" />
-          <path d="M32 58l-4-22h8z" fill="#141413" opacity="0.8" />
-          <path d="M6 32l22-4v8z" fill="#141413" opacity="0.5" />
-          <path d="M58 32l-22 4v-8z" fill="#141413" opacity="0.5" />
+        <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.4">
+          <circle cx="32" cy="32" r="26" strokeDasharray="3 3" opacity="0.4" />
+          <path d="M32 6l4 22h-8z" fill="#ffd633" stroke="currentColor" />
+          <path d="M32 58l-4-22h8z" fill="currentColor" opacity="0.8" />
+          <path d="M6 32l22-4v8z" fill="currentColor" opacity="0.5" />
+          <path d="M58 32l-22 4v-8z" fill="currentColor" opacity="0.5" />
         </svg>
       </div>
+
       <div className="chart-head">
         <p className="chart-kicker">The Voyage Chart</p>
         <h2 id="chart-heading">Chart your course through the Literature Reader</h2>
         <p className="chart-sub">
-          Complete a unit's quiz to seal it — every seal draws the path onward. Gold seals (90%+) mark exam-ready units.
+          Explore all 13 units organized into Prose, Poetry, and Drama chapters. Complete a unit's quiz to seal it.
         </p>
       </div>
 
-      <div className="division-tabs">
+      <div className="division-tabs" role="tablist" aria-label="Literature Genre Divisions">
         <button
-          className={`division-tab ${filterByDivision === 'all' && 'active'}`}
+          className={`division-tab ${filterByDivision === 'all' ? 'active' : ''}`}
           onClick={() => setFilterByDivision('all')}
           aria-pressed={filterByDivision === 'all'}
+          type="button"
         >
-          All (13)
+          All Units <span className="division-tab-count">13</span>
         </button>
         <button
-          className={`division-tab ${filterByDivision === 'prose' && 'active'}`}
+          className={`division-tab ${filterByDivision === 'prose' ? 'active' : ''}`}
           onClick={() => setFilterByDivision('prose')}
           aria-pressed={filterByDivision === 'prose'}
+          type="button"
         >
-          Prose ({totals.prose})
+          📜 Prose <span className="division-tab-count">{totals.prose}</span>
         </button>
         <button
-          className={`division-tab ${filterByDivision === 'poem' && 'active'}`}
+          className={`division-tab ${filterByDivision === 'poem' ? 'active' : ''}`}
           onClick={() => setFilterByDivision('poem')}
           aria-pressed={filterByDivision === 'poem'}
+          type="button"
         >
-          Poetry ({totals.poem})
+          🪶 Poetry <span className="division-tab-count">{totals.poem}</span>
         </button>
         <button
-          className={`division-tab ${filterByDivision === 'play' && 'active'}`}
+          className={`division-tab ${filterByDivision === 'play' ? 'active' : ''}`}
           onClick={() => setFilterByDivision('play')}
           aria-pressed={filterByDivision === 'play'}
+          type="button"
         >
-          Drama ({totals.play})
+          🎭 Drama <span className="division-tab-count">{totals.play}</span>
         </button>
       </div>
 
@@ -178,34 +208,54 @@ export default function VoyageChart({ units }) {
         </div>
         <p className="readiness-sub">
           {pct === 100
-            ? 'Every unit sealed — the whole voyage is charted. Well sailed, Mariner.'
+            ? 'Every unit sealed — the whole voyage is charted. Well sailed, Mariner!'
             : `${charted.prose + charted.poem + charted.play} of ${totals.prose + totals.poem + totals.play} units sealed so far.`}
         </p>
       </div>
 
       <div className="chart-legend" aria-hidden="true">
-        <span className="legend-item"><span className="legend-swatch seal-gold-swatch" /> Gold seal — 90%+ on the quiz</span>
+        <span className="legend-item"><span className="legend-swatch seal-gold-swatch" /> Gold seal — 90%+ on quiz</span>
         <span className="legend-item"><span className="legend-swatch seal-copper-swatch" /> Copper seal — completed</span>
         <span className="legend-item"><span className="legend-swatch seal-open-swatch" /> Open course — unlocked</span>
-        <span className="legend-item"><span className="legend-swatch seal-lock-swatch" /> Chart not yet drawn</span>
       </div>
 
       <div className="chart-legs">
-        {LEGS.map((leg) => {
+        {visibleLegs.map((leg) => {
           const legUnits = units.filter((u) => (u.type || 'prose') === leg.kind);
           if (!legUnits.length) return null;
+          const sealedCount = charted[leg.kind] || 0;
+          const totalCount = legUnits.length;
+          const legPct = totalCount > 0 ? Math.round((sealedCount / totalCount) * 100) : 0;
+
           return (
             <div className="chart-leg" key={leg.kind}>
               <div className="leg-head">
-                <h3 className="leg-label">{leg.label}</h3>
-                <p className="leg-sub">{leg.sub}</p>
+                <div className="leg-meta">
+                  <span className={`leg-genre-badge leg-badge-${leg.kind}`}>
+                    {leg.icon} {leg.badgeText}
+                  </span>
+                  <h3 className="leg-label">{leg.chapter}: {leg.label}</h3>
+                  <p className="leg-sub">{leg.sub}</p>
+                </div>
+                <div className="leg-progress-wrap">
+                  <span className="leg-progress-text">
+                    {sealedCount} / {totalCount} Sealed ({legPct}%) {legPct === 100 ? '🏆' : ''}
+                  </span>
+                  <div className="leg-progress-track" role="progressbar" aria-valuenow={legPct} aria-valuemin="0" aria-valuemax="100">
+                    <div className={`leg-progress-fill fill-${leg.kind}`} style={{ width: `${legPct}%` }} />
+                  </div>
+                </div>
               </div>
-              <svg className="leg-path" viewBox="0 0 100 20" preserveAspectRatio="none" aria-hidden="true">
-                <path d="M0,10 C20,2 40,18 60,10 S90,18 100,10" fill="none" stroke="#141413" strokeWidth="1.4" strokeDasharray="6 5" opacity="0.5" />
-              </svg>
+
               <div className="chart-leg-nodes">
                 {legUnits.map((u) => (
-                  <Waypoint key={u.id} unit={u} state={orders[u.id]} kind={leg.kind} />
+                  <Waypoint
+                    key={u.id}
+                    unit={u}
+                    state={orders[u.id]}
+                    kind={leg.kind}
+                    icon={leg.icon}
+                  />
                 ))}
               </div>
             </div>
