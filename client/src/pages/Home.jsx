@@ -59,6 +59,55 @@ export default function Home() {
         </section>
       )}
 
+      <section className="journey" aria-labelledby="quick-start-heading">
+        <h2 id="quick-start-heading">Start here</h2>
+        <p className="journey-sub">
+          Want a quick tour? These four stops show the main study experience in under a minute.
+        </p>
+        <div className="journey-grid">
+          <article className="journey-step card">
+            <span className="step-num" aria-hidden="true">1</span>
+            <h3 className="step-title">Ancient Mariner</h3>
+            <p className="step-text">
+              Open the poem that started this project and revise its summary, themes and devices.
+            </p>
+            <Link className="btn btn-outline" to="/unit/rime-of-the-ancient-mariner/study">
+              Study the poem
+            </Link>
+          </article>
+          <article className="journey-step card">
+            <span className="step-num" aria-hidden="true">2</span>
+            <h3 className="step-title">Question practice</h3>
+            <p className="step-text">
+              Attempt exam-style questions first, then reveal the model answer when you are ready.
+            </p>
+            <Link className="btn btn-outline" to="/unit/rime-of-the-ancient-mariner/questions">
+              Try questions
+            </Link>
+          </article>
+          <article className="journey-step card">
+            <span className="step-num" aria-hidden="true">3</span>
+            <h3 className="step-title">Printing Press Arcade</h3>
+            <p className="step-text">
+              Play the Quote Matcher and the timed Poetic Device Speed Run.
+            </p>
+            <Link className="btn btn-outline" to="/games">
+              Play study games
+            </Link>
+          </article>
+          <article className="journey-step card">
+            <span className="step-num" aria-hidden="true">4</span>
+            <h3 className="step-title">Search all 13 units</h3>
+            <p className="step-text">
+              Search across summaries, themes, poetic devices and the question bank.
+            </p>
+            <Link className="btn btn-outline" to="/search">
+              Search the reader
+            </Link>
+          </article>
+        </div>
+      </section>
+
       {error && <p className="error-text">Failed to load units: {error}</p>}
       {!data && !error && <p className="page-loader">Loading the book shelf…</p>}
 
