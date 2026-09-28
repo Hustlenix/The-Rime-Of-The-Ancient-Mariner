@@ -1,106 +1,242 @@
 # Class X English Study Portal
 
-A full-stack study portal for the CBSE Class X English Literature Reader (Interact in English), built for **The Ashok Leyland School (TALS)**. Thirteen lessons — prose, poems and plays — each with summaries, themes, character sketches, poetic devices, model answers, quizzes and flashcards.
+> A free, school-friendly revision portal for the **CBSE Class X English Literature Reader (Interact in English)**, built for students at **The Ashok Leyland School**.
 
-## Features
+[**Open the live project →**](https://hustlenix.github.io/The-Rime-Of-The-Ancient-Mariner/)
 
-- **Study** — summaries (Part I & Part II), the central theme, and 10 poetic devices with quoted examples
-- **Questions** — short & long answer Q&As from the school question bank, with reveal-on-click model answers
-- **Quiz practice mode** — 10 random MCQs with instant feedback and explanations; scores saved for logged-in users (guest practice works without login)
-- **Flashcards** — flip-card deck built from the question bank, mark Known / Still learning, progress ring
-- **Search** — server-side full-text search across summaries, themes, devices and questions, with client-side highlighting
-- **Accounts** — register/login (JWT), profile with quiz history and flashcard mastery stats
-- **Admin** — teacher-only CRUD for questions and quiz questions
+![Live screenshot of the Class X English Study Portal](https://image.thum.io/get/width/1200/noanimate/https://hustlenix.github.io/The-Rime-Of-The-Ancient-Mariner/)
+
+## Why I made this
+
+I started with a small study website for **The Rime of the Ancient Mariner** because normal revision material felt static and easy to ignore. I wanted something I would actually use before an exam: fast summaries, model answers hidden until I try the question, flashcards, quizzes and small games instead of another long PDF.
+
+That experiment grew into a portal for the **whole 13-unit Literature Reader**. The goal is simple: make serious Grade 10 revision feel less boring without hiding the actual syllabus behind gimmicks.
+
+## What is built
+
+### Student side
+
+- **13 literature units** — prose, poems and plays from the Class X Literature Reader
+- **Study pages** — summaries, themes, character sketches and poetic devices
+- **Question practice** — short and long answers with reveal-on-click model answers
+- **Quiz mode** — randomized MCQs with instant feedback and explanations
+- **Flashcards** — flip cards with Known / Still learning progress
+- **Search** — search across units, summaries, themes, devices and questions
+- **Resume studying** — remembers the last unit on the device
+- **Progress systems** — streak/coin UI and local progress where possible
+- **Printing Press Arcade** — Quote Matcher + a 60-second Poetic Device Speed Run
+- **Responsive UI** — designed for both desktop and phone
+- **Accessibility work** — skip links, semantic controls, keyboard-friendly interactions and screen-reader status updates
+- **PWA/static fallback** — core study material still works on GitHub Pages without the Express server
+
+### Teacher side
+
+The project is not only a reading site. It also contains a teacher workflow:
+
+- question-bank management
+- teacher-only CRUD
+- CSV question import
+- paper templates
+- a multi-step paper builder
+- difficulty/type/chapter filtering
+- usage-aware autofill so the same questions do not dominate every paper
+- paper library/history
+- printable paper views
+
+## 60-second reviewer tour
+
+If you are reviewing the project, this is the fastest way to see the important parts:
+
+1. Open the [live site](https://hustlenix.github.io/The-Rime-Of-The-Ancient-Mariner/).
+2. Pick **The Rime of the Ancient Mariner**, **Ozymandias** or **Patol Babu, Film Star** from the shelf.
+3. Open **Study** and inspect the structured revision content.
+4. Open **Questions** and reveal a model answer only after attempting it.
+5. Try **Flashcards** and **Quiz**.
+6. Open **Games → Printing Press Arcade** and play both study games.
+7. Search for a phrase such as `albatross`, `Ozymandias` or `irony`.
+8. For the full local/server build, use the teacher account below to inspect the question bank and paper builder.
+
+## Architecture
+
+```text
+Browser
+  │
+  ├── React 18 + Vite frontend
+  │     ├── route-level lazy loading
+  │     ├── static fallback content for GitHub Pages
+  │     ├── quizzes / flashcards / search / games
+  │     └── PWA service worker
+  │
+  └── Express API (full deployment / local development)
+        ├── SQLite (better-sqlite3)
+        ├── JWT authentication
+        ├── quiz attempts + flashcard progress
+        ├── teacher/admin APIs
+        └── question-bank + paper-builder APIs
+```
 
 ## Tech stack
 
-- Backend: Node.js + Express + better-sqlite3 (SQLite, plain SQL) · bcryptjs · jsonwebtoken (1h expiry)
-- Frontend: React 18 + Vite (JavaScript) + react-router-dom, hand-written nautical CSS
+- **Frontend:** React 18, Vite, React Router, handwritten CSS
+- **Backend:** Node.js, Express
+- **Database:** SQLite via `better-sqlite3`
+- **Auth:** bcryptjs + JWT
+- **Testing:** Vitest + Testing Library
+- **Deployment:** GitHub Pages for the public static build; Render blueprint included for the full-stack build
 
-## Prerequisites
+## GitHub Pages vs full-stack mode
 
-- Node.js 18+ (tested on Node 24)
+The public GitHub Pages build intentionally runs in a **static preview mode**. The syllabus content, study pages, questions, quizzes, flashcards, search and games remain usable.
 
-## Setup
+Features that require a live database — account persistence, server-saved quiz attempts, teacher CRUD and paper storage — need the Express/SQLite build.
+
+This separation lets anyone review and study from the public link while keeping the real backend architecture in the same repository.
+
+## Run locally
+
+### Prerequisites
+
+- Node.js 18+
+
+### Start the API
 
 ```bash
-# Terminal 1 — API server
 cd server
 npm install
-npm start        # listens on http://localhost:5000
+npm start
+```
 
-# Terminal 2 — frontend
+The API runs at `http://localhost:5000`.
+
+### Start the frontend
+
+```bash
 cd client
 npm install
-npm run dev      # opens http://localhost:5173
+npm run dev
+```
 
-# Tests (Vitest + Testing Library, jsdom)
+The frontend runs at `http://localhost:5173` and proxies `/api` to the local server.
+
+### Run tests
+
+```bash
+cd client
 npm test
 ```
 
-The SQLite database (`server/data.db`) is created automatically on first server start and seeded with the full question bank plus two demo accounts. Delete `server/data.db` at any time to reset to a fresh state (it will be recreated and re-seeded on next start).
+### Production build
 
-## Default accounts
+```bash
+cd client
+npm run build
+cd ..
+node server/index.js
+```
+
+## Demo accounts for the full server build
 
 | Role | Email | Password |
 |---|---|---|
-| Teacher | teacher@tals.edu | teacher123 |
-| Student | student@tals.edu | student123 |
+| Teacher | `teacher@tals.edu` | `teacher123` |
+| Student | `student@tals.edu` | `student123` |
 
-## Deployment (Render, free tier)
+> These are seeded demo credentials for development/review, not production credentials.
 
-The repo includes a `render.yaml` blueprint, so deploying is nearly one click:
+## Main routes
 
-1. Create a free account at https://render.com (GitHub sign-in).
-2. Click **New → Blueprint** and select the `The-Rime-Of-The-Ancient-Mariner` repo.
-3. Render reads `render.yaml`, builds the frontend, installs the server deps, and starts the API — done. The live URL is shown in the dashboard.
-4. The SQLite database is created and seeded automatically on first start (it resets on redeploys of the free tier — the app reseeds itself, so this is harmless).
-
-**Note:** JWT signing uses a built-in default secret; for a real deployment set a `JWT_SECRET` environment variable in Render.
-
-## Production build (optional)
-
-```bash
-cd client && npm run build   # outputs client/dist
-node server/index.js         # Express serves the built frontend + API on :5000
-```
-
-## API summary
-
-| Method | Endpoint | Auth | Description |
-|---|---|---|---|
-| POST | /api/auth/register | — | {name, email, password} → {token, user} |
-| POST | /api/auth/login | — | {email, password} → {token, user} |
-| GET | /api/auth/me | JWT | current user |
-| GET | /api/content | — | {summaries, themes, devices} |
-| GET | /api/questions?category=short | — | questions list (category: summary/theme/device/short/long) |
-| GET | /api/content/search?q= | — | full-text search |
-| GET | /api/quiz/questions?limit=10 | — | random quiz questions |
-| POST | /api/quiz/attempts | JWT | {score, total} — save attempt |
-| GET | /api/quiz/attempts | JWT | attempt history |
-| POST | /api/flashcards/:questionId/known | JWT | {known: bool} — upsert progress |
-| GET | /api/flashcards/progress | JWT | progress map |
-| POST/PUT/DELETE | /api/admin/questions[/:id] | teacher | question CRUD |
-| GET/POST/PUT/DELETE | /api/admin/quiz-questions[/:id] | teacher | quiz question CRUD |
+| Route | Purpose |
+|---|---|
+| `/` | Literature shelf / home |
+| `/unit/:unitId/study` | Structured lesson revision |
+| `/unit/:unitId/questions` | Short + long answer practice |
+| `/unit/:unitId/quiz` | Unit quiz |
+| `/unit/:unitId/flashcards` | Flashcard practice |
+| `/search` | Full portal search |
+| `/games` | Printing Press Arcade |
+| `/teacher/bank` | Teacher question bank |
+| `/teacher/build` | Test-paper builder |
+| `/teacher/library` | Generated paper library |
 
 ## Project structure
 
-```
-server/
-  index.js          Express app, middleware, route mounting
-  db.js             SQLite connection, schema, idempotent seeding
-  seedData.js       All question-bank content (verbatim)
-  routes/
-    auth.js         register/login/me + JWT middlewares
-    content.js      summaries, themes, devices, questions, search
-    quiz.js         quiz questions, attempts, history
-    flashcards.js   known/progress
-    admin.js        teacher-only CRUD
+```text
 client/
-  vite.config.js    /api proxy → localhost:5000
-  index.html
+  public/
+    manifest.webmanifest
+    sw.js
+    images/
   src/
-    main.jsx, App.jsx, api.js, authContext.jsx, styles.css
-    components/     Navbar, ProtectedRoute, QuizRunner, Flashcard(s), QuestionCard, SearchBar
-    pages/          Home, Study, Questions, Quiz, Flashcards, Search, Login, Register, Profile, Admin
+    components/
+    data/
+    games/
+    pages/
+      teacher/
+    api.js
+    App.jsx
+    styles.css
+
+server/
+  content/
+  lib/
+  routes/
+  db.js
+  seedCatalog.js
+  seedData.js
+  smoke.js
+
+.github/workflows/
+  deploy.yml
 ```
+
+## Deployment
+
+### GitHub Pages
+
+Every push to `main` runs `.github/workflows/deploy.yml`, builds the Vite frontend with the repository base path and deploys `client/dist` to GitHub Pages.
+
+### Full-stack Render deployment
+
+The repository includes `render.yaml`.
+
+1. Create a Render account.
+2. Choose **New → Blueprint**.
+3. Select this repository.
+4. Render installs/builds the frontend and server and starts the Express app.
+
+For a real public deployment, set your own `JWT_SECRET`.
+
+## API overview
+
+| Method | Endpoint | Purpose |
+|---|---|---|
+| POST | `/api/auth/register` | Register |
+| POST | `/api/auth/login` | Login |
+| GET | `/api/auth/me` | Current user |
+| GET | `/api/content` | Study content |
+| GET | `/api/questions` | Question bank |
+| GET | `/api/content/search?q=` | Search |
+| GET | `/api/quiz/questions` | Random quiz questions |
+| POST | `/api/quiz/attempts` | Save quiz attempt |
+| GET | `/api/flashcards/progress` | Flashcard mastery |
+| POST/PUT/DELETE | `/api/admin/questions[/:id]` | Teacher question CRUD |
+
+## What I learned while building it
+
+This project forced me to solve problems beyond simply rendering text:
+
+- keeping a large syllabus usable on small screens
+- designing revision interactions that do not immediately reveal answers
+- supporting both a real API and a static GitHub Pages fallback
+- route-level code splitting
+- PWA/offline behavior
+- accessibility feedback for interactive controls
+- data modeling for teacher question banks and generated papers
+- deterministic paper generation without constantly repeating the same questions
+- maintaining a deployment pipeline while the app kept growing
+
+## Project status
+
+The project began as a single-poem experiment and is now a full Literature Reader portal. I am continuing to improve polish, exam usefulness, mobile UX, teacher tooling and the quality of the study data.
+
+Built by **Lalith / @Hustlenix** for the Hack Club Stardance challenge.
