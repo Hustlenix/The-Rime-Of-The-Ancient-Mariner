@@ -1,104 +1,194 @@
-# Class X English Study Portal
+# Grade 10 English Literature Reader
 
-> A free, school-friendly revision portal for the **CBSE Class X English Literature Reader (Interact in English)**, built for students at **The Ashok Leyland School**.
+Hey! I'm Lalith. I made this because I'm in Class 10 and I wanted something actually useful for revising English instead of just opening a huge PDF or scrolling through random notes.
 
-[**Open the live project →**](https://hustlenix.github.io/The-Rime-Of-The-Ancient-Mariner/)
+Live site: https://hustlenix.github.io/The-Rime-Of-The-Ancient-Mariner/
 
-![Live screenshot of the Class X English Study Portal](https://image.thum.io/get/width/1200/noanimate/https://hustlenix.github.io/The-Rime-Of-The-Ancient-Mariner/)
+![Screenshot of the website](https://image.thum.io/get/width/1200/noanimate/https://hustlenix.github.io/The-Rime-Of-The-Ancient-Mariner/)
 
-## Why I made this
+## How this project even started
 
-I started with a small study website for **The Rime of the Ancient Mariner** because normal revision material felt static and easy to ignore. I wanted something I would actually use before an exam: fast summaries, model answers hidden until I try the question, flashcards, quizzes and small games instead of another long PDF.
+This project was **not** supposed to become this big 😭
 
-That experiment grew into a portal for the **whole 13-unit Literature Reader**. The goal is simple: make serious Grade 10 revision feel less boring without hiding the actual syllabus behind gimmicks.
+At first I only wanted to make a website for **The Rime of the Ancient Mariner** for school. The first version was basically:
 
-## What is built
+- summary
+- theme
+- poetic devices
+- question/answers
+- quiz
+- flashcards
+- and an auth system that was honestly kind of useless because most of the website worked as a guest anyway lol
 
-### Student side
+After making that, I realised the same idea would actually be more useful if I did it for the **whole Class 10 Literature Reader**, because I would need all those chapters for exams anyway.
 
-- **13 literature units** — prose, poems and plays from the Class X Literature Reader
-- **Study pages** — summaries, themes, character sketches and poetic devices
-- **Question practice** — short and long answers with reveal-on-click model answers
-- **Quiz mode** — randomized MCQs with instant feedback and explanations
-- **Flashcards** — flip cards with Known / Still learning progress
-- **Search** — search across units, summaries, themes, devices and questions
-- **Resume studying** — remembers the last unit on the device
-- **Progress systems** — streak/coin UI and local progress where possible
-- **Printing Press Arcade** — Quote Matcher + a 60-second Poetic Device Speed Run
-- **Responsive UI** — designed for both desktop and phone
-- **Accessibility work** — skip links, semantic controls, keyboard-friendly interactions and screen-reader status updates
-- **PWA/static fallback** — core study material still works on GitHub Pages without the Express server
+So I slowly changed the project from one poem into a complete Literature Reader site with all 13 units.
 
-### Teacher side
+## Why I made it
 
-The project is not only a reading site. It also contains a teacher workflow:
+The main reason is pretty simple: I get bored reading normal study notes.
 
-- question-bank management
-- teacher-only CRUD
-- CSV question import
+I wanted a site where I could open one chapter, read only what I needed, test myself immediately, and come back later without feeling like I was reading another textbook.
+
+I also wanted it to work for people in my school, not just for me. That is why I kept adding things like question practice, quiz explanations, flashcards, search, mobile support and the "continue where you left off" system.
+
+Later I also started thinking about teachers. If the website already had a big question bank, why not use that same data to generate test papers? That is how the teacher tools started.
+
+## How it changed while I was building it
+
+The design changed a LOT.
+
+I first tried a **neo-brutalist** style with thick borders, hard shadows and bright blocks. I liked the idea but it looked weird for an English literature website and I wasn't really happy with it.
+
+After that I changed it into the current parchment / old-book / voyage style. Since one of the main poems is *The Rime of the Ancient Mariner*, the voyage theme actually fitted the project really well, so I kept that idea even after expanding the website to the whole book.
+
+I also changed the home page into a kind of **voyage chart**. The chapters are split into Prose, Poetry and Drama, and you can jump into any one instead of being forced through them in order.
+
+One bug/decision I remember was that I originally had chapter locking. That sounded cool, but for a study website it was annoying because if someone has an exam tomorrow they obviously should be able to open any lesson they want. So I removed the locking completely.
+
+## Stuff that is in the website now
+
+### For students
+
+There are 13 Literature Reader units:
+
+- Two Gentlemen of Verona
+- Mrs Packletide's Tiger
+- The Letter
+- A Shady Plot
+- Patol Babu, Film Star
+- Virtually True
+- The Frog and the Nightingale
+- Not Marble, Nor the Gilded Monuments
+- Ozymandias
+- Snake
+- The Rime of the Ancient Mariner
+- The Dear Departed
+- Julius Caesar
+
+For each unit I tried to keep the same flow so it is easy to use:
+
+**Study → Questions → Flashcards → Quiz**
+
+The study pages include things like summaries, themes, character sketches and poetic devices depending on the chapter.
+
+Questions have hidden answers so I can actually try answering first instead of accidentally reading the answer.
+
+The quiz gives feedback after answering, and the flashcards can be marked as known / still learning.
+
+Other things I added:
+
+- search across the study content
+- last-opened lesson / continue studying
+- dark mode
+- responsive mobile layout
+- streaks and Mariner Coins
+- an Albatross mascot with small tips
+- progress indicators
+- offline/PWA support
+- keyboard + screen-reader improvements
+- Google Analytics so I can see if anyone actually uses the site
+
+## The games
+
+I didn't want the site to only be cards and text, so I added a small section called **The Printing Press Arcade**.
+
+Right now it has two games:
+
+### Quote Matcher
+
+You get quotes and their sources and have to match them together.
+
+### Device Speed Run
+
+You get 60 seconds to identify poetic devices from extracts. Correct answers build a streak and give more points.
+
+These aren't meant to replace studying. They are just there to make the last few minutes of revision less boring.
+
+## Teacher tools
+
+This became one of the biggest upgrades I made.
+
+There is a teacher-side question bank and test-paper system with:
+
+- question bank CRUD
+- CSV question importing
+- difficulty levels
+- chapter filters
+- question type filters
 - paper templates
 - a multi-step paper builder
-- difficulty/type/chapter filtering
-- usage-aware autofill so the same questions do not dominate every paper
-- paper library/history
-- printable paper views
+- automatic question selection
+- a paper library
+- printable papers
 
-## 60-second reviewer tour
+The autofill system also tracks how often questions are used. I added that because a random generator can easily keep picking the same questions again and again, which makes it pretty useless.
 
-If you are reviewing the project, this is the fastest way to see the important parts:
+When a paper gets generated, it stores a snapshot of the selected questions too. That way if somebody edits a question in the bank later, an old generated paper does not suddenly change.
 
-1. Open the [live site](https://hustlenix.github.io/The-Rime-Of-The-Ancient-Mariner/).
-2. Pick **The Rime of the Ancient Mariner**, **Ozymandias** or **Patol Babu, Film Star** from the shelf.
-3. Open **Study** and inspect the structured revision content.
-4. Open **Questions** and reveal a model answer only after attempting it.
-5. Try **Flashcards** and **Quiz**.
-6. Open **Games → Printing Press Arcade** and play both study games.
-7. Search for a phrase such as `albatross`, `Ozymandias` or `irony`.
-8. For the full local/server build, use the teacher account below to inspect the question bank and paper builder.
+## One annoying problem: GitHub Pages has no backend
 
-## Architecture
+The full project uses:
 
-```text
-Browser
-  │
-  ├── React 18 + Vite frontend
-  │     ├── route-level lazy loading
-  │     ├── static fallback content for GitHub Pages
-  │     ├── quizzes / flashcards / search / games
-  │     └── PWA service worker
-  │
-  └── Express API (full deployment / local development)
-        ├── SQLite (better-sqlite3)
-        ├── JWT authentication
-        ├── quiz attempts + flashcard progress
-        ├── teacher/admin APIs
-        └── question-bank + paper-builder APIs
-```
+- React + Vite on the frontend
+- Node.js + Express on the backend
+- SQLite
+- JWT login/auth
 
-## Tech stack
+But GitHub Pages can only host static files.
 
-- **Frontend:** React 18, Vite, React Router, handwritten CSS
-- **Backend:** Node.js, Express
-- **Database:** SQLite via `better-sqlite3`
-- **Auth:** bcryptjs + JWT
-- **Testing:** Vitest + Testing Library
-- **Deployment:** GitHub Pages for the public static build; Render blueprint included for the full-stack build
+I still wanted the Stardance reviewer (and anyone else) to be able to open the project instantly, so I made a **static fallback version** of the study data.
 
-## GitHub Pages vs full-stack mode
+That means the GitHub Pages version can still run the important student features even without the Express server.
 
-The public GitHub Pages build intentionally runs in a **static preview mode**. The syllabus content, study pages, questions, quizzes, flashcards, search and games remain usable.
+Things that need the real database, like saved accounts, server-side quiz history and teacher paper storage, need the full server version.
 
-Features that require a live database — account persistence, server-saved quiz attempts, teacher CRUD and paper storage — need the Express/SQLite build.
+This part caused quite a few deployment problems because the app originally expected the API to always exist.
 
-This separation lets anyone review and study from the public link while keeping the real backend architecture in the same repository.
+I also had a service-worker problem where deploying a new version could break an already-open page because the old JS files disappeared. I changed the cache behaviour so an in-progress page can keep using the previous assets during a deployment.
 
-## Run locally
+## Performance / boring technical stuff I still spent time on
 
-### Prerequisites
+At one point the initial JS bundle was around **221 KB**.
 
-- Node.js 18+
+I changed the pages to lazy-loaded routes so the first bundle dropped to around **186 KB** instead of downloading every page immediately.
 
-### Start the API
+I also added tests for things like:
+
+- theme persistence
+- quiz feedback
+- the app shell
+- fallback study data
+
+The fallback dataset was checked for all 13 units, hundreds of content rows and the quiz bank because I really did not want the public GitHub Pages build to randomly miss a chapter.
+
+## AI/tools I used
+
+I want to be clear about this because this is a Hack Club project and AI was part of my workflow.
+
+I used **OpenCode** a lot as my coding assistant. I also used ChatGPT, Claude, Gemini and Perplexity at different points for research, checking ideas/content and helping me work through code.
+
+I did **not** just give one prompt and get this whole project.
+
+Most of the project happened as lots of smaller changes: I would try something, run it, realise I didn't like it or it broke something, then change the idea and keep going.
+
+For example:
+
+- I tried neo-brutalism and later replaced it.
+- I started with one poem and changed the data model when I expanded to the whole book.
+- I removed chapter locking after testing the flow.
+- I added a static fallback because GitHub Pages couldn't run my backend.
+- I later added teacher tools because the question-bank data could do more than just display questions.
+- I changed the UI again into the current voyage/parchment version.
+- I added games, accessibility fixes, PWA caching and tests after the basic site already existed.
+
+So yeah, AI helped me code and research, but the project itself came from me continuously changing what I wanted the website to be.
+
+## Running it locally
+
+You need Node.js.
+
+### Backend
 
 ```bash
 cd server
@@ -106,9 +196,15 @@ npm install
 npm start
 ```
 
-The API runs at `http://localhost:5000`.
+Server runs on:
 
-### Start the frontend
+```
+http://localhost:5000
+```
+
+### Frontend
+
+Open another terminal:
 
 ```bash
 cd client
@@ -116,127 +212,60 @@ npm install
 npm run dev
 ```
 
-The frontend runs at `http://localhost:5173` and proxies `/api` to the local server.
+Frontend runs on:
 
-### Run tests
-
-```bash
-cd client
-npm test
+```
+http://localhost:5173
 ```
 
-### Production build
+## Demo accounts
 
-```bash
-cd client
-npm run build
-cd ..
-node server/index.js
-```
-
-## Demo accounts for the full server build
+These are only seeded development accounts.
 
 | Role | Email | Password |
-|---|---|---|
-| Teacher | `teacher@tals.edu` | `teacher123` |
-| Student | `student@tals.edu` | `student123` |
+| --- | --- | --- |
+| Teacher | teacher@tals.edu | teacher123 |
+| Student | student@tals.edu | student123 |
 
-> These are seeded demo credentials for development/review, not production credentials.
+## Main project folders
 
-## Main routes
-
-| Route | Purpose |
-|---|---|
-| `/` | Literature shelf / home |
-| `/unit/:unitId/study` | Structured lesson revision |
-| `/unit/:unitId/questions` | Short + long answer practice |
-| `/unit/:unitId/quiz` | Unit quiz |
-| `/unit/:unitId/flashcards` | Flashcard practice |
-| `/search` | Full portal search |
-| `/games` | Printing Press Arcade |
-| `/teacher/bank` | Teacher question bank |
-| `/teacher/build` | Test-paper builder |
-| `/teacher/library` | Generated paper library |
-
-## Project structure
-
-```text
+```
 client/
-  public/
-    manifest.webmanifest
-    sw.js
-    images/
   src/
     components/
     data/
     games/
     pages/
       teacher/
-    api.js
-    App.jsx
-    styles.css
 
 server/
   content/
   lib/
   routes/
   db.js
-  seedCatalog.js
   seedData.js
-  smoke.js
 
 .github/workflows/
   deploy.yml
 ```
 
-## Deployment
+## What I want to improve next
 
-### GitHub Pages
+The website is definitely not "finished forever".
 
-Every push to `main` runs `.github/workflows/deploy.yml`, builds the Vite frontend with the repository base path and deploys `client/dist` to GitHub Pages.
+Things I still want to improve are:
 
-### Full-stack Render deployment
+- better mobile game controls/layout
+- better revision analytics
+- more useful progress tracking
+- cleaner teacher paper export
+- checking and improving the study content whenever I find mistakes
+- making the whole thing faster and less cluttered
 
-The repository includes `render.yaml`.
+The funny part is that the repo is still called **The-Rime-Of-The-Ancient-Mariner** even though the project stopped being only about that poem a long time ago 😭
 
-1. Create a Render account.
-2. Choose **New → Blueprint**.
-3. Select this repository.
-4. Render installs/builds the frontend and server and starts the Express app.
+That name is basically a fossil from version 1.
 
-For a real public deployment, set your own `JWT_SECRET`.
+---
 
-## API overview
-
-| Method | Endpoint | Purpose |
-|---|---|---|
-| POST | `/api/auth/register` | Register |
-| POST | `/api/auth/login` | Login |
-| GET | `/api/auth/me` | Current user |
-| GET | `/api/content` | Study content |
-| GET | `/api/questions` | Question bank |
-| GET | `/api/content/search?q=` | Search |
-| GET | `/api/quiz/questions` | Random quiz questions |
-| POST | `/api/quiz/attempts` | Save quiz attempt |
-| GET | `/api/flashcards/progress` | Flashcard mastery |
-| POST/PUT/DELETE | `/api/admin/questions[/:id]` | Teacher question CRUD |
-
-## What I learned while building it
-
-This project forced me to solve problems beyond simply rendering text:
-
-- keeping a large syllabus usable on small screens
-- designing revision interactions that do not immediately reveal answers
-- supporting both a real API and a static GitHub Pages fallback
-- route-level code splitting
-- PWA/offline behavior
-- accessibility feedback for interactive controls
-- data modeling for teacher question banks and generated papers
-- deterministic paper generation without constantly repeating the same questions
-- maintaining a deployment pipeline while the app kept growing
-
-## Project status
-
-The project began as a single-poem experiment and is now a full Literature Reader portal. I am continuing to improve polish, exam usefulness, mobile UX, teacher tooling and the quality of the study data.
-
-Built by **Lalith / @Hustlenix** for the Hack Club Stardance challenge.
+Made by **Lalith (@Hustlenix)** for Hack Club Stardance.
